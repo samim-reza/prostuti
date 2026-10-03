@@ -1,0 +1,2601 @@
+{
+  "@@locale": "en",
+  "addonsActive": "Active",
+  "addonsAllAddons": "All add-ons",
+  "addonsBestValue": "Best value",
+  "addonsBuy": "Buy",
+  "addonsDaysLeft": "{count, plural, =1{{days} day left} other{{days} days left}}",
+  "@addonsDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "addonsEmpty": "No add-ons available right now",
+  "addonsEndsOn": "Ends {date}",
+  "@addonsEndsOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addonsEndsSoon": "Ends within an hour",
+  "addonsExtend": "Extend",
+  "addonsFooterNote": "Prices are in Bangladeshi taka. Plans never renew automatically — you are never charged without your consent.",
+  "addonsFreeFeaturesTitle": "Always free",
+  "addonsHeroBody": "Every premium feature is sold separately. Pick the add-on that fits your preparation, or get everything together with Prostuti Pro.",
+  "addonsHeroTitle": "Unlock only what you need",
+  "addonsHoursLeft": "{count, plural, =1{{hours} hour left} other{{hours} hours left}}",
+  "@addonsHoursLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "addonsIncludes": "What you get",
+  "addonsMethodBkash": "bKash",
+  "addonsMethodCard": "Card",
+  "addonsMethodNagad": "Nagad",
+  "addonsMyPlans": "My active plans",
+  "addonsNoActivePlan": "You're on the free plan",
+  "addonsNoActivePlanBody": "Daily notes, the question bank and the community are always free. Add premium features whenever you need them.",
+  "addonsPaymentCancelled": "Payment cancelled.",
+  "addonsPaymentComingSoon": "bKash, Nagad and card payments are coming soon",
+  "addonsPaymentComingSoonBody": "Until then, you can unlock premium features with a promo code. New accounts also get a free trial of Prostuti Pro.",
+  "addonsPaymentFailed": "The payment didn't go through.",
+  "addonsPaymentPending": "Payment received — waiting for confirmation. Your plan will be activated shortly.",
+  "addonsPaymentProcessing": "Connecting to payment…",
+  "addonsPaymentSuccess": "Payment successful! Your plan is now active.",
+  "addonsPricePerPeriod": "{price} / {days} days",
+  "@addonsPricePerPeriod": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "addonsPromoAlreadyUsed": "You have already used this code.",
+  "addonsPromoEmpty": "Please enter a promo code first",
+  "addonsPromoExhausted": "This code has reached its redemption limit.",
+  "addonsPromoHint": "Enter promo code",
+  "addonsPromoInvalid": "This code is not valid or has expired.",
+  "addonsPromoRedeem": "Redeem",
+  "addonsPromoSubtitle": "Redeem it to unlock premium features for free",
+  "addonsPromoSuccessBody": "{name} is now active — {days} days added.",
+  "@addonsPromoSuccessBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "addonsPromoSuccessCta": "Let's start",
+  "addonsPromoSuccessExpiry": "Valid until {date}",
+  "@addonsPromoSuccessExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addonsPromoSuccessTitle": "Congratulations, it's unlocked!",
+  "addonsPromoTitle": "Have a promo code?",
+  "addonsSoon": "soon",
+  "addonsSourceAdmin": "Admin",
+  "addonsSourcePromo": "Promo",
+  "addonsSourcePurchase": "Purchase",
+  "addonsSourceTrial": "Trial",
+  "addonsTitle": "Add-ons",
+  "addonsTrialBadge": "{days}-day free trial for new accounts",
+  "@addonsTrialBadge": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "addonsUsePromo": "Use a promo code",
+  "adminAiGenerated": "AI",
+  "adminAllSubjects": "All subjects",
+  "adminBanBody": "The user will be banned and all open reports on them will be closed.",
+  "adminBanUser": "Ban user",
+  "adminDailyExamMissing": "Not yet",
+  "adminDailyExamReady": "Ready",
+  "adminDismiss": "Dismiss",
+  "adminEditAddOption": "Add option",
+  "adminEditCorrectHint": "Select the correct answer",
+  "adminEditErrorCorrect": "Select the correct answer.",
+  "adminEditErrorEmptyOption": "Options can't be empty.",
+  "adminEditErrorOptionCount": "A question needs 2 to 5 options.",
+  "adminEditErrorStem": "The question must be 3–2000 characters long.",
+  "adminEditExplanation": "Explanation",
+  "adminEditOption": "Option {number}",
+  "@adminEditOption": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "adminEditOptions": "Options",
+  "adminEditQuestion": "Edit question #{id}",
+  "@adminEditQuestion": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "adminEditRemoveOption": "Remove option",
+  "adminEditSave": "Save question",
+  "adminEditStem": "Question",
+  "adminFilterSubject": "Filter by subject",
+  "adminFlag": "Flag",
+  "adminHide": "Hide",
+  "adminHideBody": "The content will be hidden from everyone and all open reports on it will be closed.",
+  "adminManage": "Review & manage",
+  "adminNoChanges": "No changes to save",
+  "adminOfflineHint": "Admin tools work on live data. Connect to the internet and try again.",
+  "adminPipelineConfirmBody": "The job starts in the background and may take a few minutes. Running it twice can create duplicate content.",
+  "adminPipelineConfirmTitle": "Run \"{stage}\" now?",
+  "@adminPipelineConfirmTitle": {
+    "placeholders": {
+      "stage": {
+        "type": "String"
+      }
+    }
+  },
+  "adminPipelineIntro": "These jobs run automatically every morning. Run one manually only if a scheduled run failed.",
+  "adminPipelineNotConfigured": "Edge Function secrets aren't configured on the server, so the job couldn't start.",
+  "adminPipelineRun": "Run",
+  "adminPipelineStarted": "{stage} started (request #{id})",
+  "@adminPipelineStarted": {
+    "placeholders": {
+      "stage": {
+        "type": "String"
+      },
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "adminPipelineTitle": "AI pipeline",
+  "adminPreviewUnavailable": "Preview unavailable (the content may have been deleted).",
+  "adminQuestionUpdated": "Question #{id} updated",
+  "@adminQuestionUpdated": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "adminQuestionsEmpty": "Nothing to review",
+  "adminQuestionsEmptyHint": "Every question in this queue has been handled. Great work!",
+  "adminQuestionsHint": "Verify, edit or reject new questions",
+  "adminQuestionsTitle": "Question review",
+  "adminReasonAbuse": "Abuse",
+  "adminReasonMisinformation": "Misinformation",
+  "adminReasonNudity": "Nudity",
+  "adminReasonOther": "Other",
+  "adminReasonSpam": "Spam",
+  "adminReasonViolence": "Violence",
+  "adminReasonWrongAnswer": "Wrong answer",
+  "adminRefresh": "Refresh",
+  "adminReject": "Reject",
+  "adminRejectBody": "It will be removed from the question bank, practice and future exams.",
+  "adminRejectTitle": "Reject this question?",
+  "adminReportDismissed": "Report dismissed",
+  "adminReportHidden": "Done — the content is hidden",
+  "adminReportRestored": "Content restored",
+  "adminReportedBy": "Reported by {name}",
+  "@adminReportedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "adminReportsActioned": "Actioned",
+  "adminReportsDismissed": "Dismissed",
+  "adminReportsEmpty": "No reports here",
+  "adminReportsEmptyOpen": "No open reports — the community is calm",
+  "adminReportsHint": "Posts, comments and users reported by the community",
+  "adminReportsOpen": "Open",
+  "adminReportsTitle": "Reports",
+  "adminRestore": "Restore",
+  "adminReviewFlagged": "Flagged",
+  "adminReviewUnverified": "Unverified",
+  "adminReviewVerified": "Verified",
+  "adminScheduleActive": "Active",
+  "adminScheduleActiveHint": "Inactive schedules are hidden from learners",
+  "adminScheduleBadUrl": "Enter a full link starting with http(s)://",
+  "adminScheduleConfirmed": "Date confirmed",
+  "adminScheduleConfirmedHint": "Turn on once the authority officially announces the date",
+  "adminScheduleConfirmedTag": "Confirmed",
+  "adminScheduleDate": "Expected exam date",
+  "adminScheduleDaysLeft": "{days} days left",
+  "@adminScheduleDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "adminScheduleEdit": "Edit schedule",
+  "adminScheduleExamType": "Exam type",
+  "adminScheduleInactiveTag": "Inactive",
+  "adminScheduleNew": "New schedule",
+  "adminScheduleNotes": "Notes",
+  "adminSchedulePassed": "date passed",
+  "adminScheduleReplanBody": "Every active study plan for this exam will be rebuilt for the new date and learners will be notified.",
+  "adminScheduleReplanConfirm": "Change date",
+  "adminScheduleReplanNotice": "Changing an exam date automatically re-plans the study plan of every learner targeting that exam, and they get notified. Double-check the date before saving.",
+  "adminScheduleReplanTitle": "Change the exam date?",
+  "adminScheduleSaved": "Schedule saved",
+  "adminScheduleSavedReplan": "Schedule saved — affected study plans are being re-planned",
+  "adminScheduleSource": "Source link",
+  "adminScheduleStage": "Stage",
+  "adminScheduleStageHint": "e.g. preliminary, written, viva",
+  "adminScheduleTentativeTag": "Tentative",
+  "adminScheduleTitleBn": "Title (Bangla)",
+  "adminScheduleTitleEn": "Title (English)",
+  "adminSchedulesEmpty": "No exam schedules yet",
+  "adminSchedulesHint": "Expected dates that drive every study plan",
+  "adminSchedulesTitle": "Exam schedules",
+  "adminSource": "Source: {source}",
+  "@adminSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "adminStageExam": "Generate daily exam",
+  "adminStageExamHint": "Build today's exam from the notes",
+  "adminStageIngest": "Fetch news",
+  "adminStageIngestHint": "Read the latest articles from every news source",
+  "adminStageNotes": "Generate daily notes",
+  "adminStageNotesHint": "Pick exam-relevant facts and write today's notes",
+  "adminStageNotify": "Send notifications",
+  "adminStageNotifyHint": "Deliver queued push notifications",
+  "adminStatActivePlans": "Active study plans",
+  "adminStatActiveToday": "Active today",
+  "adminStatAiCalls": "AI calls today",
+  "adminStatCacheHits": "{hits} cache hits ({percent})",
+  "@adminStatCacheHits": {
+    "placeholders": {
+      "hits": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "adminStatDailyExam": "Today's daily exam",
+  "adminStatFacts": "Active facts",
+  "adminStatFlagged": "Flagged questions",
+  "adminStatNotesToday": "Notes today",
+  "adminStatOpenReports": "Open reports",
+  "adminStatPostsToday": "Posts today",
+  "adminStatQuestions": "Published questions",
+  "adminStatUnverified": "Awaiting review",
+  "adminStatUsers": "Total users",
+  "adminStatusArchived": "Archived",
+  "adminStatusDraft": "Draft",
+  "adminTargetComment": "Comment",
+  "adminTargetMessage": "Message",
+  "adminTargetPost": "Post",
+  "adminTargetQuestion": "Question",
+  "adminTargetUser": "User",
+  "adminTitle": "Admin panel",
+  "adminTodayOverview": "Today at a glance",
+  "adminVerify": "Verify",
+  "adminViewTarget": "View",
+  "appName": "Prostuti",
+  "appTagline": "Your companion for BCS & job exam preparation",
+  "authAgreeRequired": "Please accept the terms to continue",
+  "authAgreeTerms": "I agree to the terms of use and privacy policy",
+  "authCheckEmail": "Check your inbox to confirm your email, then sign in.",
+  "authConfirmPassword": "Confirm password",
+  "authCreateAccount": "Create account",
+  "authEmail": "Email",
+  "authForgotBody": "Enter the email you signed up with. We'll send you a link to set a new password.",
+  "authForgotPassword": "Forgot password?",
+  "authForgotTitle": "Reset your password",
+  "authFullName": "Full name",
+  "authGetStarted": "Get started",
+  "authHaveAccount": "I already have an account",
+  "authInvalidCredentials": "Incorrect email or password.",
+  "authLanguageToggle": "বাংলা",
+  "authLinkSent": "If an account exists for this email, a reset link is on its way.",
+  "authLogin": "Sign in",
+  "authLoginSubtitle": "Sign in to continue your preparation",
+  "authLoginTitle": "Welcome back",
+  "authNewPassword": "New password",
+  "authNoAccount": "New to Prostuti?",
+  "authPassword": "Password",
+  "authPasswordUpdated": "Password updated. You're signed in.",
+  "authPasswordsDontMatch": "Passwords don't match",
+  "authRegisterSubtitle": "Free 7-day Prostuti Pro trial included",
+  "authRegisterTitle": "Create your account",
+  "authResetTitle": "Set a new password",
+  "authSendLink": "Send reset link",
+  "authSignOut": "Sign out",
+  "authSplashError": "Couldn't load your profile.",
+  "authSplashLoading": "Getting things ready…",
+  "authTooManyRequests": "Too many attempts. Please wait a little and try again.",
+  "authUserExists": "An account with this email already exists. Try signing in.",
+  "authUsername": "Username (optional)",
+  "authUsernameHint": "e.g. rahim_bcs",
+  "authWeakPassword": "Choose a stronger password (at least 8 characters).",
+  "authWelcomeBody1": "Question bank with sources, full model tests with BCS negative marking, and a wrong-answer notebook.",
+  "authWelcomeBody2": "AI picks exam-relevant facts from today's newspapers and turns them into notes and a daily exam.",
+  "authWelcomeBody3": "A level test finds your strengths. Get a daily routine, weak-topic exams and a readiness score.",
+  "authWelcomeBody4": "Share progress, make friends and chat with fellow candidates.",
+  "authWelcomeTitle1": "Prepare smarter for BCS & job exams",
+  "authWelcomeTitle2": "Current affairs, every morning",
+  "authWelcomeTitle3": "A study plan made for you",
+  "authWelcomeTitle4": "Study together",
+  "back": "Back",
+  "bookmarksAnswerUnknown": "Answer this question in practice to see the correct answer here.",
+  "bookmarksCatAwards": "Awards & people",
+  "bookmarksCatBangladesh": "Bangladesh",
+  "bookmarksCatDays": "Days & events",
+  "bookmarksCatEconomy": "Economy",
+  "bookmarksCatEnvironment": "Environment",
+  "bookmarksCatInternational": "International",
+  "bookmarksCatMisc": "Miscellaneous",
+  "bookmarksCatOrganizations": "Organisations",
+  "bookmarksCatScience": "Science & technology",
+  "bookmarksCatSports": "Sports",
+  "bookmarksEmptyNotes": "No saved notes yet",
+  "bookmarksEmptyNotesHint": "Save important daily notes — they stay here even after the day is over.",
+  "bookmarksEmptyPosts": "No saved posts yet",
+  "bookmarksEmptyPostsHint": "Save helpful posts from the community to read them later.",
+  "bookmarksEmptyQuestions": "No saved questions yet",
+  "bookmarksEmptyQuestionsHint": "Tap the bookmark icon on any question in practice or exam review to save it here for revision.",
+  "bookmarksExplanation": "Explanation",
+  "bookmarksKeyFacts": "Key facts",
+  "bookmarksPostNoText": "Photo post",
+  "bookmarksRemove": "Remove",
+  "bookmarksRemoved": "Removed from bookmarks",
+  "bookmarksShowLess": "Show less",
+  "bookmarksShowMore": "Show {count} more",
+  "@bookmarksShowMore": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "bookmarksSource": "Source: {source}",
+  "@bookmarksSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "bookmarksSourceLink": "Read the original",
+  "bookmarksTabNotes": "Notes",
+  "bookmarksTabPosts": "Posts",
+  "bookmarksTabQuestions": "Questions",
+  "bookmarksTitle": "Bookmarks",
+  "bookmarksUndo": "Undo",
+  "bookmarksUnknownAuthor": "Prostuti user",
+  "cancel": "Cancel",
+  "chatActionCopy": "Copy text",
+  "chatActionDelete": "Delete for everyone",
+  "chatActionDiscard": "Discard",
+  "chatActionReply": "Reply",
+  "chatActionRetry": "Send again",
+  "chatAttachImageTooltip": "Send a photo",
+  "chatButtonTooltip": "Messages",
+  "chatButtonTooltipUnread": "Messages, {count} unread",
+  "@chatButtonTooltipUnread": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCancelReplyTooltip": "Cancel reply",
+  "chatCloseSearchTooltip": "Close search",
+  "chatComposerHint": "Write a message…",
+  "chatConversationStart": "This is the beginning of your conversation",
+  "chatCopied": "Message copied",
+  "chatCreateGroup": "Create",
+  "chatDeleteConfirmBody": "It will be removed for everyone in this conversation.",
+  "chatDeleteConfirmTitle": "Delete message?",
+  "chatDeletedMessage": "This message was deleted",
+  "chatEdited": "edited",
+  "chatEmptyAction": "Start a chat",
+  "chatEmptyMessage": "Start a chat with a friend and prepare together.",
+  "chatEmptyTitle": "No conversations yet",
+  "chatErrorConversationMissing": "This conversation isn't available.",
+  "chatErrorFriendsOnly": "You can only message people on your friends list.",
+  "chatErrorRateLimited": "You're sending messages too fast. Please wait a moment.",
+  "chatErrorSelf": "You can't message yourself.",
+  "chatErrorTitleRequired": "Give your group a name.",
+  "chatErrorTooManyMembers": "A group can have at most {max} members.",
+  "@chatErrorTooManyMembers": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "chatErrorUserNotFound": "User not found.",
+  "chatErrorUserUnavailable": "This person can't be messaged right now.",
+  "chatFailed": "Not sent · Tap to retry",
+  "chatFindFriends": "Find friends",
+  "chatFriendsHeader": "Friends",
+  "chatGroupFallbackTitle": "Group",
+  "chatGroupMaxMembers": "You can add up to {max} friends",
+  "@chatGroupMaxMembers": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupNameHint": "e.g. BCS study circle",
+  "chatGroupNameLabel": "Group name",
+  "chatGroupNeedMembers": "Select at least one friend",
+  "chatGroupNeedName": "Give your group a name",
+  "chatImageLoadFailed": "Couldn't load the photo. Tap to retry",
+  "chatMembersCount": "{count} members",
+  "@chatMembersCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMembersOnline": "{count} members · {online} online",
+  "@chatMembersOnline": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "online": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMembersTitle": "Group members",
+  "chatMoreTooltip": "More options",
+  "chatMute": "Mute notifications",
+  "chatMutedLabel": "Muted",
+  "chatMutedSnack": "Conversation muted",
+  "chatNewGroup": "New group",
+  "chatNewGroupSubtitle": "Study together with a few friends",
+  "chatNewMessageTooltip": "New message",
+  "chatNoFriendsMatch": "No friends match your search",
+  "chatNoFriendsMessage": "Only friends can message each other. Find a study partner first.",
+  "chatNoFriendsTitle": "No friends yet",
+  "chatOnline": "Online",
+  "chatOriginalUnavailable": "Original message unavailable",
+  "chatPhoto": "Photo",
+  "chatPhotoSemantics": "Photo. Double tap to view",
+  "chatRemoveSelection": "Remove",
+  "chatReplyingTo": "Replying to {name}",
+  "@chatReplyingTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatRoleAdmin": "Admin",
+  "chatRoleOwner": "Creator",
+  "chatScrollToLatest": "Jump to latest messages",
+  "chatSearchEmpty": "No conversations match your search",
+  "chatSearchHint": "Search conversations",
+  "chatSearchTooltip": "Search conversations",
+  "chatSeen": "Seen",
+  "chatSeenBy": "Seen by {count}",
+  "@chatSeenBy": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSelectMembers": "Add members",
+  "chatSelectedCount": "{count} selected",
+  "@chatSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSendTooltip": "Send",
+  "chatSending": "Sending…",
+  "chatSent": "Sent",
+  "chatStartSearchHint": "Search friends",
+  "chatStartSheetTitle": "New message",
+  "chatSystemGroupCreated": "Group created",
+  "chatThreadEmptyMessage": "Messages you send here are delivered instantly.",
+  "chatThreadEmptyTitle": "Say hello 👋",
+  "chatTimeDays": "{count}d",
+  "@chatTimeDays": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTimeHours": "{count}h",
+  "@chatTimeHours": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTimeJustNow": "now",
+  "chatTimeMinutes": "{count}m",
+  "@chatTimeMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTitle": "Messages",
+  "chatToday": "Today",
+  "chatTyping": "typing…",
+  "chatTypingMany": "Several people are typing…",
+  "chatTypingNamed": "{name} is typing…",
+  "@chatTypingNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatUnknownUser": "Prostuti user",
+  "chatUnmute": "Unmute notifications",
+  "chatUnmutedSnack": "Notifications turned on",
+  "chatUnreadSemantics": "{count} unread",
+  "@chatUnreadSemantics": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatViewMembers": "Members",
+  "chatViewProfile": "View profile",
+  "chatWaitingForNetwork": "Will send when you're back online",
+  "chatYesterday": "Yesterday",
+  "chatYou": "You",
+  "chatYouPrefix": "You: ",
+  "close": "Close",
+  "comingSoon": "Coming soon",
+  "confirmDeleteBody": "This can't be undone.",
+  "confirmDeleteTitle": "Delete?",
+  "continueLabel": "Continue",
+  "copied": "Copied",
+  "copy": "Copy",
+  "dailyExamAttemptedBody": "A new exam arrives tomorrow morning. Meanwhile, see where you stand.",
+  "dailyExamAttemptedTitle": "You've taken today's exam",
+  "dailyExamConfirmBody": "You can take today's exam only once. The timer starts right away — finish within {duration}.",
+  "@dailyExamConfirmBody": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamConfirmCta": "Start",
+  "dailyExamConfirmTitle": "Start the exam now?",
+  "dailyExamDurationLabel": "Time",
+  "dailyExamErrAlreadyAttempted": "You've already taken today's exam",
+  "dailyExamErrNoDailyExam": "Today's exam hasn't been published yet",
+  "dailyExamHistory": "Exam history",
+  "dailyExamLeaderboardEmptyPast": "No one took the exam on this day",
+  "dailyExamLeaderboardEmptyToday": "No one has taken today's exam yet",
+  "dailyExamLeaderboardSubtitle": "Daily current-affairs exam",
+  "dailyExamLeaderboardTitle": "Leaderboard",
+  "dailyExamLive": "Live",
+  "dailyExamMyRank": "My rank",
+  "dailyExamNegativeLabel": "Negative",
+  "dailyExamNegativeValue": "−{mark}",
+  "@dailyExamNegativeValue": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamNoExamEarly": "A new exam built from today's notes is published every day by about 6 AM. Please check back a little later.",
+  "dailyExamNoExamLate": "Today's exam is running a little late. It's usually out by 6 AM — please check again shortly.",
+  "dailyExamNoExamTitle": "Today's exam isn't out yet",
+  "dailyExamNoParticipants": "No one has taken part yet — be the first!",
+  "dailyExamNotJoinedToday": "You haven't taken today's exam yet",
+  "dailyExamParticipants": "{count} participants",
+  "@dailyExamParticipants": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamPoints": "{score} pts",
+  "@dailyExamPoints": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamQuestionsLabel": "Questions",
+  "dailyExamQuestionsValue": "{count}",
+  "@dailyExamQuestionsValue": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamRank": "#{rank}",
+  "@dailyExamRank": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamRankOf": "out of {count}",
+  "@dailyExamRankOf": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamRankSemantics": "Rank {rank}",
+  "@dailyExamRankSemantics": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamReadNotes": "Read today's notes first",
+  "dailyExamResume": "Resume exam",
+  "dailyExamResumeHint": "Your exam is in progress — the timer is still running",
+  "dailyExamRuleAutoSubmit": "Answers are submitted automatically when time runs out",
+  "dailyExamRuleNegative": "{mark} marks are deducted for each wrong answer",
+  "@dailyExamRuleNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamRuleOnce": "You can take part only once",
+  "dailyExamRuleRanking": "Higher score first, then less time — that's how the leaderboard ranks",
+  "dailyExamRulesTitle": "Before you start",
+  "dailyExamScoreLabel": "Score",
+  "dailyExamStart": "Start exam",
+  "dailyExamTakeNow": "Take it now",
+  "dailyExamTimeLabel": "Time taken",
+  "dailyExamTitle": "Daily current-affairs exam",
+  "dailyExamTopFive": "Top 5 today",
+  "dailyExamViewLeaderboard": "Leaderboard",
+  "dailyExamYesterday": "Yesterday",
+  "dailyExamYou": "You",
+  "dailyNotesAdDialogAdFree": "Prefer no ads? See add-ons",
+  "dailyNotesAdDialogBody": "Watch a short ad to download today's notes as a PDF. The file stays on your phone, so you can read it after today too.",
+  "dailyNotesAdDialogTitle": "Get today's notes as a PDF",
+  "dailyNotesAdDialogWatch": "Watch ad",
+  "dailyNotesAdNotCompleted": "The ad didn't finish. Watch it to the end to download.",
+  "dailyNotesAnswer": "Answer",
+  "dailyNotesBookmarkAdd": "Save note",
+  "dailyNotesBookmarkRemove": "Remove from saved",
+  "dailyNotesBookmarked": "Saved — you can read it even after today",
+  "dailyNotesCatAwardsPeople": "Awards & people",
+  "dailyNotesCatBangladesh": "Bangladesh",
+  "dailyNotesCatDaysEvents": "Days & events",
+  "dailyNotesCatEconomy": "Economy",
+  "dailyNotesCatEnvironment": "Environment",
+  "dailyNotesCatInternational": "International",
+  "dailyNotesCatMisc": "Miscellaneous",
+  "dailyNotesCatOrganizations": "Organisations",
+  "dailyNotesCatScienceTech": "Science & tech",
+  "dailyNotesCatSports": "Sports",
+  "dailyNotesDeleteBody": "It will be removed from this phone. Today's notes can only be downloaded again today.",
+  "dailyNotesDeleteTitle": "Delete this PDF?",
+  "dailyNotesDeleted": "PDF deleted",
+  "dailyNotesDownloadAgain": "Download again",
+  "dailyNotesDownloadHint": "Keep today's notes on your phone and read them offline",
+  "dailyNotesDownloadPdf": "Download PDF",
+  "dailyNotesDownloadedNotes": "Downloaded notes",
+  "dailyNotesDownloadsEmptyBody": "Download today's notes as a PDF and they'll appear here — readable even without internet.",
+  "dailyNotesDownloadsEmptyTitle": "No downloads yet",
+  "dailyNotesDownloadsFileTitle": "Current affairs · {date}",
+  "@dailyNotesDownloadsFileTitle": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesEmptyBody": "They'll be published by 6 AM. Exam-relevant facts from the morning papers are being picked for you.",
+  "dailyNotesEmptyTitle": "Today's notes are being prepared",
+  "dailyNotesErrInvalidMethod": "This download option isn't available",
+  "dailyNotesErrNoNotesToday": "Today's notes haven't been published yet",
+  "dailyNotesExamCtaAction": "Take the exam",
+  "dailyNotesExamCtaBody": "{count} questions · {duration} — test yourself on today's notes",
+  "@dailyNotesExamCtaBody": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesExamCtaTitle": "Today's current-affairs exam",
+  "dailyNotesFilterAll": "All",
+  "dailyNotesGeneratingPdf": "Preparing your PDF…",
+  "dailyNotesImportanceHigh": "Very important",
+  "dailyNotesImportanceLow": "Good to know",
+  "dailyNotesImportanceMedium": "Important",
+  "dailyNotesImportanceSemantics": "Importance {level} out of 5",
+  "@dailyNotesImportanceSemantics": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesImportanceTop": "Must know",
+  "dailyNotesKeyFacts": "Key facts",
+  "dailyNotesLoadingAd": "Loading the ad…",
+  "dailyNotesNoteCount": "{count} notes",
+  "@dailyNotesNoteCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesOpen": "Open",
+  "dailyNotesOpenLinkFailed": "Couldn't open the link",
+  "dailyNotesOpenSource": "Open source: {name}",
+  "@dailyNotesOpenSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesPdfBrand": "Prostuti · Daily current affairs",
+  "dailyNotesPdfDownloadedBy": "Downloaded by @{username}",
+  "@dailyNotesPdfDownloadedBy": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesPdfFailed": "Couldn't create the PDF. Please try again.",
+  "dailyNotesPdfFooter": "Downloaded from the Prostuti app for personal study. Please don't redistribute.",
+  "dailyNotesPdfProbableQuestions": "Probable questions",
+  "dailyNotesPdfSaved": "PDF saved to downloaded notes",
+  "dailyNotesPdfTagline": "Exam-relevant facts for BCS & job exams",
+  "dailyNotesPleaseWait": "Please keep the app open",
+  "dailyNotesProbableQuestions": "Probable questions ({count})",
+  "@dailyNotesProbableQuestions": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesRefresh": "Refresh",
+  "dailyNotesRemovalNotice": "These notes will be removed at midnight tonight",
+  "dailyNotesShowAnswer": "Tap to see the answer",
+  "dailyNotesSizeKb": "{size} KB",
+  "@dailyNotesSizeKb": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesSizeMb": "{size} MB",
+  "@dailyNotesSizeMb": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesSources": "Sources",
+  "dailyNotesSubtitle": "Exam-relevant facts picked by AI from today's newspapers",
+  "dailyNotesTimeLeftHm": "{hours}h {minutes}m left",
+  "@dailyNotesTimeLeftHm": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesTimeLeftM": "{minutes} min left",
+  "@dailyNotesTimeLeftM": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesTimeUp": "Time's up — refreshing",
+  "dailyNotesTitle": "Daily current affairs",
+  "dailyNotesUnbookmarked": "Removed from saved notes",
+  "dailyNotesView": "View",
+  "delete": "Delete",
+  "done": "Done",
+  "edit": "Edit",
+  "emptyGeneric": "Nothing here yet",
+  "emptyGenericHint": "Pull down to refresh",
+  "errorFeatureLocked": "This is a premium feature. Unlock it from Add-ons.",
+  "errorGeneric": "Something went wrong",
+  "errorNetwork": "No internet connection. Check your connection and try again.",
+  "errorNotFound": "Not found. It may have been removed.",
+  "errorPermission": "You don't have permission to do that.",
+  "errorRateLimited": "You're doing that too often. Please wait {seconds} seconds.",
+  "@errorRateLimited": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "errorRateLimitedShort": "Too many attempts. Please slow down a little.",
+  "errorServer": "Server error. Please try again later.",
+  "errorSession": "Your session has expired. Please sign in again.",
+  "examAiDisclaimer": "Written by AI — double-check important facts.",
+  "examAiExplain": "AI explanation",
+  "examAiExplainLoading": "Preparing an explanation…",
+  "examAiMemoryTip": "Memory tip",
+  "examAiUnavailable": "AI explanations aren't available right now. Please try again a little later.",
+  "examAnsweredOf": "{answered}/{total} answered",
+  "@examAnsweredOf": {
+    "placeholders": {
+      "answered": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "examBackToExams": "Back to exams",
+  "examBookmark": "Bookmark",
+  "examBookmarkRemove": "Remove bookmark",
+  "examBookmarkRemoved": "Removed from bookmarks",
+  "examBookmarked": "Saved to bookmarks",
+  "examCardDailyBody": "From today's notes, with a live ranking",
+  "examCardDailyTitle": "Daily current-affairs exam",
+  "examCardHistoryBody": "Every result in one place",
+  "examCardHistoryTitle": "Exam history",
+  "examCardLeaderboardBody": "See where you stand today",
+  "examCardLeaderboardTitle": "Leaderboard",
+  "examCardModelBody": "Full BCS pattern: 25, 50, 100 or 200 marks",
+  "examCardModelTitle": "Model tests",
+  "examCardPreviousBody": "Real exam papers and verified sources",
+  "examCardPreviousTitle": "Previous years' questions",
+  "examCardSubjectBody": "Pick a subject and how many questions",
+  "examCardSubjectTitle": "Subject-wise exam",
+  "examCardWeakBody": "Smart questions from your weakest topics",
+  "examCardWeakTitle": "Weak-topic exam",
+  "examDifficultyEasy": "Easy",
+  "examDifficultyHard": "Hard",
+  "examDifficultyMedium": "Medium",
+  "examErrAlreadyAttempted": "You've already taken this exam.",
+  "examErrNoDailyExam": "Today's exam hasn't been published yet.",
+  "examErrNoQuestions": "There aren't enough questions for this exam yet. Try another subject or fewer questions.",
+  "examErrQuestionLocked": "This question is part of today's live exam. Its answer unlocks after you submit that exam.",
+  "examErrQuestionNotFound": "This question is no longer available.",
+  "examErrSessionExpired": "This exam's time limit has passed.",
+  "examErrSessionNotFound": "Exam not found.",
+  "examErrSubjectNotFound": "Subject not found.",
+  "examErrTopicNotFound": "Topic not found.",
+  "examExplanation": "Explanation",
+  "examFlag": "Mark for review",
+  "examFlaggedCount": "{count} marked",
+  "@examFlaggedCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examHistoryEmpty": "You haven't taken any exams yet",
+  "examHistoryEmptyBody": "Your results will appear here after each exam.",
+  "examHistoryEmptyCta": "Take an exam",
+  "examHistoryTitle": "Exam history",
+  "examKindCustom": "Practice exam",
+  "examKindDaily": "Daily exam",
+  "examKindModelTest": "Model test",
+  "examKindPlacement": "Level test",
+  "examKindPreviousYear": "Previous year",
+  "examKindSubject": "Subject-wise",
+  "examKindTopic": "Topic-wise",
+  "examKindWeakTopic": "Weak topics",
+  "examLeaveBody": "The timer keeps running. You can come back from the Exams tab before time runs out.",
+  "examLeaveConfirm": "Leave",
+  "examLeaveTitle": "Leave the exam?",
+  "examLegendAnswered": "Answered",
+  "examLegendFlagged": "Marked",
+  "examLegendUnanswered": "Not answered",
+  "examMarks": "{marks} marks",
+  "@examMarks": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      }
+    }
+  },
+  "examModelChooseSize": "Choose the test size",
+  "examModelDistribution": "Questions per subject",
+  "examModelIntro": "Full-length tests in the BCS preliminary pattern — every subject in proportion to its BCS marks.",
+  "examModelRuleNegative": "Each wrong answer deducts {mark} marks — skip a question if you're unsure.",
+  "@examModelRuleNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examModelRuleQuota": "Free plan: one model test per day.",
+  "examModelRuleResume": "If you leave midway, you can resume before the time runs out.",
+  "examModelRuleTimer": "The timer can't be paused; answers are submitted automatically when time is up.",
+  "examModelRules": "Rules",
+  "examModelStart": "Start the {marks}-mark test",
+  "@examModelStart": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      }
+    }
+  },
+  "examModelTitle": "Model tests",
+  "examMoreSection": "More",
+  "examNavigator": "Question map",
+  "examNavigatorHint": "Tap a number to jump to that question.",
+  "examNoExplanation": "No explanation has been added yet. Try the AI explanation.",
+  "examOfflineSaved": "Saved offline — it will sync when you're back online",
+  "examPendingBody": "{answered}/{total} answered · submits automatically when you're online",
+  "@examPendingBody": {
+    "placeholders": {
+      "answered": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "examPendingTitle": "Waiting to submit",
+  "examPremiumBadge": "Premium",
+  "examQuestionNo": "Question {n}",
+  "@examQuestionNo": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "examQuestionsCount": "{count} questions",
+  "@examQuestionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examQuotaBody": "The free plan includes one per day. Unlock unlimited exams with an add-on, or come back tomorrow.",
+  "examQuotaLater": "Maybe later",
+  "examQuotaTitle": "Today's free attempt is used",
+  "examRecentEmpty": "No exams yet — take your first one today!",
+  "examRecentTitle": "Recent results",
+  "examReportBody": "Tell us what's wrong — our team will check and correct it.",
+  "examReportDuplicate": "You've already reported this question.",
+  "examReportHint": "e.g. the correct answer should be (B)…",
+  "examReportSend": "Send report",
+  "examReportThanks": "Thanks! We'll review it soon.",
+  "examReportWrong": "Report wrong answer",
+  "examResultAccuracy": "Accuracy",
+  "examResultCorrect": "Correct",
+  "examResultFair": "A good start. Go through your mistakes.",
+  "examResultGood": "Well done — just a little more polish!",
+  "examResultGreat": "Outstanding! Keep it up.",
+  "examResultHome": "Back to home",
+  "examResultLeaderboard": "Leaderboard",
+  "examResultLow": "Don't give up — regular practice makes the difference.",
+  "examResultNegative": "Deducted for wrong answers: {value}",
+  "@examResultNegative": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultOutOf": "out of {max}",
+  "@examResultOutOf": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultPerSubject": "Subject-wise performance",
+  "examResultRank": "Your rank today",
+  "examResultRankValue": "#{rank} of {participants}",
+  "@examResultRankValue": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      },
+      "participants": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultRetake": "Take again",
+  "examResultReview": "Review answers",
+  "examResultScoreLabel": "Your score",
+  "examResultShare": "Share to feed",
+  "examResultShareHint": "Say something about it (optional)",
+  "examResultShareTitle": "Share your result",
+  "examResultShared": "Shared to your feed",
+  "examResultSkipped": "Skipped",
+  "examResultSubjectLine": "{correct} correct · {wrong} wrong · {total} questions",
+  "@examResultSubjectLine": {
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      },
+      "wrong": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultTime": "Time taken",
+  "examResultTitle": "Result",
+  "examResultView": "View",
+  "examResultWrong": "Wrong",
+  "examResumeBody": "{answered} of {total} answered · {time} left",
+  "@examResumeBody": {
+    "placeholders": {
+      "answered": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examResumeCta": "Resume",
+  "examResumeTitle": "Exam in progress",
+  "examReviewChip": "{label} ({count})",
+  "@examReviewChip": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examReviewCorrectAnswer": "Correct answer",
+  "examReviewEmpty": "No questions in this list.",
+  "examReviewFilterAll": "All",
+  "examReviewFilterCorrect": "Correct",
+  "examReviewFilterSkipped": "Skipped",
+  "examReviewFilterWrong": "Wrong",
+  "examReviewNotAnswered": "Not answered",
+  "examReviewNotReady": "Answers are available after the exam is submitted.",
+  "examReviewTitle": "Answer review",
+  "examReviewYourAnswer": "Your answer",
+  "examSeeResult": "See result",
+  "examSessionMissingBody": "Its time may be over, or it was submitted on another device. Any answers saved on this phone will be submitted when you check the result.",
+  "examSessionMissingTitle": "This exam can't be opened",
+  "examSetupCount": "Number of questions",
+  "examSetupNegative": "−{mark} for each wrong answer",
+  "@examSetupNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examSetupStart": "Start exam",
+  "examSetupSubject": "Choose a subject",
+  "examSetupSummary": "{count} questions · {time}",
+  "@examSetupSummary": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examSourceCurated": "Prostuti curated question bank",
+  "examSourceLabel": "Source: {source}",
+  "@examSourceLabel": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "examSourceOpen": "Open the source",
+  "examStartSection": "Start an exam",
+  "examStarting": "Preparing your questions…",
+  "examSubmit": "Submit",
+  "examSubmitAnswered": "Answered",
+  "examSubmitCancel": "Keep going",
+  "examSubmitConfirm": "Submit now",
+  "examSubmitFailedBody": "Your answers are safely saved on this phone. Check your connection and try again.",
+  "examSubmitFailedTitle": "Couldn't submit",
+  "examSubmitFlaggedWarn": "{count} questions are still marked for review.",
+  "@examSubmitFlaggedWarn": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examSubmitNegative": "Each wrong answer deducts {mark} marks. You can't change answers after submitting.",
+  "@examSubmitNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examSubmitQueuedBody": "You're offline. Your answers are saved and will be submitted automatically as soon as you're back online.",
+  "examSubmitQueuedHint": "You can close this screen — the result will appear in your exam history.",
+  "examSubmitQueuedTitle": "Submission pending",
+  "examSubmitRetry": "Try again",
+  "examSubmitSkipped": "Skipped",
+  "examSubmitTitle": "Submit your answers?",
+  "examSubmitting": "Submitting…",
+  "examTimeLeft": "Time left",
+  "examTimeUpBody": "Submitting your answers…",
+  "examTimeUpTitle": "Time's up!",
+  "examTitleCustom": "Practice exam",
+  "examTitleModelTest": "Model test · {marks} marks",
+  "@examTitleModelTest": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      }
+    }
+  },
+  "examTitlePlacement": "Level test",
+  "examTitleSubject": "Subject exam · {name}",
+  "@examTitleSubject": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "examTitleTopic": "Topic exam · {name}",
+  "@examTitleTopic": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "examTitleWeak": "Weak-topic exam",
+  "examToggleHint": "Tap the same option again to clear an answer — a blank costs nothing, a wrong answer costs {mark}.",
+  "@examToggleHint": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examUnflag": "Remove review mark",
+  "examWarnFive": "5 minutes left",
+  "examWarnOne": "1 minute left — wrap up!",
+  "examsHeroBody": "Timed exams, −{mark} negative marking and a detailed result — just like the real hall.",
+  "@examsHeroBody": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examsHeroTitle": "Test yourself the BCS way",
+  "examsTitle": "Exams",
+  "feedAchievement": "New achievement",
+  "feedAddPhotos": "Add photos",
+  "feedBlock": "Block",
+  "feedBlockConfirmBody": "They won't be able to see your posts or message you, and you'll no longer be friends.",
+  "feedBlockConfirmTitle": "Block {name}?",
+  "@feedBlockConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "feedBlockUser": "Block {name}",
+  "@feedBlockUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "feedCancelReply": "Cancel reply",
+  "feedChatsAction": "Messages",
+  "feedChatsActionBadge": "Messages, {count} unread",
+  "@feedChatsActionBadge": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedComment": "Comment",
+  "feedCommentDeleted": "Comment deleted",
+  "feedCommentOptions": "Comment options",
+  "feedCommentsCount": "{count} comments",
+  "@feedCommentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedCommentsTitle": "Comments",
+  "feedComposeHint": "Share a study tip, ask a question or tell others about your progress…",
+  "feedComposePrompt": "What's on your mind?",
+  "feedComposePromptHint": "Share a study tip, a question or your progress",
+  "feedComposeTitle": "Create post",
+  "feedDeleteComment": "Delete comment",
+  "feedDeleteCommentConfirm": "Delete this comment?",
+  "feedDeletePost": "Delete post",
+  "feedDeletePostConfirmBody": "The post with its comments and reactions will be removed permanently.",
+  "feedDeletePostConfirmTitle": "Delete this post?",
+  "feedDiscard": "Discard",
+  "feedDiscardBody": "What you've written will be lost.",
+  "feedDiscardTitle": "Discard this post?",
+  "feedEditPost": "Edit post",
+  "feedEditTitle": "Edit post",
+  "feedEdited": "Edited",
+  "feedEmptyBody": "Be the first to share something with fellow candidates.",
+  "feedEmptyTitle": "No posts yet",
+  "feedErrorInvalidParent": "The comment you replied to no longer exists.",
+  "feedErrorPostNotFound": "This post is no longer available.",
+  "feedErrorUploadFailed": "Couldn't upload the photo. Check your connection and try again.",
+  "feedExamCorrect": "Correct",
+  "feedExamOutOf": "out of {max}",
+  "@feedExamOutOf": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "feedExamResultTitle": "Exam result",
+  "feedExamScore": "Score",
+  "feedExamTotal": "Questions",
+  "feedExamViewResult": "View result",
+  "feedExamWrong": "Wrong",
+  "feedFriendsAction": "Friends",
+  "feedFriendsActionBadge": "Friends, {count} new requests",
+  "@feedFriendsActionBadge": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedHideReplies": "Hide replies",
+  "feedLikeComment": "Like",
+  "feedMoreReplies": "View more replies",
+  "feedNoComments": "No comments yet",
+  "feedNoCommentsBody": "Start the conversation.",
+  "feedNoteShare": "Shared a note",
+  "feedOpenNotes": "Read notes",
+  "feedPhotoOf": "Photo {current} of {total}",
+  "@feedPhotoOf": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "feedPhotosLimit": "You can add up to {max} photos",
+  "@feedPhotosLimit": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "feedPostDeleted": "Post deleted",
+  "feedPostNotFound": "This post isn't available",
+  "feedPostNotFoundBody": "It may have been deleted, or its privacy may have changed.",
+  "feedPostOptions": "Post options",
+  "feedPostPublished": "Your post is live",
+  "feedPostTitle": "Post",
+  "feedPostUpdated": "Post updated",
+  "feedPublish": "Post",
+  "feedPublishing": "Posting…",
+  "feedReactionAngry": "Angry",
+  "feedReactionHaha": "Haha",
+  "feedReactionLike": "Like",
+  "feedReactionLove": "Love",
+  "feedReactionPickerHint": "Press and hold to choose a reaction",
+  "feedReactionSad": "Sad",
+  "feedReactionWow": "Wow",
+  "feedReactionsSemantics": "{count} reactions",
+  "@feedReactionsSemantics": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedRemovePhoto": "Remove photo",
+  "feedReply": "Reply",
+  "feedReplyingTo": "Replying to {name}",
+  "@feedReplyingTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "feedReportComment": "Report comment",
+  "feedReportDuplicate": "You've already reported this.",
+  "feedReportPost": "Report post",
+  "feedReportReasonAbuse": "Harassment or hate speech",
+  "feedReportReasonMisinformation": "False or misleading information",
+  "feedReportReasonNudity": "Nudity or sexual content",
+  "feedReportReasonOther": "Something else",
+  "feedReportReasonSpam": "Spam or advertisement",
+  "feedReportReasonViolence": "Violence or threats",
+  "feedReportSubmit": "Submit report",
+  "feedReportSubtitle": "Your report is anonymous. Our moderators will review it.",
+  "feedReportThanks": "Thanks — we'll review it shortly.",
+  "feedReportTitle": "Why are you reporting this?",
+  "feedSaveChanges": "Save",
+  "feedSaving": "Saving…",
+  "feedSearchUsers": "Search people",
+  "feedSeeLess": "See less",
+  "feedSeeMore": "See more",
+  "feedSendComment": "Send comment",
+  "feedShare": "Share",
+  "feedShareExamResult": "I scored {score} out of {max} in “{title}”.",
+  "@feedShareExamResult": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "feedShareFooter": "Shared from Prostuti — BCS & job exam preparation",
+  "feedTitle": "Community",
+  "feedUploadingImages": "Uploading photos {done}/{total}…",
+  "@feedUploadingImages": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "feedUserBlocked": "User blocked",
+  "feedViewPhoto": "View photo",
+  "feedViewReplies": "View {count} replies",
+  "@feedViewReplies": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedVisibilityFriends": "Friends",
+  "feedVisibilityFriendsHint": "Only your friends",
+  "feedVisibilityOnlyMe": "Only me",
+  "feedVisibilityOnlyMeHint": "Only you can see it",
+  "feedVisibilityPublic": "Public",
+  "feedVisibilityPublicHint": "Anyone on Prostuti",
+  "feedWhoCanSee": "Who can see this?",
+  "feedWriteComment": "Write a comment…",
+  "feedWriteFirstPost": "Write a post",
+  "feedWriteReply": "Write a reply…",
+  "friendsAccept": "Confirm",
+  "friendsAccepted": "You're now friends",
+  "friendsAddFriend": "Add friend",
+  "friendsBlockUser": "Block user",
+  "friendsBlockedNotice": "You've blocked this user. Unblock them to see their posts or connect again.",
+  "friendsCancelRequest": "Cancel request",
+  "friendsClearSearch": "Clear search",
+  "friendsDecline": "Delete",
+  "friendsDeclined": "Request removed",
+  "friendsEditProfile": "Edit profile",
+  "friendsEmptyBody": "Find fellow candidates preparing for the same exam and study together.",
+  "friendsEmptyTitle": "No friends yet",
+  "friendsErrorBlockSelf": "You can't block yourself.",
+  "friendsErrorMessageSelf": "You can't message yourself.",
+  "friendsErrorMessagingFriendsOnly": "This user only accepts messages from friends. Send a friend request first.",
+  "friendsErrorRequestGone": "This request is no longer pending.",
+  "friendsErrorSelf": "You can't send a friend request to yourself.",
+  "friendsErrorUnavailable": "This user isn't available.",
+  "friendsFindPeople": "Find people",
+  "friendsIncoming": "Friend requests",
+  "friendsIsFriend": "Friends",
+  "friendsLoadMore": "Show more",
+  "friendsMessage": "Message",
+  "friendsMoreOptions": "More options",
+  "friendsMutual": "{count} mutual friends",
+  "@friendsMutual": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsNoOutgoing": "You haven't sent any requests",
+  "friendsNoPosts": "No posts yet",
+  "friendsNoRequests": "No pending requests",
+  "friendsNoRequestsBody": "New friend requests will show up here.",
+  "friendsNoSuggestions": "No suggestions right now",
+  "friendsNoSuggestionsBody": "Add your district and target exam to your profile to get better suggestions.",
+  "friendsOutgoing": "Sent requests",
+  "friendsPostsHeader": "Posts",
+  "friendsReasonDistrict": "Same district",
+  "friendsReasonMutual": "Mutual friends",
+  "friendsReasonNew": "New on Prostuti",
+  "friendsReasonSameExam": "Same target exam",
+  "friendsRemoveSuggestion": "Remove",
+  "friendsReportUser": "Report user",
+  "friendsRequestCancelled": "Request cancelled",
+  "friendsRequestSent": "Request sent",
+  "friendsRespond": "Respond",
+  "friendsSearchHint": "Search by name or username",
+  "friendsSearchNoResults": "No one found",
+  "friendsSearchNoResultsBody": "No one matches “{query}”. Try a different spelling.",
+  "@friendsSearchNoResultsBody": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsSearchPromptBody": "Type at least 2 letters of a name or username.",
+  "friendsSearchPromptTitle": "Find study partners",
+  "friendsSince": "Friends since {date}",
+  "@friendsSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsStatExams": "Exams",
+  "friendsStatFriends": "Friends",
+  "friendsStatPosts": "Posts",
+  "friendsStatStreak": "Day streak",
+  "friendsTabFriends": "Friends",
+  "friendsTabRequests": "Requests",
+  "friendsTabSuggestions": "People you may know",
+  "friendsTitle": "Friends",
+  "friendsUnblock": "Unblock",
+  "friendsUnblocked": "User unblocked",
+  "friendsUnfriend": "Unfriend",
+  "friendsUnfriendConfirmBody": "You can send a new friend request later.",
+  "friendsUnfriendConfirmTitle": "Unfriend {name}?",
+  "@friendsUnfriendConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsUnfriended": "Removed from friends",
+  "friendsUserNotFound": "User not found",
+  "friendsUserNotFoundBody": "This account may have been deleted.",
+  "homeChatsTooltip": "Messages",
+  "homeComingUp": "Coming up",
+  "homeCountdownLabel": "Your target exam",
+  "homeCountdownSemantics": "{exam}: {days} days left",
+  "@homeCountdownSemantics": {
+    "placeholders": {
+      "exam": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCreatePlanBody": "Get a daily routine built from your level and the time left before your exam — with weak-topic exams on free days.",
+  "homeCreatePlanCta": "Create my plan",
+  "homeCreatePlanTitle": "Create your AI study plan",
+  "homeDailyExamOpen": "Open",
+  "homeDailyExamPending": "Today's exam is published every morning.",
+  "homeDailyExamStart": "Start",
+  "homeDailyExamTitle": "Today's daily exam",
+  "homeDaysLeftShort": "days left",
+  "homeEstimatedScore": "Estimated score: {score}/{max}",
+  "@homeEstimatedScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "homeExamToday": "exam today!",
+  "homeGreetingAfternoon": "Good afternoon,",
+  "homeGreetingDawn": "Good morning,",
+  "homeGreetingEvening": "Good evening,",
+  "homeGreetingFallbackName": "Candidate",
+  "homeGreetingMorning": "Good morning,",
+  "homeGreetingNight": "Good evening,",
+  "homeGreetingNoon": "Good afternoon,",
+  "homeMorningBody": "Your reading, practice and exam for today are waiting.",
+  "homeMorningTitle": "Today's routine is ready! Let's begin",
+  "homeNegativeMarking": "−0.5 per wrong",
+  "homeNoRoutineToday": "No routine for today. Check the next days below.",
+  "homeNotesComingAt6": "Today's notes arrive at 6 am.",
+  "homeNotesComingSoon": "Today's notes are on their way.",
+  "homeNotesCount": "{count, plural, =1{{label} note} other{{label} notes}}",
+  "@homeNotesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNotesReadAll": "Read all notes",
+  "homeNotesTitle": "Today's current affairs",
+  "homeNotificationsTooltip": "Notifications",
+  "homeQuestionCount": "{count, plural, =1{{label} question} other{{label} questions}}",
+  "@homeQuestionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "homeQuickLeaderboard": "Leaderboard",
+  "homeQuickModelTest": "Model test",
+  "homeQuickPractice": "Practice",
+  "homeQuickWrongAnswers": "Mistake book",
+  "homeReadinessTitle": "You are {percent}% ready for the final exam",
+  "@homeReadinessTitle": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "homeReminderBody": "Take the daily exam and see where you stand today.",
+  "homeReminderTitle": "Time for today's exam",
+  "homeRestDay": "Rest day — recharge for tomorrow.",
+  "homeRoutineAllDone": "Brilliant! You've finished today's routine.",
+  "homeRoutineDoneBanner": "Today's routine is complete — great work! Tomorrow's opens in the morning.",
+  "homeRoutineStartsOn": "Your routine starts on {date}.",
+  "@homeRoutineStartsOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeRoutineTitle": "Today's routine",
+  "homeSeeFullPlan": "See full plan",
+  "homeStartWeakExam": "Take the weak-topic exam",
+  "homeStreakTooltip": "{days}-day study streak",
+  "@homeStreakTooltip": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "homeStreakTooltipCold": "Study today to keep your streak alive",
+  "homeTentativeDate": "Tentative date",
+  "homeTomorrow": "Tomorrow",
+  "homeTrialCta": "Upgrade",
+  "homeTrialDaysLeft": "{count, plural, =1{Your free trial ends in {label} day} other{Your free trial ends in {label} days}}",
+  "@homeTrialDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTrialLastDay": "Your free trial ends today",
+  "homeWeakDayIntro": "Today's free slot targets your weakest topics:",
+  "loading": "Loading…",
+  "lockedBody": "Get this and many more features with an add-on. Your free trial may also be active.",
+  "lockedCta": "See add-ons",
+  "lockedTitle": "Premium feature",
+  "maintenanceTitle": "Under maintenance",
+  "navCommunity": "Community",
+  "navExams": "Exams",
+  "navHome": "Home",
+  "navProfile": "Profile",
+  "navStudy": "Study",
+  "next": "Next",
+  "no": "No",
+  "notificationsAllMarkedRead": "All notifications marked as read",
+  "notificationsBellTooltip": "Notifications",
+  "notificationsBellTooltipUnread": "Notifications, {count} unread",
+  "@notificationsBellTooltipUnread": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsDeleteLabel": "Delete notification",
+  "notificationsDeleted": "Notification deleted",
+  "notificationsEmptyMessage": "Friend requests, comments and daily study updates will show up here.",
+  "notificationsEmptyTitle": "No notifications yet",
+  "notificationsMarkAllRead": "Mark all as read",
+  "notificationsTitle": "Notifications",
+  "notificationsUnread": "Unread",
+  "offlineBanner": "You're offline — showing saved data",
+  "offlinePending": "{count} changes will sync when you're back online",
+  "@offlinePending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "offlineSaved": "Saved offline — will sync when you're back online",
+  "offlineSyncing": "Syncing {count} offline changes…",
+  "@offlineSyncing": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "offlineUnavailable": "This needs an internet connection",
+  "ok": "OK",
+  "onboardingAiRetry": "Try again",
+  "onboardingAiSkip": "Continue without",
+  "onboardingAiSkipReply": "Let's continue without it",
+  "onboardingAvatarPick": "Choose a profile photo",
+  "onboardingBotClosing": "That's all! Next, a short level test shows where you stand in each subject.",
+  "onboardingBotClosingNoAi": "Thanks, I've noted everything! Next, a short level test shows where you stand in each subject.",
+  "onboardingBotFollowupIntro": "Thanks! Just a couple more questions based on your answers.",
+  "onboardingBotName": "Prostuti AI",
+  "onboardingBotOffline": "I need the internet to personalise the next questions. Try again, or continue without them.",
+  "onboardingBotRecommendMinutes": "Based on your answers I'd suggest studying {time} a day. Shall I use that?",
+  "@onboardingBotRecommendMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingBotTyping": "typing…",
+  "onboardingBotWelcome": "Hi! I'm Prostuti AI. I'll ask a few quick questions about your studies and routine so I can build a plan that really fits you.",
+  "onboardingConfirmCount": "Confirm ({count})",
+  "@onboardingConfirmCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingContinueWithoutPlan": "Continue — I'll create the plan later",
+  "onboardingDailyTime": "Daily study time",
+  "onboardingDailyTimeHint": "Be realistic — a routine you can keep beats an ambitious one you can't.",
+  "onboardingDailyTimeValue": "{time} every day",
+  "@onboardingDailyTimeValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingDaysLeftShort": "days",
+  "onboardingDaysUntilExam": "{days} days to go",
+  "@onboardingDaysUntilExam": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingDistrict": "District",
+  "onboardingDistrictNone": "No district matches your search",
+  "onboardingDistrictSearch": "Search district (Bangla or English)",
+  "onboardingDivisionBarishal": "Barishal division",
+  "onboardingDivisionChattogram": "Chattogram division",
+  "onboardingDivisionDhaka": "Dhaka division",
+  "onboardingDivisionKhulna": "Khulna division",
+  "onboardingDivisionMymensingh": "Mymensingh division",
+  "onboardingDivisionRajshahi": "Rajshahi division",
+  "onboardingDivisionRangpur": "Rangpur division",
+  "onboardingDivisionSylhet": "Sylhet division",
+  "onboardingDobPrivacy": "Private — never shown on your profile.",
+  "onboardingExamBank": "Bank jobs",
+  "onboardingExamBcs": "BCS",
+  "onboardingExamGovt": "Other govt jobs",
+  "onboardingExamNtrca": "NTRCA",
+  "onboardingExamPrimary": "Primary teacher",
+  "onboardingFactMinutes": "minutes",
+  "onboardingFactQuestions": "questions",
+  "onboardingFactSubjects": "subjects",
+  "onboardingFullName": "Full name",
+  "onboardingFullNameRequired": "Please enter your name",
+  "onboardingGroupBangla": "Bangla",
+  "onboardingGroupEnglish": "English",
+  "onboardingGroupGk": "General knowledge",
+  "onboardingGroupMath": "Maths & mental ability",
+  "onboardingHintChallenge": "Write in your own words",
+  "onboardingHintFollowup": "Your answer",
+  "onboardingHintInstitution": "University and subject",
+  "onboardingHintYear": "Year, e.g. 2024",
+  "onboardingInvalidAnswer": "That doesn't look right — please check and try again",
+  "onboardingNoLevels": "You skipped the level test, so we've started every subject at beginner level.",
+  "onboardingNoSchedules": "No upcoming exam dates yet — we'll use the next BCS date.",
+  "onboardingNoneOfThese": "None of these",
+  "onboardingOptAfternoon": "Afternoon",
+  "onboardingOptArts": "Humanities",
+  "onboardingOptAttempts0": "Not yet",
+  "onboardingOptAttempts1": "Once",
+  "onboardingOptAttempts2": "Twice",
+  "onboardingOptAttempts3": "3 times or more",
+  "onboardingOptBachelor": "Bachelor's",
+  "onboardingOptCommerce": "Business studies",
+  "onboardingOptDawn": "Early morning",
+  "onboardingOptEmployed": "Employed",
+  "onboardingOptHsc": "HSC",
+  "onboardingOptJobSeeking": "Looking for a job",
+  "onboardingOptMasters": "Master's",
+  "onboardingOptMorning": "Morning",
+  "onboardingOptNight": "Night",
+  "onboardingOptNoMinutes": "No, keep my time",
+  "onboardingOptNone": "None of these",
+  "onboardingOptNoon": "Midday",
+  "onboardingOptOther": "Other",
+  "onboardingOptScience": "Science",
+  "onboardingOptSsc": "SSC",
+  "onboardingOptStudent": "Student",
+  "onboardingOptStudying": "Still studying",
+  "onboardingOptYesMinutes": "Yes, let's do that",
+  "onboardingPickDob": "Choose date of birth",
+  "onboardingPickExam": "Choose at least one exam",
+  "onboardingPlacementLater": "I'll take it later",
+  "onboardingPlacementLaterBody": "Without it we assume a beginner level in every subject, so your plan may be less accurate. You can take model tests later to improve it.",
+  "onboardingPlacementLaterConfirm": "Skip for now",
+  "onboardingPlacementLaterTitle": "Skip the level test?",
+  "onboardingPlacementSubtitle": "A short test across four subject groups finds your current level, so your plan starts at the right place.",
+  "onboardingPlacementTitle": "Level test",
+  "onboardingPlanFailedBody": "Something went wrong on our side. Try again, or continue and create it later from the plan screen.",
+  "onboardingPlanFailedTitle": "Couldn't create your plan",
+  "onboardingPlanOfflineBody": "Connect to the internet to build your plan, or continue and create it later from the plan screen.",
+  "onboardingPlanPitch": "Prostuti AI will now build a day-by-day routine from your level and the time you have.",
+  "onboardingPlanReadyBody": "Here are your first days. A new day's routine arrives every morning.",
+  "onboardingPlanReadyTitle": "Your plan is ready!",
+  "onboardingPreviewEmpty": "Your routine will appear here shortly.",
+  "onboardingProfileSubtitle": "A few details help us shape your preparation around your goal.",
+  "onboardingProfileTitle": "Let's set up your profile",
+  "onboardingQAttempts": "How many times have you sat the BCS preliminary?",
+  "onboardingQBackground": "Which group did you study?",
+  "onboardingQChallenge": "What's your biggest challenge in preparing right now?",
+  "onboardingQDob": "Lastly, your date of birth? It helps with age limits for jobs — only you can see it.",
+  "onboardingQEducation": "What's your highest level of education so far?",
+  "onboardingQGraduationYear": "When did you graduate (or when will you)?",
+  "onboardingQInstitution": "Which university or college, and what subject? (e.g. Dhaka University, Economics)",
+  "onboardingQOccupation": "What are you doing these days?",
+  "onboardingQStrong": "Which subjects do you feel strong in?",
+  "onboardingQStudyTime": "When do you study best?",
+  "onboardingQWeak": "And which subjects feel weak?",
+  "onboardingQuestionsShort": "{count} questions",
+  "@onboardingQuestionsShort": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingResultSubtitle": "Here's where you stand today — your plan builds on it.",
+  "onboardingResultTitle": "Your level report",
+  "onboardingResumeBody": "Pick up where you left off.",
+  "onboardingResumeCta": "Resume the test",
+  "onboardingResumeTitle": "You have an unfinished level test",
+  "onboardingSaveContinue": "Save and continue",
+  "onboardingScheduleNote": "Dates are approximate. If the date changes, your routine is re-planned automatically.",
+  "onboardingSend": "Send",
+  "onboardingSkip": "Skip",
+  "onboardingSkipped": "Skipped",
+  "onboardingStartJourney": "Start preparing",
+  "onboardingStartTest": "Start the test",
+  "onboardingStepInterview": "About you",
+  "onboardingStepOf": "Step {step} of {total}",
+  "@onboardingStepOf": {
+    "placeholders": {
+      "step": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingStepPlacement": "Level test",
+  "onboardingStepPlan": "Plan",
+  "onboardingStepProfile": "Profile",
+  "onboardingSummaryFocus": "Focus areas",
+  "onboardingSummaryStrengths": "Strengths",
+  "onboardingSummaryTitle": "Your preparation snapshot",
+  "onboardingTargetExams": "Which exams are you preparing for?",
+  "onboardingTargetSchedule": "Your target exam",
+  "onboardingTentative": "Tentative",
+  "onboardingTipHonest": "Answer on your own — an honest result gives you the best plan.",
+  "onboardingTipNegative": "Like the BCS exam, each wrong answer deducts 0.5 marks.",
+  "onboardingTipSkip": "Not sure? Skip it — guessing can cost you marks.",
+  "onboardingTipTimer": "The test submits itself when time runs out.",
+  "onboardingTipsTitle": "Tips",
+  "onboardingToPlacement": "Go to the level test",
+  "onboardingUnlockNote": "Later days unlock gradually — you'll always see today and the next two days.",
+  "onboardingUsername": "Username",
+  "onboardingUsernameAvailable": "Great, this username is available",
+  "onboardingUsernameChecking": "Checking availability…",
+  "onboardingUsernameHint": "Friends can find you with it",
+  "onboardingUsernameTaken": "This username is taken — try another",
+  "onboardingUsernameUnknown": "Couldn't check right now; we'll verify when you save",
+  "profileAllowEveryone": "Everyone",
+  "profileAllowFriends": "Friends",
+  "profileAllowMessages": "Who can message me",
+  "profileAvatarCamera": "Take a photo",
+  "profileAvatarChange": "Change profile photo",
+  "profileAvatarGallery": "Choose from gallery",
+  "profileAvatarRemove": "Remove photo",
+  "profileAvatarUpdated": "Profile photo updated",
+  "profileBio": "Bio",
+  "profileBioHint": "A line about your preparation, e.g. \"Preparing for the 47th BCS\"",
+  "profileDailyStudy": "Daily study time",
+  "profileDiscard": "Discard",
+  "profileDiscardBody": "Your unsaved changes will be lost.",
+  "profileDiscardTitle": "Discard changes?",
+  "profileDistrict": "District",
+  "profileDistrictNone": "No district found",
+  "profileDistrictPick": "Select your district",
+  "profileDistrictSearch": "Search district",
+  "profileEdit": "Edit profile",
+  "profileEditTitle": "Edit profile",
+  "profileFreePlan": "Free plan",
+  "profileFreePlanHint": "Unlock model tests, the daily exam, AI explanations and more",
+  "profileFullName": "Full name",
+  "profileLongestStreak": "Longest streak: {days} days",
+  "@profileLongestStreak": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "profileManagePlan": "Manage",
+  "profileMenuAddons": "Add-ons",
+  "profileMenuAdmin": "Admin panel",
+  "profileMenuBookmarks": "Bookmarks",
+  "profileMenuExamHistory": "Exam history",
+  "profileMenuFriends": "Friends",
+  "profileMenuLogout": "Log out",
+  "profileMenuMyPosts": "My posts",
+  "profileMenuPlan": "Study plan",
+  "profileMenuProgress": "Progress",
+  "profileMenuSettings": "Settings",
+  "profileMorePlans": "+{count} more",
+  "@profileMorePlans": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "profileNoSchedule": "Not decided yet",
+  "profileOccupation": "Occupation",
+  "profileOccupationHint": "e.g. Student, job holder, job seeker",
+  "profileRoleAdmin": "Admin",
+  "profileRoleModerator": "Moderator",
+  "profileSaveChanges": "Save changes",
+  "profileSaved": "Profile updated",
+  "profileSectionAccount": "Account",
+  "profileSectionActivity": "My activity",
+  "profileSectionBasic": "About you",
+  "profileSectionPreparation": "Your preparation",
+  "profileSectionPrivacy": "Privacy",
+  "profileSettings": "Settings",
+  "profileStatExams": "Exams",
+  "profileStatFriends": "Friends",
+  "profileStatPosts": "Posts",
+  "profileStatStreak": "Streak",
+  "profileTargetExams": "Target exams",
+  "profileTargetSchedule": "Target exam date",
+  "profileTrialRunning": "Free trial",
+  "profileUpgrade": "Upgrade",
+  "profileUsername": "Username",
+  "profileUsernameAvailable": "Username is available",
+  "profileUsernameChecking": "Checking availability…",
+  "profileUsernameNeedsInternet": "Changing your username needs an internet connection",
+  "profileUsernameTaken": "This username is already taken",
+  "profileUsernameUnknown": "Couldn't check right now — we'll confirm when you save",
+  "questionBankCorrect": "Correct!",
+  "questionBankEmpty": "No questions here yet",
+  "questionBankEmptyBody": "New questions are added regularly. Check back soon.",
+  "questionBankEmptyUnseen": "You've seen every question here",
+  "questionBankEmptyUnseenBody": "Turn off 'New questions only' to practise them again.",
+  "questionBankEndBody": "You've gone through every question here. Now test yourself with an exam.",
+  "questionBankEndScore": "This session: {correct} of {attempted} correct",
+  "@questionBankEndScore": {
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      },
+      "attempted": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankEndTitle": "You've reached the end!",
+  "questionBankHeroBody": "Practise by subject or topic. Every answer comes with an explanation.",
+  "questionBankHeroTitle": "{count} questions, each with its source",
+  "@questionBankHeroTitle": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankIncorrect": "Not quite",
+  "questionBankLoadingMore": "Loading more questions…",
+  "questionBankLocked": "Answer unlocks after today's exam",
+  "questionBankMasteryValue": "Mastery {value}",
+  "@questionBankMasteryValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankNext": "Next",
+  "questionBankNoSources": "No sources available yet.",
+  "questionBankNotAssessed": "Not assessed yet",
+  "questionBankOfflineBody": "Download this subject's questions with answers and explanations. Practise without internet — your answers sync later.",
+  "questionBankOfflineDone": "{subject} is ready for offline practice",
+  "@questionBankOfflineDone": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankOfflineDownload": "Download for offline",
+  "questionBankOfflineDownloading": "Downloading… {count} questions",
+  "@questionBankOfflineDownloading": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankOfflineInfo": "{count} questions · {size} · {date}",
+  "@questionBankOfflineInfo": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankOfflineMode": "Offline pack",
+  "questionBankOfflineModeHint": "Answers are checked on this phone and sync automatically.",
+  "questionBankOfflineNeedPack": "You're offline",
+  "questionBankOfflineNeedPackBody": "Download a subject for offline practice while you're online, then practise anywhere.",
+  "questionBankOfflineReady": "Available offline",
+  "questionBankOfflineRemove": "Remove download",
+  "questionBankOfflineRemoved": "Download removed",
+  "questionBankOfflineTitle": "Offline practice",
+  "questionBankOfflineUpdate": "Update",
+  "questionBankOtherSources": "All question sources",
+  "questionBankPickHint": "Pick an option to check your answer.",
+  "questionBankPractice": "Practice",
+  "questionBankPracticeAgain": "Practise again",
+  "questionBankPracticeAll": "Practise all",
+  "questionBankPracticeTitle": "Practice",
+  "questionBankPrevious": "Previous",
+  "questionBankPreviousEmptyBody": "We verify every BCS and bank exam paper before adding it, so each answer is accurate. Meanwhile, practise from the sources below.",
+  "questionBankPreviousEmptyTitle": "Previous-year papers are on the way",
+  "questionBankPreviousPapers": "Exam papers",
+  "questionBankPreviousTitle": "Previous years' questions",
+  "questionBankRevealed": "Here's the answer",
+  "questionBankScore": "{correct}/{attempted} correct",
+  "@questionBankScore": {
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      },
+      "attempted": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankScoreHint": "Correct answers this session",
+  "questionBankShowAll": "Show all questions",
+  "questionBankShowAnswer": "Show answer",
+  "questionBankSourceAi": "AI generated",
+  "questionBankSourceBook": "Book",
+  "questionBankSourceCurated": "Curated",
+  "questionBankSourceNewspaper": "Newspaper",
+  "questionBankSourcePrevious": "Previous exam",
+  "questionBankSourceWebsite": "Website",
+  "questionBankStartOver": "Start over",
+  "questionBankSubjectExam": "Subject exam",
+  "questionBankSubjectMeta": "{marks} marks in BCS · {count} questions",
+  "@questionBankSubjectMeta": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankSubjectNotFound": "Subject not found",
+  "questionBankSubjects": "Subjects",
+  "questionBankTakeExam": "Take as exam",
+  "questionBankTitle": "Question bank",
+  "questionBankTopicExam": "Topic exam",
+  "questionBankTopicPractice": "Practise this topic",
+  "questionBankTopics": "Topics",
+  "questionBankUnseenOnly": "New questions only",
+  "questionBankWrongAll": "All",
+  "questionBankWrongEmpty": "No mistakes here — great job!",
+  "questionBankWrongEmptyBody": "Questions you get wrong in exams or practice are collected here so you can fix them.",
+  "questionBankWrongTitle": "Mistake notebook",
+  "report": "Report",
+  "retry": "Try again",
+  "save": "Save",
+  "search": "Search",
+  "secureScreenNotice": "Screenshots and screen recording are disabled to protect exam content.",
+  "seeAll": "See all",
+  "send": "Send",
+  "settingsAbout": "About Prostuti",
+  "settingsAboutLegalTitle": "Legal",
+  "settingsAboutLicenses": "Open-source licences",
+  "settingsAboutMadeFor": "Made with care for job seekers across Bangladesh",
+  "settingsAboutMission": "Every year lakhs of young people across Bangladesh prepare for BCS, bank and other government job exams — many without expensive coaching. Prostuti brings quality preparation to every phone: a sourced question bank, BCS-pattern model tests, daily current-affairs notes and a personal study plan, so that anyone, anywhere, can prepare with confidence.",
+  "settingsAboutMissionTitle": "Our mission",
+  "settingsAboutNews": "Our AI reads the following news outlets every morning and picks exam-relevant facts for the daily notes:",
+  "settingsAboutNewsLinkNote": "Every note links to its original news source, so you can always verify it.",
+  "settingsAboutNewsTitle": "Newspapers",
+  "settingsAboutPrivacy": "We collect only what's needed to run Prostuti: your account details, the profile you fill in, your exam and practice activity, and what you post or send in the community. Personal details such as date of birth and phone number are visible only to you. We never sell your data. Your answers are used to personalise your study plan and to improve question quality. Ads, if shown, are served by Google AdMob. You can ask us to delete your account and data at any time from Settings.",
+  "settingsAboutPrivacyTitle": "Privacy policy",
+  "settingsAboutQuestions": "Every question shows where it comes from — a previous exam, a book, a newspaper or AI generation. AI-made questions are reviewed by moderators; if you spot a mistake, report the question and we'll fix it.",
+  "settingsAboutQuestionsTitle": "Question bank",
+  "settingsAboutSecurity": "This keeps exam questions and premium content safe and fair for everyone who prepares honestly.",
+  "settingsAboutSecurityTitle": "Content protection",
+  "settingsAboutSourcesTitle": "Data sources & credits",
+  "settingsAboutSyllabus": "Subjects, topics and marks follow the BCS preliminary syllabus published by the Bangladesh Public Service Commission (BPSC).",
+  "settingsAboutSyllabusTitle": "Syllabus",
+  "settingsAboutTerms": "Prostuti is a study aid. Exam dates and current-affairs notes come from public sources and AI summaries — always confirm official notices with BPSC or the relevant authority. Keep the community respectful: no harassment, spam, cheating material or illegal content. Paid add-ons last for the stated period and do not renew automatically. Copying or redistributing app content is not allowed. We may suspend accounts that break these rules.",
+  "settingsAboutTermsTitle": "Terms of use",
+  "settingsAboutVersion": "Version {version} ({build})",
+  "@settingsAboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAccount": "Account",
+  "settingsAddons": "Add-ons & plans",
+  "settingsAllowEveryone": "Everyone",
+  "settingsAllowFriends": "Friends",
+  "settingsAllowMessages": "Who can message me",
+  "settingsAllowMessagesHint": "People you block can never message you",
+  "settingsAppearance": "Appearance",
+  "settingsBlockedAgo": "blocked {time}",
+  "@settingsBlockedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsBlockedEmpty": "You haven't blocked anyone",
+  "settingsBlockedEmptyHint": "You can block someone from their profile if they bother you.",
+  "settingsBlockedIntro": "Blocked people can't see your posts, message you or send you friend requests.",
+  "settingsBlockedUsers": "Blocked users",
+  "settingsChangePassword": "Change password",
+  "settingsChangePasswordIntro": "Choose a strong password of at least 8 characters, ideally with letters, numbers and a symbol.",
+  "settingsClearCache": "Clear cache",
+  "settingsClearCacheBody": "Saved data will be removed from this phone and downloaded again when you need it. Unsynced offline changes, your theme and language are kept.",
+  "settingsClearCacheConfirm": "Clear",
+  "settingsClearCacheDone": "Cache cleared",
+  "settingsClearCacheHint": "Frees up space; data downloads again when needed",
+  "settingsClearCacheTitle": "Clear cache?",
+  "settingsConfirmPassword": "Confirm new password",
+  "settingsContactSupport": "Contact support",
+  "settingsDailyExamReminder": "Daily exam reminder",
+  "settingsDailyExamReminderHint": "A nudge every day at your chosen time so you never miss the daily exam",
+  "settingsDataAndSupport": "Data & support",
+  "settingsDeleteAccount": "Request account deletion",
+  "settingsDeleteAccountBody": "Your profile, exam history, posts, messages and plans will be permanently deleted. We'll open an email to our support team — once we verify the request, your account will be deleted.",
+  "settingsDeleteAccountConfirm": "Write email",
+  "settingsDeleteAccountHint": "Permanently delete your account and data",
+  "settingsDeleteAccountTitle": "Delete your account?",
+  "settingsDeleteMailBody": "Hello Prostuti team,\n\nPlease delete my account and all associated data.\n\nUsername: {username}\nUser ID: {userId}\n\nThank you.",
+  "@settingsDeleteMailBody": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      },
+      "userId": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeleteMailSubject": "Account deletion request",
+  "settingsEditProfile": "Edit profile",
+  "settingsHidePassword": "Hide password",
+  "settingsLanguage": "Language",
+  "settingsLanguageBangla": "বাংলা",
+  "settingsLanguageEnglish": "English",
+  "settingsLogout": "Log out",
+  "settingsLogoutBody": "You can sign in again any time with your email and password.",
+  "settingsLogoutPendingWarning": "{count} offline changes haven't synced yet. We'll try to sync them now; anything that can't be synced will be lost.",
+  "@settingsLogoutPendingWarning": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsLogoutTitle": "Log out?",
+  "settingsMorningNotifBody": "Your study plan for today is ready. A little every day adds up to big results.",
+  "settingsMorningNotifTitle": "Good morning! Here's today's routine",
+  "settingsMorningRoutine": "Morning routine",
+  "settingsMorningRoutineHint": "Every morning at {time}, a reminder of today's study routine",
+  "@settingsMorningRoutineHint": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNewPassword": "New password",
+  "settingsNoMailApp": "No email app found. Our address ({email}) has been copied.",
+  "@settingsNoMailApp": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNotifChat": "Messages",
+  "settingsNotifChatHint": "New chat messages",
+  "settingsNotifDailyNotes": "Daily notes",
+  "settingsNotifDailyNotesHint": "When today's current-affairs notes are published",
+  "settingsNotifExam": "Exams",
+  "settingsNotifExamHint": "Daily exam, results and exam-date updates",
+  "settingsNotifRoutine": "Study routine",
+  "settingsNotifRoutineHint": "Today's study plan and changes to your routine",
+  "settingsNotifSocial": "Community",
+  "settingsNotifSocialHint": "Friend requests, comments and reactions",
+  "settingsNotifications": "Notifications",
+  "settingsNotificationsFooter": "You'll still see everything in the in-app notification list; these switches control phone alerts.",
+  "settingsOff": "Off",
+  "settingsOfflineAllSynced": "All changes are synced",
+  "settingsOfflineData": "Offline data",
+  "settingsOfflinePending": "{count} changes waiting to sync",
+  "@settingsOfflinePending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsOfflineSynced": "Everything is synced",
+  "settingsPasswordChanged": "Password changed successfully",
+  "settingsPasswordMismatch": "Passwords don't match",
+  "settingsPasswordReauth": "For your security, please log in again and then change the password.",
+  "settingsPasswordSame": "The new password must be different from the current one.",
+  "settingsPasswordWeak": "This password is too weak. Try a longer one with numbers and symbols.",
+  "settingsPermissionAllow": "Allow",
+  "settingsPermissionBody": "Reminders arrive on time only if Prostuti may send notifications. We never send spam.",
+  "settingsPermissionDenied": "Notifications are off. Turn them on for Prostuti in your phone's settings.",
+  "settingsPermissionGranted": "Notifications allowed",
+  "settingsPermissionGrantedTitle": "Notifications are allowed",
+  "settingsPermissionTitle": "Allow notifications",
+  "settingsPrivacy": "Privacy",
+  "settingsReminderEveryDay": "Every day at {time}",
+  "@settingsReminderEveryDay": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsReminderFootnote": "All times are Bangladesh time (GMT+6). With battery saver on, reminders may arrive a few minutes late. Reminders work even without internet.",
+  "settingsReminderNotifBody": "Today's current-affairs exam is waiting. Take it now and check your rank.",
+  "settingsReminderNotifTitle": "Time for today's exam!",
+  "settingsReminderPickTime": "Choose reminder time",
+  "settingsReminderSaved": "Reminder set for {time} every day",
+  "@settingsReminderSaved": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsReminderTime": "Reminder time",
+  "settingsReminderTurnedOff": "Daily exam reminder turned off",
+  "settingsReminders": "Reminders",
+  "settingsShowPassword": "Show password",
+  "settingsStrengthFair": "Fair",
+  "settingsStrengthGood": "Good",
+  "settingsStrengthStrong": "Strong",
+  "settingsStrengthWeak": "Weak",
+  "settingsSupport": "Support",
+  "settingsSupportSubject": "Prostuti support",
+  "settingsSyncNow": "Sync now",
+  "settingsTestNotifBody": "Great — notifications are working on this phone.",
+  "settingsTestNotifSent": "Test notification sent",
+  "settingsTestNotifTitle": "Prostuti test notification",
+  "settingsTestNotification": "Send a test notification",
+  "settingsTheme": "Theme",
+  "settingsThemeDark": "Dark",
+  "settingsThemeLight": "Light",
+  "settingsThemeSystem": "System",
+  "settingsTitle": "Settings",
+  "settingsUnblock": "Unblock",
+  "settingsUnblockBody": "They'll be able to find you again, see your public posts, message you and send friend requests.",
+  "settingsUnblockTitle": "Unblock {name}?",
+  "@settingsUnblockTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsUnblocked": "{name} unblocked",
+  "@settingsUnblocked": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsUpdatePassword": "Update password",
+  "share": "Share",
+  "skip": "Skip",
+  "studyHubBookmarks": "Bookmarks",
+  "studyHubBookmarksBody": "Saved questions & notes",
+  "studyHubGreeting": "What will you study today?",
+  "studyHubGreetingBody": "Little and often beats cramming — keep your streak going.",
+  "studyHubNotesBody": "Exam-relevant facts picked from today's newspapers",
+  "studyHubNotesCta": "Read now",
+  "studyHubNotesTitle": "Today's current-affairs notes",
+  "studyHubPlan": "Study plan",
+  "studyHubPlanBody": "Your day-by-day routine",
+  "studyHubPrevious": "Previous years",
+  "studyHubPreviousBody": "Past exam papers",
+  "studyHubProgress": "Progress",
+  "studyHubProgressBody": "Readiness & mastery",
+  "studyHubQuestionBank": "Question bank",
+  "studyHubQuestionBankBody": "Practise with sources",
+  "studyHubSubjects": "Quick practice by subject",
+  "studyHubSubjectsHint": "Tap a subject to start practising instantly.",
+  "studyHubTitle": "Study",
+  "studyHubTools": "Study tools",
+  "studyHubWrong": "Mistake notebook",
+  "studyHubWrongBody": "Fix your mistakes",
+  "studyPlanActionExam": "Start",
+  "studyPlanActionOpen": "Open",
+  "studyPlanActionPractice": "Practise",
+  "studyPlanActionRead": "Read",
+  "studyPlanActionRevise": "Revise",
+  "studyPlanAiTips": "Tips from Prostuti AI",
+  "studyPlanBackToPlan": "Back to my plan",
+  "studyPlanChangeMinutes": "Change daily study time",
+  "studyPlanChecklist": "Today's tasks",
+  "studyPlanComposition": "How your plan is built",
+  "studyPlanCoverage": "Syllabus covered",
+  "studyPlanCreate": "Create my study plan",
+  "studyPlanCurrentStreak": "Current streak",
+  "studyPlanDailyBudget": "{time} a day",
+  "@studyPlanDailyBudget": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanDayLockedBody": "New days unlock one by one every morning. Focus on today's tasks for now.",
+  "studyPlanDayLockedTitle": "This routine isn't open yet",
+  "studyPlanDayNumber": "Day {day}",
+  "@studyPlanDayNumber": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanDayTitle": "Routine",
+  "studyPlanDaysCount": "{count, plural, =1{{label} day} other{{label} days}}",
+  "@studyPlanDaysCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanDaysDone": "days done",
+  "studyPlanDaysLeft": "{count, plural, =1{{label} day left} other{{label} days left}}",
+  "@studyPlanDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanEstimatedScore": "Estimated score",
+  "studyPlanExamHistory": "Exam history",
+  "studyPlanExamNotYet": "You can take this exam on its day.",
+  "studyPlanExamOn": "Target exam",
+  "studyPlanFutureDayNote": "This day hasn't started yet. You can tick off its tasks on the day.",
+  "studyPlanGenStep1": "Analysing your level test…",
+  "studyPlanGenStep2": "Counting the days to your exam…",
+  "studyPlanGenStep3": "Finding your weak topics…",
+  "studyPlanGenStep4": "Balancing subjects by exam marks…",
+  "studyPlanGenStep5": "Arranging your daily routine…",
+  "studyPlanGenerateFailed": "We couldn't create the plan right now. Please try again in a little while.",
+  "studyPlanGenerated": "Your study plan is ready!",
+  "studyPlanGenerating": "Building your study plan…",
+  "studyPlanHistoryEmpty": "Take a few more exams and your progress graph will appear here.",
+  "studyPlanHistoryTitle": "Readiness over time",
+  "studyPlanItemDone": "Done",
+  "studyPlanKindModelTest": "Model test",
+  "studyPlanKindRest": "Rest",
+  "studyPlanKindRevision": "Revision",
+  "studyPlanKindStudy": "Study",
+  "studyPlanKindWeakTopicExam": "Weak-topic exam",
+  "studyPlanLevelAdvanced": "Advanced",
+  "studyPlanLevelBeginner": "Beginner",
+  "studyPlanLevelIntermediate": "Intermediate",
+  "studyPlanLevelScore": "Level test score {score}%",
+  "@studyPlanLevelScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanLevelsEmpty": "Take the level test to see your level in each subject.",
+  "studyPlanLevelsTitle": "Subject levels",
+  "studyPlanLockedCount": "{count, plural, =1{{label} more day is waiting} other{{label} more days are waiting}}",
+  "@studyPlanLockedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanLockedFeatureBody": "Get a personal day-by-day routine built from your level and the time left before your exam.",
+  "studyPlanLockedFeatureTitle": "AI study plan",
+  "studyPlanLockedTitle": "The next days' routines unlock in time",
+  "studyPlanLongestStreak": "Longest streak",
+  "studyPlanMarkDone": "Mark as done",
+  "studyPlanMilestones": "Milestones",
+  "studyPlanMinutesBody": "How much time can you study every day? Your routine will be re-planned to fit.",
+  "studyPlanMinutesConfirm": "Save and re-plan",
+  "studyPlanMinutesSaved": "Saved. Your routine is being updated for the new study time.",
+  "studyPlanMinutesTitle": "Daily study time",
+  "studyPlanMoreActions": "Plan options",
+  "studyPlanNoItems": "No tasks for this day",
+  "studyPlanNoPlanBody": "Prostuti AI will build a day-by-day routine from your level, your daily study time and the time left before your exam.",
+  "studyPlanNoPlanTitle": "You don't have a study plan yet",
+  "studyPlanNoVisibleDays": "No days to show yet",
+  "studyPlanPendingSync": "Will sync when you're online",
+  "studyPlanPhaseNow": "Now",
+  "studyPlanPhases": "Phases",
+  "studyPlanPlannedTime": "Planned time",
+  "studyPlanPracticeTopic": "Practise this topic",
+  "studyPlanProgressTitle": "My progress",
+  "studyPlanProgressTooltip": "My progress",
+  "studyPlanQuestionCount": "{count, plural, =1{{label} question} other{{label} questions}}",
+  "@studyPlanQuestionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanRadarTitle": "Strengths at a glance",
+  "studyPlanReadinessExplain": "Readiness combines your mastery of every topic (weighted by BCS marks) with how much of the syllabus you have practised.",
+  "studyPlanReadinessSemantics": "You are {value} percent ready for the final exam",
+  "@studyPlanReadinessSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanReadyForFinal": "ready for the final exam",
+  "studyPlanReasonMissed": "I missed several days",
+  "studyPlanReasonOther": "Something else",
+  "studyPlanReasonSchedule": "My schedule has changed",
+  "studyPlanReasonTooEasy": "The routine feels too easy",
+  "studyPlanReasonTooHard": "The routine feels too heavy",
+  "studyPlanRecentDays": "Recent days",
+  "studyPlanReplan": "Re-plan my routine",
+  "studyPlanReplanBody": "Tell us why, and the AI will rebuild the rest of your routine.",
+  "studyPlanReplanConfirm": "Re-plan",
+  "studyPlanReplanQueued": "Your new routine is being prepared. It will appear here shortly.",
+  "studyPlanReplanTitle": "Re-plan my routine",
+  "studyPlanRestDayBody": "Rest day! Take a break, sleep well and come back fresh tomorrow.",
+  "studyPlanShortBangla": "Bangla",
+  "studyPlanShortBdAffairs": "Bangladesh",
+  "studyPlanShortComputer": "ICT",
+  "studyPlanShortEnglish": "English",
+  "studyPlanShortEthics": "Ethics",
+  "studyPlanShortGeography": "Geography",
+  "studyPlanShortInternational": "International",
+  "studyPlanShortMath": "Maths",
+  "studyPlanShortMental": "Mental ability",
+  "studyPlanShortScience": "Science",
+  "studyPlanStartWeakExam": "Take the weak-topic exam",
+  "studyPlanStartingExam": "Preparing your exam…",
+  "studyPlanStatDone": "Done",
+  "studyPlanStatLocked": "Locked",
+  "studyPlanStatMissed": "Missed",
+  "studyPlanStatPartial": "Partial",
+  "studyPlanStatus": "Status",
+  "studyPlanStatusDone": "Completed",
+  "studyPlanStatusMissed": "Missed",
+  "studyPlanStatusPartial": "In progress",
+  "studyPlanStatusPending": "Not started",
+  "studyPlanStatusUpcoming": "Upcoming",
+  "studyPlanStreakTitle": "Study streak",
+  "studyPlanSubjectMastery": "Mastery by subject",
+  "studyPlanSubjectMeta": "{marks} marks · {coverage}% covered",
+  "@studyPlanSubjectMeta": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "coverage": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanTasks": "Tasks",
+  "studyPlanTickHint": "Tick each task when you finish it — your progress and streak update automatically.",
+  "studyPlanTitle": "My study plan",
+  "studyPlanToday": "Today",
+  "studyPlanUntitledItem": "Task",
+  "studyPlanUpcoming": "Coming up",
+  "studyPlanVersion": "Version {version}",
+  "@studyPlanVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanWeakDayBody": "Today is set aside for your weakest topics. A short exam on them closes the gaps fastest.",
+  "studyPlanWeakTopics": "Your weak topics",
+  "studyPlanWeeklyDelta": "{delta}% this week",
+  "@studyPlanWeeklyDelta": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "submit": "Submit",
+  "today": "Today",
+  "unlock": "Unlock",
+  "updateNow": "Update now",
+  "updateRequiredBody": "A new version of Prostuti is available. Please update to continue.",
+  "updateRequiredTitle": "Update required",
+  "upgrade": "Upgrade",
+  "validationEmail": "Enter a valid email address",
+  "validationPassword": "Password must be at least 8 characters",
+  "validationRequired": "This field is required",
+  "validationUsername": "3–24 characters: letters, numbers, _ or .",
+  "yes": "Yes"
+}

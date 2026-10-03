@@ -1,0 +1,8 @@
+# Strings live per feature in lib/features/<name>/l10n/*.arb and are merged
+# into lib/l10n/arb by `dart run tool/l10n_merge.dart` (run automatically in CI).
+arb-dir: lib/l10n/arb
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+output-dir: lib/l10n/gen

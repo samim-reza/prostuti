@@ -1,0 +1,87 @@
+{
+  "appName": "Prostuti",
+  "appTagline": "Your companion for BCS & job exam preparation",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "retry": "Try again",
+  "save": "Save",
+  "next": "Next",
+  "back": "Back",
+  "skip": "Skip",
+  "done": "Done",
+  "close": "Close",
+  "continueLabel": "Continue",
+  "submit": "Submit",
+  "delete": "Delete",
+  "edit": "Edit",
+  "share": "Share",
+  "report": "Report",
+  "seeAll": "See all",
+  "loading": "Loading…",
+  "search": "Search",
+  "yes": "Yes",
+  "no": "No",
+  "send": "Send",
+  "copy": "Copy",
+  "copied": "Copied",
+  "comingSoon": "Coming soon",
+  "today": "Today",
+  "upgrade": "Upgrade",
+  "unlock": "Unlock",
+  "navHome": "Home",
+  "navStudy": "Study",
+  "navExams": "Exams",
+  "navCommunity": "Community",
+  "navProfile": "Profile",
+  "emptyGeneric": "Nothing here yet",
+  "emptyGenericHint": "Pull down to refresh",
+  "errorGeneric": "Something went wrong",
+  "errorNetwork": "No internet connection. Check your connection and try again.",
+  "errorRateLimited": "You're doing that too often. Please wait {seconds} seconds.",
+  "@errorRateLimited": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "errorRateLimitedShort": "Too many attempts. Please slow down a little.",
+  "errorFeatureLocked": "This is a premium feature. Unlock it from Add-ons.",
+  "errorPermission": "You don't have permission to do that.",
+  "errorNotFound": "Not found. It may have been removed.",
+  "errorSession": "Your session has expired. Please sign in again.",
+  "errorServer": "Server error. Please try again later.",
+  "validationRequired": "This field is required",
+  "validationEmail": "Enter a valid email address",
+  "validationPassword": "Password must be at least 8 characters",
+  "validationUsername": "3–24 characters: letters, numbers, _ or .",
+  "confirmDeleteTitle": "Delete?",
+  "confirmDeleteBody": "This can't be undone.",
+  "lockedTitle": "Premium feature",
+  "lockedBody": "Get this and many more features with an add-on. Your free trial may also be active.",
+  "lockedCta": "See add-ons",
+  "updateRequiredTitle": "Update required",
+  "updateRequiredBody": "A new version of Prostuti is available. Please update to continue.",
+  "updateNow": "Update now",
+  "maintenanceTitle": "Under maintenance",
+  "offlineBanner": "You're offline — showing saved data",
+  "secureScreenNotice": "Screenshots and screen recording are disabled to protect exam content.",
+  "offlinePending": "{count} changes will sync when you're back online",
+  "offlineSyncing": "Syncing {count} offline changes…",
+  "offlineSaved": "Saved offline — will sync when you're back online",
+  "offlineUnavailable": "This needs an internet connection",
+  "@offlinePending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@offlineSyncing": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  }
+}

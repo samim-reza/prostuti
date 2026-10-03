@@ -1,0 +1,13 @@
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "../branding/out/icon_1024.png"
+  adaptive_icon_background: "#006A4E"
+  adaptive_icon_foreground: "../branding/out/adaptive_foreground.png"
+  adaptive_icon_monochrome: "../branding/out/adaptive_foreground.png"
+  min_sdk_android: 24
+  ios: true
+  image_path_ios: "../branding/out/icon_square_1024.png"
+  remove_alpha_ios: true
+  background_color_ios: "#006A4E"
+  web:
+    generate: false
