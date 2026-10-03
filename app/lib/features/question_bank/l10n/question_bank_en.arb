@@ -1,0 +1,141 @@
+{
+  "questionBankTitle": "Question bank",
+  "questionBankHeroTitle": "{count} questions, each with its source",
+  "@questionBankHeroTitle": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankHeroBody": "Practise by subject or topic. Every answer comes with an explanation.",
+  "questionBankPracticeAll": "Practise all",
+  "questionBankSubjects": "Subjects",
+  "questionBankSubjectMeta": "{marks} marks in BCS · {count} questions",
+  "@questionBankSubjectMeta": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankMasteryValue": "Mastery {value}",
+  "@questionBankMasteryValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankNotAssessed": "Not assessed yet",
+  "questionBankTopics": "Topics",
+  "questionBankPractice": "Practice",
+  "questionBankSubjectExam": "Subject exam",
+  "questionBankTopicExam": "Topic exam",
+  "questionBankTopicPractice": "Practise this topic",
+  "questionBankSubjectNotFound": "Subject not found",
+  "questionBankPracticeTitle": "Practice",
+  "questionBankUnseenOnly": "New questions only",
+  "questionBankScore": "{correct}/{attempted} correct",
+  "@questionBankScore": {
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      },
+      "attempted": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankScoreHint": "Correct answers this session",
+  "questionBankShowAnswer": "Show answer",
+  "questionBankCorrect": "Correct!",
+  "questionBankIncorrect": "Not quite",
+  "questionBankRevealed": "Here's the answer",
+  "questionBankPickHint": "Pick an option to check your answer.",
+  "questionBankNext": "Next",
+  "questionBankPrevious": "Previous",
+  "questionBankEndTitle": "You've reached the end!",
+  "questionBankEndBody": "You've gone through every question here. Now test yourself with an exam.",
+  "questionBankEndScore": "This session: {correct} of {attempted} correct",
+  "@questionBankEndScore": {
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      },
+      "attempted": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankStartOver": "Start over",
+  "questionBankEmpty": "No questions here yet",
+  "questionBankEmptyBody": "New questions are added regularly. Check back soon.",
+  "questionBankEmptyUnseen": "You've seen every question here",
+  "questionBankEmptyUnseenBody": "Turn off 'New questions only' to practise them again.",
+  "questionBankShowAll": "Show all questions",
+  "questionBankLocked": "Answer unlocks after today's exam",
+  "questionBankLoadingMore": "Loading more questions…",
+  "questionBankPreviousTitle": "Previous years' questions",
+  "questionBankPreviousEmptyTitle": "Previous-year papers are on the way",
+  "questionBankPreviousEmptyBody": "We verify every BCS and bank exam paper before adding it, so each answer is accurate. Meanwhile, practise from the sources below.",
+  "questionBankPreviousPapers": "Exam papers",
+  "questionBankOtherSources": "All question sources",
+  "questionBankNoSources": "No sources available yet.",
+  "questionBankSourcePrevious": "Previous exam",
+  "questionBankSourceBook": "Book",
+  "questionBankSourceNewspaper": "Newspaper",
+  "questionBankSourceWebsite": "Website",
+  "questionBankSourceAi": "AI generated",
+  "questionBankSourceCurated": "Curated",
+  "questionBankTakeExam": "Take as exam",
+  "questionBankWrongTitle": "Mistake notebook",
+  "questionBankWrongAll": "All",
+  "questionBankWrongEmpty": "No mistakes here — great job!",
+  "questionBankWrongEmptyBody": "Questions you get wrong in exams or practice are collected here so you can fix them.",
+  "questionBankPracticeAgain": "Practise again",
+  "questionBankOfflineTitle": "Offline practice",
+  "questionBankOfflineBody": "Download this subject's questions with answers and explanations. Practise without internet — your answers sync later.",
+  "questionBankOfflineDownload": "Download for offline",
+  "questionBankOfflineDownloading": "Downloading… {count} questions",
+  "@questionBankOfflineDownloading": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankOfflineReady": "Available offline",
+  "questionBankOfflineInfo": "{count} questions · {size} · {date}",
+  "@questionBankOfflineInfo": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankOfflineUpdate": "Update",
+  "questionBankOfflineRemove": "Remove download",
+  "questionBankOfflineRemoved": "Download removed",
+  "questionBankOfflineDone": "{subject} is ready for offline practice",
+  "@questionBankOfflineDone": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "questionBankOfflineMode": "Offline pack",
+  "questionBankOfflineModeHint": "Answers are checked on this phone and sync automatically.",
+  "questionBankOfflineNeedPack": "You're offline",
+  "questionBankOfflineNeedPackBody": "Download a subject for offline practice while you're online, then practise anywhere."
+}

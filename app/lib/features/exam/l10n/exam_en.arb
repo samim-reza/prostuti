@@ -1,0 +1,371 @@
+{
+  "examsTitle": "Exams",
+  "examsHeroTitle": "Test yourself the BCS way",
+  "examsHeroBody": "Timed exams, −{mark} negative marking and a detailed result — just like the real hall.",
+  "@examsHeroBody": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examResumeTitle": "Exam in progress",
+  "examResumeBody": "{answered} of {total} answered · {time} left",
+  "@examResumeBody": {
+    "placeholders": {
+      "answered": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examResumeCta": "Resume",
+  "examCardDailyTitle": "Daily current-affairs exam",
+  "examCardDailyBody": "From today's notes, with a live ranking",
+  "examCardModelTitle": "Model tests",
+  "examCardModelBody": "Full BCS pattern: 25, 50, 100 or 200 marks",
+  "examCardSubjectTitle": "Subject-wise exam",
+  "examCardSubjectBody": "Pick a subject and how many questions",
+  "examCardWeakTitle": "Weak-topic exam",
+  "examCardWeakBody": "Smart questions from your weakest topics",
+  "examCardPreviousTitle": "Previous years' questions",
+  "examCardPreviousBody": "Real exam papers and verified sources",
+  "examCardHistoryTitle": "Exam history",
+  "examCardHistoryBody": "Every result in one place",
+  "examCardLeaderboardTitle": "Leaderboard",
+  "examCardLeaderboardBody": "See where you stand today",
+  "examMoreSection": "More",
+  "examStartSection": "Start an exam",
+  "examRecentTitle": "Recent results",
+  "examRecentEmpty": "No exams yet — take your first one today!",
+  "examPremiumBadge": "Premium",
+  "examStarting": "Preparing your questions…",
+  "examQuotaTitle": "Today's free attempt is used",
+  "examQuotaBody": "The free plan includes one per day. Unlock unlimited exams with an add-on, or come back tomorrow.",
+  "examQuotaLater": "Maybe later",
+  "examSetupSubject": "Choose a subject",
+  "examSetupCount": "Number of questions",
+  "examSetupSummary": "{count} questions · {time}",
+  "@examSetupSummary": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examSetupStart": "Start exam",
+  "examSetupNegative": "−{mark} for each wrong answer",
+  "@examSetupNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examQuestionsCount": "{count} questions",
+  "@examQuestionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examMarks": "{marks} marks",
+  "@examMarks": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      }
+    }
+  },
+  "examKindPlacement": "Level test",
+  "examKindModelTest": "Model test",
+  "examKindDaily": "Daily exam",
+  "examKindSubject": "Subject-wise",
+  "examKindTopic": "Topic-wise",
+  "examKindWeakTopic": "Weak topics",
+  "examKindPreviousYear": "Previous year",
+  "examKindCustom": "Practice exam",
+  "examAnsweredOf": "{answered}/{total} answered",
+  "@examAnsweredOf": {
+    "placeholders": {
+      "answered": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "examFlag": "Mark for review",
+  "examUnflag": "Remove review mark",
+  "examFlaggedCount": "{count} marked",
+  "@examFlaggedCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examNavigator": "Question map",
+  "examNavigatorHint": "Tap a number to jump to that question.",
+  "examLegendAnswered": "Answered",
+  "examLegendUnanswered": "Not answered",
+  "examLegendFlagged": "Marked",
+  "examSubmit": "Submit",
+  "examSubmitTitle": "Submit your answers?",
+  "examSubmitAnswered": "Answered",
+  "examSubmitSkipped": "Skipped",
+  "examSubmitFlaggedWarn": "{count} questions are still marked for review.",
+  "@examSubmitFlaggedWarn": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examSubmitNegative": "Each wrong answer deducts {mark} marks. You can't change answers after submitting.",
+  "@examSubmitNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examSubmitConfirm": "Submit now",
+  "examSubmitCancel": "Keep going",
+  "examSubmitting": "Submitting…",
+  "examSubmitFailedTitle": "Couldn't submit",
+  "examSubmitFailedBody": "Your answers are safely saved on this phone. Check your connection and try again.",
+  "examSubmitRetry": "Try again",
+  "examTimeUpTitle": "Time's up!",
+  "examTimeUpBody": "Submitting your answers…",
+  "examWarnFive": "5 minutes left",
+  "examWarnOne": "1 minute left — wrap up!",
+  "examLeaveTitle": "Leave the exam?",
+  "examLeaveBody": "The timer keeps running. You can come back from the Exams tab before time runs out.",
+  "examLeaveConfirm": "Leave",
+  "examTimeLeft": "Time left",
+  "examToggleHint": "Tap the same option again to clear an answer — a blank costs nothing, a wrong answer costs {mark}.",
+  "@examToggleHint": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examQuestionNo": "Question {n}",
+  "@examQuestionNo": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "examSessionMissingTitle": "This exam can't be opened",
+  "examSessionMissingBody": "Its time may be over, or it was submitted on another device. Any answers saved on this phone will be submitted when you check the result.",
+  "examSeeResult": "See result",
+  "examBackToExams": "Back to exams",
+  "examResultTitle": "Result",
+  "examResultScoreLabel": "Your score",
+  "examResultOutOf": "out of {max}",
+  "@examResultOutOf": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultCorrect": "Correct",
+  "examResultWrong": "Wrong",
+  "examResultSkipped": "Skipped",
+  "examResultAccuracy": "Accuracy",
+  "examResultNegative": "Deducted for wrong answers: {value}",
+  "@examResultNegative": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultTime": "Time taken",
+  "examResultRank": "Your rank today",
+  "examResultRankValue": "#{rank} of {participants}",
+  "@examResultRankValue": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      },
+      "participants": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultPerSubject": "Subject-wise performance",
+  "examResultSubjectLine": "{correct} correct · {wrong} wrong · {total} questions",
+  "@examResultSubjectLine": {
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      },
+      "wrong": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "examResultReview": "Review answers",
+  "examResultShare": "Share to feed",
+  "examResultShareTitle": "Share your result",
+  "examResultShareHint": "Say something about it (optional)",
+  "examResultShared": "Shared to your feed",
+  "examResultView": "View",
+  "examResultRetake": "Take again",
+  "examResultHome": "Back to home",
+  "examResultLeaderboard": "Leaderboard",
+  "examResultGreat": "Outstanding! Keep it up.",
+  "examResultGood": "Well done — just a little more polish!",
+  "examResultFair": "A good start. Go through your mistakes.",
+  "examResultLow": "Don't give up — regular practice makes the difference.",
+  "examReviewTitle": "Answer review",
+  "examReviewFilterAll": "All",
+  "examReviewFilterWrong": "Wrong",
+  "examReviewFilterSkipped": "Skipped",
+  "examReviewFilterCorrect": "Correct",
+  "examReviewChip": "{label} ({count})",
+  "@examReviewChip": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "examReviewYourAnswer": "Your answer",
+  "examReviewCorrectAnswer": "Correct answer",
+  "examReviewNotAnswered": "Not answered",
+  "examReviewEmpty": "No questions in this list.",
+  "examReviewNotReady": "Answers are available after the exam is submitted.",
+  "examExplanation": "Explanation",
+  "examNoExplanation": "No explanation has been added yet. Try the AI explanation.",
+  "examAiExplain": "AI explanation",
+  "examAiExplainLoading": "Preparing an explanation…",
+  "examAiUnavailable": "AI explanations aren't available right now. Please try again a little later.",
+  "examAiDisclaimer": "Written by AI — double-check important facts.",
+  "examAiMemoryTip": "Memory tip",
+  "examBookmark": "Bookmark",
+  "examBookmarkRemove": "Remove bookmark",
+  "examBookmarked": "Saved to bookmarks",
+  "examBookmarkRemoved": "Removed from bookmarks",
+  "examReportWrong": "Report wrong answer",
+  "examReportBody": "Tell us what's wrong — our team will check and correct it.",
+  "examReportHint": "e.g. the correct answer should be (B)…",
+  "examReportSend": "Send report",
+  "examReportThanks": "Thanks! We'll review it soon.",
+  "examReportDuplicate": "You've already reported this question.",
+  "examSourceCurated": "Prostuti curated question bank",
+  "examSourceLabel": "Source: {source}",
+  "@examSourceLabel": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "examSourceOpen": "Open the source",
+  "examDifficultyEasy": "Easy",
+  "examDifficultyMedium": "Medium",
+  "examDifficultyHard": "Hard",
+  "examModelTitle": "Model tests",
+  "examModelIntro": "Full-length tests in the BCS preliminary pattern — every subject in proportion to its BCS marks.",
+  "examModelChooseSize": "Choose the test size",
+  "examModelDistribution": "Questions per subject",
+  "examModelRules": "Rules",
+  "examModelRuleNegative": "Each wrong answer deducts {mark} marks — skip a question if you're unsure.",
+  "@examModelRuleNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "examModelRuleTimer": "The timer can't be paused; answers are submitted automatically when time is up.",
+  "examModelRuleResume": "If you leave midway, you can resume before the time runs out.",
+  "examModelRuleQuota": "Free plan: one model test per day.",
+  "examModelStart": "Start the {marks}-mark test",
+  "@examModelStart": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      }
+    }
+  },
+  "examHistoryTitle": "Exam history",
+  "examHistoryEmpty": "You haven't taken any exams yet",
+  "examHistoryEmptyBody": "Your results will appear here after each exam.",
+  "examHistoryEmptyCta": "Take an exam",
+  "examErrNoQuestions": "There aren't enough questions for this exam yet. Try another subject or fewer questions.",
+  "examErrAlreadyAttempted": "You've already taken this exam.",
+  "examErrSessionExpired": "This exam's time limit has passed.",
+  "examErrQuestionLocked": "This question is part of today's live exam. Its answer unlocks after you submit that exam.",
+  "examErrSubjectNotFound": "Subject not found.",
+  "examErrTopicNotFound": "Topic not found.",
+  "examErrSessionNotFound": "Exam not found.",
+  "examErrNoDailyExam": "Today's exam hasn't been published yet.",
+  "examErrQuestionNotFound": "This question is no longer available.",
+  "examTitleModelTest": "Model test · {marks} marks",
+  "@examTitleModelTest": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      }
+    }
+  },
+  "examTitleSubject": "Subject exam · {name}",
+  "@examTitleSubject": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "examTitleTopic": "Topic exam · {name}",
+  "@examTitleTopic": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "examTitleWeak": "Weak-topic exam",
+  "examTitlePlacement": "Level test",
+  "examTitleCustom": "Practice exam",
+  "examSubmitQueuedTitle": "Submission pending",
+  "examSubmitQueuedBody": "You're offline. Your answers are saved and will be submitted automatically as soon as you're back online.",
+  "examSubmitQueuedHint": "You can close this screen — the result will appear in your exam history.",
+  "examPendingTitle": "Waiting to submit",
+  "examPendingBody": "{answered}/{total} answered · submits automatically when you're online",
+  "@examPendingBody": {
+    "placeholders": {
+      "answered": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "examOfflineSaved": "Saved offline — it will sync when you're back online"
+}
