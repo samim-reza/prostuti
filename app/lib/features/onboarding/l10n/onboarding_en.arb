@@ -1,0 +1,189 @@
+{
+  "onboardingStepProfile": "Profile",
+  "onboardingStepInterview": "About you",
+  "onboardingStepPlacement": "Level test",
+  "onboardingStepPlan": "Plan",
+  "onboardingStepOf": "Step {step} of {total}",
+  "@onboardingStepOf": {
+    "placeholders": {
+      "step": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingProfileTitle": "Let's set up your profile",
+  "onboardingProfileSubtitle": "A few details help us shape your preparation around your goal.",
+  "onboardingAvatarPick": "Choose a profile photo",
+  "onboardingFullName": "Full name",
+  "onboardingFullNameRequired": "Please enter your name",
+  "onboardingUsername": "Username",
+  "onboardingUsernameHint": "Friends can find you with it",
+  "onboardingUsernameChecking": "Checking availability…",
+  "onboardingUsernameAvailable": "Great, this username is available",
+  "onboardingUsernameTaken": "This username is taken — try another",
+  "onboardingUsernameUnknown": "Couldn't check right now; we'll verify when you save",
+  "onboardingDistrict": "District",
+  "onboardingDistrictSearch": "Search district (Bangla or English)",
+  "onboardingDistrictNone": "No district matches your search",
+  "onboardingDivisionDhaka": "Dhaka division",
+  "onboardingDivisionChattogram": "Chattogram division",
+  "onboardingDivisionRajshahi": "Rajshahi division",
+  "onboardingDivisionKhulna": "Khulna division",
+  "onboardingDivisionBarishal": "Barishal division",
+  "onboardingDivisionSylhet": "Sylhet division",
+  "onboardingDivisionRangpur": "Rangpur division",
+  "onboardingDivisionMymensingh": "Mymensingh division",
+  "onboardingTargetExams": "Which exams are you preparing for?",
+  "onboardingExamBcs": "BCS",
+  "onboardingExamBank": "Bank jobs",
+  "onboardingExamPrimary": "Primary teacher",
+  "onboardingExamNtrca": "NTRCA",
+  "onboardingExamGovt": "Other govt jobs",
+  "onboardingPickExam": "Choose at least one exam",
+  "onboardingTargetSchedule": "Your target exam",
+  "onboardingNoSchedules": "No upcoming exam dates yet — we'll use the next BCS date.",
+  "onboardingScheduleNote": "Dates are approximate. If the date changes, your routine is re-planned automatically.",
+  "onboardingTentative": "Tentative",
+  "onboardingDaysLeftShort": "days",
+  "onboardingDailyTime": "Daily study time",
+  "onboardingDailyTimeValue": "{time} every day",
+  "@onboardingDailyTimeValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingDailyTimeHint": "Be realistic — a routine you can keep beats an ambitious one you can't.",
+  "onboardingSaveContinue": "Save and continue",
+  "onboardingBotName": "Prostuti AI",
+  "onboardingBotTyping": "typing…",
+  "onboardingBotWelcome": "Hi! I'm Prostuti AI. I'll ask a few quick questions about your studies and routine so I can build a plan that really fits you.",
+  "onboardingQEducation": "What's your highest level of education so far?",
+  "onboardingQBackground": "Which group did you study?",
+  "onboardingQInstitution": "Which university or college, and what subject? (e.g. Dhaka University, Economics)",
+  "onboardingQGraduationYear": "When did you graduate (or when will you)?",
+  "onboardingQOccupation": "What are you doing these days?",
+  "onboardingQAttempts": "How many times have you sat the BCS preliminary?",
+  "onboardingQStrong": "Which subjects do you feel strong in?",
+  "onboardingQWeak": "And which subjects feel weak?",
+  "onboardingQStudyTime": "When do you study best?",
+  "onboardingQChallenge": "What's your biggest challenge in preparing right now?",
+  "onboardingQDob": "Lastly, your date of birth? It helps with age limits for jobs — only you can see it.",
+  "onboardingOptSsc": "SSC",
+  "onboardingOptHsc": "HSC",
+  "onboardingOptBachelor": "Bachelor's",
+  "onboardingOptMasters": "Master's",
+  "onboardingOptScience": "Science",
+  "onboardingOptArts": "Humanities",
+  "onboardingOptCommerce": "Business studies",
+  "onboardingOptOther": "Other",
+  "onboardingOptStudying": "Still studying",
+  "onboardingOptStudent": "Student",
+  "onboardingOptEmployed": "Employed",
+  "onboardingOptJobSeeking": "Looking for a job",
+  "onboardingOptAttempts0": "Not yet",
+  "onboardingOptAttempts1": "Once",
+  "onboardingOptAttempts2": "Twice",
+  "onboardingOptAttempts3": "3 times or more",
+  "onboardingOptDawn": "Early morning",
+  "onboardingOptMorning": "Morning",
+  "onboardingOptNoon": "Midday",
+  "onboardingOptAfternoon": "Afternoon",
+  "onboardingOptNight": "Night",
+  "onboardingOptYesMinutes": "Yes, let's do that",
+  "onboardingOptNoMinutes": "No, keep my time",
+  "onboardingOptNone": "None of these",
+  "onboardingHintInstitution": "University and subject",
+  "onboardingHintChallenge": "Write in your own words",
+  "onboardingHintYear": "Year, e.g. 2024",
+  "onboardingHintFollowup": "Your answer",
+  "onboardingInvalidAnswer": "That doesn't look right — please check and try again",
+  "onboardingSend": "Send",
+  "onboardingSkip": "Skip",
+  "onboardingSkipped": "Skipped",
+  "onboardingNoneOfThese": "None of these",
+  "onboardingConfirmCount": "Confirm ({count})",
+  "@onboardingConfirmCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingPickDob": "Choose date of birth",
+  "onboardingDobPrivacy": "Private — never shown on your profile.",
+  "onboardingBotFollowupIntro": "Thanks! Just a couple more questions based on your answers.",
+  "onboardingBotOffline": "I need the internet to personalise the next questions. Try again, or continue without them.",
+  "onboardingAiRetry": "Try again",
+  "onboardingAiSkip": "Continue without",
+  "onboardingAiSkipReply": "Let's continue without it",
+  "onboardingSummaryTitle": "Your preparation snapshot",
+  "onboardingSummaryStrengths": "Strengths",
+  "onboardingSummaryFocus": "Focus areas",
+  "onboardingBotRecommendMinutes": "Based on your answers I'd suggest studying {time} a day. Shall I use that?",
+  "@onboardingBotRecommendMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingBotClosing": "That's all! Next, a short level test shows where you stand in each subject.",
+  "onboardingBotClosingNoAi": "Thanks, I've noted everything! Next, a short level test shows where you stand in each subject.",
+  "onboardingToPlacement": "Go to the level test",
+  "onboardingPlacementTitle": "Level test",
+  "onboardingPlacementSubtitle": "A short test across four subject groups finds your current level, so your plan starts at the right place.",
+  "onboardingFactQuestions": "questions",
+  "onboardingFactMinutes": "minutes",
+  "onboardingFactSubjects": "subjects",
+  "onboardingGroupBangla": "Bangla",
+  "onboardingGroupEnglish": "English",
+  "onboardingGroupMath": "Maths & mental ability",
+  "onboardingGroupGk": "General knowledge",
+  "onboardingQuestionsShort": "{count} questions",
+  "@onboardingQuestionsShort": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingTipsTitle": "Tips",
+  "onboardingTipSkip": "Not sure? Skip it — guessing can cost you marks.",
+  "onboardingTipNegative": "Like the BCS exam, each wrong answer deducts 0.5 marks.",
+  "onboardingTipTimer": "The test submits itself when time runs out.",
+  "onboardingTipHonest": "Answer on your own — an honest result gives you the best plan.",
+  "onboardingStartTest": "Start the test",
+  "onboardingResumeTitle": "You have an unfinished level test",
+  "onboardingResumeBody": "Pick up where you left off.",
+  "onboardingResumeCta": "Resume the test",
+  "onboardingPlacementLater": "I'll take it later",
+  "onboardingPlacementLaterTitle": "Skip the level test?",
+  "onboardingPlacementLaterBody": "Without it we assume a beginner level in every subject, so your plan may be less accurate. You can take model tests later to improve it.",
+  "onboardingPlacementLaterConfirm": "Skip for now",
+  "onboardingResultTitle": "Your level report",
+  "onboardingResultSubtitle": "Here's where you stand today — your plan builds on it.",
+  "onboardingNoLevels": "You skipped the level test, so we've started every subject at beginner level.",
+  "onboardingDaysUntilExam": "{days} days to go",
+  "@onboardingDaysUntilExam": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingPlanPitch": "Prostuti AI will now build a day-by-day routine from your level and the time you have.",
+  "onboardingPlanReadyTitle": "Your plan is ready!",
+  "onboardingPlanReadyBody": "Here are your first days. A new day's routine arrives every morning.",
+  "onboardingPreviewEmpty": "Your routine will appear here shortly.",
+  "onboardingUnlockNote": "Later days unlock gradually — you'll always see today and the next two days.",
+  "onboardingStartJourney": "Start preparing",
+  "onboardingContinueWithoutPlan": "Continue — I'll create the plan later",
+  "onboardingPlanFailedTitle": "Couldn't create your plan",
+  "onboardingPlanFailedBody": "Something went wrong on our side. Try again, or continue and create it later from the plan screen.",
+  "onboardingPlanOfflineBody": "Connect to the internet to build your plan, or continue and create it later from the plan screen."
+}

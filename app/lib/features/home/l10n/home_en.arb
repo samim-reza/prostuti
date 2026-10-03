@@ -1,0 +1,127 @@
+{
+  "homeGreetingDawn": "Good morning,",
+  "homeGreetingMorning": "Good morning,",
+  "homeGreetingNoon": "Good afternoon,",
+  "homeGreetingAfternoon": "Good afternoon,",
+  "homeGreetingEvening": "Good evening,",
+  "homeGreetingNight": "Good evening,",
+  "homeGreetingFallbackName": "Candidate",
+  "homeStreakTooltip": "{days}-day study streak",
+  "@homeStreakTooltip": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "homeStreakTooltipCold": "Study today to keep your streak alive",
+  "homeNotificationsTooltip": "Notifications",
+  "homeChatsTooltip": "Messages",
+  "homeTrialDaysLeft": "{count, plural, =1{Your free trial ends in {label} day} other{Your free trial ends in {label} days}}",
+  "@homeTrialDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTrialLastDay": "Your free trial ends today",
+  "homeTrialCta": "Upgrade",
+  "homeCountdownLabel": "Your target exam",
+  "homeCountdownSemantics": "{exam}: {days} days left",
+  "@homeCountdownSemantics": {
+    "placeholders": {
+      "exam": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTentativeDate": "Tentative date",
+  "homeDaysLeftShort": "days left",
+  "homeExamToday": "exam today!",
+  "homeReadinessTitle": "You are {percent}% ready for the final exam",
+  "@homeReadinessTitle": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "homeEstimatedScore": "Estimated score: {score}/{max}",
+  "@homeEstimatedScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "homeRoutineTitle": "Today's routine",
+  "homeSeeFullPlan": "See full plan",
+  "homeRoutineAllDone": "Brilliant! You've finished today's routine.",
+  "homeRoutineDoneBanner": "Today's routine is complete — great work! Tomorrow's opens in the morning.",
+  "homeWeakDayIntro": "Today's free slot targets your weakest topics:",
+  "homeStartWeakExam": "Take the weak-topic exam",
+  "homeRestDay": "Rest day — recharge for tomorrow.",
+  "homeNoRoutineToday": "No routine for today. Check the next days below.",
+  "homeRoutineStartsOn": "Your routine starts on {date}.",
+  "@homeRoutineStartsOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeComingUp": "Coming up",
+  "homeTomorrow": "Tomorrow",
+  "homeCreatePlanTitle": "Create your AI study plan",
+  "homeCreatePlanBody": "Get a daily routine built from your level and the time left before your exam — with weak-topic exams on free days.",
+  "homeCreatePlanCta": "Create my plan",
+  "homeNotesTitle": "Today's current affairs",
+  "homeNotesCount": "{count, plural, =1{{label} note} other{{label} notes}}",
+  "@homeNotesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNotesReadAll": "Read all notes",
+  "homeNotesComingAt6": "Today's notes arrive at 6 am.",
+  "homeNotesComingSoon": "Today's notes are on their way.",
+  "homeDailyExamTitle": "Today's daily exam",
+  "homeDailyExamPending": "Today's exam is published every morning.",
+  "homeQuestionCount": "{count, plural, =1{{label} question} other{{label} questions}}",
+  "@homeQuestionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNegativeMarking": "−0.5 per wrong",
+  "homeDailyExamStart": "Start",
+  "homeDailyExamOpen": "Open",
+  "homeQuickModelTest": "Model test",
+  "homeQuickPractice": "Practice",
+  "homeQuickWrongAnswers": "Mistake book",
+  "homeQuickLeaderboard": "Leaderboard",
+  "homeReminderTitle": "Time for today's exam",
+  "homeReminderBody": "Take the daily exam and see where you stand today.",
+  "homeMorningTitle": "Today's routine is ready! Let's begin",
+  "homeMorningBody": "Your reading, practice and exam for today are waiting."
+}
