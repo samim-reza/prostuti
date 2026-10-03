@@ -1,0 +1,217 @@
+{
+  "studyPlanTitle": "My study plan",
+  "studyPlanProgressTooltip": "My progress",
+  "studyPlanMoreActions": "Plan options",
+  "studyPlanReplan": "Re-plan my routine",
+  "studyPlanChangeMinutes": "Change daily study time",
+  "studyPlanLockedFeatureTitle": "AI study plan",
+  "studyPlanLockedFeatureBody": "Get a personal day-by-day routine built from your level and the time left before your exam.",
+  "studyPlanDaysDone": "days done",
+  "studyPlanExamOn": "Target exam",
+  "studyPlanDaysLeft": "{count, plural, =1{{label} day left} other{{label} days left}}",
+  "@studyPlanDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanDailyBudget": "{time} a day",
+  "@studyPlanDailyBudget": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanVersion": "Version {version}",
+  "@studyPlanVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanStatDone": "Done",
+  "studyPlanStatPartial": "Partial",
+  "studyPlanStatMissed": "Missed",
+  "studyPlanStatLocked": "Locked",
+  "studyPlanComposition": "How your plan is built",
+  "studyPlanPhases": "Phases",
+  "studyPlanPhaseNow": "Now",
+  "studyPlanMilestones": "Milestones",
+  "studyPlanAiTips": "Tips from Prostuti AI",
+  "studyPlanRecentDays": "Recent days",
+  "studyPlanNoVisibleDays": "No days to show yet",
+  "studyPlanUpcoming": "Coming up",
+  "studyPlanLockedTitle": "The next days' routines unlock in time",
+  "studyPlanLockedCount": "{count, plural, =1{{label} more day is waiting} other{{label} more days are waiting}}",
+  "@studyPlanLockedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanNoPlanTitle": "You don't have a study plan yet",
+  "studyPlanNoPlanBody": "Prostuti AI will build a day-by-day routine from your level, your daily study time and the time left before your exam.",
+  "studyPlanCreate": "Create my study plan",
+  "studyPlanGenerating": "Building your study plan…",
+  "studyPlanGenStep1": "Analysing your level test…",
+  "studyPlanGenStep2": "Counting the days to your exam…",
+  "studyPlanGenStep3": "Finding your weak topics…",
+  "studyPlanGenStep4": "Balancing subjects by exam marks…",
+  "studyPlanGenStep5": "Arranging your daily routine…",
+  "studyPlanGenerated": "Your study plan is ready!",
+  "studyPlanGenerateFailed": "We couldn't create the plan right now. Please try again in a little while.",
+  "studyPlanReplanTitle": "Re-plan my routine",
+  "studyPlanReplanBody": "Tell us why, and the AI will rebuild the rest of your routine.",
+  "studyPlanReplanConfirm": "Re-plan",
+  "studyPlanReplanQueued": "Your new routine is being prepared. It will appear here shortly.",
+  "studyPlanReasonTooHard": "The routine feels too heavy",
+  "studyPlanReasonTooEasy": "The routine feels too easy",
+  "studyPlanReasonMissed": "I missed several days",
+  "studyPlanReasonSchedule": "My schedule has changed",
+  "studyPlanReasonOther": "Something else",
+  "studyPlanMinutesTitle": "Daily study time",
+  "studyPlanMinutesBody": "How much time can you study every day? Your routine will be re-planned to fit.",
+  "studyPlanMinutesConfirm": "Save and re-plan",
+  "studyPlanMinutesSaved": "Saved. Your routine is being updated for the new study time.",
+  "studyPlanKindStudy": "Study",
+  "studyPlanKindRevision": "Revision",
+  "studyPlanKindWeakTopicExam": "Weak-topic exam",
+  "studyPlanKindModelTest": "Model test",
+  "studyPlanKindRest": "Rest",
+  "studyPlanActionRead": "Read",
+  "studyPlanActionPractice": "Practise",
+  "studyPlanActionExam": "Start",
+  "studyPlanActionRevise": "Revise",
+  "studyPlanActionOpen": "Open",
+  "studyPlanStatusPending": "Not started",
+  "studyPlanStatusPartial": "In progress",
+  "studyPlanStatusDone": "Completed",
+  "studyPlanStatusMissed": "Missed",
+  "studyPlanStatusUpcoming": "Upcoming",
+  "studyPlanLevelBeginner": "Beginner",
+  "studyPlanLevelIntermediate": "Intermediate",
+  "studyPlanLevelAdvanced": "Advanced",
+  "studyPlanToday": "Today",
+  "studyPlanQuestionCount": "{count, plural, =1{{label} question} other{{label} questions}}",
+  "@studyPlanQuestionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanUntitledItem": "Task",
+  "studyPlanItemDone": "Done",
+  "studyPlanMarkDone": "Mark as done",
+  "studyPlanPendingSync": "Will sync when you're online",
+  "studyPlanExamNotYet": "You can take this exam on its day.",
+  "studyPlanStartingExam": "Preparing your exam…",
+  "studyPlanPracticeTopic": "Practise this topic",
+  "studyPlanDayTitle": "Routine",
+  "studyPlanFutureDayNote": "This day hasn't started yet. You can tick off its tasks on the day.",
+  "studyPlanWeakTopics": "Your weak topics",
+  "studyPlanWeakDayBody": "Today is set aside for your weakest topics. A short exam on them closes the gaps fastest.",
+  "studyPlanStartWeakExam": "Take the weak-topic exam",
+  "studyPlanRestDayBody": "Rest day! Take a break, sleep well and come back fresh tomorrow.",
+  "studyPlanChecklist": "Today's tasks",
+  "studyPlanNoItems": "No tasks for this day",
+  "studyPlanTickHint": "Tick each task when you finish it — your progress and streak update automatically.",
+  "studyPlanDayNumber": "Day {day}",
+  "@studyPlanDayNumber": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanPlannedTime": "Planned time",
+  "studyPlanTasks": "Tasks",
+  "studyPlanStatus": "Status",
+  "studyPlanDayLockedTitle": "This routine isn't open yet",
+  "studyPlanDayLockedBody": "New days unlock one by one every morning. Focus on today's tasks for now.",
+  "studyPlanBackToPlan": "Back to my plan",
+  "studyPlanProgressTitle": "My progress",
+  "studyPlanExamHistory": "Exam history",
+  "studyPlanReadyForFinal": "ready for the final exam",
+  "studyPlanReadinessSemantics": "You are {value} percent ready for the final exam",
+  "@studyPlanReadinessSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanWeeklyDelta": "{delta}% this week",
+  "@studyPlanWeeklyDelta": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanEstimatedScore": "Estimated score",
+  "studyPlanCoverage": "Syllabus covered",
+  "studyPlanReadinessExplain": "Readiness combines your mastery of every topic (weighted by BCS marks) with how much of the syllabus you have practised.",
+  "studyPlanStreakTitle": "Study streak",
+  "studyPlanDaysCount": "{count, plural, =1{{label} day} other{{label} days}}",
+  "@studyPlanDaysCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanCurrentStreak": "Current streak",
+  "studyPlanLongestStreak": "Longest streak",
+  "studyPlanSubjectMastery": "Mastery by subject",
+  "studyPlanSubjectMeta": "{marks} marks · {coverage}% covered",
+  "@studyPlanSubjectMeta": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "coverage": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanRadarTitle": "Strengths at a glance",
+  "studyPlanHistoryTitle": "Readiness over time",
+  "studyPlanHistoryEmpty": "Take a few more exams and your progress graph will appear here.",
+  "studyPlanLevelsTitle": "Subject levels",
+  "studyPlanLevelsEmpty": "Take the level test to see your level in each subject.",
+  "studyPlanLevelScore": "Level test score {score}%",
+  "@studyPlanLevelScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanShortBangla": "Bangla",
+  "studyPlanShortEnglish": "English",
+  "studyPlanShortBdAffairs": "Bangladesh",
+  "studyPlanShortInternational": "International",
+  "studyPlanShortGeography": "Geography",
+  "studyPlanShortScience": "Science",
+  "studyPlanShortComputer": "ICT",
+  "studyPlanShortMath": "Maths",
+  "studyPlanShortMental": "Mental ability",
+  "studyPlanShortEthics": "Ethics"
+}
