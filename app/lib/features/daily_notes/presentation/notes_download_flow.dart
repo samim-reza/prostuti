@@ -179,10 +179,15 @@ void _showSavedSnack(BuildContext context) {
     ..showSnackBar(
       SnackBar(
         content: Text(l.dailyNotesPdfSaved),
+        // Snack bars with an action stay until dismissed by default; this
+        // one is a hint, so let it time out.
+        persist: false,
         action: SnackBarAction(
           label: l.dailyNotesView,
-          onPressed: () =>
-              Navigator.of(context).push(MaterialPageRoute<void>(builder: (_) => const DownloadedNotesScreen())),
+          onPressed: () {
+            if (!context.mounted) return;
+            Navigator.of(context).push(MaterialPageRoute<void>(builder: (_) => const DownloadedNotesScreen()));
+          },
         ),
       ),
     );

@@ -418,7 +418,13 @@ class _ActionsState extends ConsumerState<_Actions> {
         ..showSnackBar(
           SnackBar(
             content: Text(l.examResultShared),
-            action: SnackBarAction(label: l.examResultView, onPressed: () => context.push(Routes.postDetail(postId))),
+            persist: false,
+            action: SnackBarAction(
+              label: l.examResultView,
+              onPressed: () {
+                if (mounted) unawaited(context.push(Routes.postDetail(postId)));
+              },
+            ),
           ),
         );
     } on Object catch (e) {

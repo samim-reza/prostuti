@@ -69,6 +69,7 @@ class _BookmarkTabState extends ConsumerState<_BookmarkTab> with AutomaticKeepAl
         ..showSnackBar(
           SnackBar(
             content: Text(result.synced ? l.bookmarksRemoved : '${l.bookmarksRemoved} · ${l.offlineSaved}'),
+            persist: false,
             action: SnackBarAction(
               label: l.bookmarksUndo,
               onPressed: () => unawaited(_undo(notifier, repo, b, result.index)),
