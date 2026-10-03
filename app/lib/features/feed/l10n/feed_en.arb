@@ -1,0 +1,214 @@
+{
+  "feedTitle": "Community",
+  "feedComposePrompt": "What's on your mind?",
+  "feedComposePromptHint": "Share a study tip, a question or your progress",
+  "feedSearchUsers": "Search people",
+  "feedFriendsAction": "Friends",
+  "feedFriendsActionBadge": "Friends, {count} new requests",
+  "@feedFriendsActionBadge": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedChatsAction": "Messages",
+  "feedChatsActionBadge": "Messages, {count} unread",
+  "@feedChatsActionBadge": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedEmptyTitle": "No posts yet",
+  "feedEmptyBody": "Be the first to share something with fellow candidates.",
+  "feedWriteFirstPost": "Write a post",
+  "feedSeeMore": "See more",
+  "feedSeeLess": "See less",
+  "feedEdited": "Edited",
+  "feedVisibilityPublic": "Public",
+  "feedVisibilityFriends": "Friends",
+  "feedVisibilityOnlyMe": "Only me",
+  "feedVisibilityPublicHint": "Anyone on Prostuti",
+  "feedVisibilityFriendsHint": "Only your friends",
+  "feedVisibilityOnlyMeHint": "Only you can see it",
+  "feedReactionLike": "Like",
+  "feedReactionLove": "Love",
+  "feedReactionHaha": "Haha",
+  "feedReactionWow": "Wow",
+  "feedReactionSad": "Sad",
+  "feedReactionAngry": "Angry",
+  "feedReactionPickerHint": "Press and hold to choose a reaction",
+  "feedComment": "Comment",
+  "feedShare": "Share",
+  "feedCommentsCount": "{count} comments",
+  "@feedCommentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedReactionsSemantics": "{count} reactions",
+  "@feedReactionsSemantics": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedPostOptions": "Post options",
+  "feedEditPost": "Edit post",
+  "feedDeletePost": "Delete post",
+  "feedDeletePostConfirmTitle": "Delete this post?",
+  "feedDeletePostConfirmBody": "The post with its comments and reactions will be removed permanently.",
+  "feedPostDeleted": "Post deleted",
+  "feedReportPost": "Report post",
+  "feedBlockUser": "Block {name}",
+  "@feedBlockUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "feedBlockConfirmTitle": "Block {name}?",
+  "@feedBlockConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "feedBlockConfirmBody": "They won't be able to see your posts or message you, and you'll no longer be friends.",
+  "feedBlock": "Block",
+  "feedUserBlocked": "User blocked",
+  "feedReportTitle": "Why are you reporting this?",
+  "feedReportSubtitle": "Your report is anonymous. Our moderators will review it.",
+  "feedReportReasonSpam": "Spam or advertisement",
+  "feedReportReasonAbuse": "Harassment or hate speech",
+  "feedReportReasonNudity": "Nudity or sexual content",
+  "feedReportReasonViolence": "Violence or threats",
+  "feedReportReasonMisinformation": "False or misleading information",
+  "feedReportReasonOther": "Something else",
+  "feedReportSubmit": "Submit report",
+  "feedReportThanks": "Thanks — we'll review it shortly.",
+  "feedReportDuplicate": "You've already reported this.",
+  "feedShareFooter": "Shared from Prostuti — BCS & job exam preparation",
+  "feedShareExamResult": "I scored {score} out of {max} in “{title}”.",
+  "@feedShareExamResult": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "feedExamResultTitle": "Exam result",
+  "feedExamScore": "Score",
+  "feedExamCorrect": "Correct",
+  "feedExamWrong": "Wrong",
+  "feedExamTotal": "Questions",
+  "feedExamOutOf": "out of {max}",
+  "@feedExamOutOf": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "feedExamViewResult": "View result",
+  "feedNoteShare": "Shared a note",
+  "feedOpenNotes": "Read notes",
+  "feedAchievement": "New achievement",
+  "feedViewPhoto": "View photo",
+  "feedPhotoOf": "Photo {current} of {total}",
+  "@feedPhotoOf": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "feedComposeTitle": "Create post",
+  "feedEditTitle": "Edit post",
+  "feedComposeHint": "Share a study tip, ask a question or tell others about your progress…",
+  "feedPublish": "Post",
+  "feedSaveChanges": "Save",
+  "feedAddPhotos": "Add photos",
+  "feedPhotosLimit": "You can add up to {max} photos",
+  "@feedPhotosLimit": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "feedRemovePhoto": "Remove photo",
+  "feedWhoCanSee": "Who can see this?",
+  "feedUploadingImages": "Uploading photos {done}/{total}…",
+  "@feedUploadingImages": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "feedPublishing": "Posting…",
+  "feedSaving": "Saving…",
+  "feedPostPublished": "Your post is live",
+  "feedPostUpdated": "Post updated",
+  "feedDiscardTitle": "Discard this post?",
+  "feedDiscardBody": "What you've written will be lost.",
+  "feedDiscard": "Discard",
+  "feedPostTitle": "Post",
+  "feedCommentsTitle": "Comments",
+  "feedNoComments": "No comments yet",
+  "feedNoCommentsBody": "Start the conversation.",
+  "feedWriteComment": "Write a comment…",
+  "feedWriteReply": "Write a reply…",
+  "feedReplyingTo": "Replying to {name}",
+  "@feedReplyingTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "feedReply": "Reply",
+  "feedViewReplies": "View {count} replies",
+  "@feedViewReplies": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "feedHideReplies": "Hide replies",
+  "feedMoreReplies": "View more replies",
+  "feedLikeComment": "Like",
+  "feedCommentOptions": "Comment options",
+  "feedDeleteComment": "Delete comment",
+  "feedDeleteCommentConfirm": "Delete this comment?",
+  "feedReportComment": "Report comment",
+  "feedCommentDeleted": "Comment deleted",
+  "feedCancelReply": "Cancel reply",
+  "feedSendComment": "Send comment",
+  "feedPostNotFound": "This post isn't available",
+  "feedPostNotFoundBody": "It may have been deleted, or its privacy may have changed.",
+  "feedErrorPostNotFound": "This post is no longer available.",
+  "feedErrorInvalidParent": "The comment you replied to no longer exists.",
+  "feedErrorUploadFailed": "Couldn't upload the photo. Check your connection and try again."
+}

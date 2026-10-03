@@ -1,0 +1,191 @@
+{
+  "chatTitle": "Messages",
+  "chatSearchHint": "Search conversations",
+  "chatSearchTooltip": "Search conversations",
+  "chatCloseSearchTooltip": "Close search",
+  "chatNewMessageTooltip": "New message",
+  "chatEmptyTitle": "No conversations yet",
+  "chatEmptyMessage": "Start a chat with a friend and prepare together.",
+  "chatEmptyAction": "Start a chat",
+  "chatSearchEmpty": "No conversations match your search",
+  "chatYouPrefix": "You: ",
+  "chatGroupFallbackTitle": "Group",
+  "chatUnknownUser": "Prostuti user",
+  "chatMutedLabel": "Muted",
+  "chatUnreadSemantics": "{count} unread",
+  "@chatUnreadSemantics": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMute": "Mute notifications",
+  "chatUnmute": "Unmute notifications",
+  "chatMutedSnack": "Conversation muted",
+  "chatUnmutedSnack": "Notifications turned on",
+  "chatTimeJustNow": "now",
+  "chatTimeMinutes": "{count}m",
+  "@chatTimeMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTimeHours": "{count}h",
+  "@chatTimeHours": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTimeDays": "{count}d",
+  "@chatTimeDays": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatToday": "Today",
+  "chatYesterday": "Yesterday",
+  "chatStartSheetTitle": "New message",
+  "chatStartSearchHint": "Search friends",
+  "chatNewGroup": "New group",
+  "chatNewGroupSubtitle": "Study together with a few friends",
+  "chatFriendsHeader": "Friends",
+  "chatNoFriendsTitle": "No friends yet",
+  "chatNoFriendsMessage": "Only friends can message each other. Find a study partner first.",
+  "chatFindFriends": "Find friends",
+  "chatNoFriendsMatch": "No friends match your search",
+  "chatOnline": "Online",
+  "chatTyping": "typing…",
+  "chatTypingNamed": "{name} is typing…",
+  "@chatTypingNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTypingMany": "Several people are typing…",
+  "chatMembersCount": "{count} members",
+  "@chatMembersCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMembersOnline": "{count} members · {online} online",
+  "@chatMembersOnline": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "online": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComposerHint": "Write a message…",
+  "chatSendTooltip": "Send",
+  "chatAttachImageTooltip": "Send a photo",
+  "chatReplyingTo": "Replying to {name}",
+  "@chatReplyingTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCancelReplyTooltip": "Cancel reply",
+  "chatPhoto": "Photo",
+  "chatPhotoSemantics": "Photo. Double tap to view",
+  "chatDeletedMessage": "This message was deleted",
+  "chatOriginalUnavailable": "Original message unavailable",
+  "chatSending": "Sending…",
+  "chatSent": "Sent",
+  "chatSeen": "Seen",
+  "chatSeenBy": "Seen by {count}",
+  "@chatSeenBy": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFailed": "Not sent · Tap to retry",
+  "chatEdited": "edited",
+  "chatActionReply": "Reply",
+  "chatActionCopy": "Copy text",
+  "chatActionDelete": "Delete for everyone",
+  "chatActionRetry": "Send again",
+  "chatActionDiscard": "Discard",
+  "chatDeleteConfirmTitle": "Delete message?",
+  "chatDeleteConfirmBody": "It will be removed for everyone in this conversation.",
+  "chatCopied": "Message copied",
+  "chatThreadEmptyTitle": "Say hello 👋",
+  "chatThreadEmptyMessage": "Messages you send here are delivered instantly.",
+  "chatConversationStart": "This is the beginning of your conversation",
+  "chatScrollToLatest": "Jump to latest messages",
+  "chatViewProfile": "View profile",
+  "chatViewMembers": "Members",
+  "chatMoreTooltip": "More options",
+  "chatRoleOwner": "Creator",
+  "chatRoleAdmin": "Admin",
+  "chatYou": "You",
+  "chatGroupNameLabel": "Group name",
+  "chatGroupNameHint": "e.g. BCS study circle",
+  "chatCreateGroup": "Create",
+  "chatSelectMembers": "Add members",
+  "chatSelectedCount": "{count} selected",
+  "@chatSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupMaxMembers": "You can add up to {max} friends",
+  "@chatGroupMaxMembers": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupNeedMembers": "Select at least one friend",
+  "chatGroupNeedName": "Give your group a name",
+  "chatRemoveSelection": "Remove",
+  "chatErrorFriendsOnly": "You can only message people on your friends list.",
+  "chatErrorUserUnavailable": "This person can't be messaged right now.",
+  "chatErrorUserNotFound": "User not found.",
+  "chatErrorSelf": "You can't message yourself.",
+  "chatErrorTitleRequired": "Give your group a name.",
+  "chatErrorTooManyMembers": "A group can have at most {max} members.",
+  "@chatErrorTooManyMembers": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "chatErrorRateLimited": "You're sending messages too fast. Please wait a moment.",
+  "chatErrorConversationMissing": "This conversation isn't available.",
+  "chatButtonTooltip": "Messages",
+  "chatButtonTooltipUnread": "Messages, {count} unread",
+  "@chatButtonTooltipUnread": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemGroupCreated": "Group created",
+  "chatWaitingForNetwork": "Will send when you're back online",
+  "chatImageLoadFailed": "Couldn't load the photo. Tap to retry",
+  "chatMembersTitle": "Group members"
+}

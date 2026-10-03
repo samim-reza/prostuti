@@ -1,0 +1,12 @@
+{
+  "notificationsTitle": "নোটিফিকেশন",
+  "notificationsMarkAllRead": "সব পঠিত হিসেবে চিহ্নিত করুন",
+  "notificationsAllMarkedRead": "সব নোটিফিকেশন পঠিত হিসেবে চিহ্নিত হয়েছে",
+  "notificationsEmptyTitle": "এখনো কোনো নোটিফিকেশন নেই",
+  "notificationsEmptyMessage": "বন্ধুত্বের অনুরোধ, মন্তব্য আর প্রতিদিনের পড়াশোনার আপডেট এখানে দেখতে পাবেন।",
+  "notificationsDeleted": "নোটিফিকেশনটি মুছে ফেলা হয়েছে",
+  "notificationsDeleteLabel": "নোটিফিকেশন মুছুন",
+  "notificationsUnread": "অপঠিত",
+  "notificationsBellTooltip": "নোটিফিকেশন",
+  "notificationsBellTooltipUnread": "নোটিফিকেশন, {count}টি অপঠিত"
+}

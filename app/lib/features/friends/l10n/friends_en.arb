@@ -1,0 +1,94 @@
+{
+  "friendsTitle": "Friends",
+  "friendsTabFriends": "Friends",
+  "friendsTabRequests": "Requests",
+  "friendsTabSuggestions": "People you may know",
+  "friendsEmptyTitle": "No friends yet",
+  "friendsEmptyBody": "Find fellow candidates preparing for the same exam and study together.",
+  "friendsFindPeople": "Find people",
+  "friendsSince": "Friends since {date}",
+  "@friendsSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsIncoming": "Friend requests",
+  "friendsOutgoing": "Sent requests",
+  "friendsNoRequests": "No pending requests",
+  "friendsNoRequestsBody": "New friend requests will show up here.",
+  "friendsNoOutgoing": "You haven't sent any requests",
+  "friendsLoadMore": "Show more",
+  "friendsAccept": "Confirm",
+  "friendsDecline": "Delete",
+  "friendsAccepted": "You're now friends",
+  "friendsDeclined": "Request removed",
+  "friendsAddFriend": "Add friend",
+  "friendsRequestSent": "Request sent",
+  "friendsCancelRequest": "Cancel request",
+  "friendsRequestCancelled": "Request cancelled",
+  "friendsRespond": "Respond",
+  "friendsIsFriend": "Friends",
+  "friendsUnfriend": "Unfriend",
+  "friendsUnfriendConfirmTitle": "Unfriend {name}?",
+  "@friendsUnfriendConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsUnfriendConfirmBody": "You can send a new friend request later.",
+  "friendsUnfriended": "Removed from friends",
+  "friendsMessage": "Message",
+  "friendsUnblock": "Unblock",
+  "friendsUnblocked": "User unblocked",
+  "friendsBlockedNotice": "You've blocked this user. Unblock them to see their posts or connect again.",
+  "friendsMutual": "{count} mutual friends",
+  "@friendsMutual": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsReasonMutual": "Mutual friends",
+  "friendsReasonDistrict": "Same district",
+  "friendsReasonSameExam": "Same target exam",
+  "friendsReasonNew": "New on Prostuti",
+  "friendsRemoveSuggestion": "Remove",
+  "friendsNoSuggestions": "No suggestions right now",
+  "friendsNoSuggestionsBody": "Add your district and target exam to your profile to get better suggestions.",
+  "friendsSearchHint": "Search by name or username",
+  "friendsSearchPromptTitle": "Find study partners",
+  "friendsSearchPromptBody": "Type at least 2 letters of a name or username.",
+  "friendsSearchNoResults": "No one found",
+  "friendsSearchNoResultsBody": "No one matches “{query}”. Try a different spelling.",
+  "@friendsSearchNoResultsBody": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsClearSearch": "Clear search",
+  "friendsEditProfile": "Edit profile",
+  "friendsStatFriends": "Friends",
+  "friendsStatPosts": "Posts",
+  "friendsStatExams": "Exams",
+  "friendsStatStreak": "Day streak",
+  "friendsPostsHeader": "Posts",
+  "friendsNoPosts": "No posts yet",
+  "friendsUserNotFound": "User not found",
+  "friendsUserNotFoundBody": "This account may have been deleted.",
+  "friendsReportUser": "Report user",
+  "friendsBlockUser": "Block user",
+  "friendsMoreOptions": "More options",
+  "friendsErrorSelf": "You can't send a friend request to yourself.",
+  "friendsErrorBlockSelf": "You can't block yourself.",
+  "friendsErrorMessageSelf": "You can't message yourself.",
+  "friendsErrorUnavailable": "This user isn't available.",
+  "friendsErrorMessagingFriendsOnly": "This user only accepts messages from friends. Send a friend request first.",
+  "friendsErrorRequestGone": "This request is no longer pending."
+}

@@ -1,0 +1,19 @@
+{
+  "notificationsTitle": "Notifications",
+  "notificationsMarkAllRead": "Mark all as read",
+  "notificationsAllMarkedRead": "All notifications marked as read",
+  "notificationsEmptyTitle": "No notifications yet",
+  "notificationsEmptyMessage": "Friend requests, comments and daily study updates will show up here.",
+  "notificationsDeleted": "Notification deleted",
+  "notificationsDeleteLabel": "Delete notification",
+  "notificationsUnread": "Unread",
+  "notificationsBellTooltip": "Notifications",
+  "notificationsBellTooltipUnread": "Notifications, {count} unread",
+  "@notificationsBellTooltipUnread": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  }
+}
