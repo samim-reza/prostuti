@@ -1,0 +1,5 @@
+{
+  "compilerOptions": { "strict": true },
+  "lint": { "rules": { "exclude": ["no-explicit-any", "no-import-prefix"] } },
+  "fmt": { "lineWidth": 110, "singleQuote": true }
+}
