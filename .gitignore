@@ -35,3 +35,8 @@ dist/
 
 # ── Flutter generated ─────────────────────────────────────
 app/lib/l10n/gen/
+
+# Gradle output (Android)
+app/android/build/
+app/android/.gradle/
+app/android/app/.cxx/
