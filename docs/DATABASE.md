@@ -18,6 +18,8 @@ Postgres 17 on Supabase. Everything is defined in ordered migrations under
 | 0011 pipeline_support | Bloom filter state, idempotency keys, set-based notification fan-out |
 | 0012 bilingual | English columns for notes, notifications and plan days; locale-aware notifications |
 | 0013 offline_sync | offline practice packs, idempotent attempt sync, client ids |
+| 0014 chat_deleted_preview | soft-deleted messages no longer show in inbox previews |
+| 0015 model_test_apportionment | exact model-test sizes (largest-remainder subject apportionment) |
 
 ## Conventions
 
