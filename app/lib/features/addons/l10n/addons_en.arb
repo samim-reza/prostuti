@@ -1,0 +1,84 @@
+{
+  "addonsTitle": "Add-ons",
+  "addonsHeroTitle": "Unlock only what you need",
+  "addonsHeroBody": "Every premium feature is sold separately. Pick the add-on that fits your preparation, or get everything together with Prostuti Pro.",
+  "addonsMyPlans": "My active plans",
+  "addonsNoActivePlan": "You're on the free plan",
+  "addonsNoActivePlanBody": "Daily notes, the question bank and the community are always free. Add premium features whenever you need them.",
+  "addonsSourceTrial": "Trial",
+  "addonsSourcePromo": "Promo",
+  "addonsSourceAdmin": "Admin",
+  "addonsSourcePurchase": "Purchase",
+  "addonsDaysLeft": "{count, plural, =1{{days} day left} other{{days} days left}}",
+  "@addonsDaysLeft": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "days": { "type": "String" }
+    }
+  },
+  "addonsHoursLeft": "{count, plural, =1{{hours} hour left} other{{hours} hours left}}",
+  "@addonsHoursLeft": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "hours": { "type": "String" }
+    }
+  },
+  "addonsEndsSoon": "Ends within an hour",
+  "addonsEndsOn": "Ends {date}",
+  "@addonsEndsOn": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "addonsPricePerPeriod": "{price} / {days} days",
+  "@addonsPricePerPeriod": {
+    "placeholders": {
+      "price": { "type": "String" },
+      "days": { "type": "String" }
+    }
+  },
+  "addonsTrialBadge": "{days}-day free trial for new accounts",
+  "@addonsTrialBadge": {
+    "placeholders": { "days": { "type": "String" } }
+  },
+  "addonsBestValue": "Best value",
+  "addonsIncludes": "What you get",
+  "addonsBuy": "Buy",
+  "addonsExtend": "Extend",
+  "addonsActive": "Active",
+  "addonsAllAddons": "All add-ons",
+  "addonsEmpty": "No add-ons available right now",
+  "addonsFreeFeaturesTitle": "Always free",
+  "addonsFooterNote": "Prices are in Bangladeshi taka. Plans never renew automatically — you are never charged without your consent.",
+  "addonsPromoTitle": "Have a promo code?",
+  "addonsPromoSubtitle": "Redeem it to unlock premium features for free",
+  "addonsPromoHint": "Enter promo code",
+  "addonsPromoRedeem": "Redeem",
+  "addonsPromoEmpty": "Please enter a promo code first",
+  "addonsPromoInvalid": "This code is not valid or has expired.",
+  "addonsPromoExhausted": "This code has reached its redemption limit.",
+  "addonsPromoAlreadyUsed": "You have already used this code.",
+  "addonsPromoSuccessTitle": "Congratulations, it's unlocked!",
+  "addonsPromoSuccessBody": "{name} is now active — {days} days added.",
+  "@addonsPromoSuccessBody": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "days": { "type": "String" }
+    }
+  },
+  "addonsPromoSuccessExpiry": "Valid until {date}",
+  "@addonsPromoSuccessExpiry": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "addonsPromoSuccessCta": "Let's start",
+  "addonsPaymentProcessing": "Connecting to payment…",
+  "addonsPaymentComingSoon": "bKash, Nagad and card payments are coming soon",
+  "addonsPaymentComingSoonBody": "Until then, you can unlock premium features with a promo code. New accounts also get a free trial of Prostuti Pro.",
+  "addonsMethodBkash": "bKash",
+  "addonsMethodNagad": "Nagad",
+  "addonsMethodCard": "Card",
+  "addonsSoon": "soon",
+  "addonsUsePromo": "Use a promo code",
+  "addonsPaymentSuccess": "Payment successful! Your plan is now active.",
+  "addonsPaymentPending": "Payment received — waiting for confirmation. Your plan will be activated shortly.",
+  "addonsPaymentCancelled": "Payment cancelled.",
+  "addonsPaymentFailed": "The payment didn't go through."
+}

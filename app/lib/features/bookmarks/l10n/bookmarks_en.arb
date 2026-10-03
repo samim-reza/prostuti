@@ -1,0 +1,40 @@
+{
+  "bookmarksTitle": "Bookmarks",
+  "bookmarksTabQuestions": "Questions",
+  "bookmarksTabNotes": "Notes",
+  "bookmarksTabPosts": "Posts",
+  "bookmarksEmptyQuestions": "No saved questions yet",
+  "bookmarksEmptyQuestionsHint": "Tap the bookmark icon on any question in practice or exam review to save it here for revision.",
+  "bookmarksEmptyNotes": "No saved notes yet",
+  "bookmarksEmptyNotesHint": "Save important daily notes — they stay here even after the day is over.",
+  "bookmarksEmptyPosts": "No saved posts yet",
+  "bookmarksEmptyPostsHint": "Save helpful posts from the community to read them later.",
+  "bookmarksRemove": "Remove",
+  "bookmarksRemoved": "Removed from bookmarks",
+  "bookmarksUndo": "Undo",
+  "bookmarksExplanation": "Explanation",
+  "bookmarksAnswerUnknown": "Answer this question in practice to see the correct answer here.",
+  "bookmarksSource": "Source: {source}",
+  "@bookmarksSource": {
+    "placeholders": { "source": { "type": "String" } }
+  },
+  "bookmarksKeyFacts": "Key facts",
+  "bookmarksShowMore": "Show {count} more",
+  "@bookmarksShowMore": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "bookmarksShowLess": "Show less",
+  "bookmarksSourceLink": "Read the original",
+  "bookmarksUnknownAuthor": "Prostuti user",
+  "bookmarksPostNoText": "Photo post",
+  "bookmarksCatBangladesh": "Bangladesh",
+  "bookmarksCatInternational": "International",
+  "bookmarksCatEconomy": "Economy",
+  "bookmarksCatScience": "Science & technology",
+  "bookmarksCatSports": "Sports",
+  "bookmarksCatEnvironment": "Environment",
+  "bookmarksCatAwards": "Awards & people",
+  "bookmarksCatOrganizations": "Organisations",
+  "bookmarksCatDays": "Days & events",
+  "bookmarksCatMisc": "Miscellaneous"
+}
