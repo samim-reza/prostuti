@@ -62,6 +62,7 @@ class _FakeRepo extends ChatRepository {
   final channels = <_FakeChannel>[];
   final sent = <ChatMessage>[];
   List<ChatMessage> serverPage = const [];
+  final saved = <List<ChatMessage>>[];
   int markReads = 0;
 
   @override
@@ -79,7 +80,7 @@ class _FakeRepo extends ChatRepository {
   List<ChatMessage>? cachedMessages(String conversationId) => null;
 
   @override
-  Future<void> saveMessages(String conversationId, List<ChatMessage> newestFirst) async {}
+  Future<void> saveMessages(String conversationId, List<ChatMessage> newestFirst) async => saved.add(newestFirst);
 
   @override
   Future<ChatMessage> send(ChatMessage draft) async {
@@ -168,6 +169,20 @@ void main() {
     repo.channels.single.emit(PostgresChangeEvent.insert, _row(delivered));
     await Future<void>.delayed(Duration.zero);
     expect(sub.read().items, hasLength(1));
+  });
+
+  test('confirmed messages reach the offline cache while the thread is still open', () async {
+    final c = container();
+    final sub = await open(c);
+    await c.read(chatMessagesProvider(_conv).notifier).sendText('ক্যাশে থাকুক');
+    expect(repo.saved, isEmpty, reason: 'debounced');
+
+    // The process may be killed without the thread ever closing.
+    await Future<void>.delayed(const Duration(milliseconds: 2100));
+    expect(repo.saved, isNotEmpty);
+    expect(repo.saved.last.first.body, 'ক্যাশে থাকুক');
+    expect(repo.saved.last.first.status, MessageStatus.sent);
+    sub.close();
   });
 
   test('incoming Realtime messages are merged in order and mark the chat read', () async {

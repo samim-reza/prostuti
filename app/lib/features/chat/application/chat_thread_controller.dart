@@ -56,6 +56,7 @@ class ChatMessagesNotifier extends PagedNotifier<ChatMessage, DateTime> {
   bool _readPending = false;
   Timer? _readTimer;
   Timer? _resyncTimer;
+  Timer? _saveTimer;
   String? _uid;
 
   ChatRepository get _repo => ref.read(chatRepositoryProvider);
@@ -80,6 +81,7 @@ class ChatMessagesNotifier extends PagedNotifier<ChatMessage, DateTime> {
       }
       _readTimer?.cancel();
       _resyncTimer?.cancel();
+      _saveTimer?.cancel();
       if (active.id == conversationId) active.id = null;
       unawaited(repo.saveMessages(conversationId, _latest));
     });
@@ -170,6 +172,14 @@ class ChatMessagesNotifier extends PagedNotifier<ChatMessage, DateTime> {
       }
     }
     state = state.copyWith(items: mergeMessage(state.items, m));
+    if (!m.isPending) _scheduleSave();
+  }
+
+  /// Confirmed messages reach the offline cache within seconds, not only when
+  /// the thread closes: the process may be killed with the thread still open.
+  void _scheduleSave() {
+    _saveTimer?.cancel();
+    _saveTimer = Timer(const Duration(seconds: 2), () => unawaited(_repo.saveMessages(conversationId, _latest)));
   }
 
   void _onRemote(ChatMessage m) {

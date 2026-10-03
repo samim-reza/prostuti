@@ -25,29 +25,34 @@ class OfflineBanner extends StatelessWidget {
               AnimatedSize(
                 duration: const Duration(milliseconds: 220),
                 child: show
-                    ? Material(
-                        color: online ? const Color(0xFF2F6FDE) : const Color(0xFF3A4440),
-                        child: SafeArea(
-                          bottom: false,
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                            child: Row(
-                              children: [
-                                Icon(
-                                  online ? Icons.sync_rounded : Icons.cloud_off_rounded,
-                                  size: 16,
-                                  color: Colors.white,
-                                ),
-                                const SizedBox(width: 8),
-                                Expanded(
-                                  child: Text(
-                                    text,
-                                    style: const TextStyle(color: Colors.white, fontSize: 12.5),
-                                    maxLines: 1,
-                                    overflow: TextOverflow.ellipsis,
+                    // Live region: screen readers announce going offline / syncing.
+                    ? Semantics(
+                        container: true,
+                        liveRegion: true,
+                        child: Material(
+                          color: online ? const Color(0xFF2F6FDE) : const Color(0xFF3A4440),
+                          child: SafeArea(
+                            bottom: false,
+                            child: Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    online ? Icons.sync_rounded : Icons.cloud_off_rounded,
+                                    size: 16,
+                                    color: Colors.white,
                                   ),
-                                ),
-                              ],
+                                  const SizedBox(width: 8),
+                                  Expanded(
+                                    child: Text(
+                                      text,
+                                      style: const TextStyle(color: Colors.white, fontSize: 12.5),
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -55,7 +60,13 @@ class OfflineBanner extends StatelessWidget {
                     : const SizedBox(width: double.infinity),
               ),
               Expanded(
-                child: MediaQuery.removePadding(context: context, removeTop: show, child: child),
+                // Each route's modal barrier carries a BlockSemantics that would
+                // otherwise drop the banner (painted earlier) from the
+                // accessibility tree; a container stops it at the page.
+                child: Semantics(
+                  container: true,
+                  child: MediaQuery.removePadding(context: context, removeTop: show, child: child),
+                ),
               ),
             ],
           );
