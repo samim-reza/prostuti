@@ -1,0 +1,37 @@
+# ── Secrets (NEVER commit) ────────────────────────────────
+key.txt
+*.env
+.env*
+!.env.example
+*.jks
+*.keystore
+key.properties
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+
+# ── OS / editors ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+*.swp
+
+# ── Supabase local ────────────────────────────────────────
+supabase/.branches
+supabase/.temp
+supabase/.env
+
+# ── Node / Deno tooling ───────────────────────────────────
+node_modules/
+.deno/
+
+# ── Build outputs ─────────────────────────────────────────
+/build/
+dist/
+
+# ── Flutter generated ─────────────────────────────────────
+app/lib/l10n/gen/
