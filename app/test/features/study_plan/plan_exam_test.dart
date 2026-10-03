@@ -85,4 +85,24 @@ void main() {
     );
     expect(practiceRouteFor(const PlanItem(key: 'a', type: PlanItemType.read, titleBn: 'x')), Routes.questionBank);
   });
+
+  test("practiceRouteFor follows the planner's in-app route first", () {
+    expect(
+      practiceRouteFor(const PlanItem(key: 'n', type: PlanItemType.read, titleBn: 'x', route: Routes.notes)),
+      Routes.notes,
+    );
+    expect(
+      practiceRouteFor(
+        const PlanItem(key: 'w', type: PlanItemType.revise, titleBn: 'x', subjectId: 2, route: Routes.wrongAnswers),
+      ),
+      Routes.wrongAnswers,
+    );
+    for (final bad in ['https://evil.example', '//evil.example', 'notes', '']) {
+      expect(
+        practiceRouteFor(PlanItem(key: 'b', type: PlanItemType.read, titleBn: 'x', route: bad)),
+        Routes.questionBank,
+        reason: bad,
+      );
+    }
+  });
 }

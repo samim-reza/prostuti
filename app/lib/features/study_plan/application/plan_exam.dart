@@ -56,8 +56,12 @@ PlanExamLaunch weakTopicDayLaunch(PlanDay day) {
   });
 }
 
-/// Route for reading / practising an item (topic → subject → question bank).
+/// Route for reading / practising an item: the planner's own link (today's
+/// notes, mistake notebook…) → topic → subject → question bank.
 String practiceRouteFor(PlanItem item) {
+  final route = item.route;
+  // Only in-app paths; never a scheme or protocol-relative URL.
+  if (route != null && route.startsWith('/') && !route.startsWith('//')) return route;
   if (item.topicId != null) return Routes.practice(topicId: item.topicId);
   if (item.subjectId != null) return Routes.practice(subjectId: item.subjectId);
   return Routes.questionBank;

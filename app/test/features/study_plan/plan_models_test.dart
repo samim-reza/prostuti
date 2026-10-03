@@ -22,6 +22,14 @@ void main() {
       expect(item.title(bangla: true), 'সন্ধি অনুশীলন');
       expect(item.title(bangla: false), 'Sandhi practice');
       expect(item.canComplete, isTrue);
+      expect(item.route, isNull);
+    });
+
+    test('keeps the planner route through JSON (cache) and copyWith', () {
+      final item = PlanItem.fromJson(const {'key': 'd1-1', 'type': 'read', 'title_bn': 'নোট', 'route': '/notes'});
+      expect(item.route, '/notes');
+      expect(PlanItem.fromJson(item.toJson()).route, '/notes');
+      expect(item.copyWith(done: true).route, '/notes');
     });
 
     test('is defensive about missing/odd fields', () {

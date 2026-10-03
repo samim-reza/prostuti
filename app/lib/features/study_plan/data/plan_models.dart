@@ -97,6 +97,7 @@ class PlanItem {
     this.topicId,
     this.minutes,
     this.count,
+    this.route,
     this.done = false,
   });
 
@@ -109,6 +110,7 @@ class PlanItem {
     topicId: j.intOrNull('topic_id'),
     minutes: j.intOrNull('minutes'),
     count: j.intOrNull('count'),
+    route: j.strOrNull('route'),
     done: _truthy(j['done']),
   );
 
@@ -127,6 +129,9 @@ class PlanItem {
   final int? topicId;
   final int? minutes;
   final int? count;
+
+  /// In-app screen the planner links this item to (`/notes`, `/wrong-answers`…).
+  final String? route;
   final bool done;
 
   /// The server marks items by key; an item without one can't be completed.
@@ -143,6 +148,7 @@ class PlanItem {
     topicId: topicId,
     minutes: minutes,
     count: count,
+    route: route,
     done: done ?? this.done,
   );
 
@@ -155,6 +161,7 @@ class PlanItem {
     'topic_id': topicId,
     'minutes': minutes,
     'count': count,
+    'route': route,
     'done': done,
   };
 }
