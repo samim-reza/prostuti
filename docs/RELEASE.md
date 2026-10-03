@@ -17,7 +17,9 @@ Android AdMob **app id**: `-PadmobAppId=…` or the `ADMOB_APP_ID` env var (Goog
 cd app
 flutter pub get && dart run tool/l10n_merge.dart && flutter gen-l10n
 flutter run --dart-define=SUPABASE_ANON_KEY=<anon key>
-flutter build apk --release --split-per-abi --dart-define=SUPABASE_ANON_KEY=<anon key>
+flutter build apk --release --dart-define=SUPABASE_ANON_KEY=<anon key>
+# Play Store upload (App Bundle):
+flutter build appbundle --release --dart-define=SUPABASE_ANON_KEY=<anon key>
 ```
 
 Release signing reads `android/key.properties` (git-ignored) or these env vars:
@@ -30,8 +32,7 @@ can never update the app on the Play Store.
 | Workflow | Trigger | Result |
 |----------|---------|--------|
 | `ci.yml` | PRs and pushes | localization check, format, analyze, tests, Deno lint/check/tests |
-| `android-release.yml` | push to `main`, manual | signed APKs (arm64, armv7, x86_64, universal) as artifacts and a **GitHub pre-release** |
-| `ios-build.yml` | iOS changes, manual | unsigned iOS build (compile check) |
+| `android-release.yml` | push to `main`, manual | one signed universal APK as an artifact and a **GitHub pre-release** |
 | `supabase-deploy.yml` | `supabase/**` changes, manual | `supabase db push` + `functions deploy` |
 
 Required repository secrets: `SUPABASE_URL`, `SUPABASE_ANON_KEY`,
@@ -66,3 +67,8 @@ Required repository secrets: `SUPABASE_URL`, `SUPABASE_ANON_KEY`,
   keep the database busy, but upgrade before launch.
 * Nano compute has 60 connections. The app uses PostgREST (pooled), so this is fine for testing.
 * Edge Functions have a 150 s limit. The notes pipeline takes about 40–50 s.
+
+## iOS
+
+The iOS project is kept in `app/ios` for a future release (bundle id `io.prostuti.app`,
+screen-capture protection already wired). It is not built in CI yet.

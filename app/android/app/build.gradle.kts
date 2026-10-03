@@ -57,12 +57,20 @@ android {
     buildTypes {
         release {
             signingConfig = if (releaseStoreFile != null) signingConfigs.getByName("release") else signingConfigs.getByName("debug")
+            // Extra R8 keep rules for libraries that use reflection (see file).
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 }
 
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
+    // Google Mobile Ads pulls WorkManager 2.7.0 transitively. Its R8 rules are
+    // incomplete for AGP's R8 full mode: WorkDatabase_Impl gets stripped and
+    // every release build crashes at launch ("Failed to create an instance of
+    // androidx.work.impl.WorkDatabase"). A current WorkManager ships correct
+    // rules; it also brings a matching Room.
+    implementation("androidx.work:work-runtime:2.12.0")
 }
 
 kotlin {

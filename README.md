@@ -87,10 +87,10 @@ a personal AI study plan · community and chat · works offline · বাংল�
 
 | Layer | Technology |
 |-------|-----------|
-| App | **Flutter 3.47** (Android + iOS), Riverpod 3, go_router, Hive CE, Material 3, Hind Siliguri |
+| App | **Flutter 3.47** (Android; iOS planned), Riverpod 3, go_router, Hive CE, Material 3, Hind Siliguri |
 | Backend | **Supabase**: Postgres 17 + RLS, Auth, Storage, Realtime, Edge Functions (Deno), pg_cron, pg_net, Vault |
 | AI | OpenAI (`gpt-5.4-mini`, `text-embedding-3-small`), pgvector HNSW semantic cache |
-| CI/CD | GitHub Actions: tests, signed APK releases, iOS build check, Supabase deploy |
+| CI/CD | GitHub Actions: tests, signed APK release, Supabase deploy |
 
 ### Performance & reliability toolkit
 Keyset pagination everywhere · trigger-maintained counters · two-level cache
