@@ -1,0 +1,30 @@
+# Supabase project configuration (used by the Supabase CLI for deploys).
+project_id = "prostuti"
+
+# Cron / pg_net / admin-triggered functions authenticate with the shared
+# x-cron-secret header (or a staff JWT checked in code), so the gateway's JWT
+# check is disabled for them. User-facing functions keep gateway verification.
+[functions.ingest-news]
+verify_jwt = false
+
+[functions.generate-daily-notes]
+verify_jwt = false
+
+[functions.generate-daily-exam]
+verify_jwt = false
+
+[functions.dispatch-notifications]
+verify_jwt = false
+
+[functions.moderate-content]
+verify_jwt = false
+
+# "create" mode validates the user's JWT in code; "jobs" mode uses the cron secret.
+[functions.generate-study-plan]
+verify_jwt = false
+
+[functions.ai-explain]
+verify_jwt = true
+
+[functions.onboarding-interview]
+verify_jwt = true
