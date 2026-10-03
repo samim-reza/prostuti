@@ -1,0 +1,156 @@
+{
+  "dailyNotesTitle": "Daily current affairs",
+  "dailyNotesSubtitle": "Exam-relevant facts picked by AI from today's newspapers",
+  "dailyNotesNoteCount": "{count} notes",
+  "@dailyNotesNoteCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesRemovalNotice": "These notes will be removed at midnight tonight",
+  "dailyNotesTimeLeftHm": "{hours}h {minutes}m left",
+  "@dailyNotesTimeLeftHm": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesTimeLeftM": "{minutes} min left",
+  "@dailyNotesTimeLeftM": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesTimeUp": "Time's up — refreshing",
+  "dailyNotesEmptyTitle": "Today's notes are being prepared",
+  "dailyNotesEmptyBody": "They'll be published by 6 AM. Exam-relevant facts from the morning papers are being picked for you.",
+  "dailyNotesRefresh": "Refresh",
+  "dailyNotesFilterAll": "All",
+  "dailyNotesCatBangladesh": "Bangladesh",
+  "dailyNotesCatInternational": "International",
+  "dailyNotesCatEconomy": "Economy",
+  "dailyNotesCatScienceTech": "Science & tech",
+  "dailyNotesCatSports": "Sports",
+  "dailyNotesCatEnvironment": "Environment",
+  "dailyNotesCatAwardsPeople": "Awards & people",
+  "dailyNotesCatOrganizations": "Organisations",
+  "dailyNotesCatDaysEvents": "Days & events",
+  "dailyNotesCatMisc": "Miscellaneous",
+  "dailyNotesImportanceTop": "Must know",
+  "dailyNotesImportanceHigh": "Very important",
+  "dailyNotesImportanceMedium": "Important",
+  "dailyNotesImportanceLow": "Good to know",
+  "dailyNotesImportanceSemantics": "Importance {level} out of 5",
+  "@dailyNotesImportanceSemantics": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesKeyFacts": "Key facts",
+  "dailyNotesProbableQuestions": "Probable questions ({count})",
+  "@dailyNotesProbableQuestions": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesShowAnswer": "Tap to see the answer",
+  "dailyNotesAnswer": "Answer",
+  "dailyNotesSources": "Sources",
+  "dailyNotesOpenSource": "Open source: {name}",
+  "@dailyNotesOpenSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesBookmarkAdd": "Save note",
+  "dailyNotesBookmarkRemove": "Remove from saved",
+  "dailyNotesBookmarked": "Saved — you can read it even after today",
+  "dailyNotesUnbookmarked": "Removed from saved notes",
+  "dailyNotesOpenLinkFailed": "Couldn't open the link",
+  "dailyNotesExamCtaTitle": "Today's current-affairs exam",
+  "dailyNotesExamCtaBody": "{count} questions · {duration} — test yourself on today's notes",
+  "@dailyNotesExamCtaBody": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesExamCtaAction": "Take the exam",
+  "dailyNotesDownloadPdf": "Download PDF",
+  "dailyNotesDownloadAgain": "Download again",
+  "dailyNotesDownloadHint": "Keep today's notes on your phone and read them offline",
+  "dailyNotesDownloadedNotes": "Downloaded notes",
+  "dailyNotesAdDialogTitle": "Get today's notes as a PDF",
+  "dailyNotesAdDialogBody": "Watch a short ad to download today's notes as a PDF. The file stays on your phone, so you can read it after today too.",
+  "dailyNotesAdDialogWatch": "Watch ad",
+  "dailyNotesAdDialogAdFree": "Prefer no ads? See add-ons",
+  "dailyNotesAdNotCompleted": "The ad didn't finish. Watch it to the end to download.",
+  "dailyNotesLoadingAd": "Loading the ad…",
+  "dailyNotesGeneratingPdf": "Preparing your PDF…",
+  "dailyNotesPleaseWait": "Please keep the app open",
+  "dailyNotesPdfSaved": "PDF saved to downloaded notes",
+  "dailyNotesPdfFailed": "Couldn't create the PDF. Please try again.",
+  "dailyNotesView": "View",
+  "dailyNotesPdfBrand": "Prostuti · Daily current affairs",
+  "dailyNotesPdfTagline": "Exam-relevant facts for BCS & job exams",
+  "dailyNotesPdfProbableQuestions": "Probable questions",
+  "dailyNotesPdfFooter": "Downloaded from the Prostuti app for personal study. Please don't redistribute.",
+  "dailyNotesPdfDownloadedBy": "Downloaded by @{username}",
+  "@dailyNotesPdfDownloadedBy": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesDownloadsEmptyTitle": "No downloads yet",
+  "dailyNotesDownloadsEmptyBody": "Download today's notes as a PDF and they'll appear here — readable even without internet.",
+  "dailyNotesDownloadsFileTitle": "Current affairs · {date}",
+  "@dailyNotesDownloadsFileTitle": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesOpen": "Open",
+  "dailyNotesDeleteTitle": "Delete this PDF?",
+  "dailyNotesDeleteBody": "It will be removed from this phone. Today's notes can only be downloaded again today.",
+  "dailyNotesDeleted": "PDF deleted",
+  "dailyNotesSizeKb": "{size} KB",
+  "@dailyNotesSizeKb": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesSizeMb": "{size} MB",
+  "@dailyNotesSizeMb": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyNotesErrNoNotesToday": "Today's notes haven't been published yet",
+  "dailyNotesErrInvalidMethod": "This download option isn't available"
+}

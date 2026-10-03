@@ -1,0 +1,111 @@
+{
+  "dailyExamTitle": "Daily current-affairs exam",
+  "dailyExamQuestionsLabel": "Questions",
+  "dailyExamQuestionsValue": "{count}",
+  "@dailyExamQuestionsValue": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamDurationLabel": "Time",
+  "dailyExamNegativeLabel": "Negative",
+  "dailyExamNegativeValue": "−{mark}",
+  "@dailyExamNegativeValue": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamRulesTitle": "Before you start",
+  "dailyExamRuleOnce": "You can take part only once",
+  "dailyExamRuleNegative": "{mark} marks are deducted for each wrong answer",
+  "@dailyExamRuleNegative": {
+    "placeholders": {
+      "mark": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamRuleAutoSubmit": "Answers are submitted automatically when time runs out",
+  "dailyExamRuleRanking": "Higher score first, then less time — that's how the leaderboard ranks",
+  "dailyExamReadNotes": "Read today's notes first",
+  "dailyExamStart": "Start exam",
+  "dailyExamResume": "Resume exam",
+  "dailyExamResumeHint": "Your exam is in progress — the timer is still running",
+  "dailyExamConfirmTitle": "Start the exam now?",
+  "dailyExamConfirmBody": "You can take today's exam only once. The timer starts right away — finish within {duration}.",
+  "@dailyExamConfirmBody": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamConfirmCta": "Start",
+  "dailyExamNoExamTitle": "Today's exam isn't out yet",
+  "dailyExamNoExamEarly": "A new exam built from today's notes is published every day by about 6 AM. Please check back a little later.",
+  "dailyExamNoExamLate": "Today's exam is running a little late. It's usually out by 6 AM — please check again shortly.",
+  "dailyExamAttemptedTitle": "You've taken today's exam",
+  "dailyExamAttemptedBody": "A new exam arrives tomorrow morning. Meanwhile, see where you stand.",
+  "dailyExamMyRank": "My rank",
+  "dailyExamRankOf": "out of {count}",
+  "@dailyExamRankOf": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamScoreLabel": "Score",
+  "dailyExamTimeLabel": "Time taken",
+  "dailyExamViewLeaderboard": "Leaderboard",
+  "dailyExamHistory": "Exam history",
+  "dailyExamTopFive": "Top 5 today",
+  "dailyExamParticipants": "{count} participants",
+  "@dailyExamParticipants": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamNoParticipants": "No one has taken part yet — be the first!",
+  "dailyExamLive": "Live",
+  "dailyExamYou": "You",
+  "dailyExamRank": "#{rank}",
+  "@dailyExamRank": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamRankSemantics": "Rank {rank}",
+  "@dailyExamRankSemantics": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamPoints": "{score} pts",
+  "@dailyExamPoints": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamLeaderboardTitle": "Leaderboard",
+  "dailyExamLeaderboardSubtitle": "Daily current-affairs exam",
+  "dailyExamYesterday": "Yesterday",
+  "dailyExamLeaderboardEmptyToday": "No one has taken today's exam yet",
+  "dailyExamLeaderboardEmptyPast": "No one took the exam on this day",
+  "dailyExamNotJoinedToday": "You haven't taken today's exam yet",
+  "dailyExamTakeNow": "Take it now",
+  "dailyExamErrAlreadyAttempted": "You've already taken today's exam",
+  "dailyExamErrNoDailyExam": "Today's exam hasn't been published yet"
+}
