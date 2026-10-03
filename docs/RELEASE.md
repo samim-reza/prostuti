@@ -35,6 +35,10 @@ can never update the app on the Play Store.
 | `android-release.yml` | push to `main`, manual | one signed universal APK as an artifact and a **GitHub pre-release** |
 | `supabase-deploy.yml` | `supabase/**` changes, manual | `supabase db push` + `functions deploy` |
 
+Release builds use `versionCode = 10000 + run number`, so every new APK installs
+over an older one (including the early split-per-ABI test builds), and Play Store
+uploads always increase. All builds are signed with the same release key.
+
 Required repository secrets: `SUPABASE_URL`, `SUPABASE_ANON_KEY`,
 `SUPABASE_ACCESS_TOKEN`, `SUPABASE_PROJECT_REF`, `SUPABASE_DB_PASSWORD`,
 `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`,

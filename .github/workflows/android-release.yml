@@ -62,9 +62,14 @@ jobs:
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
         run: |
           # One universal APK (installs on every Android phone).
+          # versionCode = 10000 + run number: always above the codes of the
+          # early split-per-ABI builds (up to 4001), so every new APK installs as
+          # an update, and it keeps increasing for Play Store uploads.
           # --obfuscate + --split-debug-info: smaller Dart code that is harder to
           # reverse-engineer; symbols are kept as an artifact for crash reports.
-          flutter build apk --release --build-number=${{ github.run_number }} \
+          BUILD_NUMBER=$((10000 + ${{ github.run_number }}))
+          echo "BUILD_NUMBER=$BUILD_NUMBER" >> "$GITHUB_ENV"
+          flutter build apk --release --build-number=$BUILD_NUMBER \
             --obfuscate --split-debug-info=build/symbols \
             --dart-define=SUPABASE_URL=$SUPABASE_URL --dart-define=SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY
           VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: *//; s/+.*//')
@@ -93,6 +98,6 @@ jobs:
           prerelease: true
           files: dist/*.apk
           body: |
-            Test build from `${{ github.sha }}` — install the APK on any Android phone (Android 7.0+).
+            Test build from `${{ github.sha }}` (versionCode ${{ env.BUILD_NUMBER }}). Install the APK on any Android phone (Android 7.0+); it updates an existing install in place.
 
             Commit: ${{ github.event.head_commit.message }}
