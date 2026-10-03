@@ -273,7 +273,7 @@ ${n.summary_en || n.summary}`
     summary: n.summary,
     summary_en: n.summary_en,
     key_facts: n.facts.map((f) => ({ fact: f.fact, tag: f.entity })),
-    key_facts_en: n.facts.map((f) => ({ fact: f.fact_en, tag: f.entity })),
+    key_facts_en: n.facts.map((f) => ({ fact: f.fact_en })), // entity names are Bangla; no tag in English
     probable_questions: n.probable_questions.map((q) => ({ q: q.q, a: q.a })),
     probable_questions_en: n.probable_questions.map((q) => ({ q: q.q_en, a: q.a_en })),
     importance: Math.min(5, Math.max(1, Math.round(n.importance))),
