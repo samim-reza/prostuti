@@ -1,0 +1,1037 @@
+[
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "চোখ : দেখা :: কান : ?",
+    "options": [
+      "শোনা",
+      "বলা",
+      "গন্ধ নেওয়া",
+      "স্বাদ নেওয়া"
+    ],
+    "correct_index": 0,
+    "explanation": "চোখের কাজ দেখা, তেমনি কানের কাজ শোনা — অঙ্গ ও তার কাজের সম্পর্ক।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "নিচের কোনটি অন্যগুলো থেকে আলাদা?",
+    "options": [
+      "মঙ্গল",
+      "চাঁদ",
+      "বৃহস্পতি",
+      "শনি"
+    ],
+    "correct_index": 1,
+    "explanation": "মঙ্গল, বৃহস্পতি ও শনি সৌরজগতের গ্রহ; কিন্তু চাঁদ পৃথিবীর উপগ্রহ।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "কোনো সাংকেতিক ভাষায় MANGO কে লেখা হয় OCPIQ। ঐ ভাষায় APPLE কে কীভাবে লেখা হবে?",
+    "options": [
+      "CQQMF",
+      "BQQMF",
+      "CRRNG",
+      "CRRMG"
+    ],
+    "correct_index": 2,
+    "explanation": "প্রতিটি অক্ষর বর্ণমালায় ২ ঘর এগিয়ে লেখা হয়েছে (M→O, A→C, N→P …); তাই APPLE → CRRNG।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "কোনো সংকেতে BAD = ৭ এবং CAB = ৬ হলে, ঐ সংকেতে FACE = কত?",
+    "options": [
+      "১৪",
+      "১৬",
+      "১৩",
+      "১৫"
+    ],
+    "correct_index": 3,
+    "explanation": "প্রতিটি অক্ষরের বর্ণমালাক্রমিক মানের যোগফল: B(২) + A(১) + D(৪) = ৭; তাই FACE = ৬ + ১ + ৩ + ৫ = ১৫।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "বর্ণমালার ধারা: A, C, F, J, O, ? — প্রশ্নবোধক স্থানে কোন অক্ষর বসবে?",
+    "options": [
+      "T",
+      "U",
+      "V",
+      "S"
+    ],
+    "correct_index": 1,
+    "explanation": "অক্ষরগুলোর ক্রমিক মান ১, ৩, ৬, ১০, ১৫ — ব্যবধান ২, ৩, ৪, ৫; পরের ব্যবধান ৬, তাই ১৫ + ৬ = ২১ = U।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "একটি ছেলের ছবির দিকে ইঙ্গিত করে করিম বলল, ‘সে আমার মায়ের একমাত্র ছেলের ছেলে।’ ছবির ছেলেটি করিমের কী হয়?",
+    "options": [
+      "ভাই",
+      "ভাতিজা",
+      "নাতি",
+      "ছেলে"
+    ],
+    "correct_index": 3,
+    "explanation": "করিমের মায়ের একমাত্র ছেলে করিম নিজেই; তার ছেলে মানে ছবির ছেলেটি করিমের ছেলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "রিনা হলো সুমনের বোন। সুমনের বাবা জামাল এবং জামালের মা আয়েশা। রিনা আয়েশার কী হয়?",
+    "options": [
+      "মেয়ে",
+      "ভাগ্নি",
+      "নাতনি",
+      "পুত্রবধূ"
+    ],
+    "correct_index": 2,
+    "explanation": "রিনা জামালের মেয়ে এবং আয়েশা জামালের মা; তাই রিনা আয়েশার নাতনি (ছেলের মেয়ে)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "একজন লোক উত্তর দিকে ১০ মিটার হাঁটার পর ডান দিকে ঘুরে ৬ মিটার হাঁটল। এরপর আবার ডান দিকে ঘুরে ১৮ মিটার হাঁটল। যাত্রাস্থল থেকে সে এখন কত মিটার দূরে?",
+    "options": [
+      "১০ মিটার",
+      "৮ মিটার",
+      "৩৪ মিটার",
+      "১৪ মিটার"
+    ],
+    "correct_index": 0,
+    "explanation": "সে পূর্ব দিকে ৬ মিটার এবং দক্ষিণ দিকে (১৮ − ১০) = ৮ মিটার সরে গেছে; দূরত্ব = √(৬² + ৮²) = ১০ মিটার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "রিয়া দক্ষিণ দিকে মুখ করে দাঁড়িয়ে আছে। সে প্রথমে ঘড়ির কাঁটার দিকে ৯০° ঘুরল, তারপর ঘড়ির কাঁটার বিপরীত দিকে ১৮০° ঘুরল। এখন সে কোন দিকে মুখ করে আছে?",
+    "options": [
+      "পূর্ব",
+      "পশ্চিম",
+      "উত্তর",
+      "দক্ষিণ"
+    ],
+    "correct_index": 0,
+    "explanation": "দক্ষিণ থেকে ঘড়ির কাঁটার দিকে ৯০° ঘুরলে পশ্চিম; পশ্চিম থেকে ১৮০° ঘুরলে পূর্ব।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "ধারাটির পরবর্তী সংখ্যা কোনটি? ২, ৬, ১২, ২০, ৩০, ?",
+    "options": [
+      "৪০",
+      "৩৬",
+      "৪২",
+      "৪৪"
+    ],
+    "correct_index": 2,
+    "explanation": "পদগুলো ১×২, ২×৩, ৩×৪, ৪×৫, ৫×৬; পরবর্তী পদ ৬×৭ = ৪২ (পার্থক্য ৪, ৬, ৮, ১০, ১২)।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "ধারাটির পরবর্তী সংখ্যা কোনটি? ৩, ৭, ১৫, ৩১, ৬৩, ?",
+    "options": [
+      "১২৫",
+      "১২৭",
+      "৯৫",
+      "১২৬"
+    ],
+    "correct_index": 1,
+    "explanation": "প্রতিটি পদ = আগের পদ × ২ + ১; তাই ৬৩ × ২ + ১ = ১২৭।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "ধারাটির পরবর্তী সংখ্যা কোনটি? ১, ১, ২, ৩, ৫, ৮, ১৩, ?",
+    "options": [
+      "১৮",
+      "২০",
+      "২৬",
+      "২১"
+    ],
+    "correct_index": 3,
+    "explanation": "প্রতিটি পদ তার আগের দুটি পদের যোগফল (ফিবোনাচি ধারা); ৮ + ১৩ = ২১।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "ধারাটির পরবর্তী সংখ্যা কোনটি? ২, ৫, ১০, ১৭, ২৬, ?",
+    "options": [
+      "৩৭",
+      "৩৫",
+      "৩৬",
+      "৩৮"
+    ],
+    "correct_index": 0,
+    "explanation": "পদগুলো n² + ১ আকারের (১² + ১, ২² + ১, …); পরবর্তী পদ ৬² + ১ = ৩৭।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "ধারাটির পরবর্তী সংখ্যা কোনটি? ৫, ১০, ৮, ১৬, ১৪, ২৮, ?",
+    "options": [
+      "৫৬",
+      "২৬",
+      "৩০",
+      "২৪"
+    ],
+    "correct_index": 1,
+    "explanation": "পর্যায়ক্রমে ×২ ও −২ করা হয়েছে: ৫→১০→৮→১৬→১৪→২৮→২৬।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "নিচের ধারায় কোন সংখ্যাটি ভুল? ৩, ৫, ৯, ১৭, ৩৩, ৬৪, ১২৯",
+    "options": [
+      "৩৩",
+      "১৭",
+      "১২৯",
+      "৬৪"
+    ],
+    "correct_index": 3,
+    "explanation": "নিয়ম: পরের পদ = আগের পদ × ২ − ১; ৩৩ এর পরে ৬৫ হওয়ার কথা (৬৫ × ২ − ১ = ১২৯), তাই ৬৪ ভুল।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "প্রতিটি জোড়ার প্রথম দুটি সংখ্যা থেকে একই নিয়মে তৃতীয় সংখ্যাটি পাওয়া যায়: (৪, ৫ → ৪১), (৩, ৬ → ৪৫), (৫, ২ → ?)। প্রশ্নবোধক স্থানে কোন সংখ্যা বসবে?",
+    "options": [
+      "২৭",
+      "২১",
+      "২৯",
+      "৩৪"
+    ],
+    "correct_index": 2,
+    "explanation": "নিয়ম: সংখ্যা দুটির বর্গের যোগফল — ৪² + ৫² = ৪১, ৩² + ৬² = ৪৫; তাই ৫² + ২² = ২৯।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "ঘড়িতে যখন ৩টা ৪০ মিনিট, তখন ঘণ্টার কাঁটা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+    "options": [
+      "১৩০°",
+      "১২০°",
+      "১৪০°",
+      "১৫০°"
+    ],
+    "correct_index": 0,
+    "explanation": "কোণ = |৩০ × ঘণ্টা − ৫.৫ × মিনিট| = |৯০ − ২২০| = ১৩০°।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "ঘড়িতে যখন ৯টা ১৫ মিনিট, তখন ঘণ্টা ও মিনিটের কাঁটার মধ্যবর্তী ক্ষুদ্রতর কোণটি কত?",
+    "options": [
+      "১৮০°",
+      "১৭২.৫°",
+      "১৬৫°",
+      "১৭৫°"
+    ],
+    "correct_index": 1,
+    "explanation": "|৩০ × ৯ − ৫.৫ × ১৫| = |২৭০ − ৮২.৫| = ১৮৭.৫°; ক্ষুদ্রতর কোণ = ৩৬০° − ১৮৭.৫° = ১৭২.৫°।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "২টা ও ৩টার মধ্যে কোন সময়ে ঘড়ির ঘণ্টা ও মিনিটের কাঁটা পরস্পর মিলিত হবে?",
+    "options": [
+      "২টা বেজে ১০ মিনিটে",
+      "২টা বেজে ১১ মিনিটে",
+      "২টা বেজে ১০ ১০/১১ মিনিটে",
+      "২টা বেজে ১২ ৮/১১ মিনিটে"
+    ],
+    "correct_index": 2,
+    "explanation": "২টায় মিনিটের কাঁটা ১০ মিনিট-ঘর পিছিয়ে; প্রতি মিনিটে ১১/১২ ঘর এগোয়; সময় = ১০ × ১২/১১ = ১২০/১১ = ১০ ১০/১১ মিনিট।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "কোনো মাসের ১ তারিখ শনিবার হলে ঐ মাসের ২৫ তারিখ কী বার?",
+    "options": [
+      "সোমবার",
+      "বুধবার",
+      "রবিবার",
+      "মঙ্গলবার"
+    ],
+    "correct_index": 3,
+    "explanation": "২৫ তারিখ হলো ১ তারিখের ২৪ দিন পর; ২৪ কে ৭ দিয়ে ভাগ করলে ভাগশেষ ৩; শনিবারের ৩ দিন পর মঙ্গলবার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "একটি বড় বর্গকে সমান ৯টি ছোট বর্গে (৩ × ৩ গ্রিড) ভাগ করা হলো। চিত্রটিতে মোট কয়টি বর্গ আছে?",
+    "options": [
+      "৯টি",
+      "১৪টি",
+      "১০টি",
+      "১৩টি"
+    ],
+    "correct_index": 1,
+    "explanation": "১ × ১ আকারের বর্গ ৯টি, ২ × ২ আকারের ৪টি এবং ৩ × ৩ আকারের ১টি; মোট ৯ + ৪ + ১ = ১৪টি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "একটি ত্রিভুজের শীর্ষবিন্দু থেকে ভূমির প্রান্তবিন্দু দুটি ছাড়া ভূমির উপরের অন্য ৩টি ভিন্ন বিন্দু পর্যন্ত ৩টি সরলরেখা টানা হলো। চিত্রটিতে মোট কয়টি ত্রিভুজ আছে?",
+    "options": [
+      "১০টি",
+      "৪টি",
+      "৬টি",
+      "৮টি"
+    ],
+    "correct_index": 0,
+    "explanation": "ভূমিতে এখন মোট ৫টি বিন্দু; এর যেকোনো ২টি বিন্দু শীর্ষবিন্দুর সাথে একটি ত্রিভুজ গঠন করে: ৫C২ = ১০টি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "৪ সেমি বাহুবিশিষ্ট একটি ঘনকের সবগুলো তল লাল রং করার পর ঘনকটিকে ১ সেমি বাহুবিশিষ্ট ছোট ছোট ঘনকে কাটা হলো। কতগুলো ছোট ঘনকের কোনো তলেই রং নেই?",
+    "options": [
+      "২৭টি",
+      "২৪টি",
+      "৮টি",
+      "১৬টি"
+    ],
+    "correct_index": 2,
+    "explanation": "রংহীন ছোট ঘনক = (n − ২)³ = (৪ − ২)³ = ৮টি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_spatial",
+    "stem": "একটি দেয়ালঘড়ির আয়নার প্রতিবিম্বে সময় দেখা যাচ্ছে ৪টা ২০ মিনিট। ঘড়িটিতে প্রকৃত সময় কত?",
+    "options": [
+      "৮টা ২০ মিনিট",
+      "৭টা ২০ মিনিট",
+      "৮টা ৪০ মিনিট",
+      "৭টা ৪০ মিনিট"
+    ],
+    "correct_index": 3,
+    "explanation": "প্রকৃত সময় = ১১টা ৬০ মিনিট − প্রতিবিম্বের সময় = ১১:৬০ − ৪:২০ = ৭টা ৪০ মিনিট।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_mechanical",
+    "stem": "তিনটি গিয়ার ক, খ ও গ এমনভাবে সাজানো যে ক-এর দাঁত খ-এর সাথে এবং খ-এর দাঁত গ-এর সাথে যুক্ত। ক ঘড়ির কাঁটার দিকে ঘুরলে গ কোন দিকে ঘুরবে?",
+    "options": [
+      "ঘড়ির কাঁটার বিপরীত দিকে",
+      "ঘুরবে না",
+      "একবার এদিকে, একবার ওদিকে",
+      "ঘড়ির কাঁটার দিকে"
+    ],
+    "correct_index": 3,
+    "explanation": "পরস্পর যুক্ত দুটি গিয়ার বিপরীত দিকে ঘোরে: ক ঘড়ির কাঁটার দিকে → খ বিপরীত দিকে → গ আবার ঘড়ির কাঁটার দিকে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_mechanical",
+    "stem": "২০টি দাঁতবিশিষ্ট একটি গিয়ার ৬০টি দাঁতবিশিষ্ট অপর একটি গিয়ারকে ঘোরাচ্ছে। ছোট গিয়ারটি মিনিটে ১৫০ বার ঘুরলে বড় গিয়ারটি মিনিটে কতবার ঘুরবে?",
+    "options": [
+      "৪৫০ বার",
+      "৭৫ বার",
+      "৫০ বার",
+      "১০০ বার"
+    ],
+    "correct_index": 2,
+    "explanation": "দাঁতের সংখ্যা × ঘূর্ণনসংখ্যা উভয় গিয়ারে সমান: ২০ × ১৫০ = ৬০ × N ⇒ N = ৫০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_mechanical",
+    "stem": "একটি লিভারের আলম্ব (fulcrum) থেকে ২ মিটার দূরে ৩০০ নিউটন ওজনের একটি বস্তু রাখা আছে। আলম্বের অপর পাশে ৬ মিটার দূরে কত বল প্রয়োগ করলে লিভারটি সাম্যাবস্থায় থাকবে? (লিভারের নিজস্ব ওজন উপেক্ষা করে)",
+    "options": [
+      "৯০০ নিউটন",
+      "১০০ নিউটন",
+      "১৫০ নিউটন",
+      "৫০ নিউটন"
+    ],
+    "correct_index": 1,
+    "explanation": "ভার × ভারবাহু = বল × বলবাহু: ৩০০ × ২ = F × ৬ ⇒ F = ১০০ নিউটন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_mechanical",
+    "stem": "একটি একক সচল কপিকল ব্যবহার করে ২০০ নিউটন ওজনের একটি বস্তু খাড়াভাবে তুলতে কত বল প্রয়োজন? (কপিকলের ওজন ও ঘর্ষণ উপেক্ষা করে)",
+    "options": [
+      "১০০ নিউটন",
+      "২০০ নিউটন",
+      "৫০ নিউটন",
+      "৪০০ নিউটন"
+    ],
+    "correct_index": 0,
+    "explanation": "একক সচল কপিকলে ভার দুটি দড়ির অংশে ভাগ হয়, যান্ত্রিক সুবিধা ২; প্রয়োজনীয় বল = ২০০/২ = ১০০ নিউটন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_mechanical",
+    "stem": "দুটি চাকা একটি আড়াআড়ি (X-আকৃতির) বেল্ট দ্বারা যুক্ত। প্রথম চাকাটি ঘড়ির কাঁটার দিকে ঘুরলে দ্বিতীয় চাকাটি কোন দিকে ঘুরবে?",
+    "options": [
+      "ঘড়ির কাঁটার দিকে",
+      "ঘুরবে না",
+      "কখনো এদিকে, কখনো ওদিকে",
+      "ঘড়ির কাঁটার বিপরীত দিকে"
+    ],
+    "correct_index": 3,
+    "explanation": "সোজা (খোলা) বেল্টে চাকা দুটি একই দিকে ঘোরে, কিন্তু আড়াআড়ি বেল্টে চাকা দুটি বিপরীত দিকে ঘোরে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_mechanical",
+    "stem": "নিচের কোনটি দ্বিতীয় শ্রেণির লিভারের উদাহরণ?",
+    "options": [
+      "কাঁচি",
+      "এক চাকার ঠেলাগাড়ি",
+      "চিমটা",
+      "ঢেঁকি"
+    ],
+    "correct_index": 1,
+    "explanation": "দ্বিতীয় শ্রেণির লিভারে ভার থাকে আলম্ব ও প্রযুক্ত বলের মাঝখানে — যেমন এক চাকার ঠেলাগাড়ি। কাঁচি ও ঢেঁকি প্রথম শ্রেণির, চিমটা তৃতীয় শ্রেণির লিভার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_mechanical",
+    "stem": "ঘর্ষণ উপেক্ষা করে ৬ মিটার দীর্ঘ একটি আনত তলের সাহায্যে ৩০০ নিউটন ওজনের একটি বস্তুকে ১.৫ মিটার উঁচুতে তুলতে আনত তল বরাবর কত বল প্রয়োগ করতে হবে?",
+    "options": [
+      "৫০ নিউটন",
+      "১০০ নিউটন",
+      "৭৫ নিউটন",
+      "১২০০ নিউটন"
+    ],
+    "correct_index": 2,
+    "explanation": "কৃতকাজ সমান: F × ৬ = ৩০০ × ১.৫ ⇒ F = ৭৫ নিউটন।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "ক, খ-এর চেয়ে লম্বা। গ, ক-এর চেয়ে লম্বা কিন্তু ঘ-এর চেয়ে খাটো। চারজনের মধ্যে সবচেয়ে লম্বা কে?",
+    "options": [
+      "ঘ",
+      "গ",
+      "ক",
+      "খ"
+    ],
+    "correct_index": 0,
+    "explanation": "উচ্চতার ক্রম: ঘ > গ > ক > খ; তাই সবচেয়ে লম্বা ঘ।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "রনি, সজল, তানিয়া, মিতু ও আকাশ একটি সারিতে উত্তর দিকে মুখ করে বসে আছে। তানিয়া ঠিক মাঝখানে বসেছে। সজল তানিয়ার ঠিক ডানে এবং আকাশ সজলের ঠিক ডানে বসেছে। মিতু বসেছে রনির ঠিক ডানে। একেবারে বাম প্রান্তে কে বসে আছে?",
+    "options": [
+      "মিতু",
+      "রনি",
+      "আকাশ",
+      "সজল"
+    ],
+    "correct_index": 1,
+    "explanation": "বাম থেকে ডানে বসার ক্রম: রনি, মিতু, তানিয়া, সজল, আকাশ।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "একটি সারিতে রাফির অবস্থান সামনের দিক থেকে ১২তম এবং পেছনের দিক থেকে ১৮তম। সারিতে মোট কতজন আছে?",
+    "options": [
+      "৩০ জন",
+      "২৮ জন",
+      "৩১ জন",
+      "২৯ জন"
+    ],
+    "correct_index": 3,
+    "explanation": "মোট = ১২ + ১৮ − ১ = ২৯ জন (রাফিকে দুবার গোনা হয়েছে)।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "A, B, C, D, E ও F ছয়জন একটি গোল টেবিলের চারপাশে সমান দূরত্বে বসে আছে। ঘড়ির কাঁটার দিকে A-এর ঠিক পরের আসনে B বসেছে। A-এর ঠিক বিপরীতে D। ঘড়ির কাঁটার দিকে D-এর ঠিক পরের আসনে F। C বসেছে B-এর পাশে। E-এর ঠিক বিপরীতে কে বসে আছে?",
+    "options": [
+      "B",
+      "A",
+      "C",
+      "F"
+    ],
+    "correct_index": 2,
+    "explanation": "ঘড়ির কাঁটার দিকে আসনক্রম দাঁড়ায়: A, B, C, D, F, E। E থেকে ৩ আসন পরে (ঠিক বিপরীতে) বসেছে C।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "একটি পরীক্ষায় প্রতিটি সঠিক উত্তরের জন্য ১ নম্বর দেওয়া হয় এবং প্রতিটি ভুল উত্তরের জন্য ০.৫ নম্বর কাটা হয়। একজন পরীক্ষার্থী ১০০টি প্রশ্নের সবগুলোর উত্তর দিয়ে ৭০ নম্বর পেল। সে কয়টি প্রশ্নের সঠিক উত্তর দিয়েছিল?",
+    "options": [
+      "৮০টি",
+      "৭০টি",
+      "৭৫টি",
+      "৮৫টি"
+    ],
+    "correct_index": 0,
+    "explanation": "সঠিক উত্তর x টি হলে x − ০.৫(১০০ − x) = ৭০ ⇒ ১.৫x = ১২০ ⇒ x = ৮০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "একটি ঝুড়িতে কিছু আম ছিল। প্রথম ব্যক্তি ঝুড়ির আমের অর্ধেক ও আরও ১টি আম নিল। দ্বিতীয় ব্যক্তি অবশিষ্ট আমের অর্ধেক ও আরও ১টি আম নিল। এরপর ঝুড়িতে ৩টি আম রইল। শুরুতে ঝুড়িতে কয়টি আম ছিল?",
+    "options": [
+      "১৮টি",
+      "১৬টি",
+      "১৪টি",
+      "২০টি"
+    ],
+    "correct_index": 0,
+    "explanation": "পেছন থেকে হিসাব: দ্বিতীয় জন নেওয়ার আগে ছিল (৩ + ১) × ২ = ৮টি; প্রথম জন নেওয়ার আগে ছিল (৮ + ১) × ২ = ১৮টি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "একটি খামারে কিছু গরু ও মুরগি আছে। মোট মাথার সংখ্যা ৩০ এবং মোট পায়ের সংখ্যা ৮৪। খামারে গরু কয়টি?",
+    "options": [
+      "১৮টি",
+      "১২টি",
+      "১৫টি",
+      "১০টি"
+    ],
+    "correct_index": 1,
+    "explanation": "সবগুলো মুরগি হলে পা হতো ৩০ × ২ = ৬০টি; অতিরিক্ত ২৪টি পা, প্রতিটি গরুর ২টি করে বেশি পা — তাই গরু = ২৪/২ = ১২টি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_language",
+    "stem": "নিচের কোন বানানটি শুদ্ধ?",
+    "options": [
+      "মুমুর্ষু",
+      "মূমুর্ষু",
+      "মুমূর্ষু",
+      "মুমূর্ষ"
+    ],
+    "correct_index": 2,
+    "explanation": "শুদ্ধ বানান ‘মুমূর্ষু’ (অর্থ: মৃতপ্রায়) — দ্বিতীয় বর্ণে ঊ-কার এবং শেষে উ-কার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_language",
+    "stem": "শুদ্ধ বানান কোনটি?",
+    "options": [
+      "সমীচিন",
+      "সমিচীন",
+      "সমিচিন",
+      "সমীচীন"
+    ],
+    "correct_index": 3,
+    "explanation": "শুদ্ধ বানান ‘সমীচীন’ (অর্থ: যথাযথ, উচিত) — দুটি বর্ণেই দীর্ঘ ঈ-কার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_language",
+    "stem": "নিচের কোন ইংরেজি বানানটি শুদ্ধ?",
+    "options": [
+      "Accommodation",
+      "Accomodation",
+      "Acommodation",
+      "Acomodation"
+    ],
+    "correct_index": 0,
+    "explanation": "শুদ্ধ বানান ‘Accommodation’ — এতে c দুটি এবং m দুটি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_language",
+    "stem": "‘অনুসন্ধিৎসু’ শব্দের অর্থ কী?",
+    "options": [
+      "অনুকরণপ্রিয়",
+      "জানতে আগ্রহী",
+      "অনুগত",
+      "সন্দেহপ্রবণ"
+    ],
+    "correct_index": 1,
+    "explanation": "অনুসন্ধিৎসু অর্থ অনুসন্ধান করতে বা কোনো কিছু জানতে ইচ্ছুক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_language",
+    "stem": "‘Benevolent’ শব্দের সমার্থক শব্দ কোনটি?",
+    "options": [
+      "Hostile",
+      "Greedy",
+      "Timid",
+      "Kind"
+    ],
+    "correct_index": 3,
+    "explanation": "Benevolent অর্থ দয়ালু বা পরোপকারী; এর সমার্থক Kind।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_language",
+    "stem": "‘Scarcity’ শব্দের বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "Shortage",
+      "Poverty",
+      "Abundance",
+      "Lack"
+    ],
+    "correct_index": 2,
+    "explanation": "Scarcity অর্থ অভাব বা দুষ্প্রাপ্যতা; এর বিপরীত Abundance (প্রাচুর্য)। Shortage ও Lack এর সমার্থক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_language",
+    "stem": "‘উত্থান’ শব্দের বিপরীত শব্দ কোনটি?",
+    "options": [
+      "পতন",
+      "উন্নতি",
+      "অভ্যুদয়",
+      "আরোহণ"
+    ],
+    "correct_index": 0,
+    "explanation": "উত্থান অর্থ ওঠা বা উন্নতি লাভ; এর বিপরীত শব্দ পতন। অন্য তিনটি প্রায় সমার্থক।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

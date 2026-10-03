@@ -1,0 +1,807 @@
+[
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "পদ্মা ও যমুনা নদী কোথায় মিলিত হয়েছে?",
+    "options": [
+      "চাঁদপুর",
+      "ভৈরব (কিশোরগঞ্জ)",
+      "গোয়ালন্দ (রাজবাড়ী)",
+      "দেওয়ানগঞ্জ (জামালপুর)"
+    ],
+    "correct_index": 2,
+    "explanation": "রাজবাড়ীর গোয়ালন্দে পদ্মা ও যমুনা মিলিত হয়ে পদ্মা নামে চাঁদপুরের দিকে প্রবাহিত হয়েছে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "সুরমা ও কুশিয়ারা নদীর মিলিত প্রবাহ কোন নামে পরিচিত?",
+    "options": [
+      "যমুনা",
+      "মেঘনা",
+      "পদ্মা",
+      "তিস্তা"
+    ],
+    "correct_index": 1,
+    "explanation": "সিলেট অঞ্চল থেকে আসা সুরমা ও কুশিয়ারা মিলিত হয়ে মেঘনা নাম ধারণ করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "কর্ণফুলী নদীর উৎপত্তিস্থল কোথায়?",
+    "options": [
+      "ভারতের ত্রিপুরা রাজ্য",
+      "মিয়ানমারের আরাকান পর্বত",
+      "ভারতের মিজোরামের লুসাই পাহাড়",
+      "ভারতের মেঘালয়ের খাসিয়া পাহাড়"
+    ],
+    "correct_index": 2,
+    "explanation": "কর্ণফুলী মিজোরামের লুসাই পাহাড় থেকে উৎপন্ন হয়ে রাঙামাটি ও চট্টগ্রাম হয়ে বঙ্গোপসাগরে পড়েছে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "দেশের একমাত্র প্রাকৃতিক মৎস্য প্রজননক্ষেত্র হিসেবে পরিচিত নদী কোনটি?",
+    "options": [
+      "কর্ণফুলী",
+      "সাঙ্গু",
+      "মাতামুহুরী",
+      "হালদা"
+    ],
+    "correct_index": 3,
+    "explanation": "চট্টগ্রামের হালদা নদীতে রুই জাতীয় মাছ সরাসরি ডিম ছাড়ে, যা থেকে প্রাকৃতিকভাবে নিষিক্ত ডিম সংগ্রহ করা হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "বাংলাদেশের বৃহত্তম হাওর কোনটি?",
+    "options": [
+      "টাঙ্গুয়ার হাওর",
+      "হাইল হাওর",
+      "হাকালুকি হাওর",
+      "শনির হাওর"
+    ],
+    "correct_index": 2,
+    "explanation": "মৌলভীবাজার ও সিলেট জেলাজুড়ে বিস্তৃত হাকালুকি দেশের বৃহত্তম হাওর।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "রামসার সাইট হিসেবে স্বীকৃত টাঙ্গুয়ার হাওর কোন জেলায় অবস্থিত?",
+    "options": [
+      "সুনামগঞ্জ",
+      "মৌলভীবাজার",
+      "নেত্রকোনা",
+      "হবিগঞ্জ"
+    ],
+    "correct_index": 0,
+    "explanation": "সুনামগঞ্জের টাঙ্গুয়ার হাওর ২০০০ সালে সুন্দরবনের পর দেশের দ্বিতীয় রামসার সাইট হিসেবে স্বীকৃতি পায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "বাংলাদেশের একমাত্র প্রবাল দ্বীপ কোনটি?",
+    "options": [
+      "মহেশখালী",
+      "সেন্টমার্টিন",
+      "নিঝুম দ্বীপ",
+      "কুতুবদিয়া"
+    ],
+    "correct_index": 1,
+    "explanation": "কক্সবাজারের টেকনাফ উপজেলার সেন্টমার্টিন দেশের একমাত্র প্রবাল দ্বীপ, যা ‘নারিকেল জিঞ্জিরা’ নামেও পরিচিত।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "বাংলাদেশের সর্ব-উত্তরের জেলা কোনটি?",
+    "options": [
+      "ঠাকুরগাঁও",
+      "লালমনিরহাট",
+      "পঞ্চগড়",
+      "কুড়িগ্রাম"
+    ],
+    "correct_index": 2,
+    "explanation": "পঞ্চগড় দেশের সর্ব-উত্তরের জেলা; এর তেঁতুলিয়া উপজেলায় বাংলাবান্ধা স্থলবন্দর অবস্থিত।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "বাংলাদেশের প্রায় মাঝখান দিয়ে কোন কাল্পনিক রেখা অতিক্রম করেছে?",
+    "options": [
+      "মকরক্রান্তি রেখা",
+      "নিরক্ষরেখা",
+      "মূল মধ্যরেখা",
+      "কর্কটক্রান্তি রেখা"
+    ],
+    "correct_index": 3,
+    "explanation": "প্রায় সাড়ে ২৩° উত্তর অক্ষাংশের কর্কটক্রান্তি রেখা বাংলাদেশের মধ্যভাগ দিয়ে পূর্ব-পশ্চিমে বিস্তৃত।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "বরেন্দ্রভূমি, মধুপুর ও ভাওয়ালের গড় এবং লালমাই পাহাড় কোন ভূতাত্ত্বিক যুগের সোপান?",
+    "options": [
+      "প্লাইস্টোসিন",
+      "টারশিয়ারি",
+      "হলোসিন",
+      "জুরাসিক"
+    ],
+    "correct_index": 0,
+    "explanation": "প্লাইস্টোসিন কালের সোপান বাংলাদেশের তিনটি প্রধান ভূপ্রাকৃতিক এককের একটি; অন্য দুটি টারশিয়ারি যুগের পাহাড় ও সাম্প্রতিক প্লাবনভূমি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "বাংলাদেশের প্রমাণ সময় কোন দ্রাঘিমারেখা অনুসারে নির্ধারিত?",
+    "options": [
+      "৯০° পূর্ব",
+      "৮৮° পূর্ব",
+      "৯২° পূর্ব",
+      "৮২.৫° পূর্ব"
+    ],
+    "correct_index": 0,
+    "explanation": "৯০° পূর্ব দ্রাঘিমারেখার স্থানীয় সময়কে প্রমাণ সময় ধরা হয়, যা গ্রিনিচ সময়ের চেয়ে ৬ ঘণ্টা এগিয়ে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_bangladesh",
+    "stem": "সমুদ্রসৈকত থেকে সূর্যোদয় ও সূর্যাস্ত দুটিই দেখা যায় এমন কুয়াকাটা কোন জেলায় অবস্থিত?",
+    "options": [
+      "বরগুনা",
+      "পটুয়াখালী",
+      "কক্সবাজার",
+      "ভোলা"
+    ],
+    "correct_index": 1,
+    "explanation": "পটুয়াখালীর কলাপাড়া উপজেলায় অবস্থিত কুয়াকাটা ‘সাগরকন্যা’ নামে পরিচিত।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_world",
+    "stem": "পৃথিবীর বৃহত্তম মহাসাগর কোনটি?",
+    "options": [
+      "আটলান্টিক মহাসাগর",
+      "প্রশান্ত মহাসাগর",
+      "ভারত মহাসাগর",
+      "দক্ষিণ মহাসাগর"
+    ],
+    "correct_index": 1,
+    "explanation": "আয়তন ও গভীরতা—উভয় দিক থেকেই প্রশান্ত মহাসাগর বৃহত্তম; পৃথিবীর গভীরতম বিন্দুও এখানে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_world",
+    "stem": "পৃথিবীর গভীরতম স্থান চ্যালেঞ্জার ডিপ কোন খাতে অবস্থিত?",
+    "options": [
+      "টোঙ্গা খাত",
+      "জাভা খাত",
+      "পুয়ের্তো রিকো খাত",
+      "মারিয়ানা খাত"
+    ],
+    "correct_index": 3,
+    "explanation": "প্রশান্ত মহাসাগরের মারিয়ানা খাতের চ্যালেঞ্জার ডিপের গভীরতা প্রায় ১১ কিলোমিটার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_world",
+    "stem": "পৃথিবীর বৃহত্তম উষ্ণ মরুভূমি কোনটি?",
+    "options": [
+      "সাহারা",
+      "গোবি",
+      "কালাহারি",
+      "থর"
+    ],
+    "correct_index": 0,
+    "explanation": "উত্তর আফ্রিকার সাহারা বৃহত্তম উষ্ণ মরুভূমি; শীতল মরুভূমি ধরলে অ্যান্টার্কটিকা সবচেয়ে বড়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_world",
+    "stem": "আন্তর্জাতিক তারিখরেখা মোটামুটি কোন দ্রাঘিমারেখা বরাবর কল্পনা করা হয়েছে?",
+    "options": [
+      "০°",
+      "৯০° পূর্ব",
+      "১৮০°",
+      "৯০° পশ্চিম"
+    ],
+    "correct_index": 2,
+    "explanation": "প্রশান্ত মহাসাগরে ১৮০° দ্রাঘিমা বরাবর (স্থলভাগ এড়িয়ে) তারিখরেখা কল্পনা করা হয়; এটি অতিক্রম করলে তারিখ এক দিন বদলে যায়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_world",
+    "stem": "প্রতি ১° দ্রাঘিমার পার্থক্যে স্থানীয় সময়ের পার্থক্য কত?",
+    "options": [
+      "১ মিনিট",
+      "১৫ মিনিট",
+      "৬০ মিনিট",
+      "৪ মিনিট"
+    ],
+    "correct_index": 3,
+    "explanation": "পৃথিবী ২৪ ঘণ্টায় ৩৬০° আবর্তন করে, তাই প্রতি ডিগ্রিতে সময়ের পার্থক্য ৪ মিনিট।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_world",
+    "stem": "হিমালয় কোন ধরনের পর্বত?",
+    "options": [
+      "ভঙ্গিল পর্বত",
+      "আগ্নেয় পর্বত",
+      "স্তূপ পর্বত",
+      "ক্ষয়জাত পর্বত"
+    ],
+    "correct_index": 0,
+    "explanation": "ভারতীয় ও ইউরেশীয় পাতের সংঘর্ষে ভাঁজ পড়ে হিমালয়ের মতো নবীন ভঙ্গিল পর্বত গঠিত হয়েছে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_world",
+    "stem": "বায়ুমণ্ডলের কোন স্তরে মেঘ, বৃষ্টি, ঝড়সহ অধিকাংশ আবহাওয়াজনিত ঘটনা ঘটে?",
+    "options": [
+      "ট্রপোস্ফিয়ার",
+      "স্ট্র্যাটোস্ফিয়ার",
+      "মেসোস্ফিয়ার",
+      "থার্মোস্ফিয়ার"
+    ],
+    "correct_index": 0,
+    "explanation": "ভূপৃষ্ঠসংলগ্ন সবচেয়ে নিচের স্তর ট্রপোস্ফিয়ারে প্রায় সব আবহাওয়াজনিত ঘটনা ঘটে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "উন্নত দেশগুলোর জন্য গ্রিনহাউস গ্যাস নিঃসরণ হ্রাসের বাধ্যতামূলক লক্ষ্যমাত্রা নির্ধারণকারী কিয়োটো প্রটোকল কোন সালে গৃহীত হয়?",
+    "options": [
+      "১৯৯৭",
+      "১৯৯২",
+      "২০০৫",
+      "২০১৫"
+    ],
+    "correct_index": 0,
+    "explanation": "১৯৯৭ সালে জাপানের কিয়োটোতে প্রটোকলটি গৃহীত হয় এবং ২০০৫ সালে কার্যকর হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "২০১৫ সালে গৃহীত প্যারিস জলবায়ু চুক্তির মূল লক্ষ্য কী?",
+    "options": [
+      "ওজোনস্তর ক্ষয়কারী সিএফসি নিষিদ্ধ করা",
+      "বৈশ্বিক তাপমাত্রা বৃদ্ধি প্রাক-শিল্পযুগের তুলনায় ২° সেলসিয়াসের যথেষ্ট নিচে রাখা",
+      "আন্তর্জাতিক গুরুত্বপূর্ণ জলাভূমি সংরক্ষণ",
+      "বিপন্ন বন্যপ্রাণীর আন্তর্জাতিক বাণিজ্য নিয়ন্ত্রণ"
+    ],
+    "correct_index": 1,
+    "explanation": "কপ-২১ সম্মেলনে গৃহীত চুক্তিতে তাপমাত্রা বৃদ্ধি ২° সেলসিয়াসের যথেষ্ট নিচে রাখা এবং ১.৫° সেলসিয়াসে সীমিত রাখার চেষ্টার অঙ্গীকার করা হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "ওজোনস্তর ক্ষয়কারী পদার্থ নিয়ন্ত্রণে গৃহীত আন্তর্জাতিক চুক্তি কোনটি?",
+    "options": [
+      "কিয়োটো প্রটোকল",
+      "মন্ট্রিল প্রটোকল",
+      "রামসার কনভেনশন",
+      "বাসেল কনভেনশন"
+    ],
+    "correct_index": 1,
+    "explanation": "১৯৮৭ সালে গৃহীত মন্ট্রিল প্রটোকলের আওতায় সিএফসিসহ ওজোন ক্ষয়কারী পদার্থের ব্যবহার পর্যায়ক্রমে বন্ধ করা হচ্ছে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "মানুষের কর্মকাণ্ডে নির্গত গ্রিনহাউস গ্যাসগুলোর মধ্যে বৈশ্বিক উষ্ণায়নে সবচেয়ে বেশি ভূমিকা রাখছে কোনটি?",
+    "options": [
+      "মিথেন",
+      "নাইট্রাস অক্সাইড",
+      "সালফার হেক্সাফ্লুরাইড",
+      "কার্বন ডাই-অক্সাইড"
+    ],
+    "correct_index": 3,
+    "explanation": "জীবাশ্ম জ্বালানি পোড়ানো ও বন উজাড়ের ফলে নির্গত কার্বন ডাই-অক্সাইডই মানবসৃষ্ট উষ্ণায়নের প্রধান চালক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "বাংলাদেশের প্রথম রামসার সাইট কোনটি?",
+    "options": [
+      "সুন্দরবন",
+      "টাঙ্গুয়ার হাওর",
+      "হাকালুকি হাওর",
+      "চলনবিল"
+    ],
+    "correct_index": 0,
+    "explanation": "১৯৯২ সালে সুন্দরবন রামসার কনভেনশনের আওতায় আন্তর্জাতিক গুরুত্বপূর্ণ জলাভূমির স্বীকৃতি পায়; দ্বিতীয়টি টাঙ্গুয়ার হাওর।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "ইউনেস্কো কোন সালে বাংলাদেশের সুন্দরবনকে বিশ্ব ঐতিহ্য হিসেবে ঘোষণা করে?",
+    "options": [
+      "১৯৮৫",
+      "১৯৯২",
+      "১৯৯৭",
+      "২০০১"
+    ],
+    "correct_index": 2,
+    "explanation": "১৯৯৭ সালে সুন্দরবন ইউনেস্কোর প্রাকৃতিক বিশ্ব ঐতিহ্যের তালিকাভুক্ত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "বাংলাদেশ পরিবেশ সংরক্ষণ আইন প্রণীত হয় কোন সালে?",
+    "options": [
+      "১৯৯২",
+      "১৯৯৫",
+      "২০০০",
+      "২০০৫"
+    ],
+    "correct_index": 1,
+    "explanation": "পরিবেশ সংরক্ষণ, পরিবেশগত মান উন্নয়ন ও দূষণ নিয়ন্ত্রণের লক্ষ্যে ১৯৯৫ সালে আইনটি প্রণীত হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_environment",
+    "stem": "বিশ্ব পরিবেশ দিবস পালিত হয় কোন তারিখে?",
+    "options": [
+      "২২ এপ্রিল",
+      "১৬ সেপ্টেম্বর",
+      "২২ মার্চ",
+      "৫ জুন"
+    ],
+    "correct_index": 3,
+    "explanation": "জাতিসংঘের উদ্যোগে প্রতিবছর ৫ জুন বিশ্ব পরিবেশ দিবস পালিত হয়; ২২ এপ্রিল পালিত হয় ধরিত্রী দিবস।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "ভূমিকম্পের মাত্রা (ম্যাগনিচিউড) পরিমাপে বহুল প্রচলিত স্কেল কোনটি?",
+    "options": [
+      "বিউফোর্ট স্কেল",
+      "সাফির-সিম্পসন স্কেল",
+      "রিখটার স্কেল",
+      "ফুজিতা স্কেল"
+    ],
+    "correct_index": 2,
+    "explanation": "রিখটার স্কেলে ভূমিকম্পের মাত্রা লগারিদমিক এককে প্রকাশ করা হয়; বিউফোর্ট স্কেল বাতাসের গতিবেগ নির্দেশ করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "সমুদ্রবন্দরের জন্য ঘূর্ণিঝড় সতর্কসংকেতে ‘মহাবিপদ সংকেত’ শুরু হয় কত নম্বর থেকে?",
+    "options": [
+      "৫",
+      "৬",
+      "১০",
+      "৮"
+    ],
+    "correct_index": 3,
+    "explanation": "৮, ৯ ও ১০ নম্বর মহাবিপদ সংকেত এবং ১১ নম্বর যোগাযোগ বিচ্ছিন্ন সংকেত।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "১৯৭০ সালের প্রলয়ংকরী ঘূর্ণিঝড় উপকূলে আঘাত হানে কোন তারিখে?",
+    "options": [
+      "২৯ এপ্রিল",
+      "১৫ নভেম্বর",
+      "১২ নভেম্বর",
+      "২৫ মে"
+    ],
+    "correct_index": 2,
+    "explanation": "১৯৭০ সালের ১২ নভেম্বরের ঘূর্ণিঝড় ও জলোচ্ছ্বাসে উপকূলীয় অঞ্চলে লাখো মানুষ প্রাণ হারায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "ঘূর্ণিঝড় সিডর বাংলাদেশের উপকূলে আঘাত হানে কোন সালে?",
+    "options": [
+      "২০০৯",
+      "১৯৯১",
+      "২০০৭",
+      "২০১৯"
+    ],
+    "correct_index": 2,
+    "explanation": "২০০৭ সালের ১৫ নভেম্বর সিডর দক্ষিণ-পশ্চিম উপকূলে আঘাত হানে এবং সুন্দরবনের ব্যাপক ক্ষতি করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "বাংলাদেশে দুর্যোগ ব্যবস্থাপনা আইন প্রণীত হয় কোন সালে?",
+    "options": [
+      "২০০৮",
+      "২০১২",
+      "২০১০",
+      "২০১৫"
+    ],
+    "correct_index": 1,
+    "explanation": "দুর্যোগ ঝুঁকি হ্রাস ও সমন্বিত দুর্যোগ ব্যবস্থাপনার আইনি কাঠামো হিসেবে ২০১২ সালে আইনটি প্রণীত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "নিচের কোনটি দুর্যোগ-পূর্ব প্রস্তুতি ও ঝুঁকি প্রশমনমূলক কার্যক্রম?",
+    "options": [
+      "দুর্গতদের উদ্ধার তৎপরতা",
+      "ক্ষতিগ্রস্তদের মধ্যে জরুরি ত্রাণ বিতরণ",
+      "ক্ষতিগ্রস্ত অবকাঠামো পুনর্নির্মাণ",
+      "ঘূর্ণিঝড় আশ্রয়কেন্দ্র নির্মাণ"
+    ],
+    "correct_index": 3,
+    "explanation": "আশ্রয়কেন্দ্র নির্মাণ দুর্যোগের আগে ঝুঁকি কমানোর কাজ; উদ্ধার ও ত্রাণ দুর্যোগকালীন এবং পুনর্নির্মাণ দুর্যোগ-পরবর্তী কার্যক্রম।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "দুর্যোগ ঝুঁকি হ্রাসে জাতিসংঘ-সমর্থিত সেন্ডাই ফ্রেমওয়ার্কের মেয়াদকাল কোনটি?",
+    "options": [
+      "২০১৫–২০৩০",
+      "২০০৫–২০১৫",
+      "২০১৬–২০৩০",
+      "২০১০–২০২০"
+    ],
+    "correct_index": 0,
+    "explanation": "২০১৫ সালে জাপানের সেন্ডাইয়ে গৃহীত কাঠামোটি ২০১৫–২০৩০ মেয়াদের; এর আগে ছিল হিয়োগো ফ্রেমওয়ার্ক (২০০৫–২০১৫)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "geography",
+    "topic": "geo_disaster",
+    "stem": "ঘূর্ণিঝড় প্রস্তুতি কর্মসূচি (সিপিপি) কোন সালে চালু হয়?",
+    "options": [
+      "১৯৭০",
+      "১৯৭২",
+      "১৯৮৫",
+      "১৯৯১"
+    ],
+    "correct_index": 1,
+    "explanation": "১৯৭০ সালের ভয়াবহ ঘূর্ণিঝড়ের অভিজ্ঞতায় ১৯৭২ সালে সরকার ও বাংলাদেশ রেড ক্রিসেন্ট সোসাইটির যৌথ উদ্যোগে সিপিপি চালু হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

@@ -1,0 +1,1178 @@
+[
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "RAM কোন ধরনের মেমোরি?",
+    "options": [
+      "অস্থায়ী (Volatile) মেমোরি",
+      "স্থায়ী (Non-volatile) মেমোরি",
+      "শুধু পঠনযোগ্য মেমোরি",
+      "সহায়ক (Secondary) মেমোরি"
+    ],
+    "correct_index": 0,
+    "explanation": "RAM-এ রাখা তথ্য বিদ্যুৎ সংযোগ বিচ্ছিন্ন হলে মুছে যায়, তাই এটি অস্থায়ী বা উদ্বায়ী প্রধান মেমোরি।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "১ নিবল (Nibble) সমান কত বিট?",
+    "options": [
+      "২ বিট",
+      "৪ বিট",
+      "৮ বিট",
+      "১৬ বিট"
+    ],
+    "correct_index": 1,
+    "explanation": "৪ বিটে ১ নিবল এবং ৮ বিটে (২ নিবল) ১ বাইট হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "প্রথম প্রজন্মের কম্পিউটারে প্রধান ইলেকট্রনিক উপাদান হিসেবে কী ব্যবহৃত হতো?",
+    "options": [
+      "ভ্যাকুয়াম টিউব",
+      "ট্রানজিস্টর",
+      "ইন্টিগ্রেটেড সার্কিট (IC)",
+      "মাইক্রোপ্রসেসর"
+    ],
+    "correct_index": 0,
+    "explanation": "প্রথম প্রজন্মে ভ্যাকুয়াম টিউব, দ্বিতীয় প্রজন্মে ট্রানজিস্টর এবং তৃতীয় প্রজন্মে IC ব্যবহৃত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "CPU ও প্রধান মেমোরির (RAM) মধ্যে গতির পার্থক্য কমাতে কোন মেমোরি ব্যবহৃত হয়?",
+    "options": [
+      "হার্ডডিস্ক",
+      "ROM",
+      "ক্যাশ মেমোরি",
+      "ভার্চুয়াল মেমোরি"
+    ],
+    "correct_index": 2,
+    "explanation": "ক্যাশ মেমোরি অত্যন্ত দ্রুতগতির ছোট মেমোরি, যা ঘনঘন ব্যবহৃত তথ্য CPU-র কাছে রেখে কাজের গতি বাড়ায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "বহুনির্বাচনী (MCQ) পরীক্ষার উত্তরপত্র দ্রুত মূল্যায়নে কোন ইনপুট যন্ত্র ব্যবহৃত হয়?",
+    "options": [
+      "OMR",
+      "OCR",
+      "MICR",
+      "BCR"
+    ],
+    "correct_index": 0,
+    "explanation": "OMR (Optical Mark Reader) কাগজে পেনসিল বা কালির দাগের উপস্থিতি শনাক্ত করে উত্তরপত্র মূল্যায়ন করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "ব্যাংকের চেকে চৌম্বক কালিতে ছাপা অক্ষর ও সংখ্যা পড়তে কোন প্রযুক্তি ব্যবহৃত হয়?",
+    "options": [
+      "OMR",
+      "OCR",
+      "RFID",
+      "MICR"
+    ],
+    "correct_index": 3,
+    "explanation": "MICR (Magnetic Ink Character Recognition) চেকের চৌম্বক কালিতে ছাপা নম্বর পড়ে, তাই ব্যাংকে এটি ব্যাপকভাবে ব্যবহৃত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_software",
+    "stem": "নিচের কোনটি অপারেটিং সিস্টেম নয়?",
+    "options": [
+      "লিনাক্স",
+      "উইন্ডোজ",
+      "অ্যান্ড্রয়েড",
+      "এমএস ওয়ার্ড"
+    ],
+    "correct_index": 3,
+    "explanation": "এমএস ওয়ার্ড একটি অ্যাপ্লিকেশন সফটওয়্যার (ওয়ার্ড প্রসেসর); বাকিগুলো অপারেটিং সিস্টেম।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_software",
+    "stem": "লিনাক্স কার্নেলের প্রাথমিক নির্মাতা কে?",
+    "options": [
+      "লিনাস টরভাল্ডস",
+      "ডেনিস রিচি",
+      "রিচার্ড স্টলম্যান",
+      "কেন থম্পসন"
+    ],
+    "correct_index": 0,
+    "explanation": "ফিনল্যান্ডের ছাত্র লিনাস টরভাল্ডস ১৯৯১ সালে লিনাক্স কার্নেল তৈরি করেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_software",
+    "stem": "নিচের কোনটি সিস্টেম সফটওয়্যার?",
+    "options": [
+      "এমএস এক্সেল",
+      "অ্যাডোবি ফটোশপ",
+      "অপারেটিং সিস্টেম",
+      "ভিএলসি মিডিয়া প্লেয়ার"
+    ],
+    "correct_index": 2,
+    "explanation": "অপারেটিং সিস্টেম হার্ডওয়্যার পরিচালনা করে ও অন্য প্রোগ্রাম চালানোর পরিবেশ দেয়, তাই এটি সিস্টেম সফটওয়্যার; বাকিগুলো অ্যাপ্লিকেশন সফটওয়্যার।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_software",
+    "stem": "অ্যান্ড্রয়েড অপারেটিং সিস্টেম কোন কার্নেলের ওপর ভিত্তি করে তৈরি?",
+    "options": [
+      "উইন্ডোজ NT",
+      "সিম্বিয়ান",
+      "ডস (DOS)",
+      "লিনাক্স"
+    ],
+    "correct_index": 3,
+    "explanation": "অ্যান্ড্রয়েড পরিবর্তিত লিনাক্স কার্নেলের ওপর তৈরি একটি ওপেন সোর্স মোবাইল অপারেটিং সিস্টেম।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_software",
+    "stem": "ভার্চুয়াল মেমোরি হিসেবে সাধারণত কোন স্টোরেজের অংশ ব্যবহার করা হয়?",
+    "options": [
+      "হার্ডডিস্ক বা সেকেন্ডারি স্টোরেজ",
+      "ক্যাশ মেমোরি",
+      "রেজিস্টার",
+      "ROM"
+    ],
+    "correct_index": 0,
+    "explanation": "RAM-এ জায়গা কম পড়লে অপারেটিং সিস্টেম হার্ডডিস্কের একটি অংশকে অস্থায়ী মেমোরি হিসেবে ব্যবহার করে, একে ভার্চুয়াল মেমোরি বলে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "বাইনারি সংখ্যা (101101)₂-এর দশমিক মান কত?",
+    "options": [
+      "43",
+      "45",
+      "47",
+      "55"
+    ],
+    "correct_index": 1,
+    "explanation": "1×32 + 0×16 + 1×8 + 1×4 + 0×2 + 1×1 = 32 + 8 + 4 + 1 = 45।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "দশমিক সংখ্যা (100)₁₀-এর বাইনারি রূপ কোনটি?",
+    "options": [
+      "1010100",
+      "1100010",
+      "1100100",
+      "1001100"
+    ],
+    "correct_index": 2,
+    "explanation": "100 = 64 + 32 + 4, তাই বাইনারিতে 1100100।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "অক্টাল সংখ্যা (75)₈-এর দশমিক মান কত?",
+    "options": [
+      "57",
+      "61",
+      "63",
+      "75"
+    ],
+    "correct_index": 1,
+    "explanation": "7×8 + 5×1 = 56 + 5 = 61।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "বাইনারি সংখ্যা (110110)₂-এর অক্টাল রূপ কোনটি?",
+    "options": [
+      "(66)₈",
+      "(54)₈",
+      "(36)₈",
+      "(63)₈"
+    ],
+    "correct_index": 0,
+    "explanation": "ডান দিক থেকে তিন বিট করে ভাগ: 110 | 110 = 6 | 6, তাই (66)₈ (দশমিকে 54)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "বাইনারি সংখ্যা (10111100)₂-এর হেক্সাডেসিমেল রূপ কোনটি?",
+    "options": [
+      "CB",
+      "BC",
+      "AC",
+      "BD"
+    ],
+    "correct_index": 1,
+    "explanation": "চার বিট করে ভাগ: 1011 | 1100 = B | C, তাই (BC)₁₆ (দশমিকে 188)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "৮ বিটে −5 সংখ্যাটির 2's complement রূপ কোনটি?",
+    "options": [
+      "10000101",
+      "11111010",
+      "11111101",
+      "11111011"
+    ],
+    "correct_index": 3,
+    "explanation": "+5 = 00000101; এর 1's complement 11111010, তার সঙ্গে 1 যোগ করলে 11111011।",
+    "difficulty": 4,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "বাইনারি যোগফল (1011)₂ + (0110)₂ = ?",
+    "options": [
+      "10011",
+      "11001",
+      "10001",
+      "10101"
+    ],
+    "correct_index": 2,
+    "explanation": "1011 = 11 এবং 0110 = 6; যোগফল 17 = (10001)₂।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "দশমিক সংখ্যা 59-এর BCD কোড কোনটি?",
+    "options": [
+      "0101 1001",
+      "0011 1011",
+      "0101 1010",
+      "1001 0101"
+    ],
+    "correct_index": 0,
+    "explanation": "BCD-তে প্রতিটি দশমিক অঙ্ককে আলাদা ৪ বিটে লেখা হয়: 5 = 0101, 9 = 1001; 0011 1011 হলো 59-এর সাধারণ বাইনারি রূপ।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "নিচের কোন গেটকে সার্বজনীন (Universal) গেট বলা হয়?",
+    "options": [
+      "AND",
+      "NAND",
+      "OR",
+      "XOR"
+    ],
+    "correct_index": 1,
+    "explanation": "শুধু NAND (অথবা শুধু NOR) গেট দিয়ে যেকোনো লজিক সার্কিট তৈরি করা যায়, তাই এদের সার্বজনীন গেট বলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "দুই ইনপুটের কোন গেটের আউটপুট কেবল তখনই 1 হয় যখন ইনপুট দুটি পরস্পর ভিন্ন?",
+    "options": [
+      "AND",
+      "OR",
+      "XOR",
+      "XNOR"
+    ],
+    "correct_index": 2,
+    "explanation": "XOR গেটে A ≠ B হলে আউটপুট 1 এবং A = B হলে 0; XNOR ঠিক এর বিপরীত।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "বুলিয়ান অ্যালজেব্রায় A + A·B-এর সরলীকৃত রূপ কোনটি?",
+    "options": [
+      "B",
+      "A·B",
+      "A + B",
+      "A"
+    ],
+    "correct_index": 3,
+    "explanation": "A + A·B = A(1 + B) = A·1 = A (শোষণ বিধি)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_number_system",
+    "stem": "ডি মরগানের উপপাদ্য অনুসারে (A·B)′ = ?",
+    "options": [
+      "A′ + B′",
+      "A′·B′",
+      "A + B",
+      "A·B"
+    ],
+    "correct_index": 0,
+    "explanation": "ডি মরগানের উপপাদ্য: (A·B)′ = A′ + B′ এবং (A + B)′ = A′·B′।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "OSI রেফারেন্স মডেলে মোট কয়টি স্তর (Layer) রয়েছে?",
+    "options": [
+      "৪টি",
+      "৫টি",
+      "৭টি",
+      "৮টি"
+    ],
+    "correct_index": 2,
+    "explanation": "OSI মডেলে ৭টি স্তর: ফিজিক্যাল, ডেটা লিংক, নেটওয়ার্ক, ট্রান্সপোর্ট, সেশন, প্রেজেন্টেশন ও অ্যাপ্লিকেশন।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "রাউটার OSI মডেলের কোন স্তরে কাজ করে?",
+    "options": [
+      "ফিজিক্যাল স্তর",
+      "ডেটা লিংক স্তর",
+      "সেশন স্তর",
+      "নেটওয়ার্ক স্তর"
+    ],
+    "correct_index": 3,
+    "explanation": "রাউটার IP ঠিকানা দেখে প্যাকেটের পথ নির্ধারণ করে, তাই এটি নেটওয়ার্ক স্তরের (Layer 3) যন্ত্র।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "একটি IPv4 ঠিকানা কত বিটের?",
+    "options": [
+      "১৬ বিট",
+      "৩২ বিট",
+      "৬৪ বিট",
+      "১২৮ বিট"
+    ],
+    "correct_index": 1,
+    "explanation": "IPv4 ঠিকানা ৩২ বিটের (যেমন 192.168.0.1), আর IPv6 ঠিকানা ১২৮ বিটের।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "ই-মেইল পাঠানোর (প্রেরণের) জন্য প্রধানত কোন প্রোটোকল ব্যবহৃত হয়?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "POP3",
+      "HTTP"
+    ],
+    "correct_index": 1,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) ই-মেইল পাঠাতে ব্যবহৃত হয়; POP3 ও IMAP মেইল গ্রহণে ব্যবহৃত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "ডোমেইন নামকে (যেমন www.example.com) IP ঠিকানায় রূপান্তর করে কোন ব্যবস্থা?",
+    "options": [
+      "DHCP",
+      "ARP",
+      "DNS",
+      "FTP"
+    ],
+    "correct_index": 2,
+    "explanation": "DNS (Domain Name System) ডোমেইন নামকে সংশ্লিষ্ট IP ঠিকানায় রূপান্তর করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "যে টপোলজিতে প্রতিটি কম্পিউটার একটি কেন্দ্রীয় হাব বা সুইচের সঙ্গে সরাসরি যুক্ত থাকে, তাকে কী বলে?",
+    "options": [
+      "স্টার টপোলজি",
+      "বাস টপোলজি",
+      "রিং টপোলজি",
+      "মেশ টপোলজি"
+    ],
+    "correct_index": 0,
+    "explanation": "স্টার টপোলজিতে সব নোড একটি কেন্দ্রীয় হাব/সুইচের মাধ্যমে যোগাযোগ করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "HTTPS প্রোটোকলের ডিফল্ট পোর্ট নম্বর কোনটি?",
+    "options": [
+      "21",
+      "25",
+      "80",
+      "443"
+    ],
+    "correct_index": 3,
+    "explanation": "HTTPS-এর ডিফল্ট পোর্ট 443; HTTP-এর 80, FTP-এর 21 এবং SMTP-এর 25।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "ওয়ার্ল্ড ওয়াইড ওয়েব (WWW)-এর উদ্ভাবক কে?",
+    "options": [
+      "ভিন্টন সার্ফ",
+      "বিল গেটস",
+      "মার্ক অ্যান্ড্রিসেন",
+      "টিম বার্নার্স-লি"
+    ],
+    "correct_index": 3,
+    "explanation": "টিম বার্নার্স-লি ১৯৮৯ সালে সার্নে (CERN) কাজ করার সময় WWW-এর ধারণা দেন; ভিন্টন সার্ফ TCP/IP-এর অন্যতম প্রবর্তক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_database_programming",
+    "stem": "রিলেশনাল ডেটাবেজের টেবিলে প্রতিটি রেকর্ডকে অনন্যভাবে শনাক্ত করে কোনটি?",
+    "options": [
+      "ফরেন কি",
+      "ফিল্ড নেম",
+      "প্রাইমারি কি",
+      "ডেটা টাইপ"
+    ],
+    "correct_index": 2,
+    "explanation": "প্রাইমারি কি-এর মান প্রতিটি রেকর্ডে অনন্য ও শূন্য (NULL) নয়; ফরেন কি অন্য টেবিলের সঙ্গে সম্পর্ক তৈরি করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_database_programming",
+    "stem": "SQL-এ টেবিল থেকে ডেটা খুঁজে বের করতে বা প্রদর্শন করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "UPDATE",
+      "SELECT",
+      "INSERT",
+      "DELETE"
+    ],
+    "correct_index": 1,
+    "explanation": "SELECT কমান্ড দিয়ে টেবিল থেকে ডেটা পড়া হয়; INSERT নতুন ডেটা যোগ, UPDATE পরিবর্তন ও DELETE মুছে ফেলে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_database_programming",
+    "stem": "C প্রোগ্রামিং ভাষা কে তৈরি করেন?",
+    "options": [
+      "বিয়ার্নে স্ট্রাউস্ট্রুপ",
+      "ডেনিস রিচি",
+      "জেমস গসলিং",
+      "গুইডো ভ্যান রোসাম"
+    ],
+    "correct_index": 1,
+    "explanation": "ডেনিস রিচি ১৯৭২ সালে বেল ল্যাবে C ভাষা তৈরি করেন; স্ট্রাউস্ট্রুপ C++, গসলিং Java ও রোসাম Python-এর স্রষ্টা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_database_programming",
+    "stem": "নিচের কোনটি অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (OOP)-এর বৈশিষ্ট্য নয়?",
+    "options": [
+      "কম্পাইলেশন",
+      "এনক্যাপসুলেশন",
+      "ইনহেরিট্যান্স",
+      "পলিমরফিজম"
+    ],
+    "correct_index": 0,
+    "explanation": "এনক্যাপসুলেশন, ইনহেরিট্যান্স ও পলিমরফিজম OOP-এর মূল বৈশিষ্ট্য; কম্পাইলেশন হলো প্রোগ্রাম অনুবাদের প্রক্রিয়া।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_database_programming",
+    "stem": "ফ্লোচার্টে সিদ্ধান্ত (Decision) গ্রহণের ধাপ বোঝাতে কোন প্রতীক ব্যবহৃত হয়?",
+    "options": [
+      "আয়তক্ষেত্র",
+      "ডিম্বাকৃতি",
+      "রম্বস (ডায়মন্ড)",
+      "সামান্তরিক"
+    ],
+    "correct_index": 2,
+    "explanation": "সিদ্ধান্তের জন্য রম্বস, প্রক্রিয়ার জন্য আয়তক্ষেত্র, শুরু/শেষের জন্য ডিম্বাকৃতি এবং ইনপুট/আউটপুটের জন্য সামান্তরিক ব্যবহৃত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_database_programming",
+    "stem": "যে অনুবাদক প্রোগ্রাম উচ্চস্তরের ভাষার প্রোগ্রামকে এক লাইন করে অনুবাদ ও নির্বাহ করে, তাকে কী বলে?",
+    "options": [
+      "কম্পাইলার",
+      "অ্যাসেম্বলার",
+      "লিংকার",
+      "ইন্টারপ্রেটার"
+    ],
+    "correct_index": 3,
+    "explanation": "ইন্টারপ্রেটার লাইন ধরে ধরে অনুবাদ ও নির্বাহ করে, আর কম্পাইলার পুরো প্রোগ্রাম একসঙ্গে অনুবাদ করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "যে ম্যালওয়্যার নিজেকে উপকারী বা বৈধ সফটওয়্যারের ছদ্মবেশে উপস্থাপন করে, তাকে কী বলে?",
+    "options": [
+      "ওয়ার্ম",
+      "র‍্যানসমওয়্যার",
+      "অ্যাডওয়্যার",
+      "ট্রোজান হর্স"
+    ],
+    "correct_index": 3,
+    "explanation": "ট্রোজান হর্স দেখতে বৈধ প্রোগ্রামের মতো হলেও গোপনে ক্ষতিকর কাজ করে; ওয়ার্ম নিজে নিজে নেটওয়ার্কে ছড়ায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "যে ম্যালওয়্যার ব্যবহারকারীর ফাইল এনক্রিপ্ট করে আটকে রাখে এবং মুক্তিপণ দাবি করে, তাকে কী বলে?",
+    "options": [
+      "র‍্যানসমওয়্যার",
+      "স্পাইওয়্যার",
+      "অ্যাডওয়্যার",
+      "রুটকিট"
+    ],
+    "correct_index": 0,
+    "explanation": "র‍্যানসমওয়্যার ফাইল বা সিস্টেম এনক্রিপ্ট করে তা ফিরিয়ে দেওয়ার বিনিময়ে অর্থ (মুক্তিপণ) দাবি করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "ভুয়া ই-মেইল বা নকল ওয়েবসাইটের মাধ্যমে প্রতারণা করে পাসওয়ার্ড ও ব্যাংক তথ্য হাতিয়ে নেওয়াকে কী বলে?",
+    "options": [
+      "স্প্যামিং",
+      "ফিশিং",
+      "DDoS আক্রমণ",
+      "ওয়ার্ম সংক্রমণ"
+    ],
+    "correct_index": 1,
+    "explanation": "ফিশিংয়ে বিশ্বস্ত প্রতিষ্ঠানের ছদ্মবেশে ব্যবহারকারীর গোপন তথ্য সংগ্রহ করা হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "নিচের কোনটি পাবলিক কি (অপ্রতিসম) ক্রিপ্টোগ্রাফি পদ্ধতির উদাহরণ?",
+    "options": [
+      "AES",
+      "DES",
+      "RSA",
+      "সিজার সাইফার"
+    ],
+    "correct_index": 2,
+    "explanation": "RSA-তে এনক্রিপশন ও ডিক্রিপশনে ভিন্ন দুটি কি (পাবলিক ও প্রাইভেট) ব্যবহৃত হয়; AES ও DES প্রতিসম (Symmetric) পদ্ধতি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "Gmail বা Google Docs-এর মতো ব্রাউজারে ব্যবহারযোগ্য সেবা ক্লাউড কম্পিউটিংয়ের কোন সেবা মডেলের উদাহরণ?",
+    "options": [
+      "IaaS",
+      "SaaS",
+      "PaaS",
+      "NaaS"
+    ],
+    "correct_index": 1,
+    "explanation": "SaaS (Software as a Service)-এ ব্যবহারকারী ইনস্টল ছাড়াই ইন্টারনেটের মাধ্যমে সরাসরি সফটওয়্যার ব্যবহার করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "ব্লকচেইন প্রযুক্তিভিত্তিক প্রথম ক্রিপ্টোকারেন্সি কোনটি?",
+    "options": [
+      "বিটকয়েন",
+      "ইথেরিয়াম",
+      "লাইটকয়েন",
+      "ডোজকয়েন"
+    ],
+    "correct_index": 0,
+    "explanation": "২০০৯ সালে চালু হওয়া বিটকয়েন ব্লকচেইনভিত্তিক প্রথম বিকেন্দ্রীভূত ক্রিপ্টোকারেন্সি।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "‘Artificial Intelligence’ পরিভাষাটি প্রথম ব্যবহার করেন কে?",
+    "options": [
+      "অ্যালান টুরিং",
+      "চার্লস ব্যাবেজ",
+      "জন ম্যাকার্থি",
+      "টিম বার্নার্স-লি"
+    ],
+    "correct_index": 2,
+    "explanation": "জন ম্যাকার্থি ১৯৫৫-৫৬ সালে ডার্টমাউথ সম্মেলনের প্রস্তাবনায় ‘Artificial Intelligence’ পরিভাষাটি প্রবর্তন করেন।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_office",
+    "stem": "MS Word-এ সর্বশেষ কাজ বাতিল (Undo) করার কি-বোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "Ctrl + Y",
+      "Ctrl + X",
+      "Ctrl + U",
+      "Ctrl + Z"
+    ],
+    "correct_index": 3,
+    "explanation": "Ctrl + Z দিয়ে Undo এবং Ctrl + Y দিয়ে Redo করা হয়; Ctrl + X কাট এবং Ctrl + U আন্ডারলাইন।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_office",
+    "stem": "MS Word-এ বানান ও ব্যাকরণ যাচাইয়ের (Spelling & Grammar) ফাংশন কি কোনটি?",
+    "options": [
+      "F1",
+      "F5",
+      "F7",
+      "F12"
+    ],
+    "correct_index": 2,
+    "explanation": "F7 চাপলে বানান ও ব্যাকরণ যাচাই শুরু হয়; F1 সহায়তা, F5 Find & Replace/Go To এবং F12 Save As।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_office",
+    "stem": "MS Excel-এর একটি ফাইলকে কী বলা হয়?",
+    "options": [
+      "ওয়ার্কবুক",
+      "ডকুমেন্ট",
+      "প্রেজেন্টেশন",
+      "ডেটাশিট"
+    ],
+    "correct_index": 0,
+    "explanation": "Excel ফাইলকে ওয়ার্কবুক বলে, যার ভেতরে এক বা একাধিক ওয়ার্কশিট থাকে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_office",
+    "stem": "MS Excel-এ =AVERAGE(4, 8, 12) সূত্রের ফলাফল কত?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "correct_index": 1,
+    "explanation": "(4 + 8 + 12) ÷ 3 = 24 ÷ 3 = 8।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_office",
+    "stem": "MS Excel-এ নিচের কোনটি পরম (Absolute) সেল রেফারেন্স?",
+    "options": [
+      "A1",
+      "$A1",
+      "A$1",
+      "$A$1"
+    ],
+    "correct_index": 3,
+    "explanation": "কলাম ও সারি উভয়ের আগে $ থাকলে ($A$1) সূত্র কপি করলেও রেফারেন্স বদলায় না; $A1 ও A$1 মিশ্র রেফারেন্স।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

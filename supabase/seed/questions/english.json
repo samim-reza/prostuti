@@ -1,0 +1,1688 @@
+[
+  {
+    "subject": "english",
+    "topic": "en_parts_of_speech",
+    "stem": "In the sentence \"He ran fast to catch the bus\", the word 'fast' is a/an —",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Verb",
+      "Adverb"
+    ],
+    "correct_index": 3,
+    "explanation": "'Fast' modifies the verb 'ran' (tells how he ran), so it is an adverb (ক্রিয়া-বিশেষণ).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_parts_of_speech",
+    "stem": "Which of the following is an abstract noun?",
+    "options": [
+      "Crowd",
+      "Honesty",
+      "Gold",
+      "Table"
+    ],
+    "correct_index": 1,
+    "explanation": "Honesty names a quality, so it is an abstract noun; crowd is a collective noun, gold a material noun and table a common noun.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_parts_of_speech",
+    "stem": "In \"There was no one but him in the room\", the word 'but' is a —",
+    "options": [
+      "Conjunction",
+      "Adverb",
+      "Preposition",
+      "Pronoun"
+    ],
+    "correct_index": 2,
+    "explanation": "Here 'but' means 'except' and takes the object 'him', so it is a preposition.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_parts_of_speech",
+    "stem": "In \"Swimming is good exercise\", the word 'swimming' is a/an —",
+    "options": [
+      "Gerund",
+      "Present participle",
+      "Infinitive",
+      "Adjective"
+    ],
+    "correct_index": 0,
+    "explanation": "'Swimming' is a verb + -ing form working as a noun (the subject of the sentence), so it is a gerund.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_parts_of_speech",
+    "stem": "What is the adjective form of the noun 'courage'?",
+    "options": [
+      "Courageously",
+      "Encourage",
+      "Courageous",
+      "Courageousness"
+    ],
+    "correct_index": 2,
+    "explanation": "Courageous is the adjective; courageously is an adverb, encourage a verb and courageousness a noun.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "He ___ in Dhaka since 2015.",
+    "options": [
+      "lives",
+      "is living",
+      "has been living",
+      "was living"
+    ],
+    "correct_index": 2,
+    "explanation": "An action that began in the past and is still continuing, marked by 'since', takes the present perfect (continuous) tense.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "If I ___ you, I would accept the offer.",
+    "options": [
+      "am",
+      "will be",
+      "have been",
+      "were"
+    ],
+    "correct_index": 3,
+    "explanation": "An imaginary or unreal present condition takes the subjunctive 'were' with every subject: 'If I were you …'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "Neither the teacher nor the students ___ present yesterday.",
+    "options": [
+      "was",
+      "is",
+      "were",
+      "has been"
+    ],
+    "correct_index": 2,
+    "explanation": "With 'neither … nor' the verb agrees with the nearer subject ('the students', plural), and 'yesterday' needs the past tense.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "By the time we reached the station, the train ___.",
+    "options": [
+      "has left",
+      "had left",
+      "leaves",
+      "will leave"
+    ],
+    "correct_index": 1,
+    "explanation": "Of two past actions, the earlier one takes the past perfect: the train had left before we reached the station.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "What is the past participle of 'lie' in the sense 'to rest in a flat position'?",
+    "options": [
+      "lied",
+      "lain",
+      "laid",
+      "lay"
+    ],
+    "correct_index": 1,
+    "explanation": "lie – lay – lain (to recline). 'Lied' belongs to lie (to tell an untruth) and 'laid' to lay (to put something down); 'lay' is the past tense.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Change into passive voice: \"Who wrote this letter?\"",
+    "options": [
+      "Who was this letter written?",
+      "By whom this letter was written?",
+      "By whom was this letter written?",
+      "Whom was written this letter?"
+    ],
+    "correct_index": 2,
+    "explanation": "'Who' becomes 'By whom' and the question order (auxiliary before subject) is kept: By whom was this letter written?",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Change into passive voice: \"Open the door.\"",
+    "options": [
+      "The door is opened.",
+      "Let the door be opened.",
+      "Let the door is opened.",
+      "The door be opened."
+    ],
+    "correct_index": 1,
+    "explanation": "An imperative sentence becomes passive with the pattern: Let + object + be + past participle.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Change into passive voice: \"They are building a bridge.\"",
+    "options": [
+      "A bridge is being built by them.",
+      "A bridge is built by them.",
+      "A bridge was being built by them.",
+      "A bridge has been built by them."
+    ],
+    "correct_index": 0,
+    "explanation": "Present continuous active becomes 'am/is/are + being + past participle' in the passive.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Choose the correct indirect speech: He said, \"I am busy now.\"",
+    "options": [
+      "He said that I was busy then.",
+      "He said that he was busy then.",
+      "He said that he were busy then.",
+      "He told that he was busy then."
+    ],
+    "correct_index": 1,
+    "explanation": "The pronoun follows the speaker (I → he), the tense moves back (am → was) and 'now' becomes 'then'; 'told' would need an object (told me).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Choose the correct indirect speech: She said to me, \"Where do you live?\"",
+    "options": [
+      "She asked me where I lived.",
+      "She asked me where did I live.",
+      "She asked me where do I live.",
+      "She said me where I lived."
+    ],
+    "correct_index": 0,
+    "explanation": "In a reported question 'said to' becomes 'asked', the question takes statement order (subject before verb) and the tense moves back: where I lived.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "He is senior ___ me by three years.",
+    "options": [
+      "than",
+      "from",
+      "over",
+      "to"
+    ],
+    "correct_index": 3,
+    "explanation": "Latin comparatives such as senior, junior, superior, inferior and prior take 'to', not 'than'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "The man was accused ___ theft.",
+    "options": [
+      "for",
+      "with",
+      "of",
+      "about"
+    ],
+    "correct_index": 2,
+    "explanation": "The correct pattern is 'accused of' an offence (compare 'charged with').",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "He insisted ___ going there alone.",
+    "options": [
+      "for",
+      "at",
+      "on",
+      "to"
+    ],
+    "correct_index": 2,
+    "explanation": "'Insist' takes 'on' (or 'upon') followed by a noun or gerund.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "She has ___ M.A. in English.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correct_index": 1,
+    "explanation": "Article choice depends on sound: 'M' is pronounced 'em', which begins with a vowel sound, so 'an M.A.'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "___ Padma is a mighty river.",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "correct_index": 2,
+    "explanation": "The definite article is used before the names of rivers, seas and oceans: the Padma, the Bay of Bengal.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"I have seen him yesterday.\"?",
+    "options": [
+      "I have saw him yesterday.",
+      "I did saw him yesterday.",
+      "I had saw him yesterday.",
+      "I saw him yesterday."
+    ],
+    "correct_index": 3,
+    "explanation": "The present perfect cannot be used with a definite past time such as 'yesterday'; the simple past is required.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"The furnitures of this room are expensive.\"?",
+    "options": [
+      "The furniture of this room are expensive.",
+      "The furnitures of this room is expensive.",
+      "The furniture of this room is expensive.",
+      "The furniture's of this room are expensive."
+    ],
+    "correct_index": 2,
+    "explanation": "'Furniture' is an uncountable noun: it has no plural form and takes a singular verb.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"Scarcely had he left than it began to rain.\"?",
+    "options": [
+      "Scarcely he had left when it began to rain.",
+      "Scarcely had he left then it began to rain.",
+      "Scarcely he had left than it began to rain.",
+      "Scarcely had he left when it began to rain."
+    ],
+    "correct_index": 3,
+    "explanation": "'Scarcely/Hardly' pairs with 'when' (not 'than'), and when it opens the sentence the auxiliary comes before the subject: Scarcely had he …",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"Though he is poor, but he is honest.\"?",
+    "options": [
+      "Despite he is poor, he is honest.",
+      "Though he is poor, he is honest.",
+      "Though poor, but he is honest.",
+      "Though he is poor, and he is honest."
+    ],
+    "correct_index": 1,
+    "explanation": "'Though' is not followed by 'but' in the main clause, and 'despite' takes a noun or gerund, not a clause.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"The cattle is grazing in the field.\"?",
+    "options": [
+      "The cattles are grazing in the field.",
+      "The cattle are grazing in the field.",
+      "The cattles is grazing in the field.",
+      "The cattle has been grazing in the field."
+    ],
+    "correct_index": 1,
+    "explanation": "'Cattle' is a plural noun with no '-s' form and always takes a plural verb.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Candid'.",
+    "options": [
+      "Clever",
+      "Cruel",
+      "Frank",
+      "Timid"
+    ],
+    "correct_index": 2,
+    "explanation": "Candid means open and honest in what one says, i.e. frank (অকপট).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the antonym of 'Ephemeral'.",
+    "options": [
+      "Transient",
+      "Fleeting",
+      "Permanent",
+      "Brief"
+    ],
+    "correct_index": 2,
+    "explanation": "Ephemeral means lasting a very short time (ক্ষণস্থায়ী); its opposite is permanent. The other options are synonyms.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the antonym of 'Frugal'.",
+    "options": [
+      "Extravagant",
+      "Thrifty",
+      "Economical",
+      "Careful"
+    ],
+    "correct_index": 0,
+    "explanation": "Frugal means sparing with money (মিতব্যয়ী); its opposite is extravagant (অপব্যয়ী).",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Ubiquitous'.",
+    "options": [
+      "Omnipresent",
+      "Rare",
+      "Unique",
+      "Ambiguous"
+    ],
+    "correct_index": 0,
+    "explanation": "Ubiquitous means present or found everywhere (সর্বব্যাপী), i.e. omnipresent.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the antonym of 'Verbose'.",
+    "options": [
+      "Concise",
+      "Wordy",
+      "Lengthy",
+      "Talkative"
+    ],
+    "correct_index": 0,
+    "explanation": "Verbose means using more words than needed; its opposite is concise. The other options are close in meaning to verbose.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Obsolete'.",
+    "options": [
+      "Modern",
+      "Outdated",
+      "Obscure",
+      "Essential"
+    ],
+    "correct_index": 1,
+    "explanation": "Obsolete means no longer in use, out of date (অপ্রচলিত).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "The idiom 'a bolt from the blue' means —",
+    "options": [
+      "a sudden, unexpected event",
+      "a long-awaited success",
+      "a clear, bright sky",
+      "a brave act"
+    ],
+    "correct_index": 0,
+    "explanation": "A bolt from the blue is something completely unexpected (বিনা মেঘে বজ্রপাত).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "'To bell the cat' means —",
+    "options": [
+      "to make a loud noise",
+      "to undertake a dangerous task",
+      "to catch a thief red-handed",
+      "to punish a guilty person"
+    ],
+    "correct_index": 1,
+    "explanation": "From the fable of the mice: to bell the cat is to take on a risky task for the common good (বিপজ্জনক দায়িত্ব নেওয়া).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "The phrase 'at sixes and sevens' means —",
+    "options": [
+      "in confusion or disorder",
+      "in perfect order",
+      "very late at night",
+      "in a great hurry"
+    ],
+    "correct_index": 0,
+    "explanation": "At sixes and sevens means in a state of confusion or disorder (বিশৃঙ্খল অবস্থায়).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "'A white elephant' refers to —",
+    "options": [
+      "a rare animal",
+      "a costly but useless possession",
+      "a highly profitable asset",
+      "a very powerful person"
+    ],
+    "correct_index": 1,
+    "explanation": "A white elephant is something expensive to keep but of little use (ব্যয়বহুল অথচ অকেজো বস্তু).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "'To smell a rat' means —",
+    "options": [
+      "to find something lost",
+      "to be very hungry",
+      "to suspect that something is wrong",
+      "to feel frightened"
+    ],
+    "correct_index": 2,
+    "explanation": "To smell a rat is to sense that something is wrong or that one is being deceived (কোনো কিছুতে সন্দেহ করা).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Choose the correct spelling of the word meaning 'a place to live or stay'.",
+    "options": [
+      "Accomodation",
+      "Acommodation",
+      "Accommodasion",
+      "Accommodation"
+    ],
+    "correct_index": 3,
+    "explanation": "Accommodation has a double 'c' and a double 'm'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Choose the correct spelling of the word meaning 'a period of one thousand years'.",
+    "options": [
+      "Millenium",
+      "Milennium",
+      "Millennium",
+      "Millenneum"
+    ],
+    "correct_index": 2,
+    "explanation": "Millennium (a period of a thousand years) has a double 'l' and a double 'n'.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "One word for 'a person who denies the existence of God' is —",
+    "options": [
+      "Theist",
+      "Agnostic",
+      "Heretic",
+      "Atheist"
+    ],
+    "correct_index": 3,
+    "explanation": "An atheist denies God's existence (নাস্তিক); a theist believes in God, an agnostic holds that it cannot be known, and a heretic opposes accepted religious doctrine.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "One word for 'handwriting that cannot be read' is —",
+    "options": [
+      "Ineligible",
+      "Indelible",
+      "Illegible",
+      "Illiterate"
+    ],
+    "correct_index": 2,
+    "explanation": "Illegible means not clear enough to be read (অপাঠ্য); ineligible means not qualified and indelible means impossible to erase.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Bird : Flock :: Fish : ?",
+    "options": [
+      "Herd",
+      "Pack",
+      "Shoal",
+      "Swarm"
+    ],
+    "correct_index": 2,
+    "explanation": "A group of birds is a flock and a group of fish is a shoal (also called a school).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "Who is known as the 'Father of English Poetry'?",
+    "options": [
+      "Geoffrey Chaucer",
+      "Edmund Spenser",
+      "John Milton",
+      "William Shakespeare"
+    ],
+    "correct_index": 0,
+    "explanation": "Dryden called Chaucer 'the father of English poetry'; his Middle English works helped establish English as a literary language.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "In Chaucer's 'The Canterbury Tales', the pilgrims are travelling to the shrine of —",
+    "options": [
+      "Edward the Confessor",
+      "King Arthur",
+      "St Patrick",
+      "Thomas Becket"
+    ],
+    "correct_index": 3,
+    "explanation": "The pilgrims set out from the Tabard Inn, Southwark, for the shrine of St Thomas Becket at Canterbury Cathedral.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "The epic poem 'Beowulf' was composed in —",
+    "options": [
+      "Old English",
+      "Middle English",
+      "Latin",
+      "Norman French"
+    ],
+    "correct_index": 0,
+    "explanation": "Beowulf is the most important surviving poem in Old English (Anglo-Saxon).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "'The Faerie Queene' was written by —",
+    "options": [
+      "Philip Sidney",
+      "Edmund Spenser",
+      "Christopher Marlowe",
+      "Ben Jonson"
+    ],
+    "correct_index": 1,
+    "explanation": "The Faerie Queene, an allegorical epic dedicated to Queen Elizabeth I, is Edmund Spenser's masterpiece.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "Who wrote the play 'Doctor Faustus'?",
+    "options": [
+      "Thomas Kyd",
+      "Christopher Marlowe",
+      "Ben Jonson",
+      "John Webster"
+    ],
+    "correct_index": 1,
+    "explanation": "The Tragical History of Doctor Faustus is by Christopher Marlowe, the leading University Wit.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "Which of the following is NOT one of Shakespeare's four great tragedies?",
+    "options": [
+      "Othello",
+      "King Lear",
+      "Romeo and Juliet",
+      "Macbeth"
+    ],
+    "correct_index": 2,
+    "explanation": "The four great tragedies are Hamlet, Othello, King Lear and Macbeth; Romeo and Juliet is an earlier tragedy.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "Shylock, the moneylender, is a character in Shakespeare's —",
+    "options": [
+      "The Merchant of Venice",
+      "Othello",
+      "As You Like It",
+      "Twelfth Night"
+    ],
+    "correct_index": 0,
+    "explanation": "In The Merchant of Venice, Shylock demands a 'pound of flesh' from Antonio.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "Milton's 'Paradise Lost' is written in —",
+    "options": [
+      "heroic couplets",
+      "terza rima",
+      "ottava rima",
+      "blank verse"
+    ],
+    "correct_index": 3,
+    "explanation": "Paradise Lost is written in unrhymed iambic pentameter, i.e. blank verse.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_early",
+    "stem": "Who is regarded as the 'Father of the English Essay'?",
+    "options": [
+      "Charles Lamb",
+      "Joseph Addison",
+      "Francis Bacon",
+      "Richard Steele"
+    ],
+    "correct_index": 2,
+    "explanation": "Francis Bacon's Essays (first published 1597) introduced the essay form into English.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "'Lyrical Ballads' (1798), often taken as the start of the English Romantic movement, was jointly published by —",
+    "options": [
+      "Keats and Shelley",
+      "Byron and Shelley",
+      "Southey and Coleridge",
+      "Wordsworth and Coleridge"
+    ],
+    "correct_index": 3,
+    "explanation": "Lyrical Ballads was a joint collection by William Wordsworth and S. T. Coleridge; it opens with Coleridge's 'The Rime of the Ancient Mariner'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "Who wrote 'Ode to a Nightingale'?",
+    "options": [
+      "John Keats",
+      "P. B. Shelley",
+      "William Wordsworth",
+      "Lord Byron"
+    ],
+    "correct_index": 0,
+    "explanation": "Ode to a Nightingale (1819) is one of John Keats's great odes.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "'Prometheus Unbound', a lyrical drama, was written by —",
+    "options": [
+      "John Keats",
+      "Lord Byron",
+      "S. T. Coleridge",
+      "P. B. Shelley"
+    ],
+    "correct_index": 3,
+    "explanation": "Prometheus Unbound (1820) is a lyrical drama in four acts by Percy Bysshe Shelley.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "In Coleridge's 'The Rime of the Ancient Mariner', the mariner shoots a/an —",
+    "options": [
+      "seagull",
+      "eagle",
+      "raven",
+      "albatross"
+    ],
+    "correct_index": 3,
+    "explanation": "The mariner kills an albatross with his crossbow, bringing a curse upon the ship.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "Tennyson's elegy 'In Memoriam A.H.H.' was written in memory of —",
+    "options": [
+      "Arthur Henry Hallam",
+      "John Keats",
+      "Edward King",
+      "his father"
+    ],
+    "correct_index": 0,
+    "explanation": "In Memoriam mourns Tennyson's close friend Arthur Henry Hallam, who died in 1833. (Edward King is mourned in Milton's 'Lycidas' and Keats in Shelley's 'Adonais'.)",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "'My Last Duchess', a famous dramatic monologue, was written by —",
+    "options": [
+      "Robert Browning",
+      "Alfred Tennyson",
+      "Matthew Arnold",
+      "D. G. Rossetti"
+    ],
+    "correct_index": 0,
+    "explanation": "My Last Duchess (1842) is Robert Browning's best-known dramatic monologue, spoken by the Duke of Ferrara.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "Which novel by Charles Dickens is set in London and Paris during the French Revolution?",
+    "options": [
+      "A Tale of Two Cities",
+      "Bleak House",
+      "Hard Times",
+      "David Copperfield"
+    ],
+    "correct_index": 0,
+    "explanation": "A Tale of Two Cities (1859) is set in London and Paris before and during the French Revolution.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "'Tess of the d'Urbervilles' was written by —",
+    "options": [
+      "George Eliot",
+      "Charles Dickens",
+      "W. M. Thackeray",
+      "Thomas Hardy"
+    ],
+    "correct_index": 3,
+    "explanation": "Tess of the d'Urbervilles (1891) is a Wessex novel by Thomas Hardy.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_romantic_victorian",
+    "stem": "The satirical epic 'Don Juan' was written by —",
+    "options": [
+      "P. B. Shelley",
+      "Walter Scott",
+      "John Keats",
+      "Lord Byron"
+    ],
+    "correct_index": 3,
+    "explanation": "Don Juan is Lord Byron's unfinished comic-satirical epic written in ottava rima.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "'The Waste Land' (1922) was written by —",
+    "options": [
+      "T. S. Eliot",
+      "W. B. Yeats",
+      "Ezra Pound",
+      "W. H. Auden"
+    ],
+    "correct_index": 0,
+    "explanation": "The Waste Land is T. S. Eliot's landmark modernist poem; Ezra Pound helped edit the manuscript.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "The novel 'Ulysses' (1922) was written by —",
+    "options": [
+      "Virginia Woolf",
+      "James Joyce",
+      "D. H. Lawrence",
+      "Joseph Conrad"
+    ],
+    "correct_index": 1,
+    "explanation": "James Joyce's Ulysses, set in Dublin on a single day (16 June 1904), is a key stream-of-consciousness novel.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "'Mrs Dalloway' was written by —",
+    "options": [
+      "Katherine Mansfield",
+      "Doris Lessing",
+      "Iris Murdoch",
+      "Virginia Woolf"
+    ],
+    "correct_index": 3,
+    "explanation": "Mrs Dalloway (1925) is Virginia Woolf's stream-of-consciousness novel set in London over a single day.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "'The Old Man and the Sea' was written by —",
+    "options": [
+      "John Steinbeck",
+      "Ernest Hemingway",
+      "William Faulkner",
+      "F. Scott Fitzgerald"
+    ],
+    "correct_index": 1,
+    "explanation": "Hemingway's novella (1952) about the Cuban fisherman Santiago won the Pulitzer Prize.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "'Stopping by Woods on a Snowy Evening' is a poem by —",
+    "options": [
+      "Walt Whitman",
+      "Emily Dickinson",
+      "Carl Sandburg",
+      "Robert Frost"
+    ],
+    "correct_index": 3,
+    "explanation": "The poem by Robert Frost ends with the famous lines 'And miles to go before I sleep'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "'Leaves of Grass' is a collection of poems by —",
+    "options": [
+      "Walt Whitman",
+      "Robert Frost",
+      "Edgar Allan Poe",
+      "Emily Dickinson"
+    ],
+    "correct_index": 0,
+    "explanation": "Leaves of Grass (first edition 1855) is Walt Whitman's life work and a landmark of free verse.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "In which year did W. B. Yeats receive the Nobel Prize in Literature?",
+    "options": [
+      "1913",
+      "1923",
+      "1932",
+      "1948"
+    ],
+    "correct_index": 1,
+    "explanation": "Yeats won the Nobel Prize in 1923. (1913 – Rabindranath Tagore, 1932 – John Galsworthy, 1948 – T. S. Eliot.)",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_lit_modern",
+    "stem": "'A Passage to India' was written by —",
+    "options": [
+      "Rudyard Kipling",
+      "George Orwell",
+      "Joseph Conrad",
+      "E. M. Forster"
+    ],
+    "correct_index": 3,
+    "explanation": "A Passage to India (1924) by E. M. Forster centres on the Marabar Caves incident in British India.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "A fourteen-line lyric poem, usually in iambic pentameter with a fixed rhyme scheme, is called a/an —",
+    "options": [
+      "sonnet",
+      "ode",
+      "ballad",
+      "elegy"
+    ],
+    "correct_index": 0,
+    "explanation": "A sonnet has fourteen lines; the main forms are the Petrarchan (Italian) and the Shakespearean (English).",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "A figure of speech that joins contradictory terms, as in 'deafening silence', is called —",
+    "options": [
+      "simile",
+      "oxymoron",
+      "hyperbole",
+      "metonymy"
+    ],
+    "correct_index": 1,
+    "explanation": "An oxymoron places two opposite ideas side by side, e.g. 'deafening silence', 'sweet sorrow'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "A poem of mourning or lament for the dead is called a/an —",
+    "options": [
+      "epic",
+      "satire",
+      "limerick",
+      "elegy"
+    ],
+    "correct_index": 3,
+    "explanation": "An elegy laments a death, e.g. Milton's 'Lycidas' and Shelley's 'Adonais' (শোকগাথা).",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "'The Child is father of the Man' — who wrote this line?",
+    "options": [
+      "S. T. Coleridge",
+      "William Wordsworth",
+      "John Keats",
+      "P. B. Shelley"
+    ],
+    "correct_index": 1,
+    "explanation": "The line is from Wordsworth's short lyric 'My Heart Leaps Up' (1802).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "'A thing of beauty is a joy for ever' is the opening line of Keats's —",
+    "options": [
+      "Ode on a Grecian Urn",
+      "Hyperion",
+      "Endymion",
+      "Lamia"
+    ],
+    "correct_index": 2,
+    "explanation": "Endymion (1818) opens with 'A thing of beauty is a joy for ever'.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "'Frailty, thy name is woman!' is a line from Shakespeare's —",
+    "options": [
+      "Othello",
+      "Macbeth",
+      "Hamlet",
+      "King Lear"
+    ],
+    "correct_index": 2,
+    "explanation": "Hamlet says it in his first soliloquy (Act 1, Scene 2), reproaching his mother Gertrude for her hasty remarriage.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "'If Winter comes, can Spring be far behind?' is the closing line of —",
+    "options": [
+      "Ode to the West Wind",
+      "To a Skylark",
+      "Ozymandias",
+      "Adonais"
+    ],
+    "correct_index": 0,
+    "explanation": "It is the last line of P. B. Shelley's 'Ode to the West Wind' (1819).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_literary_terms",
+    "stem": "\"All the world's a stage, / And all the men and women merely players\" is spoken by Jaques in —",
+    "options": [
+      "The Tempest",
+      "As You Like It",
+      "Twelfth Night",
+      "A Midsummer Night's Dream"
+    ],
+    "correct_index": 1,
+    "explanation": "Jaques's 'seven ages of man' speech occurs in Shakespeare's As You Like It (Act 2, Scene 7).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

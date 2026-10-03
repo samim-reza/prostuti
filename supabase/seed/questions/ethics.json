@@ -1,0 +1,750 @@
+[
+  {
+    "subject": "ethics",
+    "topic": "eth_concepts",
+    "stem": "'Ethics' শব্দটি কোন ভাষার শব্দ থেকে উদ্ভূত?",
+    "options": [
+      "ল্যাটিন",
+      "ফরাসি",
+      "আরবি",
+      "গ্রিক"
+    ],
+    "correct_index": 3,
+    "explanation": "'Ethics' শব্দটি গ্রিক 'Ethos' শব্দ থেকে এসেছে, যার অর্থ রীতিনীতি, অভ্যাস বা চরিত্র।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_concepts",
+    "stem": "নীতিবিদ্যাকে কোন ধরনের বিজ্ঞান বলা হয়?",
+    "options": [
+      "আদর্শনিষ্ঠ বিজ্ঞান (Normative Science)",
+      "বর্ণনামূলক বিজ্ঞান (Positive Science)",
+      "প্রাকৃতিক বিজ্ঞান (Natural Science)",
+      "পরীক্ষণমূলক বিজ্ঞান (Experimental Science)"
+    ],
+    "correct_index": 0,
+    "explanation": "নীতিবিদ্যা মানুষের আচরণ কেমন হওয়া উচিত সেই আদর্শ বা মানদণ্ড নিয়ে আলোচনা করে, তাই একে আদর্শনিষ্ঠ বিজ্ঞান বলা হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_concepts",
+    "stem": "'অন্যের কাছ থেকে যেমন আচরণ প্রত্যাশা করো, অন্যের প্রতিও তেমন আচরণ করো'—নৈতিকতার এই নীতিটি কী নামে পরিচিত?",
+    "options": [
+      "সোনালি নিয়ম (Golden Rule)",
+      "পিটার নীতি (Peter Principle)",
+      "প্যারেটো নীতি (Pareto Principle)",
+      "মারফির সূত্র (Murphy's Law)"
+    ],
+    "correct_index": 0,
+    "explanation": "প্রায় সব ধর্ম ও নৈতিক দর্শনে স্বীকৃত এই পারস্পরিকতার নীতিকে 'গোল্ডেন রুল' বা সোনালি নিয়ম বলা হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_concepts",
+    "stem": "ন্যায়-অন্যায় ও ভালো-মন্দ বিচার করার মানুষের অন্তর্নিহিত নৈতিক বোধকে কী বলা হয়?",
+    "options": [
+      "আবেগ",
+      "প্রবৃত্তি",
+      "অভ্যাস",
+      "বিবেক"
+    ],
+    "correct_index": 3,
+    "explanation": "বিবেক মানুষের অন্তর্নিহিত নৈতিক বোধ, যা কোনো কাজ ন্যায় নাকি অন্যায় তা বিচার করতে সাহায্য করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_concepts",
+    "stem": "নীতিবিদ্যা ও নন্দনতত্ত্ব দর্শনের কোন শাখার অন্তর্ভুক্ত?",
+    "options": [
+      "অধিবিদ্যা (Metaphysics)",
+      "জ্ঞানবিদ্যা (Epistemology)",
+      "যুক্তিবিদ্যা (Logic)",
+      "মূল্যবিদ্যা (Axiology)"
+    ],
+    "correct_index": 3,
+    "explanation": "মূল্য নিয়ে আলোচনাকারী মূল্যবিদ্যার দুটি প্রধান শাখা হলো নীতিবিদ্যা (নৈতিক মূল্য) ও নন্দনতত্ত্ব (সৌন্দর্যমূল্য)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_concepts",
+    "stem": "'সুখই মানুষের জীবনের পরম কল্যাণ ও একমাত্র কাম্য'—এই নৈতিক মতবাদের নাম কী?",
+    "options": [
+      "সুখবাদ (Hedonism)",
+      "স্বজ্ঞাবাদ (Intuitionism)",
+      "পূর্ণতাবাদ (Perfectionism)",
+      "কঠোরতাবাদ (Rigorism)"
+    ],
+    "correct_index": 0,
+    "explanation": "সুখবাদ অনুসারে সুখ বা আনন্দই একমাত্র কাম্য বস্তু; এপিকিউরাস, বেন্থাম ও মিল এ মতবাদের উল্লেখযোগ্য প্রবক্তা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_concepts",
+    "stem": "নিজের স্বার্থের চেয়ে অন্যের কল্যাণকে প্রাধান্য দেওয়ার নৈতিক মতবাদকে কী বলে?",
+    "options": [
+      "পরার্থবাদ (Altruism)",
+      "অহংবাদ (Egoism)",
+      "নিয়তিবাদ (Fatalism)",
+      "বস্তুবাদ (Materialism)"
+    ],
+    "correct_index": 0,
+    "explanation": "পরার্থবাদ অনুসারে অন্যের কল্যাণ সাধনই নৈতিক কাজের মানদণ্ড; ফরাসি দার্শনিক অগাস্ট কোঁৎ 'Altruism' শব্দটির প্রবর্তক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_governance",
+    "stem": "১৯৮৯ সালে প্রকাশিত কোন সংস্থার একটি প্রতিবেদনের মাধ্যমে 'সুশাসন' (Good Governance) প্রত্যয়টি ব্যাপক পরিচিতি লাভ করে?",
+    "options": [
+      "আন্তর্জাতিক মুদ্রা তহবিল (IMF)",
+      "এশীয় উন্নয়ন ব্যাংক (ADB)",
+      "ট্রান্সপারেন্সি ইন্টারন্যাশনাল",
+      "বিশ্বব্যাংক"
+    ],
+    "correct_index": 3,
+    "explanation": "সাব-সাহারান আফ্রিকা বিষয়ক বিশ্বব্যাংকের ১৯৮৯ সালের প্রতিবেদনে সুশাসন প্রত্যয়টি প্রথম গুরুত্বের সঙ্গে ব্যবহৃত হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_governance",
+    "stem": "জাতিসংঘের এশিয়া ও প্রশান্ত মহাসাগরীয় অর্থনৈতিক ও সামাজিক কমিশন (UNESCAP) সুশাসনের কয়টি মূল বৈশিষ্ট্য চিহ্নিত করেছে?",
+    "options": [
+      "৫টি",
+      "৬টি",
+      "৮টি",
+      "১০টি"
+    ],
+    "correct_index": 2,
+    "explanation": "UNESCAP-এর মতে সুশাসনের ৮টি বৈশিষ্ট্য হলো অংশগ্রহণ, আইনের শাসন, স্বচ্ছতা, সংবেদনশীলতা, ঐকমত্যভিত্তিকতা, সমতা ও অন্তর্ভুক্তি, কার্যকারিতা ও দক্ষতা এবং জবাবদিহি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_governance",
+    "stem": "'আইনের শাসন' (Rule of Law) ধারণার প্রধান ব্যাখ্যাতা হিসেবে কোন ব্রিটিশ আইনবিদ সুপরিচিত?",
+    "options": [
+      "জন অস্টিন",
+      "জেরেমি বেন্থাম",
+      "এ. ভি. ডাইসি",
+      "উইলিয়াম ব্ল্যাকস্টোন"
+    ],
+    "correct_index": 2,
+    "explanation": "এ. ভি. ডাইসি ১৮৮৫ সালে প্রকাশিত 'Introduction to the Study of the Law of the Constitution' গ্রন্থে আইনের শাসনের মূলনীতি ব্যাখ্যা করেন।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_governance",
+    "stem": "ক্ষমতা পৃথকীকরণ নীতির (Separation of Powers) প্রবক্তা কে?",
+    "options": [
+      "টমাস হবস",
+      "জ্যাঁ-জ্যাক রুশো",
+      "কার্ল মার্ক্স",
+      "মন্টেস্কু"
+    ],
+    "correct_index": 3,
+    "explanation": "ফরাসি দার্শনিক মন্টেস্কু ১৭৪৮ সালে প্রকাশিত 'The Spirit of the Laws' গ্রন্থে আইন, শাসন ও বিচার বিভাগের ক্ষমতা পৃথকীকরণের তত্ত্ব দেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_governance",
+    "stem": "'সিটিজেনস চার্টার' (নাগরিক সনদ) ধারণাটি প্রথম কোন দেশে চালু হয়?",
+    "options": [
+      "যুক্তরাজ্য",
+      "যুক্তরাষ্ট্র",
+      "কানাডা",
+      "ভারত"
+    ],
+    "correct_index": 0,
+    "explanation": "১৯৯১ সালে যুক্তরাজ্যে প্রধানমন্ত্রী জন মেজরের সরকার জনসেবার মান উন্নয়নে সিটিজেনস চার্টার চালু করে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_governance",
+    "stem": "'দুর্নীতির ধারণা সূচক' (Corruption Perceptions Index) প্রকাশ করে কোন সংস্থা?",
+    "options": [
+      "বিশ্বব্যাংক",
+      "ট্রান্সপারেন্সি ইন্টারন্যাশনাল",
+      "জাতিসংঘ উন্নয়ন কর্মসূচি (UNDP)",
+      "অ্যামনেস্টি ইন্টারন্যাশনাল"
+    ],
+    "correct_index": 1,
+    "explanation": "জার্মানির বার্লিনভিত্তিক ট্রান্সপারেন্সি ইন্টারন্যাশনাল ১৯৯৫ সাল থেকে প্রতিবছর দুর্নীতির ধারণা সূচক প্রকাশ করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_integrity",
+    "stem": "মন্ত্রিসভা 'জাতীয় শুদ্ধাচার কৌশল' অনুমোদন করে কোন সালে?",
+    "options": [
+      "২০০৯",
+      "২০১২",
+      "২০১৪",
+      "২০১৭"
+    ],
+    "correct_index": 1,
+    "explanation": "২০১২ সালের ১৮ অক্টোবর মন্ত্রিসভা 'সোনার বাংলা গড়ার প্রত্যয়: জাতীয় শুদ্ধাচার কৌশল' অনুমোদন করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_integrity",
+    "stem": "জাতীয় শুদ্ধাচার কৌশলে মোট কতটি রাষ্ট্রীয় ও অরাষ্ট্রীয় প্রতিষ্ঠান চিহ্নিত করা হয়েছে?",
+    "options": [
+      "১০টি",
+      "১২টি",
+      "১৬টি",
+      "১৮টি"
+    ],
+    "correct_index": 2,
+    "explanation": "জাতীয় শুদ্ধাচার কৌশলে ১০টি রাষ্ট্রীয় ও ৬টি অরাষ্ট্রীয় প্রতিষ্ঠান মিলিয়ে মোট ১৬টি প্রতিষ্ঠান চিহ্নিত করা হয়েছে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_integrity",
+    "stem": "নিচের কোনটি জাতীয় শুদ্ধাচার কৌশলে চিহ্নিত 'রাষ্ট্রীয় প্রতিষ্ঠান' নয়?",
+    "options": [
+      "নির্বাচন কমিশন",
+      "ন্যায়পাল",
+      "গণমাধ্যম",
+      "সরকারি কর্ম কমিশন"
+    ],
+    "correct_index": 2,
+    "explanation": "জাতীয় শুদ্ধাচার কৌশলে গণমাধ্যমকে অরাষ্ট্রীয় প্রতিষ্ঠান হিসেবে চিহ্নিত করা হয়েছে; রাজনৈতিক দল, এনজিও ও সুশীল সমাজ, পরিবার ও শিক্ষাপ্রতিষ্ঠানও এ শ্রেণির।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_integrity",
+    "stem": "জাতীয় শুদ্ধাচার কৌশল অনুযায়ী 'শুদ্ধাচার' বলতে কী বোঝায়?",
+    "options": [
+      "দেশের প্রচলিত আইন মেনে চলার বাধ্যবাধকতা",
+      "সরকারি সেবা দ্রুত প্রদানের কৌশল",
+      "প্রশাসনিক কাজে তথ্যপ্রযুক্তির ব্যবহার",
+      "নৈতিকতা ও সততা দ্বারা প্রভাবিত আচরণগত উৎকর্ষ"
+    ],
+    "correct_index": 3,
+    "explanation": "জাতীয় শুদ্ধাচার কৌশলে শুদ্ধাচারকে সাধারণভাবে নৈতিকতা ও সততা দ্বারা প্রভাবিত আচরণগত উৎকর্ষ হিসেবে সংজ্ঞায়িত করা হয়েছে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_integrity",
+    "stem": "জাতীয় শুদ্ধাচার কৌশলের রূপকল্প (Vision) কোনটি?",
+    "options": [
+      "সুখী-সমৃদ্ধ সোনার বাংলা",
+      "রাষ্ট্রীয় প্রতিষ্ঠান ও সমাজে সুশাসন প্রতিষ্ঠা",
+      "দুর্নীতিমুক্ত ডিজিটাল বাংলাদেশ",
+      "জবাবদিহিমূলক জনপ্রশাসন"
+    ],
+    "correct_index": 0,
+    "explanation": "জাতীয় শুদ্ধাচার কৌশলের রূপকল্প 'সুখী-সমৃদ্ধ সোনার বাংলা' এবং অভিলক্ষ্য 'রাষ্ট্রীয় প্রতিষ্ঠান ও সমাজে সুশাসন প্রতিষ্ঠা'।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_integrity",
+    "stem": "জাতীয় শুদ্ধাচার কৌশল বাস্তবায়নের সার্বিক সমন্বয়ের দায়িত্ব পালন করে কোন বিভাগ?",
+    "options": [
+      "জনপ্রশাসন মন্ত্রণালয়",
+      "মন্ত্রিপরিষদ বিভাগ",
+      "আইন ও বিচার বিভাগ",
+      "অর্থ বিভাগ"
+    ],
+    "correct_index": 1,
+    "explanation": "জাতীয় শুদ্ধাচার কৌশল বাস্তবায়নের সার্বিক সমন্বয় ও পরিবীক্ষণের দায়িত্ব মন্ত্রিপরিষদ বিভাগের।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_philosophers",
+    "stem": "প্লেটোর 'দার্শনিক রাজা' (Philosopher King) ধারণাটি কোন গ্রন্থে বর্ণিত হয়েছে?",
+    "options": [
+      "পলিটিক্স",
+      "লেভিয়াথান",
+      "দ্য রিপাবলিক",
+      "দ্য প্রিন্স"
+    ],
+    "correct_index": 2,
+    "explanation": "প্লেটো তাঁর 'দ্য রিপাবলিক' গ্রন্থে আদর্শ রাষ্ট্রের শাসক হিসেবে দার্শনিক রাজার ধারণা দেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_philosophers",
+    "stem": "'জ্ঞানই পুণ্য' (Knowledge is virtue)—উক্তিটি কোন দার্শনিকের?",
+    "options": [
+      "অ্যারিস্টটল",
+      "ইমানুয়েল কান্ট",
+      "জন স্টুয়ার্ট মিল",
+      "সক্রেটিস"
+    ],
+    "correct_index": 3,
+    "explanation": "সক্রেটিস মনে করতেন, প্রকৃত জ্ঞানী ব্যক্তি জেনেশুনে অন্যায় করতে পারে না; তাই জ্ঞানই পুণ্য।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_philosophers",
+    "stem": "প্রাচীন এথেন্সে মৃত্যুদণ্ড কার্যকর করতে সক্রেটিসকে কী পান করানো হয়েছিল?",
+    "options": [
+      "হেমলক বিষ",
+      "আর্সেনিক",
+      "সায়ানাইড",
+      "ধুতুরার রস"
+    ],
+    "correct_index": 0,
+    "explanation": "খ্রিস্টপূর্ব ৩৯৯ অব্দে তরুণদের বিপথগামী করা ও দেবতাদের অবমাননার অভিযোগে সক্রেটিসকে হেমলক বিষ পানে মৃত্যুদণ্ড দেওয়া হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_philosophers",
+    "stem": "'নিঃশর্ত আদেশ' (Categorical Imperative) নৈতিক তত্ত্বটি কোন দার্শনিকের?",
+    "options": [
+      "জন স্টুয়ার্ট মিল",
+      "ইমানুয়েল কান্ট",
+      "ডেভিড হিউম",
+      "ফ্রেডরিখ নিৎশে"
+    ],
+    "correct_index": 1,
+    "explanation": "জার্মান দার্শনিক কান্টের মতে নৈতিক নিয়ম শর্তহীন ও সর্বজনীন; ফলাফল নয়, কর্তব্যবোধই কাজের নৈতিক মূল্য নির্ধারণ করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_philosophers",
+    "stem": "'On Liberty' (১৮৫৯) গ্রন্থের রচয়িতা কে?",
+    "options": [
+      "জন লক",
+      "টমাস হবস",
+      "জন স্টুয়ার্ট মিল",
+      "জ্যাঁ-জ্যাক রুশো"
+    ],
+    "correct_index": 2,
+    "explanation": "ব্রিটিশ দার্শনিক জন স্টুয়ার্ট মিল 'On Liberty' গ্রন্থে ব্যক্তিস্বাধীনতা ও মতপ্রকাশের স্বাধীনতার পক্ষে যুক্তি দেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_philosophers",
+    "stem": "'সর্বাধিক সংখ্যক মানুষের সর্বাধিক সুখ'—উপযোগবাদের এই নীতির প্রধান প্রবক্তা কে?",
+    "options": [
+      "ইমানুয়েল কান্ট",
+      "প্লেটো",
+      "টমাস হবস",
+      "জেরেমি বেন্থাম"
+    ],
+    "correct_index": 3,
+    "explanation": "জেরেমি বেন্থামকে উপযোগবাদের প্রতিষ্ঠাতা বলা হয়; তাঁর মতে যে কাজ সর্বাধিক সংখ্যক মানুষের সর্বাধিক সুখ নিশ্চিত করে তা-ই নৈতিক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_philosophers",
+    "stem": "নৈতিক গুণকে দুটি চরম অবস্থার মধ্যবর্তী 'মধ্যপন্থা' (Golden Mean) হিসেবে ব্যাখ্যা করেছেন কোন দার্শনিক?",
+    "options": [
+      "অ্যারিস্টটল",
+      "সক্রেটিস",
+      "রেনে দেকার্ত",
+      "জন লক"
+    ],
+    "correct_index": 0,
+    "explanation": "অ্যারিস্টটল 'নিকোমেকিয়ান এথিকস' গ্রন্থে বলেন, গুণ হলো দুই চরমের মধ্যপন্থা; যেমন সাহস হলো ভীরুতা ও হঠকারিতার মধ্যবর্তী অবস্থা।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "জাতিসংঘের 'মানবাধিকারের সর্বজনীন ঘোষণাপত্রে' (UDHR) মোট কয়টি অনুচ্ছেদ রয়েছে?",
+    "options": [
+      "২৫টি",
+      "৩০টি",
+      "৩২টি",
+      "৪০টি"
+    ],
+    "correct_index": 1,
+    "explanation": "১৯৪৮ সালের ১০ ডিসেম্বর গৃহীত মানবাধিকারের সর্বজনীন ঘোষণাপত্রে ৩০টি অনুচ্ছেদ রয়েছে; দিনটি বিশ্ব মানবাধিকার দিবস হিসেবে পালিত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "বাংলাদেশে 'তথ্য অধিকার আইন' প্রণীত হয় কোন সালে?",
+    "options": [
+      "২০০৪",
+      "২০০৬",
+      "২০০৯",
+      "২০১১"
+    ],
+    "correct_index": 2,
+    "explanation": "তথ্য অধিকার আইন, ২০০৯ জনগণের তথ্য জানার অধিকার নিশ্চিত করে এবং এ আইনের অধীনে ২০০৯ সালেই তথ্য কমিশন গঠিত হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "তথ্য অধিকার আইন, ২০০৯ অনুযায়ী অনুরোধ প্রাপ্তির পর দায়িত্বপ্রাপ্ত কর্মকর্তাকে সাধারণভাবে কত কার্যদিবসের মধ্যে তথ্য সরবরাহ করতে হয়?",
+    "options": [
+      "৭ কার্যদিবস",
+      "১৫ কার্যদিবস",
+      "২০ কার্যদিবস",
+      "৪৫ কার্যদিবস"
+    ],
+    "correct_index": 2,
+    "explanation": "আইনের ৯ ধারা অনুযায়ী অনুরোধ প্রাপ্তির তারিখ থেকে ২০ কার্যদিবসের মধ্যে তথ্য সরবরাহ করতে হয়; একাধিক ইউনিট জড়িত থাকলে এ সময়সীমা ৩০ কার্যদিবস।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "বাংলাদেশের দুর্নীতি দমন কমিশন কোন আইনের মাধ্যমে প্রতিষ্ঠিত হয়?",
+    "options": [
+      "বিশেষ ক্ষমতা আইন, ১৯৭৪",
+      "দুর্নীতি দমন কমিশন আইন, ২০০৪",
+      "মানিলন্ডারিং প্রতিরোধ আইন, ২০১২",
+      "তথ্য অধিকার আইন, ২০০৯"
+    ],
+    "correct_index": 1,
+    "explanation": "দুর্নীতি দমন কমিশন আইন, ২০০৪-এর অধীনে স্বাধীন দুর্নীতি দমন কমিশন গঠিত হয়, যা আগের দুর্নীতি দমন ব্যুরোর স্থলাভিষিক্ত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "'ন্যায়পাল' (Ombudsman) পদের উৎপত্তি কোন দেশে?",
+    "options": [
+      "যুক্তরাজ্য",
+      "ফ্রান্স",
+      "সুইডেন",
+      "ডেনমার্ক"
+    ],
+    "correct_index": 2,
+    "explanation": "১৮০৯ সালে সুইডেনে প্রথম সংসদীয় ন্যায়পাল পদ সৃষ্টি হয়; 'Ombudsman' শব্দটিও সুইডিশ।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "বাংলাদেশের সংবিধানের কোন অনুচ্ছেদে ন্যায়পাল পদ প্রতিষ্ঠার বিধান রয়েছে?",
+    "options": [
+      "৫৯ অনুচ্ছেদ",
+      "৭৭ অনুচ্ছেদ",
+      "৮৭ অনুচ্ছেদ",
+      "১০২ অনুচ্ছেদ"
+    ],
+    "correct_index": 1,
+    "explanation": "সংবিধানের ৭৭ অনুচ্ছেদে সংসদ কর্তৃক আইনের মাধ্যমে ন্যায়পাল পদ প্রতিষ্ঠার বিধান রয়েছে; এর আলোকে ১৯৮০ সালে ন্যায়পাল আইন প্রণীত হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "বাংলাদেশে 'জনস্বার্থ সংশ্লিষ্ট তথ্য প্রকাশ (সুরক্ষা প্রদান) আইন' প্রণীত হয় কোন সালে?",
+    "options": [
+      "২০০৯",
+      "২০১১",
+      "২০১৩",
+      "২০১৫"
+    ],
+    "correct_index": 1,
+    "explanation": "জনস্বার্থে তথ্য প্রকাশকারী বা 'হুইসেলব্লোয়ার'-কে আইনি সুরক্ষা দিতে ২০১১ সালে এ আইন প্রণীত হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "ethics",
+    "topic": "eth_law_rights",
+    "stem": "আন্তর্জাতিক দুর্নীতিবিরোধী দিবস পালিত হয় কোন দিন?",
+    "options": [
+      "১০ ডিসেম্বর",
+      "২৪ অক্টোবর",
+      "৩ মে",
+      "৯ ডিসেম্বর"
+    ],
+    "correct_index": 3,
+    "explanation": "জাতিসংঘ দুর্নীতিবিরোধী কনভেনশন (UNCAC) ২০০৩ সালের ৯ ডিসেম্বর স্বাক্ষরের জন্য উন্মুক্ত হওয়ার স্মরণে দিবসটি পালিত হয়; ১০ ডিসেম্বর মানবাধিকার দিবস।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

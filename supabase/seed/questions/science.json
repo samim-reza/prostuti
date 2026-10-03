@@ -1,0 +1,1106 @@
+[
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "নিচের কোন মাধ্যমে শব্দের বেগ সবচেয়ে বেশি?",
+    "options": [
+      "বায়ু",
+      "পানি",
+      "শূন্যস্থান",
+      "ইস্পাত"
+    ],
+    "correct_index": 3,
+    "explanation": "কঠিন মাধ্যমে কণাগুলো ঘনভাবে সাজানো থাকায় শব্দ দ্রুততম চলে; শূন্যস্থানে শব্দ চলতেই পারে না।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "রোধের এসআই (SI) একক কোনটি?",
+    "options": [
+      "ওহম",
+      "ভোল্ট",
+      "অ্যাম্পিয়ার",
+      "কুলম্ব"
+    ],
+    "correct_index": 0,
+    "explanation": "রোধের একক ওহম (Ω); ভোল্ট বিভব পার্থক্যের, অ্যাম্পিয়ার তড়িৎ প্রবাহের এবং কুলম্ব আধানের একক।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "প্রিজমের মধ্য দিয়ে যাওয়ার সময় সাদা আলো সাতটি রঙে বিভক্ত হওয়ার ঘটনাকে কী বলে?",
+    "options": [
+      "আলোর ব্যতিচার",
+      "আলোর বিচ্ছুরণ",
+      "আলোর সমবর্তন",
+      "আলোর অপবর্তন"
+    ],
+    "correct_index": 1,
+    "explanation": "বিভিন্ন রঙের আলোর প্রতিসরণাঙ্ক ভিন্ন হওয়ায় সাদা আলো প্রিজমে বিভিন্ন কোণে বেঁকে সাত রঙে ভাগ হয়—একে বিচ্ছুরণ বলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "পানিপূর্ণ পাত্রের তলদেশ প্রকৃত গভীরতার চেয়ে কম গভীর মনে হয় আলোর কোন ধর্মের কারণে?",
+    "options": [
+      "প্রতিফলন",
+      "বিচ্ছুরণ",
+      "প্রতিসরণ",
+      "সমবর্তন"
+    ],
+    "correct_index": 2,
+    "explanation": "পানি থেকে বায়ুতে আসার সময় আলো দিক পরিবর্তন করে (প্রতিসরণ), ফলে তলদেশ উপরে উঠে আছে বলে মনে হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "কোন তাপমাত্রায় সেলসিয়াস ও ফারেনহাইট স্কেলের পাঠ সমান হয়?",
+    "options": [
+      "−৪০°",
+      "০°",
+      "৪০°",
+      "−২৭৩°"
+    ],
+    "correct_index": 0,
+    "explanation": "F = (৯/৫)C + ৩২ সূত্রে F = C বসালে C = −৪০ পাওয়া যায়; তাই −৪০°C = −৪০°F।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "ক্ষীণদৃষ্টি (মায়োপিয়া) ত্রুটি দূর করতে কোন ধরনের লেন্স ব্যবহার করা হয়?",
+    "options": [
+      "অবতল লেন্স",
+      "উত্তল লেন্স",
+      "বাইফোকাল লেন্স",
+      "সিলিন্ড্রিক্যাল লেন্স"
+    ],
+    "correct_index": 0,
+    "explanation": "ক্ষীণদৃষ্টিতে দূরের বস্তুর প্রতিবিম্ব রেটিনার সামনে পড়ে; অবতল লেন্স আলোকে অপসারী করে তা রেটিনায় ফেলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "চাঁদে কোনো বস্তুর ওজন পৃথিবীতে তার ওজনের প্রায় কত ভাগ?",
+    "options": [
+      "১/২ ভাগ",
+      "১/৪ ভাগ",
+      "১/৬ ভাগ",
+      "১/১০ ভাগ"
+    ],
+    "correct_index": 2,
+    "explanation": "চাঁদের অভিকর্ষজ ত্বরণ পৃথিবীর প্রায় ছয় ভাগের এক ভাগ, তাই ভর অপরিবর্তিত থাকলেও ওজন প্রায় ১/৬ হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "পারমাণবিক বিদ্যুৎকেন্দ্রের চুল্লিতে মূলত কোন প্রক্রিয়ায় শক্তি উৎপাদন করা হয়?",
+    "options": [
+      "নিউক্লীয় ফিউশন",
+      "নিউক্লীয় ফিশন",
+      "রাসায়নিক দহন",
+      "আলোক-তড়িৎ ক্রিয়া"
+    ],
+    "correct_index": 1,
+    "explanation": "পারমাণবিক চুল্লিতে ইউরেনিয়াম-২৩৫-এর মতো ভারী নিউক্লিয়াস ভেঙে (ফিশন) তাপশক্তি উৎপন্ন হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "‘লাফিং গ্যাস’ নামে পরিচিত গ্যাস কোনটি?",
+    "options": [
+      "নাইট্রিক অক্সাইড (NO)",
+      "নাইট্রোজেন ডাইঅক্সাইড (NO₂)",
+      "কার্বন মনোক্সাইড (CO)",
+      "নাইট্রাস অক্সাইড (N₂O)"
+    ],
+    "correct_index": 3,
+    "explanation": "নাইট্রাস অক্সাইড (N₂O) শ্বাসের সঙ্গে গ্রহণ করলে হাসির উদ্রেক হয় বলে একে লাফিং গ্যাস বলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "‘শুষ্ক বরফ’ (Dry ice) আসলে কী?",
+    "options": [
+      "অতিশীতল পানি",
+      "কঠিন নাইট্রোজেন",
+      "কঠিন অ্যামোনিয়া",
+      "কঠিন কার্বন ডাইঅক্সাইড"
+    ],
+    "correct_index": 3,
+    "explanation": "কঠিন CO₂-কে শুষ্ক বরফ বলে, কারণ এটি গলে তরল না হয়ে সরাসরি গ্যাসে পরিণত হয় (ঊর্ধ্বপাতন)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "সিরকা বা ভিনেগারে কোন এসিড থাকে?",
+    "options": [
+      "সাইট্রিক এসিড",
+      "ল্যাকটিক এসিড",
+      "অ্যাসিটিক এসিড",
+      "টারটারিক এসিড"
+    ],
+    "correct_index": 2,
+    "explanation": "ভিনেগার মূলত অ্যাসিটিক এসিডের (ইথানয়িক এসিড) লঘু জলীয় দ্রবণ।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "লোহার মরিচার রাসায়নিক নাম কী?",
+    "options": [
+      "ফেরাস সালফেট",
+      "আর্দ্র ফেরিক অক্সাইড",
+      "ফেরিক ক্লোরাইড",
+      "আয়রন কার্বনেট"
+    ],
+    "correct_index": 1,
+    "explanation": "জলীয় বাষ্প ও অক্সিজেনের উপস্থিতিতে লোহা বিক্রিয়া করে আর্দ্র ফেরিক অক্সাইড (Fe₂O₃·nH₂O) তৈরি করে, এটিই মরিচা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "কোনো মৌলের পারমাণবিক সংখ্যা দ্বারা কী বোঝায়?",
+    "options": [
+      "নিউক্লিয়াসের প্রোটন সংখ্যা",
+      "নিউক্লিয়াসের নিউট্রন সংখ্যা",
+      "প্রোটন ও নিউট্রনের মোট সংখ্যা",
+      "ইলেকট্রন স্তরের সংখ্যা"
+    ],
+    "correct_index": 0,
+    "explanation": "পারমাণবিক সংখ্যা হলো নিউক্লিয়াসের প্রোটন সংখ্যা; প্রোটন ও নিউট্রনের মোট সংখ্যাকে ভরসংখ্যা বলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "খাবার সোডার রাসায়নিক নাম কী?",
+    "options": [
+      "সোডিয়াম বাইকার্বোনেট",
+      "সোডিয়াম কার্বনেট",
+      "ক্যালসিয়াম কার্বনেট",
+      "সোডিয়াম হাইড্রোক্সাইড"
+    ],
+    "correct_index": 0,
+    "explanation": "খাবার সোডা হলো সোডিয়াম বাইকার্বোনেট (NaHCO₃); কাপড় কাচার সোডা হলো সোডিয়াম কার্বনেট।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "সাধারণ তাপমাত্রায় তরল অবস্থায় থাকে কোন ধাতু?",
+    "options": [
+      "সোডিয়াম",
+      "অ্যালুমিনিয়াম",
+      "পারদ",
+      "ব্রোমিন"
+    ],
+    "correct_index": 2,
+    "explanation": "পারদ সাধারণ তাপমাত্রায় তরল অবস্থায় থাকা ধাতু; ব্রোমিনও তরল, তবে এটি অধাতু।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "বাংলাদেশের প্রাকৃতিক গ্যাসের প্রধান উপাদান কোনটি?",
+    "options": [
+      "ইথেন",
+      "প্রোপেন",
+      "বিউটেন",
+      "মিথেন"
+    ],
+    "correct_index": 3,
+    "explanation": "বাংলাদেশের প্রাকৃতিক গ্যাসের প্রায় ৯৫ শতাংশের বেশি মিথেন (CH₄)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "কোষের ‘শক্তিঘর’ (Powerhouse) বলা হয় কোন অঙ্গাণুকে?",
+    "options": [
+      "রাইবোসোম",
+      "মাইটোকন্ড্রিয়া",
+      "গলজি বস্তু",
+      "লাইসোসোম"
+    ],
+    "correct_index": 1,
+    "explanation": "কোষীয় শ্বসনের মাধ্যমে মাইটোকন্ড্রিয়ায় ATP আকারে শক্তি উৎপন্ন হয়, তাই একে কোষের শক্তিঘর বলে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "মানুষের দেহকোষে সাধারণত কত জোড়া ক্রোমোজোম থাকে?",
+    "options": [
+      "২২ জোড়া",
+      "২৩ জোড়া",
+      "২৪ জোড়া",
+      "৪৬ জোড়া"
+    ],
+    "correct_index": 1,
+    "explanation": "মানুষের দেহকোষে ২৩ জোড়া অর্থাৎ ৪৬টি ক্রোমোজোম থাকে; এর মধ্যে ২২ জোড়া অটোসোম ও ১ জোড়া লিঙ্গ ক্রোমোজোম।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "মানবদেহের বৃহত্তম গ্রন্থি কোনটি?",
+    "options": [
+      "অগ্ন্যাশয়",
+      "থাইরয়েড",
+      "পিটুইটারি",
+      "যকৃৎ"
+    ],
+    "correct_index": 3,
+    "explanation": "যকৃৎ মানবদেহের সবচেয়ে বড় গ্রন্থি; এটি পিত্তরস তৈরি করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "কোন গ্রন্থিকে ‘প্রভু গ্রন্থি’ (Master gland) বলা হয়?",
+    "options": [
+      "থাইরয়েড",
+      "অ্যাড্রিনাল",
+      "পিটুইটারি",
+      "পিনিয়াল"
+    ],
+    "correct_index": 2,
+    "explanation": "পিটুইটারি গ্রন্থির হরমোন অন্যান্য অনেক অন্তঃক্ষরা গ্রন্থির কাজ নিয়ন্ত্রণ করে, তাই একে প্রভু গ্রন্থি বলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "কোন রক্তগ্রুপের ব্যক্তিকে ‘সর্বজনীন দাতা’ বলা হয়?",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O"
+    ],
+    "correct_index": 3,
+    "explanation": "O গ্রুপের লোহিত কণিকায় A বা B অ্যান্টিজেন থাকে না বলে এটি সর্বজনীন দাতা; AB গ্রুপ সর্বজনীন গ্রহীতা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "ইনসুলিন হরমোন নিঃসৃত হয় কোথা থেকে?",
+    "options": [
+      "অগ্ন্যাশয়",
+      "যকৃৎ",
+      "পাকস্থলী",
+      "বৃক্ক"
+    ],
+    "correct_index": 0,
+    "explanation": "অগ্ন্যাশয়ের আইলেটস অব ল্যাঙ্গারহ্যান্সের বিটা কোষ থেকে ইনসুলিন নিঃসৃত হয়, যা রক্তে গ্লুকোজের মাত্রা কমায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "মানবদেহের দীর্ঘতম অস্থি কোনটি?",
+    "options": [
+      "হিউমেরাস",
+      "ফিমার",
+      "টিবিয়া",
+      "ফিবুলা"
+    ],
+    "correct_index": 1,
+    "explanation": "ঊরুর অস্থি ফিমার মানবদেহের দীর্ঘতম ও সবচেয়ে শক্ত অস্থি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "কোন উদ্ভিদ হরমোন ফল পাকাতে সাহায্য করে?",
+    "options": [
+      "অক্সিন",
+      "জিবেরেলিন",
+      "ইথিলিন",
+      "সাইটোকাইনিন"
+    ],
+    "correct_index": 2,
+    "explanation": "ইথিলিন একটি গ্যাসীয় উদ্ভিদ হরমোন, যা ফল পাকাতে ভূমিকা রাখে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "কোন ভিটামিনের অভাবে রাতকানা রোগ হয়?",
+    "options": [
+      "ভিটামিন B₁",
+      "ভিটামিন C",
+      "ভিটামিন D",
+      "ভিটামিন A"
+    ],
+    "correct_index": 3,
+    "explanation": "ভিটামিন A-এর অভাবে স্বল্প আলোয় দেখার ক্ষমতা কমে যায়, যাকে রাতকানা রোগ বলে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "স্কার্ভি রোগ হয় কোন ভিটামিনের অভাবে?",
+    "options": [
+      "ভিটামিন C",
+      "ভিটামিন A",
+      "ভিটামিন E",
+      "ভিটামিন K"
+    ],
+    "correct_index": 0,
+    "explanation": "ভিটামিন C-এর অভাবে দাঁতের মাড়ি ফুলে রক্ত পড়ে, যাকে স্কার্ভি বলে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "শিশুদের রিকেটস রোগ হয় কোন ভিটামিনের অভাবে?",
+    "options": [
+      "ভিটামিন A",
+      "ভিটামিন D",
+      "ভিটামিন B₁₂",
+      "ভিটামিন C"
+    ],
+    "correct_index": 1,
+    "explanation": "ভিটামিন D-এর অভাবে ক্যালসিয়াম শোষণ ব্যাহত হয়ে শিশুদের হাড় নরম ও বাঁকা হয়ে যায় (রিকেটস)।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "বেরিবেরি রোগ কোন ভিটামিনের অভাবজনিত রোগ?",
+    "options": [
+      "ভিটামিন B₂ (রিবোফ্লাভিন)",
+      "ভিটামিন C",
+      "ভিটামিন B₁ (থায়ামিন)",
+      "ভিটামিন K"
+    ],
+    "correct_index": 2,
+    "explanation": "থায়ামিন বা ভিটামিন B₁-এর অভাবে বেরিবেরি রোগ হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "রক্ত জমাট বাঁধার জন্য কোন ভিটামিন অপরিহার্য?",
+    "options": [
+      "ভিটামিন K",
+      "ভিটামিন A",
+      "ভিটামিন D",
+      "ভিটামিন E"
+    ],
+    "correct_index": 0,
+    "explanation": "ভিটামিন K রক্ত জমাট বাঁধার উপাদান (যেমন প্রোথ্রোম্বিন) তৈরিতে প্রয়োজন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "কোন খনিজ উপাদানের অভাবে গলগণ্ড (Goitre) রোগ হয়?",
+    "options": [
+      "লৌহ",
+      "ক্যালসিয়াম",
+      "জিংক",
+      "আয়োডিন"
+    ],
+    "correct_index": 3,
+    "explanation": "আয়োডিনের অভাবে থাইরয়েড গ্রন্থি স্ফীত হয়ে গলগণ্ড হয়; তাই খাবার লবণে আয়োডিন মেশানো হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "১ গ্রাম স্নেহপদার্থ (চর্বি) থেকে প্রায় কত কিলোক্যালরি শক্তি পাওয়া যায়?",
+    "options": [
+      "৪ কিলোক্যালরি",
+      "৭ কিলোক্যালরি",
+      "৯ কিলোক্যালরি",
+      "১২ কিলোক্যালরি"
+    ],
+    "correct_index": 2,
+    "explanation": "১ গ্রাম স্নেহপদার্থ থেকে প্রায় ৯ কিলোক্যালরি শক্তি পাওয়া যায়, যা শর্করা বা আমিষের (প্রায় ৪ কিলোক্যালরি) দ্বিগুণেরও বেশি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "ডেঙ্গু ভাইরাসের বাহক কোন মশা?",
+    "options": [
+      "অ্যানোফিলিস",
+      "এডিস",
+      "কিউলেক্স",
+      "ম্যানসোনিয়া"
+    ],
+    "correct_index": 1,
+    "explanation": "এডিস মশা (প্রধানত Aedes aegypti) ডেঙ্গু ভাইরাস ছড়ায়; স্ত্রী অ্যানোফিলিস মশা ম্যালেরিয়ার বাহক।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "নিচের কোনটি ভাইরাসজনিত রোগ?",
+    "options": [
+      "যক্ষ্মা",
+      "কলেরা",
+      "হাম",
+      "টাইফয়েড"
+    ],
+    "correct_index": 2,
+    "explanation": "হাম (Measles) ভাইরাসজনিত রোগ; যক্ষ্মা, কলেরা ও টাইফয়েড ব্যাকটেরিয়াজনিত।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "প্রেশার কুকারে রান্না দ্রুত হয় কেন?",
+    "options": [
+      "চাপ বাড়লে পানির স্ফুটনাঙ্ক কমে যায়",
+      "চাপ বাড়লে পানির স্ফুটনাঙ্ক বেড়ে যায়",
+      "পাত্রের তাপ পরিবাহিতা বেড়ে যায়",
+      "পানির আপেক্ষিক তাপ কমে যায়"
+    ],
+    "correct_index": 1,
+    "explanation": "বন্ধ পাত্রে চাপ বেড়ে পানি ১০০°C-এর বেশি তাপমাত্রায় ফোটে, ফলে খাবার দ্রুত সেদ্ধ হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "টেলিভিশনের রিমোট কন্ট্রোলে সাধারণত কোন রশ্মি ব্যবহৃত হয়?",
+    "options": [
+      "অবলোহিত রশ্মি",
+      "অতিবেগুনি রশ্মি",
+      "এক্স-রে",
+      "গামা রশ্মি"
+    ],
+    "correct_index": 0,
+    "explanation": "অধিকাংশ টিভি রিমোট অবলোহিত (Infrared) রশ্মির মাধ্যমে সংকেত পাঠায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "সাধারণ বৈদ্যুতিক বাল্বের (ভাস্বর বাতি) ফিলামেন্ট কোন ধাতু দিয়ে তৈরি?",
+    "options": [
+      "তামা",
+      "নাইক্রোম",
+      "অ্যালুমিনিয়াম",
+      "টাংস্টেন"
+    ],
+    "correct_index": 3,
+    "explanation": "টাংস্টেনের গলনাঙ্ক অত্যন্ত বেশি (প্রায় ৩৪০০°C) বলে উত্তপ্ত হয়ে আলো দিলেও গলে যায় না।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "দুধের বিশুদ্ধতা পরীক্ষায় কোন যন্ত্র ব্যবহৃত হয়?",
+    "options": [
+      "ব্যারোমিটার",
+      "অ্যামমিটার",
+      "ল্যাকটোমিটার",
+      "হাইগ্রোমিটার"
+    ],
+    "correct_index": 2,
+    "explanation": "ল্যাকটোমিটার দুধের আপেক্ষিক গুরুত্ব মেপে তাতে পানি মেশানো হয়েছে কি না বুঝতে সাহায্য করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "রান্নার গ্যাস (LPG) লিক হলে সহজে শনাক্ত করার জন্য এতে কোন গন্ধযুক্ত যৌগ মেশানো হয়?",
+    "options": [
+      "ইথাইল মারক্যাপটান",
+      "অ্যামোনিয়া",
+      "ক্লোরোফর্ম",
+      "মিথেন"
+    ],
+    "correct_index": 0,
+    "explanation": "LPG নিজে প্রায় গন্ধহীন, তাই লিক টের পেতে তীব্র গন্ধযুক্ত ইথাইল মারক্যাপটান মেশানো হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "সাবান তৈরিতে চর্বি বা তেলের সঙ্গে সাধারণত কোন ক্ষার ব্যবহার করা হয়?",
+    "options": [
+      "সালফিউরিক এসিড",
+      "সোডিয়াম হাইড্রোক্সাইড",
+      "সোডিয়াম ক্লোরাইড",
+      "ক্যালসিয়াম কার্বনেট"
+    ],
+    "correct_index": 1,
+    "explanation": "তেল বা চর্বি কস্টিক সোডার (সোডিয়াম হাইড্রোক্সাইড) সঙ্গে বিক্রিয়া করে সাবান ও গ্লিসারিন উৎপন্ন করে (সাবানায়ন)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "ঘোলা পানির ভাসমান ময়লা থিতিয়ে পানি পরিষ্কার করতে সাধারণত কী ব্যবহার করা হয়?",
+    "options": [
+      "চিনি",
+      "খাবার সোডা",
+      "খাবার লবণ",
+      "ফিটকিরি"
+    ],
+    "correct_index": 3,
+    "explanation": "ফিটকিরি পানির ভাসমান কণাগুলোকে জমাট বাঁধিয়ে তলায় থিতিয়ে দেয়, ফলে পানি স্বচ্ছ হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "সৌরজগতের বৃহত্তম গ্রহ কোনটি?",
+    "options": [
+      "শনি",
+      "নেপচুন",
+      "বৃহস্পতি",
+      "ইউরেনাস"
+    ],
+    "correct_index": 2,
+    "explanation": "বৃহস্পতি সৌরজগতের সবচেয়ে বড় গ্রহ; আকারে এর পরেই শনি।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "সূর্যের শক্তির মূল উৎস কোনটি?",
+    "options": [
+      "নিউক্লীয় ফিশন",
+      "নিউক্লীয় ফিউশন",
+      "রাসায়নিক দহন",
+      "তেজস্ক্রিয় ক্ষয়"
+    ],
+    "correct_index": 1,
+    "explanation": "সূর্যের কেন্দ্রে হাইড্রোজেন নিউক্লিয়াস একীভূত হয়ে হিলিয়াম তৈরি হয় (ফিউশন) এবং বিপুল শক্তি নির্গত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "সূর্য থেকে পৃথিবীতে আলো আসতে প্রায় কত সময় লাগে?",
+    "options": [
+      "৮ মিনিট ২০ সেকেন্ড",
+      "৮ সেকেন্ড",
+      "১ ঘণ্টা",
+      "২৪ মিনিট"
+    ],
+    "correct_index": 0,
+    "explanation": "গড় দূরত্ব প্রায় ১৫ কোটি কিলোমিটার ও আলোর বেগ প্রায় ৩ লক্ষ কিমি/সেকেন্ড ধরলে সময় লাগে প্রায় ৫০০ সেকেন্ড বা ৮ মিনিট ২০ সেকেন্ড।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "বায়ুমণ্ডলের কোন স্তরে ওজোন স্তর অবস্থিত?",
+    "options": [
+      "ট্রপোস্ফিয়ার",
+      "মেসোস্ফিয়ার",
+      "থার্মোস্ফিয়ার",
+      "স্ট্রাটোস্ফিয়ার"
+    ],
+    "correct_index": 3,
+    "explanation": "ওজোন স্তর স্ট্রাটোস্ফিয়ারে অবস্থিত এবং সূর্যের ক্ষতিকর অতিবেগুনি রশ্মি শোষণ করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "ওজোন স্তর ক্ষয়ের জন্য প্রধানত দায়ী কোনটি?",
+    "options": [
+      "কার্বন ডাইঅক্সাইড",
+      "অক্সিজেন",
+      "ক্লোরোফ্লুরোকার্বন (CFC)",
+      "জলীয় বাষ্প"
+    ],
+    "correct_index": 2,
+    "explanation": "রেফ্রিজারেটর ও এরোসলে ব্যবহৃত CFC থেকে মুক্ত ক্লোরিন পরমাণু ওজোন অণু ভেঙে ফেলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "ভূমিকম্পের মাত্রা প্রকাশে প্রচলিতভাবে কোন স্কেল ব্যবহৃত হয়?",
+    "options": [
+      "রিখটার স্কেল",
+      "বিউফোর্ট স্কেল",
+      "কেলভিন স্কেল",
+      "মোহস স্কেল"
+    ],
+    "correct_index": 0,
+    "explanation": "রিখটার স্কেলে ভূমিকম্পের মাত্রা প্রকাশ করা হয়; বিউফোর্ট স্কেল বাতাসের বেগ ও মোহস স্কেল খনিজের কাঠিন্য নির্দেশ করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "ভূত্বকে সবচেয়ে বেশি পরিমাণে পাওয়া যায় কোন মৌল?",
+    "options": [
+      "সিলিকন",
+      "অ্যালুমিনিয়াম",
+      "লোহা",
+      "অক্সিজেন"
+    ],
+    "correct_index": 3,
+    "explanation": "ভূত্বকের ভরের প্রায় ৪৬% অক্সিজেন, এরপর সিলিকন (প্রায় ২৮%) ও অ্যালুমিনিয়াম।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "চন্দ্রগ্রহণ ঘটে কখন?",
+    "options": [
+      "যখন চাঁদ সূর্য ও পৃথিবীর মাঝখানে আসে",
+      "যখন পৃথিবী সূর্য ও চাঁদের মাঝখানে আসে",
+      "যখন সূর্য পৃথিবী ও চাঁদের মাঝখানে আসে",
+      "যখন চাঁদ পৃথিবী থেকে সবচেয়ে দূরে থাকে"
+    ],
+    "correct_index": 1,
+    "explanation": "পৃথিবী সূর্য ও চাঁদের মাঝে এক সরলরেখায় এলে পৃথিবীর ছায়া চাঁদের ওপর পড়ে চন্দ্রগ্রহণ হয়; এটি পূর্ণিমায় ঘটে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

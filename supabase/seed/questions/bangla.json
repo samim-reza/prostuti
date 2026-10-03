@@ -1,0 +1,1686 @@
+[
+  {
+    "subject": "bangla",
+    "topic": "bn_phonology",
+    "stem": "বাংলা ভাষায় মৌলিক স্বরধ্বনি কয়টি?",
+    "options": [
+      "৫টি",
+      "৬টি",
+      "৭টি",
+      "১১টি"
+    ],
+    "correct_index": 2,
+    "explanation": "বাংলা ভাষায় মৌলিক স্বরধ্বনি ৭টি: অ, আ, ই, উ, এ, ও, অ্যা। অন্যদিকে বাংলা বর্ণমালায় স্বরবর্ণ ১১টি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_phonology",
+    "stem": "বাংলা বর্ণমালায় যৌগিক স্বরজ্ঞাপক বর্ণ কয়টি?",
+    "options": [
+      "২টি",
+      "৩টি",
+      "৪টি",
+      "৫টি"
+    ],
+    "correct_index": 0,
+    "explanation": "বাংলা বর্ণমালায় যৌগিক স্বরজ্ঞাপক বর্ণ দুটি: ঐ এবং ঔ। এদের প্রতিটি দুটি স্বরধ্বনির মিলিত রূপ নির্দেশ করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_phonology",
+    "stem": "'ক' থেকে 'ম' পর্যন্ত ২৫টি ব্যঞ্জনবর্ণকে কী বলা হয়?",
+    "options": [
+      "উষ্ম বর্ণ",
+      "অন্তঃস্থ বর্ণ",
+      "স্পর্শ বর্ণ",
+      "তাড়নজাত বর্ণ"
+    ],
+    "correct_index": 2,
+    "explanation": "ক থেকে ম পর্যন্ত বর্ণ উচ্চারণের সময় জিহ্বা বা ঠোঁট মুখবিবরের কোনো স্থান স্পর্শ করে, তাই এদের স্পর্শ বর্ণ বলে। এগুলো পাঁচটি বর্গে বিভক্ত।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_phonology",
+    "stem": "'ড়' ও 'ঢ়' কোন ধরনের ধ্বনি?",
+    "options": [
+      "কম্পনজাত",
+      "পার্শ্বিক",
+      "নাসিক্য",
+      "তাড়নজাত"
+    ],
+    "correct_index": 3,
+    "explanation": "ড় ও ঢ় উচ্চারণে জিহ্বার অগ্রভাগ দিয়ে দন্তমূলে দ্রুত তাড়না বা আঘাত করা হয়, তাই এরা তাড়নজাত ধ্বনি। 'র' কম্পনজাত এবং 'ল' পার্শ্বিক ধ্বনি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_word",
+    "stem": "উৎস বা উৎপত্তি অনুসারে বাংলা শব্দ কয় প্রকার?",
+    "options": [
+      "৩ প্রকার",
+      "৪ প্রকার",
+      "৫ প্রকার",
+      "৭ প্রকার"
+    ],
+    "correct_index": 2,
+    "explanation": "উৎস অনুসারে বাংলা শব্দ ৫ প্রকার: তৎসম, অর্ধ-তৎসম, তদ্ভব, দেশি ও বিদেশি।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_word",
+    "stem": "দেশি শব্দ 'কুড়ি' (বিশ অর্থে) কোন ভাষা থেকে আগত?",
+    "options": [
+      "তামিল",
+      "কোল",
+      "মুন্ডারি",
+      "সাঁওতালি"
+    ],
+    "correct_index": 1,
+    "explanation": "'কুড়ি' (বিশ) শব্দটি কোল ভাষা থেকে আসা দেশি শব্দ। একইভাবে 'পেট' তামিল এবং 'চুলা' মুন্ডারি ভাষা থেকে এসেছে।",
+    "difficulty": 4,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_word",
+    "stem": "'রিকশা' শব্দটি কোন ভাষা থেকে বাংলায় এসেছে?",
+    "options": [
+      "চীনা",
+      "বর্মি",
+      "জাপানি",
+      "পর্তুগিজ"
+    ],
+    "correct_index": 2,
+    "explanation": "'রিকশা' জাপানি ভাষা থেকে আগত বিদেশি শব্দ। জাপানি ভাষার আরেকটি উদাহরণ 'হারিকিরি'।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_word",
+    "stem": "নিচের কোনটি যোগরূঢ় শব্দ?",
+    "options": [
+      "গায়ক",
+      "পঙ্কজ",
+      "বাঁশি",
+      "গবেষণা"
+    ],
+    "correct_index": 1,
+    "explanation": "'পঙ্কজ' শব্দের ব্যুৎপত্তিগত অর্থ 'পঙ্কে জন্মে যা', কিন্তু এটি কেবল 'পদ্ম' অর্থে ব্যবহৃত হয়, তাই এটি যোগরূঢ় শব্দ। 'গায়ক' যৌগিক এবং 'বাঁশি' ও 'গবেষণা' রূঢ়ি শব্দ।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_word",
+    "stem": "'গিন্নি' কোন শ্রেণির শব্দ?",
+    "options": [
+      "তৎসম",
+      "অর্ধ-তৎসম",
+      "তদ্ভব",
+      "দেশি"
+    ],
+    "correct_index": 1,
+    "explanation": "সংস্কৃত 'গৃহিণী' শব্দটি কিছুটা বিকৃত হয়ে 'গিন্নি' হয়েছে, তাই এটি অর্ধ-তৎসম শব্দ। অনুরূপ উদাহরণ: জ্যোৎস্না > জ্যোছনা, কুৎসিত > কুচ্ছিত।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_sandhi",
+    "stem": "'বিদ্যালয়' শব্দের সঠিক সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      "বিদ্য + আলয়",
+      "বিদ্যা + লয়",
+      "বিদ্যাল + অয়",
+      "বিদ্যা + আলয়"
+    ],
+    "correct_index": 3,
+    "explanation": "আ + আ = আ — স্বরসন্ধির এই নিয়মে বিদ্যা + আলয় = বিদ্যালয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_sandhi",
+    "stem": "'নাবিক' শব্দের সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      "নৌ + ইক",
+      "না + বিক",
+      "নাব + ইক",
+      "নৌ + বিক"
+    ],
+    "correct_index": 0,
+    "explanation": "ঔ-কারের পর অন্য স্বরধ্বনি থাকলে ঔ স্থানে 'আব্' হয়; তাই নৌ + ইক = নাবিক (স্বরসন্ধি)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_sandhi",
+    "stem": "'উচ্ছ্বাস' শব্দের সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      "উচ্ + ছ্বাস",
+      "উৎ + ছ্বাস",
+      "উচ্ছ্ + বাস",
+      "উৎ + শ্বাস"
+    ],
+    "correct_index": 3,
+    "explanation": "ত্-এর পর শ থাকলে ত্ স্থানে চ্ এবং শ স্থানে ছ হয়; তাই উৎ + শ্বাস = উচ্ছ্বাস (ব্যঞ্জনসন্ধি)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_sandhi",
+    "stem": "'মনোরম' শব্দের সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      "মন + রম",
+      "মনঃ + রম",
+      "মনো + রম",
+      "মনঃ + অরম"
+    ],
+    "correct_index": 1,
+    "explanation": "অ-কারের পরের বিসর্গের পর 'র' থাকলে অ-কার ও বিসর্গ মিলে ও-কার হয়; তাই মনঃ + রম = মনোরম (বিসর্গসন্ধি)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_samas",
+    "stem": "'বিলাত-ফেরত' কোন সমাস?",
+    "options": [
+      "তৎপুরুষ",
+      "দ্বন্দ্ব",
+      "কর্মধারয়",
+      "বহুব্রীহি"
+    ],
+    "correct_index": 0,
+    "explanation": "বিলাত থেকে ফেরত = বিলাত-ফেরত; পূর্বপদের পঞ্চমী বিভক্তি 'থেকে' লোপ পেয়েছে, তাই এটি পঞ্চমী তৎপুরুষ সমাস।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_samas",
+    "stem": "'শতাব্দী' কোন সমাসের উদাহরণ?",
+    "options": [
+      "দ্বিগু",
+      "বহুব্রীহি",
+      "অব্যয়ীভাব",
+      "কর্মধারয়"
+    ],
+    "correct_index": 0,
+    "explanation": "শত অব্দের সমাহার = শতাব্দী; সংখ্যাবাচক পূর্বপদের সঙ্গে সমাহার বা মিলন অর্থে গঠিত বলে এটি দ্বিগু সমাস।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_samas",
+    "stem": "'বিষাদসিন্ধু' কোন সমাস?",
+    "options": [
+      "উপমিত কর্মধারয়",
+      "উপমান কর্মধারয়",
+      "মধ্যপদলোপী কর্মধারয়",
+      "রূপক কর্মধারয়"
+    ],
+    "correct_index": 3,
+    "explanation": "বিষাদ রূপ সিন্ধু = বিষাদসিন্ধু; উপমেয় (বিষাদ) ও উপমানের (সিন্ধু) অভেদ কল্পনা করা হয়েছে বলে এটি রূপক কর্মধারয় সমাস।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_samas",
+    "stem": "'বেতার' কোন সমাস?",
+    "options": [
+      "নঞ বহুব্রীহি",
+      "নঞ তৎপুরুষ",
+      "অলুক বহুব্রীহি",
+      "দ্বিগু"
+    ],
+    "correct_index": 0,
+    "explanation": "নেই তার যার = বেতার; না-বাচক পূর্বপদ যুক্ত হয়ে অন্য কিছুকে (যন্ত্র) বোঝায় বলে এটি নঞ বহুব্রীহি সমাস।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_karak",
+    "stem": "'ডাক্তার ডাকো' — বাক্যে 'ডাক্তার' পদটি কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "কর্তায় শূন্য",
+      "কর্মে শূন্য",
+      "করণে শূন্য",
+      "অপাদানে শূন্য"
+    ],
+    "correct_index": 1,
+    "explanation": "যাকে ডাকা হচ্ছে সে ক্রিয়ার কর্ম; 'ডাক্তার' পদে কোনো বিভক্তিচিহ্ন যুক্ত হয়নি, তাই এটি কর্মকারকে শূন্য বিভক্তি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_karak",
+    "stem": "'দশে মিলে করি কাজ' — 'দশে' কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "কর্তায় সপ্তমী",
+      "কর্মে সপ্তমী",
+      "অধিকরণে সপ্তমী",
+      "করণে সপ্তমী"
+    ],
+    "correct_index": 0,
+    "explanation": "কাজটি সম্পন্ন করছে 'দশ' জন, তাই এটি কর্তৃকারক; এর সঙ্গে 'এ' বিভক্তি যুক্ত হয়েছে, যা সপ্তমী বিভক্তি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_karak",
+    "stem": "'তিলে তৈল হয়' — 'তিলে' কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "অধিকরণে সপ্তমী",
+      "করণে সপ্তমী",
+      "অপাদানে সপ্তমী",
+      "কর্তায় সপ্তমী"
+    ],
+    "correct_index": 2,
+    "explanation": "তিল থেকে তৈল উৎপন্ন হয়, তাই 'তিলে' অপাদান কারক; এতে 'এ' বিভক্তি যুক্ত হওয়ায় অপাদানে সপ্তমী। তবে 'তিলে তৈল আছে' বাক্যে 'তিলে' অধিকরণে সপ্তমী।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_karak",
+    "stem": "'বনে বাঘ আছে' — 'বনে' কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "কর্তায় সপ্তমী",
+      "অপাদানে সপ্তমী",
+      "করণে সপ্তমী",
+      "অধিকরণে সপ্তমী"
+    ],
+    "correct_index": 3,
+    "explanation": "বাঘ থাকার আধার বা স্থান হলো 'বন', তাই এটি অধিকরণ কারক; 'এ' বিভক্তি যুক্ত হওয়ায় অধিকরণে সপ্তমী।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_prokriti",
+    "stem": "'চলন্ত' শব্দের প্রকৃতি-প্রত্যয় কোনটি?",
+    "options": [
+      "√চল্ + অন্ত",
+      "√চল্ + অন্তি",
+      "চলন + ত",
+      "√চলন্ + ত"
+    ],
+    "correct_index": 0,
+    "explanation": "ক্রিয়ামূল √চল্-এর সঙ্গে কৃৎ প্রত্যয় 'অন্ত' যুক্ত হয়ে 'চলন্ত' গঠিত হয়েছে। একইভাবে √ফুট্ + অন্ত = ফুটন্ত।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_prokriti",
+    "stem": "খাঁটি বাংলা উপসর্গ কয়টি?",
+    "options": [
+      "১৯টি",
+      "২০টি",
+      "২১টি",
+      "২৫টি"
+    ],
+    "correct_index": 2,
+    "explanation": "খাঁটি বাংলা উপসর্গ ২১টি; অন্যদিকে তৎসম (সংস্কৃত) উপসর্গ ২০টি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_prokriti",
+    "stem": "নিচের কোনটি খাঁটি বাংলা উপসর্গ?",
+    "options": [
+      "প্র",
+      "পরা",
+      "অভি",
+      "অজ"
+    ],
+    "correct_index": 3,
+    "explanation": "'অজ' খাঁটি বাংলা উপসর্গ (যেমন: অজপাড়াগাঁ, অজমূর্খ); প্র, পরা ও অভি তৎসম উপসর্গ।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_prokriti",
+    "stem": "উপসর্গের নিজস্ব অর্থ না থাকলেও এর কী আছে?",
+    "options": [
+      "অর্থবাচকতা",
+      "অর্থদ্যোতকতা",
+      "স্বাধীন প্রয়োগ",
+      "বিভক্তি গ্রহণের ক্ষমতা"
+    ],
+    "correct_index": 1,
+    "explanation": "উপসর্গের অর্থবাচকতা নেই, কিন্তু অর্থদ্যোতকতা আছে; অর্থাৎ শব্দের আগে বসে এটি নতুন অর্থ প্রকাশ করতে পারে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "'মরণাপন্ন' অর্থে শুদ্ধ বানান কোনটি?",
+    "options": [
+      "মুমুর্ষু",
+      "মুমূর্ষু",
+      "মূমুর্ষু",
+      "মুমূর্ষূ"
+    ],
+    "correct_index": 1,
+    "explanation": "শুদ্ধ বানান 'মুমূর্ষু' — প্রথম বর্ণে হ্রস্ব উ-কার, দ্বিতীয় বর্ণে দীর্ঘ ঊ-কার এবং শেষে হ্রস্ব উ-কার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "'ভূগোল-সম্বন্ধীয়' অর্থে শুদ্ধ বানান কোনটি?",
+    "options": [
+      "ভৌগলিক",
+      "ভোগৌলিক",
+      "ভৌগোলিক",
+      "ভৌগোলীক"
+    ],
+    "correct_index": 2,
+    "explanation": "ভূগোল + ইক = ভৌগোলিক; প্রত্যয় যোগে আদ্য স্বর 'ঊ' বৃদ্ধি পেয়ে 'ঔ' হয়, কিন্তু 'গোল' অংশের ও-কার অপরিবর্তিত থাকে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "দরিদ্রের অবস্থা বা দরিদ্রতা বোঝাতে শুদ্ধ শব্দ কোনটি?",
+    "options": [
+      "দারিদ্রতা",
+      "দারিদ্র্যতা",
+      "দারিদ্র্য",
+      "দারীদ্র্য"
+    ],
+    "correct_index": 2,
+    "explanation": "দরিদ্র + য-প্রত্যয় = দারিদ্র্য, যা নিজেই ভাববাচক বিশেষ্য; তাই এর সঙ্গে আবার 'তা' প্রত্যয় যোগ করা অশুদ্ধ।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "স্ত্রীকে সঙ্গে নিয়ে বেড়াতে যাওয়া বোঝাতে কোন বাক্যটি শুদ্ধ?",
+    "options": [
+      "তিনি স্বস্ত্রীক বেড়াতে গেলেন।",
+      "তিনি সস্ত্রীকসহ বেড়াতে গেলেন।",
+      "তিনি সস্ত্রিক বেড়াতে গেলেন।",
+      "তিনি সস্ত্রীক বেড়াতে গেলেন।"
+    ],
+    "correct_index": 3,
+    "explanation": "'সস্ত্রীক' শব্দের অর্থই 'স্ত্রীসহ', তাই এর সঙ্গে আবার 'সহ' যোগ করা বাহুল্য দোষ; শুদ্ধ বানানও 'সস্ত্রীক'।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "'মরুভূমিতে দৃষ্টিভ্রম' অর্থে শুদ্ধ বানান কোনটি?",
+    "options": [
+      "মরিচীকা",
+      "মরীচীকা",
+      "মরিচিকা",
+      "মরীচিকা"
+    ],
+    "correct_index": 3,
+    "explanation": "শুদ্ধ বানান 'মরীচিকা' — 'রী'-তে দীর্ঘ ঈ-কার এবং 'চি'-তে হ্রস্ব ই-কার হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "'অকাল কুষ্মাণ্ড' বাগধারার অর্থ কী?",
+    "options": [
+      "অপদার্থ",
+      "অসময়ের ফল",
+      "অতি চালাক",
+      "দুর্লভ বস্তু"
+    ],
+    "correct_index": 0,
+    "explanation": "'অকাল কুষ্মাণ্ড' বলতে অপদার্থ বা অকেজো ব্যক্তিকে বোঝায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "'ভিজে বিড়াল' বাগধারাটি কোন অর্থে ব্যবহৃত হয়?",
+    "options": [
+      "ভীতু লোক",
+      "অলস ব্যক্তি",
+      "দরিদ্র লোক",
+      "কপটচারী"
+    ],
+    "correct_index": 3,
+    "explanation": "'ভিজে বিড়াল' দিয়ে এমন লোককে বোঝায় যে বাইরে নিরীহ সাজে কিন্তু ভেতরে ধূর্ত, অর্থাৎ কপটচারী।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "'গোঁফ খেজুরে' বাগধারার অর্থ কী?",
+    "options": [
+      "অতিশয় অলস",
+      "অতি লোভী",
+      "কৃপণ",
+      "নির্বোধ"
+    ],
+    "correct_index": 0,
+    "explanation": "'গোঁফ খেজুরে' দিয়ে নিতান্ত অলস ব্যক্তিকে বোঝায়, যে গোঁফে পড়ে থাকা খেজুরও কষ্ট করে মুখে তুলতে চায় না।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "'যা বলার যোগ্য নয়' — এককথায় কী হবে?",
+    "options": [
+      "অব্যক্ত",
+      "অনুক্ত",
+      "অবর্ণনীয়",
+      "অকথ্য"
+    ],
+    "correct_index": 3,
+    "explanation": "যা বলার যোগ্য নয় তা 'অকথ্য'; যা বলা হয়নি তা 'অনুক্ত' এবং যা বর্ণনা করা যায় না তা 'অবর্ণনীয়'।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "যে গাছে ফুল ধরে না কিন্তু ফল ধরে, তাকে এককথায় কী বলে?",
+    "options": [
+      "বনস্পতি",
+      "ওষধি",
+      "বিটপী",
+      "লতা"
+    ],
+    "correct_index": 0,
+    "explanation": "যে বৃক্ষে ফুল না হয়ে ফল হয় তাকে 'বনস্পতি' বলে; যে গাছ একবার ফল দিয়েই মরে যায় তাকে 'ওষধি' বলে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "নিচের কোনটি 'সূর্য'-এর সমার্থক শব্দ নয়?",
+    "options": [
+      "ভানু",
+      "দিবাকর",
+      "সুধাংশু",
+      "রবি"
+    ],
+    "correct_index": 2,
+    "explanation": "'সুধাংশু' অর্থ চাঁদ; ভানু, দিবাকর ও রবি সূর্যের সমার্থক শব্দ।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "'আবির্ভাব' শব্দের বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "তিরোভাব",
+      "প্রাদুর্ভাব",
+      "আগমন",
+      "অভাব"
+    ],
+    "correct_index": 0,
+    "explanation": "'আবির্ভাব' অর্থ প্রকাশ বা উদয়; এর বিপরীত 'তিরোভাব' অর্থাৎ অন্তর্ধান।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "'ঐহিক' শব্দের বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "জাগতিক",
+      "পার্থিব",
+      "পারত্রিক",
+      "লৌকিক"
+    ],
+    "correct_index": 2,
+    "explanation": "'ঐহিক' অর্থ ইহলোক-সম্বন্ধীয়; এর বিপরীত 'পারত্রিক' অর্থাৎ পরলোক-সম্বন্ধীয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "'Excise duty'-এর পারিভাষিক শব্দ কোনটি?",
+    "options": [
+      "আমদানি শুল্ক",
+      "আবগারি শুল্ক",
+      "রপ্তানি শুল্ক",
+      "সম্পূরক শুল্ক"
+    ],
+    "correct_index": 1,
+    "explanation": "Excise duty-এর বাংলা পরিভাষা 'আবগারি শুল্ক'; Import duty = আমদানি শুল্ক এবং Supplementary duty = সম্পূরক শুল্ক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "চর্যাপদ কে আবিষ্কার করেন?",
+    "options": [
+      "ড. মুহম্মদ শহীদুল্লাহ",
+      "হরপ্রসাদ শাস্ত্রী",
+      "সুনীতিকুমার চট্টোপাধ্যায়",
+      "দীনেশচন্দ্র সেন"
+    ],
+    "correct_index": 1,
+    "explanation": "মহামহোপাধ্যায় হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজদরবারের গ্রন্থাগার থেকে চর্যাপদ আবিষ্কার করেন এবং ১৯১৬ সালে বঙ্গীয় সাহিত্য পরিষদ থেকে তা প্রকাশ করেন।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "চর্যাপদের সর্বাধিক সংখ্যক পদ রচনা করেন কে?",
+    "options": [
+      "লুইপা",
+      "ভুসুকুপা",
+      "শবরপা",
+      "কাহ্নপা"
+    ],
+    "correct_index": 3,
+    "explanation": "কাহ্নপা সর্বাধিক ১৩টি পদ রচনা করেন (পাওয়া গেছে ১২টি); দ্বিতীয় সর্বোচ্চ ৮টি পদ রচনা করেন ভুসুকুপা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "বড়ু চণ্ডীদাসের 'শ্রীকৃষ্ণকীর্তন' কাব্যের পুথি কে আবিষ্কার করেন?",
+    "options": [
+      "বসন্তরঞ্জন রায় বিদ্বদ্বল্লভ",
+      "হরপ্রসাদ শাস্ত্রী",
+      "আবদুল করিম সাহিত্যবিশারদ",
+      "দীনেশচন্দ্র সেন"
+    ],
+    "correct_index": 0,
+    "explanation": "বসন্তরঞ্জন রায় বিদ্বদ্বল্লভ ১৯০৯ সালে বাঁকুড়া জেলার কাঁকিল্যা গ্রামের এক গৃহস্থবাড়ির গোয়ালঘর থেকে পুথিটি আবিষ্কার করেন এবং ১৯১৬ সালে প্রকাশ করেন।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "'মনসামঙ্গল' কাব্যধারার আদি কবি কে?",
+    "options": [
+      "বিজয়গুপ্ত",
+      "নারায়ণদেব",
+      "কানা হরিদত্ত",
+      "কেতকাদাস ক্ষেমানন্দ"
+    ],
+    "correct_index": 2,
+    "explanation": "মনসামঙ্গল কাব্যের আদি কবি কানা হরিদত্ত; এ ধারার অন্যতম জনপ্রিয় কবি বরিশালের বিজয়গুপ্ত।",
+    "difficulty": 4,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "মধ্যযুগের কোন কবি 'কবিকঙ্কণ' উপাধিতে ভূষিত?",
+    "options": [
+      "মুকুন্দরাম চক্রবর্তী",
+      "ভারতচন্দ্র রায়",
+      "বিজয়গুপ্ত",
+      "রূপরাম চক্রবর্তী"
+    ],
+    "correct_index": 0,
+    "explanation": "চণ্ডীমঙ্গল কাব্যধারার শ্রেষ্ঠ কবি মুকুন্দরাম চক্রবর্তী 'কবিকঙ্কণ' উপাধি লাভ করেন; ভারতচন্দ্রের উপাধি ছিল 'রায়গুণাকর'।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "'আমার সন্তান যেন থাকে দুধে-ভাতে' — চরণটি কোন কাব্যের?",
+    "options": [
+      "চণ্ডীমঙ্গল",
+      "অন্নদামঙ্গল",
+      "মনসামঙ্গল",
+      "ধর্মমঙ্গল"
+    ],
+    "correct_index": 1,
+    "explanation": "চরণটি ভারতচন্দ্র রায়গুণাকরের 'অন্নদামঙ্গল' কাব্যে খেয়াঘাটের মাঝি ঈশ্বরী পাটনীর উক্তি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "'মৈথিল কোকিল' নামে পরিচিত কে?",
+    "options": [
+      "চণ্ডীদাস",
+      "জ্ঞানদাস",
+      "গোবিন্দদাস",
+      "বিদ্যাপতি"
+    ],
+    "correct_index": 3,
+    "explanation": "মিথিলার কবি বিদ্যাপতি 'মৈথিল কোকিল' নামে পরিচিত; তিনি বাংলায় কোনো পদ রচনা না করলেও বৈষ্ণব পদাবলীর কবি হিসেবে বাঙালির কাছে সমাদৃত।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "'যে সবে বঙ্গেত জন্মি হিংসে বঙ্গবাণী' — চরণটি কোন কাব্যের অন্তর্গত?",
+    "options": [
+      "পদ্মাবতী",
+      "নূরনামা",
+      "ইউসুফ-জোলেখা",
+      "সতীময়না ও লোরচন্দ্রাণী"
+    ],
+    "correct_index": 1,
+    "explanation": "চরণটি মধ্যযুগের কবি আবদুল হাকিমের 'নূরনামা' কাব্যের; এতে তিনি মাতৃভাষা বাংলার প্রতি গভীর অনুরাগ প্রকাশ করেছেন।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "বাংলা সাহিত্যের প্রথম সার্থক মহাকাব্য কোনটি?",
+    "options": [
+      "বৃত্রসংহার",
+      "মেঘনাদবধ কাব্য",
+      "তিলোত্তমাসম্ভব কাব্য",
+      "মহাশ্মশান"
+    ],
+    "correct_index": 1,
+    "explanation": "মাইকেল মধুসূদন দত্তের 'মেঘনাদবধ কাব্য' (১৮৬১) বাংলা সাহিত্যের প্রথম সার্থক মহাকাব্য; এটি অমিত্রাক্ষর ছন্দে রচিত।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "বাংলা সাহিত্যের প্রথম সার্থক উপন্যাস কোনটি?",
+    "options": [
+      "আলালের ঘরের দুলাল",
+      "কপালকুণ্ডলা",
+      "দুর্গেশনন্দিনী",
+      "ফুলমণি ও করুণার বিবরণ"
+    ],
+    "correct_index": 2,
+    "explanation": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের 'দুর্গেশনন্দিনী' (১৮৬৫) বাংলা সাহিত্যের প্রথম সার্থক উপন্যাস; প্যারীচাঁদ মিত্রের 'আলালের ঘরের দুলাল'-কে বাংলা উপন্যাসের পথিকৃৎ রচনা ধরা হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "'বন্দে মাতরম্' গানটি বঙ্কিমচন্দ্রের কোন উপন্যাসে রয়েছে?",
+    "options": [
+      "কপালকুণ্ডলা",
+      "বিষবৃক্ষ",
+      "দুর্গেশনন্দিনী",
+      "আনন্দমঠ"
+    ],
+    "correct_index": 3,
+    "explanation": "'বন্দে মাতরম্' গানটি 'আনন্দমঠ' (১৮৮২) উপন্যাসে রয়েছে; উপন্যাসটির পটভূমি সন্ন্যাসী বিদ্রোহ।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "শরৎচন্দ্র চট্টোপাধ্যায়ের কোন উপন্যাসটি ব্রিটিশ সরকার বাজেয়াপ্ত করে?",
+    "options": [
+      "পথের দাবী",
+      "শ্রীকান্ত",
+      "দেবদাস",
+      "গৃহদাহ"
+    ],
+    "correct_index": 0,
+    "explanation": "বিপ্লবী সব্যসাচী চরিত্রকে কেন্দ্র করে রচিত রাজনৈতিক উপন্যাস 'পথের দাবী' (১৯২৬) ব্রিটিশ সরকার বাজেয়াপ্ত করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "'রূপসী বাংলার কবি' হিসেবে খ্যাত কে?",
+    "options": [
+      "জসীমউদ্দীন",
+      "বুদ্ধদেব বসু",
+      "জীবনানন্দ দাশ",
+      "সুধীন্দ্রনাথ দত্ত"
+    ],
+    "correct_index": 2,
+    "explanation": "জীবনানন্দ দাশ 'রূপসী বাংলার কবি' নামে খ্যাত; তাঁর উল্লেখযোগ্য কাব্যগ্রন্থ 'ধূসর পাণ্ডুলিপি', 'বনলতা সেন' ও 'রূপসী বাংলা'।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "নীলকরদের অত্যাচার অবলম্বনে রচিত 'নীলদর্পণ' নাটকের রচয়িতা কে?",
+    "options": [
+      "দীনবন্ধু মিত্র",
+      "মাইকেল মধুসূদন দত্ত",
+      "মীর মশাররফ হোসেন",
+      "গিরিশচন্দ্র ঘোষ"
+    ],
+    "correct_index": 0,
+    "explanation": "'নীলদর্পণ' (১৮৬০) দীনবন্ধু মিত্রের রচনা; নীলচাষিদের ওপর নীলকরদের অত্যাচার এর মূল বিষয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "'পদ্মানদীর মাঝি' উপন্যাসের রচয়িতা কে?",
+    "options": [
+      "তারাশঙ্কর বন্দ্যোপাধ্যায়",
+      "অদ্বৈত মল্লবর্মণ",
+      "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+      "মানিক বন্দ্যোপাধ্যায়"
+    ],
+    "correct_index": 3,
+    "explanation": "'পদ্মানদীর মাঝি' (১৯৩৬) মানিক বন্দ্যোপাধ্যায়ের উপন্যাস, যার প্রধান চরিত্র জেলে কুবের। জেলেজীবনভিত্তিক আরেকটি উপন্যাস অদ্বৈত মল্লবর্মণের 'তিতাস একটি নদীর নাম'।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "মীর মশাররফ হোসেনের 'বিষাদ-সিন্ধু' কোন ঘটনা অবলম্বনে রচিত?",
+    "options": [
+      "কারবালার যুদ্ধ",
+      "পলাশীর যুদ্ধ",
+      "সিপাহি বিদ্রোহ",
+      "পানিপথের তৃতীয় যুদ্ধ"
+    ],
+    "correct_index": 0,
+    "explanation": "'বিষাদ-সিন্ধু' কারবালার মর্মান্তিক ঘটনা অবলম্বনে রচিত। অন্যদিকে কায়কোবাদের 'মহাশ্মশান' কাব্য পানিপথের তৃতীয় যুদ্ধ অবলম্বনে রচিত।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "রবীন্দ্রনাথ ঠাকুর কত সালে সাহিত্যে নোবেল পুরস্কার লাভ করেন?",
+    "options": [
+      "১৯১০",
+      "১৯১৩",
+      "১৯১৫",
+      "১৯২১"
+    ],
+    "correct_index": 1,
+    "explanation": "'গীতাঞ্জলি'-র ইংরেজি অনুবাদ 'Song Offerings'-এর জন্য রবীন্দ্রনাথ ১৯১৩ সালে নোবেল পুরস্কার পান; তিনিই প্রথম এশীয় নোবেলজয়ী।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "রবীন্দ্রনাথ ঠাকুরের 'শেষের কবিতা' কোন ধরনের রচনা?",
+    "options": [
+      "কাব্যগ্রন্থ",
+      "উপন্যাস",
+      "নাটক",
+      "প্রবন্ধগ্রন্থ"
+    ],
+    "correct_index": 1,
+    "explanation": "'শেষের কবিতা' (১৯২৯) রবীন্দ্রনাথের একটি উপন্যাস; এর প্রধান দুই চরিত্র অমিত ও লাবণ্য।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "'নন্দিনী' চরিত্রটি রবীন্দ্রনাথের কোন নাটকের?",
+    "options": [
+      "ডাকঘর",
+      "বিসর্জন",
+      "রক্তকরবী",
+      "অচলায়তন"
+    ],
+    "correct_index": 2,
+    "explanation": "'রক্তকরবী' নাটকের কেন্দ্রীয় নারী চরিত্র নন্দিনী; 'ডাকঘর' নাটকের প্রধান চরিত্র অমল।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "কোন ঘটনার প্রতিবাদে রবীন্দ্রনাথ ঠাকুর 'নাইট' উপাধি ত্যাগ করেন?",
+    "options": [
+      "বঙ্গভঙ্গ",
+      "সিপাহি বিদ্রোহ",
+      "খিলাফত আন্দোলন",
+      "জালিয়ানওয়ালাবাগ হত্যাকাণ্ড"
+    ],
+    "correct_index": 3,
+    "explanation": "১৯১৯ সালে পাঞ্জাবের অমৃতসরে জালিয়ানওয়ালাবাগ হত্যাকাণ্ডের প্রতিবাদে রবীন্দ্রনাথ ব্রিটিশ সরকারের দেওয়া 'নাইট' উপাধি ত্যাগ করেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "কাজী নজরুল ইসলামের প্রথম প্রকাশিত কাব্যগ্রন্থ কোনটি?",
+    "options": [
+      "অগ্নিবীণা",
+      "দোলনচাঁপা",
+      "বিষের বাঁশী",
+      "ছায়ানট"
+    ],
+    "correct_index": 0,
+    "explanation": "নজরুলের প্রথম কাব্যগ্রন্থ 'অগ্নিবীণা' (১৯২২); বিখ্যাত 'বিদ্রোহী' কবিতাটি এ গ্রন্থে সংকলিত।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "কোন কবিতা প্রকাশের দায়ে কাজী নজরুল ইসলাম রাজদ্রোহের অভিযোগে কারাদণ্ড ভোগ করেন?",
+    "options": [
+      "বিদ্রোহী",
+      "কামাল পাশা",
+      "আনন্দময়ীর আগমনে",
+      "সাম্যবাদী"
+    ],
+    "correct_index": 2,
+    "explanation": "'ধূমকেতু' পত্রিকায় 'আনন্দময়ীর আগমনে' কবিতা প্রকাশের দায়ে রাজদ্রোহের অভিযোগে নজরুলকে এক বছরের সশ্রম কারাদণ্ড দেওয়া হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "কাজী নজরুল ইসলামকে কত সালে সপরিবারে বাংলাদেশে আনা হয়?",
+    "options": [
+      "১৯৭১",
+      "১৯৭২",
+      "১৯৭৪",
+      "১৯৭৬"
+    ],
+    "correct_index": 1,
+    "explanation": "১৯৭২ সালের ২৪ মে নজরুলকে সপরিবারে ঢাকায় আনা হয়; ১৯৭৬ সালে তাঁকে বাংলাদেশের নাগরিকত্ব দেওয়া হয় এবং একই বছর ঢাকায় তাঁর মৃত্যু হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "নিচের কোনটি কাজী নজরুল ইসলামের উপন্যাস?",
+    "options": [
+      "ব্যথার দান",
+      "রিক্তের বেদন",
+      "শিউলিমালা",
+      "মৃত্যুক্ষুধা"
+    ],
+    "correct_index": 3,
+    "explanation": "'মৃত্যুক্ষুধা' নজরুলের উপন্যাস; 'ব্যথার দান', 'রিক্তের বেদন' ও 'শিউলিমালা' তাঁর গল্পগ্রন্থ। তাঁর অপর দুটি উপন্যাস 'বাঁধনহারা' ও 'কুহেলিকা'।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_bangladesh",
+    "stem": "ভাষা আন্দোলনভিত্তিক নাটক 'কবর'-এর রচয়িতা কে?",
+    "options": [
+      "মুনীর চৌধুরী",
+      "নূরুল মোমেন",
+      "সৈয়দ শামসুল হক",
+      "মমতাজউদদীন আহমদ"
+    ],
+    "correct_index": 0,
+    "explanation": "মুনীর চৌধুরী ১৯৫৩ সালে কারাগারে বন্দি অবস্থায় একুশে ফেব্রুয়ারির পটভূমিতে 'কবর' নাটকটি রচনা করেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_bangladesh",
+    "stem": "'আমার ভাইয়ের রক্তে রাঙানো একুশে ফেব্রুয়ারি' গানটির রচয়িতা কে?",
+    "options": [
+      "আলতাফ মাহমুদ",
+      "শামসুর রাহমান",
+      "আবদুল গাফ্ফার চৌধুরী",
+      "হাসান হাফিজুর রহমান"
+    ],
+    "correct_index": 2,
+    "explanation": "গানটি আবদুল গাফ্ফার চৌধুরীর লেখা; এর বর্তমান প্রচলিত সুর করেছেন আলতাফ মাহমুদ।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_bangladesh",
+    "stem": "মুক্তিযুদ্ধভিত্তিক উপন্যাস 'হাঙর নদী গ্রেনেড'-এর রচয়িতা কে?",
+    "options": [
+      "রাবেয়া খাতুন",
+      "জাহানারা ইমাম",
+      "রিজিয়া রহমান",
+      "সেলিনা হোসেন"
+    ],
+    "correct_index": 3,
+    "explanation": "'হাঙর নদী গ্রেনেড' সেলিনা হোসেনের মুক্তিযুদ্ধভিত্তিক উপন্যাস; এর কেন্দ্রীয় চরিত্র বুড়ি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_bangladesh",
+    "stem": "'মজিদ' চরিত্রটি কোন উপন্যাসের?",
+    "options": [
+      "কাঁদো নদী কাঁদো",
+      "লালসালু",
+      "চাঁদের অমাবস্যা",
+      "সূর্য দীঘল বাড়ী"
+    ],
+    "correct_index": 1,
+    "explanation": "'মজিদ' সৈয়দ ওয়ালীউল্লাহর 'লালসালু' (১৯৪৮) উপন্যাসের কেন্দ্রীয় চরিত্র, যে একটি কবরকে মাজার বানিয়ে ধর্মব্যবসা চালায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_bangladesh",
+    "stem": "ঊনসত্তরের গণ-অভ্যুত্থানের পটভূমিতে রচিত 'চিলেকোঠার সেপাই' উপন্যাসের লেখক কে?",
+    "options": [
+      "হাসান আজিজুল হক",
+      "মাহমুদুল হক",
+      "শহীদুল জহির",
+      "আখতারুজ্জামান ইলিয়াস"
+    ],
+    "correct_index": 3,
+    "explanation": "'চিলেকোঠার সেপাই' (১৯৮৬) আখতারুজ্জামান ইলিয়াসের উপন্যাস; তাঁর অপর উপন্যাস 'খোয়াবনামা'।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_bangladesh",
+    "stem": "'তোমাকে পাওয়ার জন্য, হে স্বাধীনতা' কবিতাটি কার লেখা?",
+    "options": [
+      "নির্মলেন্দু গুণ",
+      "শামসুর রাহমান",
+      "হেলাল হাফিজ",
+      "সৈয়দ শামসুল হক"
+    ],
+    "correct_index": 1,
+    "explanation": "কবিতাটি শামসুর রাহমানের 'বন্দী শিবির থেকে' কাব্যগ্রন্থে সংকলিত; 'স্বাধীনতা তুমি' কবিতাটিও তাঁর লেখা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_periodicals",
+    "stem": "'বঙ্গদর্শন' পত্রিকার প্রতিষ্ঠাতা সম্পাদক কে?",
+    "options": [
+      "প্রমথ চৌধুরী",
+      "অক্ষয়কুমার দত্ত",
+      "ঈশ্বরচন্দ্র গুপ্ত",
+      "বঙ্কিমচন্দ্র চট্টোপাধ্যায়"
+    ],
+    "correct_index": 3,
+    "explanation": "বঙ্কিমচন্দ্র চট্টোপাধ্যায় ১৮৭২ সালে 'বঙ্গদর্শন' প্রকাশ করেন; পরবর্তীকালে নবপর্যায় 'বঙ্গদর্শন' সম্পাদনা করেন রবীন্দ্রনাথ ঠাকুর।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_periodicals",
+    "stem": "সাহিত্যে চলিত গদ্যরীতি প্রতিষ্ঠায় ভূমিকা রাখা 'সবুজপত্র' পত্রিকার সম্পাদক কে?",
+    "options": [
+      "বুদ্ধদেব বসু",
+      "প্রমথ চৌধুরী",
+      "দীনেশরঞ্জন দাশ",
+      "মোহাম্মদ নাসিরউদ্দীন"
+    ],
+    "correct_index": 1,
+    "explanation": "প্রমথ চৌধুরী ১৯১৪ সালে 'সবুজপত্র' প্রকাশ করেন এবং এর মাধ্যমে চলিত ভাষাকে সাহিত্যে প্রতিষ্ঠিত করেন; তাঁর ছদ্মনাম 'বীরবল'।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_periodicals",
+    "stem": "কাজী নজরুল ইসলাম সম্পাদিত অর্ধসাপ্তাহিক পত্রিকা কোনটি?",
+    "options": [
+      "সওগাত",
+      "কল্লোল",
+      "ধূমকেতু",
+      "মোহাম্মদী"
+    ],
+    "correct_index": 2,
+    "explanation": "নজরুল ১৯২২ সালে অর্ধসাপ্তাহিক 'ধূমকেতু' প্রকাশ করেন; রবীন্দ্রনাথ এ পত্রিকার জন্য আশীর্বাণী পাঠিয়েছিলেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_periodicals",
+    "stem": "'ভানুসিংহ ঠাকুর' কার ছদ্মনাম?",
+    "options": [
+      "রবীন্দ্রনাথ ঠাকুর",
+      "দ্বিজেন্দ্রনাথ ঠাকুর",
+      "জ্যোতিরিন্দ্রনাথ ঠাকুর",
+      "অবনীন্দ্রনাথ ঠাকুর"
+    ],
+    "correct_index": 0,
+    "explanation": "রবীন্দ্রনাথ ঠাকুর 'ভানুসিংহ ঠাকুর' ছদ্মনামে ব্রজবুলি ভাষায় 'ভানুসিংহ ঠাকুরের পদাবলী' রচনা করেন।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_periodicals",
+    "stem": "'টেকচাঁদ ঠাকুর' কার ছদ্মনাম?",
+    "options": [
+      "কালীপ্রসন্ন সিংহ",
+      "দীনবন্ধু মিত্র",
+      "প্যারীচাঁদ মিত্র",
+      "ভবানীচরণ বন্দ্যোপাধ্যায়"
+    ],
+    "correct_index": 2,
+    "explanation": "প্যারীচাঁদ মিত্র 'টেকচাঁদ ঠাকুর' ছদ্মনামে 'আলালের ঘরের দুলাল' রচনা করেন; কালীপ্রসন্ন সিংহের ছদ্মনাম 'হুতোম প্যাঁচা'।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

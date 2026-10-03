@@ -1,0 +1,1428 @@
+[
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "কোনো সংখ্যার ৩৫% যদি ৮৪ হয়, তবে সংখ্যাটি কত?",
+    "options": [
+      "২২০",
+      "২৫০",
+      "২৪০",
+      "২৯৪"
+    ],
+    "correct_index": 2,
+    "explanation": "সংখ্যাটি = ৮৪ × ১০০/৩৫ = ২৪০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "চিনির দাম ২৫% বৃদ্ধি পেলে চিনি বাবদ খরচ অপরিবর্তিত রাখতে হলে চিনির ব্যবহার শতকরা কত কমাতে হবে?",
+    "options": [
+      "২৫%",
+      "২০%",
+      "১৫%",
+      "২২.৫%"
+    ],
+    "correct_index": 1,
+    "explanation": "ব্যবহার কমাতে হবে = ২৫/(১০০ + ২৫) × ১০০ = ২০%।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "একটি পণ্য ৪৫০ টাকায় বিক্রয় করলে ১০% ক্ষতি হয়। ২০% লাভ করতে হলে পণ্যটি কত টাকায় বিক্রয় করতে হবে?",
+    "options": [
+      "৫৪০ টাকা",
+      "৫৮০ টাকা",
+      "৬২০ টাকা",
+      "৬০০ টাকা"
+    ],
+    "correct_index": 3,
+    "explanation": "ক্রয়মূল্য = ৪৫০ × ১০০/৯০ = ৫০০ টাকা; ২০% লাভে বিক্রয়মূল্য = ৫০০ × ১২০/১০০ = ৬০০ টাকা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "১২টি কলমের ক্রয়মূল্য ১০টি কলমের বিক্রয়মূল্যের সমান হলে শতকরা লাভ কত?",
+    "options": [
+      "২০%",
+      "১৬⅔%",
+      "২৫%",
+      "১০%"
+    ],
+    "correct_index": 0,
+    "explanation": "১০টি কলম বিক্রি করে ১২টির ক্রয়মূল্য পাওয়া যায়, অর্থাৎ ১০টিতে লাভ ২টির ক্রয়মূল্য। লাভ = ২/১০ × ১০০ = ২০%।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "একজন দোকানদার ক্রয়মূল্যের চেয়ে ২৫% বেশি দাম লিখে লিখিত মূল্যের উপর ১০% ছাড় দিয়ে পণ্য বিক্রি করেন। তার শতকরা লাভ কত?",
+    "options": [
+      "১৫%",
+      "১০%",
+      "১২.৫%",
+      "১৭.৫%"
+    ],
+    "correct_index": 2,
+    "explanation": "ক্রয়মূল্য ১০০ হলে লিখিত মূল্য ১২৫; ১০% ছাড়ে বিক্রয়মূল্য = ১২৫ × ০.৯ = ১১২.৫; লাভ ১২.৫%।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "কত টাকা বার্ষিক ৮% সরল সুদে ৫ বছরে সুদে-আসলে ১৬৮০ টাকা হবে?",
+    "options": [
+      "১১০০ টাকা",
+      "১২৫০ টাকা",
+      "১৩৪৪ টাকা",
+      "১২০০ টাকা"
+    ],
+    "correct_index": 3,
+    "explanation": "৫ বছরে মোট সুদ আসলের ৪০%; আসল = ১৬৮০ × ১০০/১৪০ = ১২০০ টাকা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "বার্ষিক ১০% চক্রবৃদ্ধি হারে ১০০০০ টাকার ২ বছরের চক্রবৃদ্ধি মূলধন (সুদে-আসলে) কত?",
+    "options": [
+      "১২০০০ টাকা",
+      "১২১০০ টাকা",
+      "১২২০০ টাকা",
+      "১১০০০ টাকা"
+    ],
+    "correct_index": 1,
+    "explanation": "চক্রবৃদ্ধি মূলধন = ১০০০০ × (১ + ১০/১০০)² = ১০০০০ × ১.২১ = ১২১০০ টাকা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "৫০০০ টাকার বার্ষিক ৮% হারে ২ বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+    "options": [
+      "৩২ টাকা",
+      "৪০ টাকা",
+      "১৬ টাকা",
+      "৬৪ টাকা"
+    ],
+    "correct_index": 0,
+    "explanation": "২ বছরে পার্থক্য = P(r/১০০)² = ৫০০০ × (৮/১০০)² = ৩২ টাকা। (চক্রবৃদ্ধি সুদ ৮৩২, সরল সুদ ৮০০)",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "ক : খ = ২ : ৩ এবং খ : গ = ৪ : ৫ হলে ক : খ : গ = কত?",
+    "options": [
+      "২ : ৩ : ৫",
+      "৮ : ১২ : ১৫",
+      "৪ : ৬ : ৫",
+      "৮ : ১২ : ১০"
+    ],
+    "correct_index": 1,
+    "explanation": "খ-এর মান সমান করতে প্রথম অনুপাতকে ৪ ও দ্বিতীয়টিকে ৩ দিয়ে গুণ: ক : খ = ৮ : ১২, খ : গ = ১২ : ১৫; অতএব ক : খ : গ = ৮ : ১২ : ১৫।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "৫টি সংখ্যার গড় ২৮। এদের মধ্য থেকে একটি সংখ্যা বাদ দিলে বাকি ৪টি সংখ্যার গড় হয় ২৫। বাদ দেওয়া সংখ্যাটি কত?",
+    "options": [
+      "৪০",
+      "৩০",
+      "৩৫",
+      "৪৫"
+    ],
+    "correct_index": 0,
+    "explanation": "বাদ দেওয়া সংখ্যা = ৫ × ২৮ − ৪ × ২৫ = ১৪০ − ১০০ = ৪০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "ক একটি কাজ ১২ দিনে এবং খ একই কাজ ১৮ দিনে করতে পারে। দুজনে একত্রে কাজটি কত দিনে শেষ করবে?",
+    "options": [
+      "১৫ দিনে",
+      "৬ দিনে",
+      "৭.২ দিনে",
+      "৮ দিনে"
+    ],
+    "correct_index": 2,
+    "explanation": "একত্রে ১ দিনে করে ১/১২ + ১/১৮ = ৫/৩৬ অংশ; সময় = ৩৬/৫ = ৭.২ দিন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "১০ জন লোক একটি কাজ ১৫ দিনে শেষ করতে পারে। ৬ দিন কাজ করার পর ৫ জন লোক চলে গেলে বাকি কাজ শেষ করতে আরও কত দিন লাগবে?",
+    "options": [
+      "৯ দিন",
+      "১৫ দিন",
+      "২০ দিন",
+      "১৮ দিন"
+    ],
+    "correct_index": 3,
+    "explanation": "মোট কাজ = ১০ × ১৫ = ১৫০ জন-দিন; ৬ দিনে হয়েছে ৬০ জন-দিন; বাকি ৯০ জন-দিন কাজ ৫ জনে করবে ৯০/৫ = ১৮ দিনে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "ক ও খ নল একটি খালি চৌবাচ্চা যথাক্রমে ১০ মিনিট ও ১৫ মিনিটে পূর্ণ করতে পারে এবং গ নল পূর্ণ চৌবাচ্চাটি ১২ মিনিটে খালি করতে পারে। তিনটি নল একসাথে খুলে দিলে খালি চৌবাচ্চাটি কত মিনিটে পূর্ণ হবে?",
+    "options": [
+      "৬ মিনিটে",
+      "২০ মিনিটে",
+      "১২ মিনিটে",
+      "৮ মিনিটে"
+    ],
+    "correct_index": 2,
+    "explanation": "১ মিনিটে পূর্ণ হয় ১/১০ + ১/১৫ − ১/১২ = (৬ + ৪ − ৫)/৬০ = ১/১২ অংশ; তাই ১২ মিনিট।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "একটি নল একটি খালি চৌবাচ্চা ৬ ঘণ্টায় পূর্ণ করে এবং অপর একটি নল পূর্ণ চৌবাচ্চাটি ৯ ঘণ্টায় খালি করে। দুটি নল একসাথে খুলে দিলে খালি চৌবাচ্চাটি কত ঘণ্টায় পূর্ণ হবে?",
+    "options": [
+      "১৮ ঘণ্টায়",
+      "১৫ ঘণ্টায়",
+      "৩.৬ ঘণ্টায়",
+      "১২ ঘণ্টায়"
+    ],
+    "correct_index": 0,
+    "explanation": "১ ঘণ্টায় পূর্ণ হয় ১/৬ − ১/৯ = ১/১৮ অংশ; অতএব ১৮ ঘণ্টা লাগবে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "ঘণ্টায় ৭২ কিলোমিটার বেগে চলমান ১৫০ মিটার দীর্ঘ একটি ট্রেন ২৫০ মিটার দীর্ঘ একটি প্ল্যাটফর্ম কত সেকেন্ডে সম্পূর্ণ অতিক্রম করবে?",
+    "options": [
+      "১২.৫ সেকেন্ডে",
+      "২৫ সেকেন্ডে",
+      "৭.৫ সেকেন্ডে",
+      "২০ সেকেন্ডে"
+    ],
+    "correct_index": 3,
+    "explanation": "বেগ = ৭২ × ১০০০/৩৬০০ = ২০ মি/সে; অতিক্রান্ত দূরত্ব = ১৫০ + ২৫০ = ৪০০ মিটার; সময় = ৪০০/২০ = ২০ সেকেন্ড।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "এক ব্যক্তি ঘণ্টায় ৪০ কিমি বেগে ক স্থান থেকে খ স্থানে যান এবং ঘণ্টায় ৬০ কিমি বেগে একই পথে ফিরে আসেন। সম্পূর্ণ যাত্রায় তার গড় বেগ ঘণ্টায় কত কিমি?",
+    "options": [
+      "৫০",
+      "৪৮",
+      "৪৫",
+      "৫২"
+    ],
+    "correct_index": 1,
+    "explanation": "সমান দূরত্বের ক্ষেত্রে গড় বেগ = ২ × ৪০ × ৬০/(৪০ + ৬০) = ৪৮০০/১০০ = ৪৮ কিমি/ঘণ্টা।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "স্রোতের অনুকূলে একটি নৌকার বেগ ঘণ্টায় ১৮ কিমি এবং স্রোতের প্রতিকূলে ঘণ্টায় ১২ কিমি। স্রোতের বেগ ঘণ্টায় কত কিমি?",
+    "options": [
+      "৬",
+      "১৫",
+      "৩",
+      "২"
+    ],
+    "correct_index": 2,
+    "explanation": "স্রোতের বেগ = (অনুকূল বেগ − প্রতিকূল বেগ)/২ = (১৮ − ১২)/২ = ৩ কিমি/ঘণ্টা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "৪০ লিটার দুধ ও পানির মিশ্রণে দুধ ও পানির অনুপাত ৩ : ১। এতে আর কত লিটার পানি মেশালে দুধ ও পানির অনুপাত ৩ : ২ হবে?",
+    "options": [
+      "২০ লিটার",
+      "১০ লিটার",
+      "৫ লিটার",
+      "১৫ লিটার"
+    ],
+    "correct_index": 1,
+    "explanation": "মিশ্রণে দুধ ৩০ লিটার ও পানি ১০ লিটার। ৩ : ২ অনুপাতে ৩০ লিটার দুধের জন্য পানি দরকার ২০ লিটার; তাই আরও ১০ লিটার পানি মেশাতে হবে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "x + ১/x = ৩ হলে x² + ১/x² এর মান কত?",
+    "options": [
+      "৭",
+      "৯",
+      "১১",
+      "৮"
+    ],
+    "correct_index": 0,
+    "explanation": "x² + ১/x² = (x + ১/x)² − ২ = ৯ − ২ = ৭।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "a + b = ৫ এবং ab = ৬ হলে a³ + b³ এর মান কত?",
+    "options": [
+      "৯৫",
+      "১২৫",
+      "৬৫",
+      "৩৫"
+    ],
+    "correct_index": 3,
+    "explanation": "a³ + b³ = (a + b)³ − ৩ab(a + b) = ১২৫ − ৯০ = ৩৫।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "x³ − ৮ এর উৎপাদকে বিশ্লেষিত রূপ কোনটি?",
+    "options": [
+      "(x − ২)(x² − ২x + ৪)",
+      "(x − ২)(x² + ২x + ৪)",
+      "(x + ২)(x² − ২x + ৪)",
+      "(x − ২)(x² + ৪)"
+    ],
+    "correct_index": 1,
+    "explanation": "a³ − b³ = (a − b)(a² + ab + b²) সূত্রে x³ − ২³ = (x − ২)(x² + ২x + ৪)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "a⁴ + a² + ১ এর উৎপাদকে বিশ্লেষিত রূপ কোনটি?",
+    "options": [
+      "(a² + ১)(a² + a + ১)",
+      "(a² + a + ১)²",
+      "(a² − a + ১)(a² + ১)",
+      "(a² + a + ১)(a² − a + ১)"
+    ],
+    "correct_index": 3,
+    "explanation": "a⁴ + a² + ১ = (a² + ১)² − a² = (a² + ১ + a)(a² + ১ − a)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "(x − ৩)/৪ + (x + ১)/২ = ৫ হলে x এর মান কত?",
+    "options": [
+      "৭",
+      "৫",
+      "৯",
+      "৬"
+    ],
+    "correct_index": 0,
+    "explanation": "উভয় পক্ষকে ৪ দিয়ে গুণ করে: x − ৩ + ২x + ২ = ২০ ⇒ ৩x = ২১ ⇒ x = ৭।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "দুই অঙ্কবিশিষ্ট একটি সংখ্যার অঙ্কদ্বয়ের যোগফল ৯। অঙ্কদ্বয় স্থান বিনিময় করলে যে সংখ্যা পাওয়া যায় তা মূল সংখ্যা থেকে ২৭ বেশি। মূল সংখ্যাটি কত?",
+    "options": [
+      "৬৩",
+      "৪৫",
+      "৩৬",
+      "২৭"
+    ],
+    "correct_index": 2,
+    "explanation": "দশকের অঙ্ক a ও এককের অঙ্ক b হলে a + b = ৯ এবং (১০b + a) − (১০a + b) = ৯(b − a) = ২৭ ⇒ b − a = ৩; তাই a = ৩, b = ৬, সংখ্যাটি ৩৬।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "বর্তমানে পিতার বয়স পুত্রের বয়সের ৪ গুণ। ৫ বছর পর পিতার বয়স পুত্রের বয়সের ৩ গুণ হবে। পুত্রের বর্তমান বয়স কত?",
+    "options": [
+      "১০ বছর",
+      "১৫ বছর",
+      "৮ বছর",
+      "১২ বছর"
+    ],
+    "correct_index": 0,
+    "explanation": "পুত্রের বয়স x হলে ৪x + ৫ = ৩(x + ৫) ⇒ x = ১০ বছর (পিতার বয়স ৪০ বছর)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "৩^(২x − ১) = ২৪৩ হলে x এর মান কত?",
+    "options": [
+      "৫",
+      "২",
+      "৪",
+      "৩"
+    ],
+    "correct_index": 3,
+    "explanation": "২৪৩ = ৩⁵; তাই ২x − ১ = ৫ ⇒ x = ৩।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "৪^x = ৮ হলে x এর মান কত?",
+    "options": [
+      "২/৩",
+      "৩/২",
+      "২",
+      "৪/৩"
+    ],
+    "correct_index": 1,
+    "explanation": "৪^x = ২^(২x) এবং ৮ = ২³; তাই ২x = ৩ ⇒ x = ৩/২।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "−২ < ২x − ৪ ≤ ৬ অসমতাটির সমাধান কোনটি?",
+    "options": [
+      "১ ≤ x < ৫",
+      "−১ < x ≤ ৫",
+      "১ < x ≤ ৫",
+      "১ < x ≤ ১০"
+    ],
+    "correct_index": 2,
+    "explanation": "প্রতিটি পক্ষে ৪ যোগ করে ২ < ২x ≤ ১০; এরপর ২ দিয়ে ভাগ করে ১ < x ≤ ৫।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "x² − y² = ৪৮ এবং x + y = ১২ হলে x এর মান কত?",
+    "options": [
+      "৮",
+      "৪",
+      "৬",
+      "১০"
+    ],
+    "correct_index": 0,
+    "explanation": "x − y = (x² − y²)/(x + y) = ৪৮/১২ = ৪; x + y = ১২ এর সাথে যোগ করে ২x = ১৬ ⇒ x = ৮।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি ত্রিভুজের তিনটি কোণের অনুপাত ২ : ৩ : ৪ হলে বৃহত্তম কোণটি কত?",
+    "options": [
+      "৬০°",
+      "৯০°",
+      "৮০°",
+      "৭০°"
+    ],
+    "correct_index": 2,
+    "explanation": "বৃহত্তম কোণ = ১৮০° × ৪/(২ + ৩ + ৪) = ৮০°।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি সুষম বহুভুজের প্রতিটি অন্তঃকোণ ১৪৪° হলে বহুভুজটির বাহুর সংখ্যা কত?",
+    "options": [
+      "৮",
+      "১০",
+      "১২",
+      "৯"
+    ],
+    "correct_index": 1,
+    "explanation": "প্রতিটি বহিঃকোণ = ১৮০° − ১৪৪° = ৩৬°; বাহুর সংখ্যা = ৩৬০°/৩৬° = ১০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি সমকোণী ত্রিভুজের অতিভুজ ১৩ সেমি এবং অপর একটি বাহু ৫ সেমি হলে ত্রিভুজটির ক্ষেত্রফল কত?",
+    "options": [
+      "৬০ বর্গসেমি",
+      "৩২.৫ বর্গসেমি",
+      "৬৫ বর্গসেমি",
+      "৩০ বর্গসেমি"
+    ],
+    "correct_index": 3,
+    "explanation": "অপর বাহু = √(১৩² − ৫²) = √১৪৪ = ১২ সেমি; ক্ষেত্রফল = ½ × ৫ × ১২ = ৩০ বর্গসেমি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "৬ সেমি বাহুবিশিষ্ট একটি সমবাহু ত্রিভুজের ক্ষেত্রফল কত?",
+    "options": [
+      "৯√৩ বর্গসেমি",
+      "৬√৩ বর্গসেমি",
+      "১৮√৩ বর্গসেমি",
+      "১২√৩ বর্গসেমি"
+    ],
+    "correct_index": 0,
+    "explanation": "সমবাহু ত্রিভুজের ক্ষেত্রফল = (√৩/৪) × বাহু² = (√৩/৪) × ৩৬ = ৯√৩ বর্গসেমি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি বৃত্তের ব্যাসার্ধ ১০% বৃদ্ধি করলে এর ক্ষেত্রফল শতকরা কত বৃদ্ধি পাবে?",
+    "options": [
+      "২০%",
+      "২১%",
+      "১০%",
+      "১২১%"
+    ],
+    "correct_index": 1,
+    "explanation": "ক্ষেত্রফল ব্যাসার্ধের বর্গের সমানুপাতিক; (১.১)² = ১.২১, অর্থাৎ ক্ষেত্রফল বাড়বে ২১%।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি বৃত্তের পরিধি ৪৪ সেমি হলে এর ক্ষেত্রফল কত? (π = ২২/৭ ধরে)",
+    "options": [
+      "৩০৮ বর্গসেমি",
+      "১৪৪ বর্গসেমি",
+      "১৫৪ বর্গসেমি",
+      "৬১৬ বর্গসেমি"
+    ],
+    "correct_index": 2,
+    "explanation": "২πr = ৪৪ ⇒ r = ৪৪ × ৭/৪৪ = ৭ সেমি; ক্ষেত্রফল = (২২/৭) × ৭² = ১৫৪ বর্গসেমি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "১০ সেমি ব্যাসার্ধবিশিষ্ট একটি বৃত্তের কেন্দ্র থেকে একটি জ্যা-এর লম্ব দূরত্ব ৮ সেমি। জ্যাটির দৈর্ঘ্য কত?",
+    "options": [
+      "৬ সেমি",
+      "১৬ সেমি",
+      "১৮ সেমি",
+      "১২ সেমি"
+    ],
+    "correct_index": 3,
+    "explanation": "কেন্দ্র থেকে জ্যা-এর উপর লম্ব জ্যাকে সমদ্বিখণ্ডিত করে; অর্ধ-জ্যা = √(১০² − ৮²) = ৬ সেমি, জ্যা = ১২ সেমি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি ঘনকের কর্ণের দৈর্ঘ্য ৬√৩ সেমি হলে ঘনকটির আয়তন কত?",
+    "options": [
+      "১০৮ ঘনসেমি",
+      "২১৬ ঘনসেমি",
+      "১৯৬ ঘনসেমি",
+      "৬৪৮ ঘনসেমি"
+    ],
+    "correct_index": 1,
+    "explanation": "ঘনকের কর্ণ = a√৩ ⇒ a = ৬ সেমি; আয়তন = ৬³ = ২১৬ ঘনসেমি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি সমবৃত্তভূমিক সিলিন্ডারের (বেলন) ভূমির ব্যাসার্ধ ৭ সেমি এবং উচ্চতা ১০ সেমি হলে এর আয়তন কত? (π = ২২/৭ ধরে)",
+    "options": [
+      "১৫৪০ ঘনসেমি",
+      "৪৪০ ঘনসেমি",
+      "৭৭০ ঘনসেমি",
+      "৩০৮০ ঘনসেমি"
+    ],
+    "correct_index": 0,
+    "explanation": "আয়তন = πr²h = (২২/৭) × ৭² × ১০ = ১৫৪০ ঘনসেমি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি রম্বসের কর্ণদ্বয়ের দৈর্ঘ্য ১০ সেমি ও ২৪ সেমি হলে রম্বসটির পরিসীমা কত?",
+    "options": [
+      "৬৮ সেমি",
+      "৪৮ সেমি",
+      "১২০ সেমি",
+      "৫২ সেমি"
+    ],
+    "correct_index": 3,
+    "explanation": "রম্বসের কর্ণদ্বয় পরস্পরকে লম্বভাবে সমদ্বিখণ্ডিত করে; বাহু = √(৫² + ১২²) = ১৩ সেমি; পরিসীমা = ৪ × ১৩ = ৫২ সেমি।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি ত্রিভুজের দুটি বাহুর দৈর্ঘ্য ৫ সেমি ও ৮ সেমি হলে তৃতীয় বাহুর দৈর্ঘ্য নিচের কোনটি হতে পারে না?",
+    "options": [
+      "৪ সেমি",
+      "১০ সেমি",
+      "১৩ সেমি",
+      "১২ সেমি"
+    ],
+    "correct_index": 2,
+    "explanation": "তৃতীয় বাহু অপর দুই বাহুর অন্তর (৩ সেমি) থেকে বড় এবং যোগফল (১৩ সেমি) থেকে ছোট হতে হবে; তাই ১৩ সেমি সম্ভব নয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "১২, ১৮ ও ৩০ এর ল.সা.গু. কত?",
+    "options": [
+      "৩৬০",
+      "৯০",
+      "১৮০",
+      "১২০"
+    ],
+    "correct_index": 2,
+    "explanation": "১২ = ২² × ৩, ১৮ = ২ × ৩², ৩০ = ২ × ৩ × ৫; ল.সা.গু. = ২² × ৩² × ৫ = ১৮০।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "দুটি সংখ্যার গুণফল ১৫৩৬ এবং তাদের গ.সা.গু. ১৬ হলে ল.সা.গু. কত?",
+    "options": [
+      "১২৮",
+      "৪৮",
+      "১৯২",
+      "৯৬"
+    ],
+    "correct_index": 3,
+    "explanation": "ল.সা.গু. = সংখ্যা দুটির গুণফল ÷ গ.সা.গু. = ১৫৩৬ ÷ ১৬ = ৯৬।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "কোন ক্ষুদ্রতম সংখ্যাকে ১২, ১৫ ও ২০ দ্বারা ভাগ করলে প্রতিক্ষেত্রে ৫ অবশিষ্ট থাকে?",
+    "options": [
+      "৬০",
+      "৬৫",
+      "৫৫",
+      "৭৫"
+    ],
+    "correct_index": 1,
+    "explanation": "১২, ১৫ ও ২০ এর ল.সা.গু. = ৬০; নির্ণেয় সংখ্যা = ৬০ + ৫ = ৬৫।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "নিচের কোন সংখ্যাটি ১১ দ্বারা নিঃশেষে বিভাজ্য?",
+    "options": [
+      "৯১৬৩",
+      "৯১৩৬",
+      "৭২৪৫",
+      "৮৩৫২"
+    ],
+    "correct_index": 0,
+    "explanation": "৯১৬৩-এ বিজোড় স্থানের অঙ্কের যোগফল (৩ + ১ = ৪) ও জোড় স্থানের অঙ্কের যোগফল (৬ + ৯ = ১৫) এর পার্থক্য ১১, তাই এটি ১১ দ্বারা বিভাজ্য (৯১৬৩ = ১১ × ৮৩৩)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "ছয় অঙ্কের বৃহত্তম কোন সংখ্যা ১২, ১৫ ও ১৮ দ্বারা নিঃশেষে বিভাজ্য?",
+    "options": [
+      "৯৯৯৮৪০",
+      "৯৯৯৯৬০",
+      "৯৯৯৯০০",
+      "৯৯৯৯৯০"
+    ],
+    "correct_index": 2,
+    "explanation": "১২, ১৫ ও ১৮ এর ল.সা.গু. = ১৮০; ৯৯৯৯৯৯ কে ১৮০ দ্বারা ভাগ করলে ভাগশেষ ৯৯; নির্ণেয় সংখ্যা = ৯৯৯৯৯৯ − ৯৯ = ৯৯৯৯০০।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "দুটি সংখ্যার অনুপাত ৩ : ৪ এবং তাদের ল.সা.গু. ১৮০ হলে গ.সা.গু. কত?",
+    "options": [
+      "১২",
+      "১৫",
+      "৩০",
+      "২০"
+    ],
+    "correct_index": 1,
+    "explanation": "সংখ্যা দুটি ৩k ও ৪k (k গ.সা.গু.); ল.সা.গু. = ১২k = ১৮০ ⇒ k = ১৫। সংখ্যা দুটি ৪৫ ও ৬০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "৩^১০০ কে ৫ দ্বারা ভাগ করলে ভাগশেষ কত হবে?",
+    "options": [
+      "৩",
+      "২",
+      "৪",
+      "১"
+    ],
+    "correct_index": 3,
+    "explanation": "৩-এর ঘাতের একক অঙ্ক ৩, ৯, ৭, ১ — এভাবে ৪টি পরপর পুনরাবৃত্ত হয়; ১০০ কে ৪ দ্বারা ভাগ করা যায়, তাই ৩^১০০ এর একক অঙ্ক ১ এবং ৫ দ্বারা ভাগশেষ ১।",
+    "difficulty": 4,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "৫০ জন শিক্ষার্থীর একটি শ্রেণিতে ৩০ জন ফুটবল এবং ২৫ জন ক্রিকেট খেলে। ১০ জন কোনো খেলাই খেলে না। কতজন শিক্ষার্থী উভয় খেলা খেলে?",
+    "options": [
+      "১৫ জন",
+      "৫ জন",
+      "১০ জন",
+      "২০ জন"
+    ],
+    "correct_index": 0,
+    "explanation": "অন্তত একটি খেলা খেলে = ৫০ − ১০ = ৪০ জন; উভয় খেলা খেলে = ৩০ + ২৫ − ৪০ = ১৫ জন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "একটি পরীক্ষায় ৬৫% পরীক্ষার্থী বাংলায় এবং ৭০% পরীক্ষার্থী ইংরেজিতে পাস করেছে। উভয় বিষয়ে পাস করেছে ৪৫%। শতকরা কতজন উভয় বিষয়ে ফেল করেছে?",
+    "options": [
+      "১৫%",
+      "৫%",
+      "২০%",
+      "১০%"
+    ],
+    "correct_index": 3,
+    "explanation": "অন্তত এক বিষয়ে পাস = ৬৫ + ৭০ − ৪৫ = ৯০%; উভয় বিষয়ে ফেল = ১০০ − ৯০ = ১০%।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "DHAKA শব্দটির সবগুলো অক্ষর একত্রে নিয়ে কত প্রকারে সাজানো যায়?",
+    "options": [
+      "১২০",
+      "২৪",
+      "৬০",
+      "৩০"
+    ],
+    "correct_index": 2,
+    "explanation": "৫টি অক্ষরের মধ্যে A আছে ২টি; সাজানোর উপায় = ৫!/২! = ১২০/২ = ৬০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "১০ জন ব্যক্তির মধ্য থেকে ৩ জনের একটি কমিটি কত উপায়ে গঠন করা যায়?",
+    "options": [
+      "১২০",
+      "৭২০",
+      "৩০",
+      "২১০"
+    ],
+    "correct_index": 0,
+    "explanation": "সংখ্যা = ১০C৩ = (১০ × ৯ × ৮)/(৩ × ২ × ১) = ১২০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "n সংখ্যক ভিন্ন ভিন্ন বস্তু থেকে প্রতিবার ২টি করে নিয়ে বিন্যাস সংখ্যা ৫৬ হলে n এর মান কত?",
+    "options": [
+      "৭",
+      "৮",
+      "২৮",
+      "১৪"
+    ],
+    "correct_index": 1,
+    "explanation": "nP২ = n(n − ১) = ৫৬ = ৮ × ৭ ⇒ n = ৮।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "একটি থলিতে ৫টি লাল ও ৩টি নীল বল আছে। দৈবভাবে একসাথে ২টি বল তোলা হলে দুটিই লাল হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "২৫/৬৪",
+      "৫/১৪",
+      "৫/৮",
+      "১৫/২৮"
+    ],
+    "correct_index": 1,
+    "explanation": "সম্ভাবনা = ৫C২/৮C২ = ১০/২৮ = ৫/১৪।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "দুটি নিরপেক্ষ ছক্কা একসাথে নিক্ষেপ করলে উঠা সংখ্যা দুটির যোগফল ৭ হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "৭/৩৬",
+      "১/১২",
+      "৫/৩৬",
+      "১/৬"
+    ],
+    "correct_index": 3,
+    "explanation": "যোগফল ৭ হয় (১,৬), (২,৫), (৩,৪), (৪,৩), (৫,২), (৬,১) — ৬টি ক্ষেত্রে; সম্ভাবনা = ৬/৩৬ = ১/৬।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "২ + ৫ + ৮ + ১১ + … ধারাটির প্রথম ২০টি পদের সমষ্টি কত?",
+    "options": [
+      "৬১০",
+      "৫৯০",
+      "৬২০",
+      "১২২০"
+    ],
+    "correct_index": 0,
+    "explanation": "a = ২, d = ৩; S₂₀ = (২০/২)[২ × ২ + (২০ − ১) × ৩] = ১০ × ৬১ = ৬১০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "১ + ৩ + ৫ + … + ৯৯ = কত?",
+    "options": [
+      "২৪৫০",
+      "৫০০০",
+      "২৫০০",
+      "২৫৫০"
+    ],
+    "correct_index": 2,
+    "explanation": "প্রথম n টি বিজোড় সংখ্যার যোগফল n²; এখানে পদসংখ্যা ৫০, তাই যোগফল ৫০² = ২৫০০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "৩ + ৬ + ১২ + … গুণোত্তর ধারাটির প্রথম ৮টি পদের সমষ্টি কত?",
+    "options": [
+      "৩৮৪",
+      "৭৬৮",
+      "১৫৩৩",
+      "৭৬৫"
+    ],
+    "correct_index": 3,
+    "explanation": "a = ৩, r = ২; S₈ = ৩(২⁸ − ১)/(২ − ১) = ৩ × ২৫৫ = ৭৬৫।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "৯ + ৩ + ১ + … অসীম গুণোত্তর ধারাটির সমষ্টি কত?",
+    "options": [
+      "২৭/২",
+      "১৩",
+      "১২",
+      "২৭"
+    ],
+    "correct_index": 0,
+    "explanation": "a = ৯, r = ১/৩; অসীম সমষ্টি = a/(১ − r) = ৯/(২/৩) = ২৭/২।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "একটি গুণোত্তর ধারার প্রথম পদ ২ এবং সাধারণ অনুপাত ৩ হলে ধারাটির ৬ষ্ঠ পদ কত?",
+    "options": [
+      "১৪৫৮",
+      "১৬২",
+      "৪৮৬",
+      "৭২৮"
+    ],
+    "correct_index": 2,
+    "explanation": "৬ষ্ঠ পদ = ar⁵ = ২ × ৩⁵ = ২ × ২৪৩ = ৪৮৬।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "লগারিদমের ভিত্তি ৩ হলে log(১/৮১) এর মান কত?",
+    "options": [
+      "৪",
+      "−৪",
+      "−৩",
+      "১/৪"
+    ],
+    "correct_index": 1,
+    "explanation": "১/৮১ = ৩⁻⁴; তাই ৩-ভিত্তিক log(১/৮১) = −৪।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "log ২ = ০.৩০১০ হলে log ৫০ এর মান কত? (সাধারণ লগারিদম, ভিত্তি ১০)",
+    "options": [
+      "০.৬৯৯০",
+      "১.৩০১০",
+      "২.৩০১০",
+      "১.৬৯৯০"
+    ],
+    "correct_index": 3,
+    "explanation": "log ৫০ = log(১০০/২) = log ১০০ − log ২ = ২ − ০.৩০১০ = ১.৬৯৯০।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_series_log",
+    "stem": "লগারিদমের ভিত্তি √২ হলে log ৮ এর মান কত?",
+    "options": [
+      "৬",
+      "৩",
+      "৪",
+      "৮"
+    ],
+    "correct_index": 0,
+    "explanation": "৮ = ২³ = (√২)⁶; তাই √২-ভিত্তিক log ৮ = ৬।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bcs",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]
