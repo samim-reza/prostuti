@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00956A"/>
+      <stop offset="1" stop-color="#004D38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.38" r="0.55">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="0" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="0" fill="url(#glow)"/>
+  <g transform="translate(56 36) scale(0.78)">
+  <!-- Prostuti mark: a red sun (Bangladesh) rising behind an open book
+       (knowledge), carrying an upward chevron (progress / preparation). -->
+  <defs>
+    <linearGradient id="pageRI" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2F8F5"/><stop offset="1" stop-color="#D5EAE1"/></linearGradient>
+    <linearGradient id="pageI" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E3F1EB"/>
+    </linearGradient>
+    <linearGradient id="sunI" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF4B5E"/>
+      <stop offset="1" stop-color="#E01E35"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="226" r="104" fill="url(#sunI)"/>
+  <path d="M214 214 L256 172 L298 214" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 300 C 204 264, 140 254, 72 262 L 72 418 C 140 410, 204 422, 256 458 Z" fill="url(#pageI)"/>
+  <path d="M256 300 C 308 264, 372 254, 440 262 L 440 418 C 372 410, 308 422, 256 458 Z" fill="url(#pageRI)"/>
+  <path d="M256 304 L256 456" stroke="#006A4E" stroke-opacity="0.3" stroke-width="5"/>
+  <g stroke="#006A4E" stroke-opacity="0.16" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M104 318 L 220 330"/>
+    <path d="M104 350 L 220 362"/>
+    <path d="M104 382 L 196 390"/>
+    <path d="M292 330 L 408 318"/>
+    <path d="M292 362 L 408 350"/>
+    <path d="M316 390 L 408 382"/>
+  </g>
+</g>
+</svg>
