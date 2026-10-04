@@ -31,6 +31,8 @@
   "feedCommentsCount": "{count}টি মন্তব্য",
   "feedReactionsSemantics": "{count}টি প্রতিক্রিয়া",
   "feedPostOptions": "পোস্টের অপশন",
+  "feedSavePost": "পোস্ট সংরক্ষণ করুন",
+  "feedPostSaved": "বুকমার্কে রাখা হয়েছে",
   "feedEditPost": "পোস্ট সম্পাদনা করুন",
   "feedDeletePost": "পোস্ট মুছে ফেলুন",
   "feedDeletePostConfirmTitle": "পোস্টটি মুছে ফেলবেন?",

@@ -5,6 +5,7 @@ import 'package:prostuti/core/l10n/l10n.dart';
 import 'package:prostuti/core/network/supabase_providers.dart';
 import 'package:prostuti/core/pagination/paged_state.dart';
 import 'package:prostuti/core/theme/app_theme.dart';
+import 'package:prostuti/features/chat/application/unread_chats_count_provider.dart';
 import 'package:prostuti/features/feed/application/feed_controller.dart';
 import 'package:prostuti/features/feed/application/reaction_controller.dart';
 import 'package:prostuti/features/feed/data/post.dart';
@@ -19,6 +20,14 @@ class _FakeFeed extends FeedNotifier {
 
   @override
   PagedState<Post, Keyset> build() => PagedState(items: posts, isLoadingFirst: false, hasMore: false);
+}
+
+class _FakeUnread extends UnreadChatsCountNotifier {
+  @override
+  int build() => 120;
+
+  @override
+  Future<void> refresh() async {}
 }
 
 class _FakeProfile extends CurrentProfileNotifier {
@@ -44,7 +53,7 @@ Future<void> _pump(WidgetTester tester, List<Post> posts) async {
         currentUserIdProvider.overrideWithValue('me'),
         reactionControllerProvider.overrideWithValue(reactions),
         incomingRequestCountProvider.overrideWith((ref) async => 3),
-        unreadChatsCountProvider.overrideWith((ref) async => 120),
+        unreadChatsCountProvider.overrideWith(_FakeUnread.new),
       ],
       child: MaterialApp(
         locale: const Locale('bn'),

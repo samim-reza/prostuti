@@ -8,6 +8,7 @@ import 'package:prostuti/core/router/routes.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/widgets/paged_list_view.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
+import 'package:prostuti/features/chat/application/unread_chats_count_provider.dart';
 import 'package:prostuti/features/feed/application/feed_controller.dart';
 import 'package:prostuti/features/feed/presentation/widgets/feed_widgets.dart';
 import 'package:prostuti/features/feed/presentation/widgets/post_card.dart';
@@ -38,9 +39,9 @@ class _CommunityScreenState extends ConsumerState<CommunityScreen> {
   }
 
   void _refreshBadges() {
-    ref
-      ..invalidate(unreadChatsCountProvider)
-      ..invalidate(incomingRequestCountProvider);
+    ref.invalidate(incomingRequestCountProvider);
+    // Realtime keeps it live; this catches anything missed in the background.
+    unawaited(ref.read(unreadChatsCountProvider.notifier).refresh());
   }
 
   /// Opens a sub-screen and refreshes the badges when the user comes back.
@@ -60,7 +61,7 @@ class _CommunityScreenState extends ConsumerState<CommunityScreen> {
     final feed = ref.watch(feedProvider);
     final notifier = ref.read(feedProvider.notifier);
     final requests = ref.watch(incomingRequestCountProvider.select((v) => v.value ?? 0));
-    final unread = ref.watch(unreadChatsCountProvider.select((v) => v.value ?? 0));
+    final unread = ref.watch(unreadChatsCountProvider);
     const header = ComposerPromptCard();
     return Scaffold(
       appBar: AppBar(

@@ -59,6 +59,8 @@
     }
   },
   "feedPostOptions": "Post options",
+  "feedSavePost": "Save post",
+  "feedPostSaved": "Saved to bookmarks",
   "feedEditPost": "Edit post",
   "feedDeletePost": "Delete post",
   "feedDeletePostConfirmTitle": "Delete this post?",

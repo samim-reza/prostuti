@@ -9,6 +9,7 @@ import 'package:prostuti/core/theme/app_colors.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/utils/formatters.dart';
 import 'package:prostuti/core/widgets/app_image.dart';
+import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/bookmarks/data/bookmark.dart';
 import 'package:prostuti/features/catalog/data/catalog.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -279,7 +280,7 @@ class _BookmarkNoteCardState extends State<BookmarkNoteCard> {
                       avatar: const Icon(Icons.open_in_new_rounded, size: 16),
                       label: Text(link.title ?? l.bookmarksSourceLink, maxLines: 1, overflow: TextOverflow.ellipsis),
                       tooltip: link.url,
-                      onPressed: () => unawaited(_open(link.url)),
+                      onPressed: () => unawaited(_open(context, link.url)),
                     ),
                 ],
               ),
@@ -290,14 +291,17 @@ class _BookmarkNoteCardState extends State<BookmarkNoteCard> {
     );
   }
 
-  static Future<void> _open(String url) async {
+  static Future<void> _open(BuildContext context, String url) async {
     final uri = Uri.tryParse(url);
-    if (uri == null) return;
-    try {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    } on Object {
-      // No browser available — nothing else to do.
+    var ok = false;
+    if (uri != null) {
+      try {
+        ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
+      } on Object {
+        // No browser available.
+      }
     }
+    if (!ok && context.mounted) showInfoSnack(context, context.l10n.bookmarksOpenLinkFailed);
   }
 }
 

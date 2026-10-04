@@ -1,13 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:prostuti/core/cache/cache_store.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
 import 'package:prostuti/core/network/supabase_providers.dart';
 import 'package:prostuti/core/theme/app_theme.dart';
+import 'package:prostuti/features/bookmarks/data/bookmark.dart';
+import 'package:prostuti/features/bookmarks/data/bookmarks_repository.dart';
 import 'package:prostuti/features/feed/application/reaction_controller.dart';
 import 'package:prostuti/features/feed/data/post.dart';
 import 'package:prostuti/features/feed/presentation/widgets/post_card.dart';
 import 'package:prostuti/features/profile/data/profile.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
+class _FakeBookmarks extends BookmarksRepository {
+  _FakeBookmarks(CacheStore store)
+    : super(
+        SupabaseClient('http://localhost', 'anon', authOptions: const AuthClientOptions(autoRefreshToken: false)),
+        store,
+      );
+
+  final saved = <Bookmark>[];
+
+  @override
+  Future<bool> restore(Bookmark b) async {
+    saved.add(b);
+    return true;
+  }
+}
 
 Post _post({
   String body = 'আজ ৫০টি প্রশ্ন অনুশীলন করলাম',
@@ -28,10 +48,15 @@ Post _post({
 void main() {
   late List<(String, ReactionType?)> sent;
   late List<Post> published;
+  late CacheStore store;
+  late _FakeBookmarks bookmarks;
+
+  setUpAll(() async => store = await CacheStore.inMemory());
 
   Future<void> pump(WidgetTester tester, Post post) async {
     sent = [];
     published = [];
+    bookmarks = _FakeBookmarks(store);
     final controller = ReactionController(
       send: (id, type) async {
         sent.add((id, type));
@@ -46,6 +71,7 @@ void main() {
         overrides: [
           currentUserIdProvider.overrideWithValue('me'),
           reactionControllerProvider.overrideWithValue(controller),
+          bookmarksRepositoryProvider.overrideWithValue(bookmarks),
         ],
         child: MaterialApp(
           locale: const Locale('bn'),
@@ -87,6 +113,21 @@ void main() {
     expect(sent.single, ('p1', ReactionType.like));
     expect(published.single.myReaction, ReactionType.like);
     expect(published.single.reactionCount, 5);
+  });
+
+  testWidgets('Save post bookmarks a Post.toJson snapshot', (tester) async {
+    final l = lookupAppLocalizations(const Locale('bn'));
+    await pump(tester, _post());
+    await tester.tap(find.byTooltip(l.feedPostOptions));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(l.feedSavePost));
+    await tester.pumpAndSettle();
+    final b = bookmarks.saved.single;
+    expect(b.key, 'post:p1');
+    final saved = BookmarkedPost.fromPayload(b.payload);
+    expect(saved.displayName, 'রহিম উদ্দিন');
+    expect(saved.body, 'আজ ৫০টি প্রশ্ন অনুশীলন করলাম');
+    expect(find.text(l.feedPostSaved), findsOneWidget);
   });
 
   testWidgets('exam_result posts render a score card', (tester) async {

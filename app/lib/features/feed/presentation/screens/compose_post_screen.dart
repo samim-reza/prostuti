@@ -40,17 +40,29 @@ final class _NewImage extends _ComposeImage {
 /// Text-only posts work offline (queued with a client id); photo uploads
 /// and edits need the network.
 class ComposePostScreen extends ConsumerStatefulWidget {
-  const ComposePostScreen({this.initialPost, super.key});
+  const ComposePostScreen({this.initialPost, this.pickPhotos = false, super.key});
 
   /// Editing this post when set.
   final Post? initialPost;
+
+  /// Opens the photo picker right away ("Add photos" on the feed).
+  final bool pickPhotos;
 
   static const maxLength = 5000;
 
   /// Opens the editor for an existing post (no route needed).
   static Future<void> openEditor(BuildContext context, Post post) =>
-      Navigator.of(context)
-          .push(MaterialPageRoute<void>(fullscreenDialog: true, builder: (_) => ComposePostScreen(initialPost: post)));
+      _open(context, ComposePostScreen(initialPost: post));
+
+  /// Opens a new post with the photo picker already showing.
+  static Future<void> openWithPhotos(BuildContext context) => _open(context, const ComposePostScreen(pickPhotos: true));
+
+  // The root navigator covers the bottom bar, so switching tabs can't leave
+  // a draft behind the discard prompt.
+  static Future<void> _open(BuildContext context, ComposePostScreen screen) => Navigator.of(
+    context,
+    rootNavigator: true,
+  ).push(MaterialPageRoute<void>(fullscreenDialog: true, builder: (_) => screen));
 
   @override
   ConsumerState<ComposePostScreen> createState() => _ComposePostScreenState();
@@ -73,6 +85,11 @@ class _ComposePostScreenState extends ConsumerState<ComposePostScreen> {
   void initState() {
     super.initState();
     _text.addListener(_onText);
+    if (widget.pickPhotos) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) unawaited(_pickImages());
+      });
+    }
   }
 
   @override
@@ -322,7 +339,7 @@ class _ComposePostScreenState extends ConsumerState<ComposePostScreen> {
                     Gap.h12,
                     TextField(
                       controller: _text,
-                      autofocus: !_editing,
+                      autofocus: !_editing && !widget.pickPhotos,
                       minLines: 6,
                       maxLines: null,
                       keyboardType: TextInputType.multiline,

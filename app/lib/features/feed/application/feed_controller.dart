@@ -6,6 +6,9 @@ import 'package:prostuti/core/offline/connectivity.dart';
 import 'package:prostuti/core/pagination/paged_notifier.dart';
 import 'package:prostuti/core/pagination/paged_state.dart';
 import 'package:prostuti/core/rate_limit/debouncer.dart';
+import 'package:prostuti/features/bookmarks/application/bookmarks_controller.dart';
+import 'package:prostuti/features/bookmarks/data/bookmark.dart';
+import 'package:prostuti/features/bookmarks/data/bookmarks_repository.dart';
 import 'package:prostuti/features/feed/application/post_events.dart';
 import 'package:prostuti/features/feed/data/feed_repository.dart';
 import 'package:prostuti/features/feed/data/post.dart';
@@ -94,6 +97,13 @@ class AuthorFeedNotifier extends _PostListNotifier {
 
   @override
   bool acceptsNewPost(Post post) => post.author.id == authorId;
+
+  @override
+  void applyPostEvent(PostEvent event) {
+    // Blocking dropped their posts; unblocking brings them back.
+    if (event is AuthorUnblocked && event.authorId == authorId) unawaited(refresh());
+    super.applyPostEvent(event);
+  }
 }
 
 final authorFeedProvider = NotifierProvider.autoDispose.family<AuthorFeedNotifier, PagedState<Post, Keyset>, String>(
@@ -204,9 +214,24 @@ class PostActions {
 
   /// Blocks the author and drops their posts from every list.
   Future<void> blockAuthor(String userId) async {
+    final seeds = _ref.read(relationshipSeedsProvider);
+    final before = seeds[userId];
     await _ref.read(friendsRepositoryProvider).block(userId);
-    _ref.read(relationshipSeedsProvider).put(userId, Relationship.blocked);
-    _emit(AuthorHidden(userId));
+    seeds.put(userId, Relationship.blocked);
+    // Open profiles and relationship buttons rebuild from the new seed.
+    _ref.invalidate(relationshipProvider(userId));
+    // Unseeded → a friendship may have just ended; refresh friend lists and
+    // counters as if it did. Also hides their posts everywhere.
+    applyRelationshipSideEffects(_ref, userId, before ?? Relationship.friends, Relationship.blocked);
+  }
+
+  /// Saves the post to my bookmarks (queued while offline). Returns true if
+  /// synced.
+  Future<bool> save(Post post) async {
+    final synced = await _ref.read(bookmarksRepositoryProvider).savePost(post);
+    final saved = bookmarksProvider(BookmarkType.post);
+    if (synced && _ref.exists(saved)) unawaited(_ref.read(saved.notifier).refresh());
+    return synced;
   }
 
   void created(Post post) => _emit(PostCreated(post));
@@ -215,8 +240,3 @@ class PostActions {
 }
 
 final postActionsProvider = Provider<PostActions>(PostActions.new);
-
-/// Unread conversations (chat badge on the Community app bar).
-final unreadChatsCountProvider = FutureProvider.autoDispose<int>(
-  (ref) => ref.watch(feedRepositoryProvider).unreadConversationsCount(),
-);

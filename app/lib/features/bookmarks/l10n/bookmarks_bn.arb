@@ -19,6 +19,7 @@
   "bookmarksShowMore": "আরও {count}টি দেখুন",
   "bookmarksShowLess": "কম দেখুন",
   "bookmarksSourceLink": "মূল সংবাদ পড়ুন",
+  "bookmarksOpenLinkFailed": "লিংকটি খোলা যায়নি",
   "bookmarksUnknownAuthor": "প্রস্তুতি ব্যবহারকারী",
   "bookmarksPostNoText": "ছবির পোস্ট",
   "bookmarksCatBangladesh": "বাংলাদেশ",

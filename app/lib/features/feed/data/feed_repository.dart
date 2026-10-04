@@ -61,7 +61,6 @@ class FeedRepository {
   String _feedKey(String? authorId) => authorId == null ? 'feed:first:$_scope' : 'feed:author:$_scope:$authorId';
   String _postKey(String id) => 'feed:post:$_scope:$id';
   String _commentsKey(String postId) => 'feed:comments:$_scope:$postId';
-  String get _unreadKey => 'feed:unread_chats:$_scope';
 
   // ---------------------------------------------------------------------------
   // Feed
@@ -546,20 +545,6 @@ class FeedRepository {
       }),
     );
   }
-
-  /// Conversations with messages I haven't read (chat badge). The last
-  /// answer is kept so the badge survives offline.
-  Future<int> unreadConversationsCount() => _cache.get<int>(
-    _unreadKey,
-    forceRefresh: true,
-    fetch: () async {
-      final value = await _client.rpcCall<Object?>('get_unread_conversations_count');
-      return value is num ? value.toInt() : int.tryParse('$value') ?? 0;
-    },
-    encode: (v) => v,
-    decode: (j) => j is num ? j.toInt() : 0,
-    policy: const CachePolicy(ttl: Duration(minutes: 1)),
-  );
 
   void dispose() => unawaited(_synced.close());
 }

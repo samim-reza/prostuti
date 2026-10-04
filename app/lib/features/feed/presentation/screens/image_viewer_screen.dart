@@ -12,8 +12,9 @@ class ImageViewerScreen extends StatefulWidget {
   final List<String> urls;
   final int initialIndex;
 
+  /// Pushed on the root navigator so it covers the bottom bar.
   static Future<void> open(BuildContext context, {required List<String> urls, int initialIndex = 0}) =>
-      Navigator.of(context).push(
+      Navigator.of(context, rootNavigator: true).push(
         PageRouteBuilder<void>(
           opaque: false,
           barrierColor: Colors.black,

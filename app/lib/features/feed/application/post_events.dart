@@ -37,6 +37,12 @@ final class AuthorHidden extends PostEvent {
   final String authorId;
 }
 
+/// I unblocked [authorId] — lists of only their posts refetch them.
+final class AuthorUnblocked extends PostEvent {
+  const AuthorUnblocked(this.authorId);
+  final String authorId;
+}
+
 /// A reaction queued offline reached the server; adopt its counts.
 final class ReactionSynced extends PostEvent {
   const ReactionSynced(this.postId, this.result);
@@ -92,6 +98,8 @@ mixin PostListSync on PagedNotifier<Post, Keyset> {
         if (_contains(postId)) removeWhere((p) => p.id == postId);
       case AuthorHidden(:final authorId):
         if (state.items.any((p) => p.author.id == authorId)) removeWhere((p) => p.author.id == authorId);
+      case AuthorUnblocked():
+        break; // Their posts come back with the next fetch.
       case ReactionSynced(:final postId, :final result):
         final current = _find(postId);
         if (current != null) replace(current.withServerReaction(result));

@@ -25,6 +25,7 @@
   },
   "bookmarksShowLess": "Show less",
   "bookmarksSourceLink": "Read the original",
+  "bookmarksOpenLinkFailed": "Couldn't open the link",
   "bookmarksUnknownAuthor": "Prostuti user",
   "bookmarksPostNoText": "Photo post",
   "bookmarksCatBangladesh": "Bangladesh",

@@ -8,6 +8,7 @@ import 'package:prostuti/core/router/routes.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/widgets/app_image.dart';
 import 'package:prostuti/core/widgets/skeleton.dart';
+import 'package:prostuti/features/feed/presentation/screens/compose_post_screen.dart';
 import 'package:prostuti/features/profile/data/profile_repository.dart';
 
 /// "What's on your mind?" card at the top of the feed.
@@ -49,7 +50,7 @@ class ComposerPromptCard extends ConsumerWidget {
                   ),
                 ),
                 IconButton(
-                  onPressed: compose,
+                  onPressed: () => unawaited(ComposePostScreen.openWithPhotos(context)),
                   tooltip: l.feedAddPhotos,
                   icon: Icon(Icons.add_photo_alternate_outlined, color: scheme.primary),
                 ),

@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:prostuti/core/network/supabase_providers.dart';
+import 'package:prostuti/features/chat/data/chat_repository.dart';
 import 'package:prostuti/features/feed/application/post_events.dart';
 import 'package:prostuti/features/friends/application/friends_controller.dart';
 import 'package:prostuti/features/friends/data/friends_repository.dart';
@@ -155,6 +156,7 @@ void applyRelationshipSideEffects(Ref ref, String userId, Relationship before, R
   if (before.status == RelationshipStatus.requestReceived) ref.invalidate(incomingRequestCountProvider);
   if (before.isFriend != after.isFriend) {
     if (ref.exists(friendsListProvider)) unawaited(ref.read(friendsListProvider.notifier).refresh());
+    unawaited(ref.read(chatRepositoryProvider).invalidateFriends());
     final profiles = ref.read(profileRepositoryProvider);
     final me = ref.read(currentUserIdProvider);
     unawaited(profiles.invalidate(userId));
@@ -169,4 +171,5 @@ void applyRelationshipSideEffects(Ref ref, String userId, Relationship before, R
     unawaited(ref.read(friendsRepositoryProvider).invalidateSuggestions());
   }
   if (after.isBlocked) ref.read(postEventsProvider.notifier).emit(AuthorHidden(userId));
+  if (before.isBlocked && !after.isBlocked) ref.read(postEventsProvider.notifier).emit(AuthorUnblocked(userId));
 }

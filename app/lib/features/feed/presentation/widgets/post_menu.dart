@@ -10,7 +10,7 @@ import 'package:prostuti/features/feed/l10n/social_failures.dart';
 import 'package:prostuti/features/feed/presentation/screens/compose_post_screen.dart';
 import 'package:prostuti/features/feed/presentation/widgets/report_sheet.dart';
 
-enum _PostAction { edit, delete, report, block }
+enum _PostAction { save, edit, delete, report, block }
 
 /// "Block {name}?" confirmation shared by posts, comments and profiles.
 Future<bool> confirmBlock(BuildContext context, String name) {
@@ -24,8 +24,8 @@ Future<bool> confirmBlock(BuildContext context, String name) {
   );
 }
 
-/// Overflow actions of a post: edit/delete for my posts, report/block for
-/// everyone else's.
+/// Overflow actions of a post: save for every post, plus edit/delete for my
+/// posts and report/block for everyone else's.
 Future<void> showPostMenu(BuildContext context, WidgetRef ref, Post post) async {
   final l = context.l10n;
   final scheme = Theme.of(context).colorScheme;
@@ -39,6 +39,11 @@ Future<void> showPostMenu(BuildContext context, WidgetRef ref, Post post) async 
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          ListTile(
+            leading: const Icon(Icons.bookmark_add_outlined),
+            title: Text(l.feedSavePost),
+            onTap: () => Navigator.pop(ctx, _PostAction.save),
+          ),
           if (isMine) ...[
             ListTile(
               leading: const Icon(Icons.edit_outlined),
@@ -68,6 +73,15 @@ Future<void> showPostMenu(BuildContext context, WidgetRef ref, Post post) async 
   );
   if (action == null || !context.mounted) return;
   switch (action) {
+    case _PostAction.save:
+      // Works offline: the save is queued and synced later.
+      final messenger = ScaffoldMessenger.of(context);
+      try {
+        final synced = await actions.save(post);
+        messenger.showSnackBar(SnackBar(content: Text(synced ? l.feedPostSaved : l.offlineSaved)));
+      } on Object catch (e) {
+        if (context.mounted) showSocialError(context, e);
+      }
     case _PostAction.edit:
       if (!ensureOnline(context)) return;
       await ComposePostScreen.openEditor(context, post);

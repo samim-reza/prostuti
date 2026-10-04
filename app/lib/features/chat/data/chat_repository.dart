@@ -316,7 +316,7 @@ class ChatRepository {
   Future<List<UserSummary>> fetchFriends({bool force = false}) {
     final uid = _requireUid();
     return _cache.get<List<UserSummary>>(
-      'chat:friends:$uid',
+      _friendsKey(uid),
       forceRefresh: force,
       fetch: () async {
         final out = <UserSummary>[];
@@ -336,6 +336,14 @@ class ChatRepository {
       isEmpty: (list) => list.isEmpty,
     );
   }
+
+  /// Drops the cached friend list (a friendship started or ended).
+  Future<void> invalidateFriends() async {
+    final uid = currentUserId;
+    if (uid != null) await _cache.invalidate(_friendsKey(uid));
+  }
+
+  static String _friendsKey(String uid) => 'chat:friends:$uid';
 
   // ---------------------------------------------------------------------------
   // Realtime

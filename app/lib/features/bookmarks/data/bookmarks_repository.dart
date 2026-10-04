@@ -8,6 +8,7 @@ import 'package:prostuti/core/offline/offline_queue.dart';
 import 'package:prostuti/core/pagination/paged_state.dart';
 import 'package:prostuti/core/utils/json.dart';
 import 'package:prostuti/features/bookmarks/data/bookmark.dart';
+import 'package:prostuti/features/feed/data/post.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class BookmarksRepository {
@@ -66,6 +67,13 @@ class BookmarksRepository {
   /// Puts a removed bookmark back (undo) with its original timestamp so it
   /// returns to the same place in the list. Returns true if synced.
   Future<bool> restore(Bookmark b) => OfflineQueue.instance.run(restoreOp, b.toJson());
+
+  /// Saves a community post with a `Post.toJson()` snapshot. The restore op
+  /// is an upsert, so saving it again just moves it to the top. Returns true
+  /// if synced.
+  Future<bool> savePost(Post post) => restore(
+    Bookmark(type: BookmarkType.post, itemId: post.id, payload: post.toJson(), createdAt: DateTime.now().toUtc()),
+  );
 
   Future<void> _applyRemove(Map<String, dynamic> p) async {
     final userId = _uidOrThrow();

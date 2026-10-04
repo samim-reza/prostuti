@@ -101,7 +101,6 @@ class _NewGroupScreenState extends ConsumerState<NewGroupScreen> {
     final l = context.l10n;
     final theme = Theme.of(context);
     final friends = ref.watch(chatFriendsProvider);
-    final canCreate = _title.text.trim().isNotEmpty && _selected.isNotEmpty && !_creating;
 
     return Scaffold(
       appBar: AppBar(
@@ -114,8 +113,9 @@ class _NewGroupScreenState extends ConsumerState<NewGroupScreen> {
                     padding: EdgeInsets.all(Gap.md),
                     child: SizedBox.square(dimension: 22, child: CircularProgressIndicator(strokeWidth: 2.4)),
                   )
+                // Always enabled: `_create` explains what's missing.
                 : FilledButton(
-                    onPressed: canCreate ? () => unawaited(_create()) : null,
+                    onPressed: () => unawaited(_create()),
                     style: FilledButton.styleFrom(minimumSize: const Size(88, 40)),
                     child: Text(l.chatCreateGroup),
                   ),
