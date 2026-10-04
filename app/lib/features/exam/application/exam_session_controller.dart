@@ -136,12 +136,18 @@ class ExamSessionController extends AsyncNotifier<ExamTakingState> {
   }
 
   /// Called when the outbox drained: picks up the result stored by the
-  /// queued submission. Returns it once available.
+  /// queued submission. Returns it once available. If the outbox gave up on
+  /// the submission (e.g. the session expired meanwhile) the phase becomes
+  /// `failed`, so the screen can offer a retry instead of spinning forever.
   ExamResult? checkQueued() {
     final s = _current;
     if (s == null || !s.isQueued || _repo.isSubmissionPending(sessionId)) return null;
     final result = _repo.cachedResult(sessionId);
-    if (result != null) state = AsyncData(s.copyWith(phase: SubmitPhase.done, result: result));
+    state = AsyncData(
+      result != null
+          ? s.copyWith(phase: SubmitPhase.done, result: result)
+          : s.copyWith(phase: SubmitPhase.failed, error: const ServerFailure('submit_dropped')),
+    );
     return result;
   }
 

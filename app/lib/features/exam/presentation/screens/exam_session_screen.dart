@@ -5,14 +5,18 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:prostuti/core/errors/failure.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
+import 'package:prostuti/core/network/supabase_providers.dart';
 import 'package:prostuti/core/offline/connectivity.dart';
 import 'package:prostuti/core/offline/offline_queue.dart';
 import 'package:prostuti/core/router/routes.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
+import 'package:prostuti/core/utils/bd_time.dart';
 import 'package:prostuti/core/utils/formatters.dart';
 import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/catalog/data/catalog.dart';
+import 'package:prostuti/features/daily_exam/application/leaderboard_providers.dart';
+import 'package:prostuti/features/daily_exam/data/leaderboard_repository.dart';
 import 'package:prostuti/features/exam/application/exam_clock.dart';
 import 'package:prostuti/features/exam/application/exam_failure_messages.dart';
 import 'package:prostuti/features/exam/application/exam_providers.dart';
@@ -20,6 +24,10 @@ import 'package:prostuti/features/exam/application/exam_session_controller.dart'
 import 'package:prostuti/features/exam/data/exam_models.dart';
 import 'package:prostuti/features/exam/presentation/utils/exam_title.dart';
 import 'package:prostuti/features/exam/presentation/widgets/exam_session_widgets.dart';
+import 'package:prostuti/features/onboarding/data/onboarding_repository.dart';
+import 'package:prostuti/features/profile/data/profile_repository.dart';
+import 'package:prostuti/features/study_plan/application/plan_providers.dart';
+import 'package:prostuti/features/study_plan/data/study_plan_repository.dart';
 
 /// The exam hall: sticky timer + progress header, scrollable question list
 /// with ক খ গ ঘ bubbles, flags, a question map, auto-submit at 0 and an
@@ -192,7 +200,12 @@ class _ExamSessionScreenState extends ConsumerState<ExamSessionScreen> with Widg
     final s = ref.read(_provider).value;
     if (s == null || !s.isQueued) return;
     final result = _controller.checkQueued();
-    if (result != null && mounted) _goToResult(result);
+    if (!mounted) return;
+    if (result != null) {
+      _goToResult(result);
+    } else if (ref.read(_provider).value?.phase == SubmitPhase.failed) {
+      unawaited(_showSubmitFailed(ref.read(_provider).value?.error));
+    }
   }
 
   void _refreshExamLists() {
@@ -211,11 +224,44 @@ class _ExamSessionScreenState extends ConsumerState<ExamSessionScreen> with Widg
     unawaited(ref.read(catalogRepositoryProvider).invalidateSubjects());
     ref.invalidate(subjectsProvider);
     final session = ref.read(_provider).value?.session;
+    _refreshAfterExam(session?.kind);
     if (session?.kind == ExamKind.placement) {
-      context.go(Routes.onboardingResult);
+      // Submitting moved onboarding to the plan step server-side; the result
+      // screen shows the levels and builds the plan. Taken later from Home,
+      // it opens in "later" mode.
+      final later = ref.read(currentProfileProvider).value?.isOnboarded ?? false;
+      unawaited(ref.read(currentProfileProvider.notifier).reload().catchError((Object _) {}));
+      unawaited(refreshSetupStatus(ref).catchError((Object _) {}));
+      context.go(later ? Routes.later(Routes.onboardingResult) : Routes.onboardingResult);
     } else {
       context.pushReplacement(Routes.examResult(widget.sessionId));
     }
+  }
+
+  /// Everything a submitted exam changes elsewhere: plan items ticked
+  /// server-side, mastery and readiness, today's daily exam and leaderboard.
+  /// Done here because the screens that opened the exam can't wait for their
+  /// `push` to return: the exam route is replaced by the result, not popped,
+  /// so that future never completes. Uses the container, which outlives this
+  /// screen.
+  void _refreshAfterExam(ExamKind? kind) {
+    final container = ProviderScope.containerOf(context, listen: false);
+    unawaited(() async {
+      await container.read(studyPlanRepositoryProvider).invalidateAll().catchError((Object _) {});
+      container.invalidate(planDayProvider);
+      await refreshPlanData(container.read, quiet: true);
+    }());
+    if (kind != ExamKind.daily) return;
+    container.invalidate(activeDailySessionProvider);
+    final uid = container.read(currentUserIdProvider);
+    if (uid == null) return;
+    unawaited(
+      container
+          .read(leaderboardRepositoryProvider)
+          .invalidate(uid, BdTime.todayIso())
+          .catchError((Object _) {})
+          .then((_) => container.invalidate(dailyLeaderboardProvider)),
+    );
   }
 
   // ---------------------------------------------------------------------------

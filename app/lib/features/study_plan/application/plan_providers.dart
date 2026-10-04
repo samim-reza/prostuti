@@ -87,6 +87,7 @@ class TodayRoutineNotifier extends SwrNotifier<TodayRoutine> {
       if (ran && ref.mounted) {
         // The streak may have moved; refresh it quietly.
         unawaited(ref.read(currentProfileProvider.notifier).reload().catchError((Object _) {}));
+        _refreshOverview(ref);
       }
       unawaited(_repo.cacheDay(optimistic));
       return ran;
@@ -198,6 +199,7 @@ class PlanDayNotifier extends AsyncNotifier<PlanDay?> {
       unawaited(_repo.cacheDay(optimistic));
       if (ran && ref.mounted) {
         unawaited(ref.read(currentProfileProvider.notifier).reload().catchError((Object _) {}));
+        _refreshOverview(ref);
       }
       return ran;
     } on Object {
@@ -258,6 +260,14 @@ class PlanGenerationNotifier extends Notifier<PlanGenerationState> {
 final planGenerationProvider = NotifierProvider<PlanGenerationNotifier, PlanGenerationState>(
   PlanGenerationNotifier.new,
 );
+
+/// A ticked item changes the overview's day progress and done-days count;
+/// refreshed only if the plan screen has loaded it.
+void _refreshOverview(Ref ref) {
+  if (ref.exists(planOverviewProvider)) {
+    unawaited(ref.read(planOverviewProvider.notifier).refresh().catchError((Object _) {}));
+  }
+}
 
 /// `ref.read` of either a `Ref` or a `WidgetRef`.
 typedef ProviderReader = T Function<T>(ProviderListenable<T> provider);

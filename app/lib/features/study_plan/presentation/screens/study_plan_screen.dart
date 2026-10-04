@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -110,7 +112,11 @@ class _PlanBody extends ConsumerWidget {
         value: overview,
         loading: const _PlanSkeleton(),
         onRetry: () => ref.invalidate(planOverviewProvider),
-        data: (o) => o.hasPlan ? _PlanContent(overview: o) : const _NoPlanView(),
+        // Generation runs from here: this widget stays mounted while the
+        // progress view replaces the empty state, so its result is reported.
+        data: (o) => o.hasPlan
+            ? _PlanContent(overview: o)
+            : _NoPlanView(onCreate: () => unawaited(generatePlanWithFeedback(context, ref))),
       ),
     );
   }
@@ -166,11 +172,13 @@ class _PlanContent extends StatelessWidget {
   }
 }
 
-class _NoPlanView extends ConsumerWidget {
-  const _NoPlanView();
+class _NoPlanView extends StatelessWidget {
+  const _NoPlanView({required this.onCreate});
+
+  final VoidCallback onCreate;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final l = context.l10n;
     return ListView(
       physics: const AlwaysScrollableScrollPhysics(),
@@ -182,7 +190,7 @@ class _NoPlanView extends ConsumerWidget {
           title: l.studyPlanNoPlanTitle,
           message: l.studyPlanNoPlanBody,
           actionLabel: l.studyPlanCreate,
-          action: () => generatePlanWithFeedback(context, ref),
+          action: onCreate,
         ),
       ],
     );

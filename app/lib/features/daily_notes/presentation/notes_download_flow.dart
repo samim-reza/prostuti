@@ -84,18 +84,15 @@ Future<void> downloadTodayNotesPdf({
         final config = await ref.read(remoteConfigProvider.future);
         if (config.rewardedAdsEnabled) {
           onBusy(l.dailyNotesLoadingAd);
-          final earned = await AdsService.instance.showRewarded(
+          final outcome = await AdsService.instance.showRewarded(
             remoteAndroid: config.androidRewardedUnit,
             remoteIos: config.iosRewardedUnit,
           );
           onBusy(null);
-          if (!earned) {
-            if (context.mounted) {
-              showInfoSnack(
-                context,
-                ConnectivityService.instance.isOnline ? l.dailyNotesAdNotCompleted : l.offlineUnavailable,
-              );
-            }
+          // Only closing the ad early withholds the download; when no ad can
+          // be shown at all (no fill, ad blocker) the user isn't stuck.
+          if (outcome == RewardedOutcome.skipped) {
+            if (context.mounted) showInfoSnack(context, l.dailyNotesAdNotCompleted);
             return;
           }
         }

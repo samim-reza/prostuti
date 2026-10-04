@@ -72,13 +72,18 @@ class ExamRepository {
   String get _activeKey => 'exam_active:$_uid';
   String get _historyKey => 'exam_history:$_uid';
 
+  static const startTimeout = Duration(seconds: 30);
   static const _resultPolicy = CachePolicy(ttl: Duration(minutes: 10));
   static const _reviewPolicy = CachePolicy(ttl: Duration(days: 30), negativeTtl: Duration(minutes: 1));
 
   /// Starts an exam and keeps the payload on device until the deadline
   /// (+1 h grace), so `ExamSessionScreen` opens instantly via [loadSession].
+  /// Times out so the blocking "starting exam" dialog can't hang on a
+  /// stalled connection (a session created meanwhile shows up as resumable).
   Future<ExamSession> start(ExamKind kind, {Map<String, dynamic> config = const {}}) async {
-    final json = await _client.rpcMap('start_exam', params: {'p_kind': kind.wire, 'p_config': config});
+    final json = await _client
+        .rpcMap('start_exam', params: {'p_kind': kind.wire, 'p_config': config})
+        .timeout(startTimeout);
     final session = ExamSession.fromJson(json);
     await cacheSession(session);
     return session;
