@@ -319,7 +319,14 @@ class _LevelsCard extends StatelessWidget {
     final theme = Theme.of(context);
     if (readiness.levels.isEmpty) {
       return Card(
-        child: EmptyView(compact: true, icon: Icons.stairs_rounded, title: l.studyPlanLevelsEmpty),
+        // No level test yet (it can be skipped during setup): offer it here.
+        child: EmptyView(
+          compact: true,
+          icon: Icons.stairs_rounded,
+          title: l.studyPlanLevelsEmpty,
+          actionLabel: l.homeSetupPlacement,
+          action: () => context.push(Routes.later(Routes.onboardingPlacement)),
+        ),
       );
     }
     final names = {for (final s in readiness.subjects) s.subjectId: context.isBn ? s.nameBn : s.nameEn};

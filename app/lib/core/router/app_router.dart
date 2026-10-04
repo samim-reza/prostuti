@@ -36,11 +36,11 @@ import 'package:prostuti/features/friends/presentation/screens/user_profile_scre
 import 'package:prostuti/features/friends/presentation/screens/user_search_screen.dart';
 import 'package:prostuti/features/home/presentation/screens/home_screen.dart';
 import 'package:prostuti/features/notifications/presentation/screens/notifications_screen.dart';
+import 'package:prostuti/features/onboarding/application/onboarding_flow.dart';
 import 'package:prostuti/features/onboarding/presentation/screens/onboarding_interview_screen.dart';
 import 'package:prostuti/features/onboarding/presentation/screens/onboarding_placement_screen.dart';
 import 'package:prostuti/features/onboarding/presentation/screens/onboarding_profile_screen.dart';
 import 'package:prostuti/features/onboarding/presentation/screens/onboarding_result_screen.dart';
-import 'package:prostuti/features/profile/data/profile.dart';
 import 'package:prostuti/features/profile/data/profile_repository.dart';
 import 'package:prostuti/features/profile/presentation/screens/edit_profile_screen.dart';
 import 'package:prostuti/features/profile/presentation/screens/my_profile_screen.dart';
@@ -73,14 +73,6 @@ class _RouterRefresh extends ChangeNotifier {
   }
 }
 
-String _onboardingRoute(OnboardingStep step) => switch (step) {
-  OnboardingStep.profile => Routes.onboardingProfile,
-  OnboardingStep.interview => Routes.onboardingInterview,
-  OnboardingStep.placement => Routes.onboardingPlacement,
-  OnboardingStep.plan => Routes.onboardingResult,
-  OnboardingStep.done => Routes.home,
-};
-
 final appRouterProvider = Provider<GoRouter>((ref) {
   final refresh = _RouterRefresh(ref);
   ref.onDispose(refresh.dispose);
@@ -106,14 +98,13 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       final p = profile.value;
       if (p == null) return loc == Routes.splash ? null : Routes.splash;
 
-      if (!p.isOnboarded) {
-        // The placement test runs inside the regular exam screens.
-        if (Routes.isOnboarding(loc) || loc.startsWith('/exam/')) return null;
-        return _onboardingRoute(p.onboardingStep);
-      }
-      if (loc == Routes.splash || Routes.public.contains(loc) || Routes.isOnboarding(loc)) {
-        return Routes.home;
-      }
+      final onboarding = onboardingRedirect(
+        loc,
+        step: p.onboardingStep,
+        later: state.uri.queryParameters[Routes.laterParam] == '1',
+      );
+      if (onboarding != null) return onboarding;
+      if (loc == Routes.splash || Routes.public.contains(loc)) return Routes.home;
       if (loc.startsWith('/admin') && !p.isStaff) return Routes.home;
       return null;
     },

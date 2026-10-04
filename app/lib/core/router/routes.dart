@@ -15,6 +15,11 @@ abstract final class Routes {
   static const onboardingPlacement = '/onboarding/placement';
   static const onboardingResult = '/onboarding/result';
 
+  /// The interview, level test or result opened again from Home after setup
+  /// was finished or postponed (only these pass the router's onboarding gate).
+  static String later(String onboardingRoute) => '$onboardingRoute?$laterParam=1';
+  static const laterParam = 'later';
+
   // Bottom-navigation tabs
   static const home = '/home';
   static const study = '/study';

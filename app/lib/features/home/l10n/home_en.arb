@@ -123,5 +123,11 @@
   "homeReminderTitle": "Time for today's exam",
   "homeReminderBody": "Take the daily exam and see where you stand today.",
   "homeMorningTitle": "Today's routine is ready! Let's begin",
-  "homeMorningBody": "Your reading, practice and exam for today are waiting."
+  "homeMorningBody": "Your reading, practice and exam for today are waiting.",
+  "homeSetupTitle": "Finish setting up",
+  "homeSetupBody": "A few more minutes gives you a study plan that fits you.",
+  "homeSetupProfile": "Complete your profile",
+  "homeSetupInterview": "Introduce yourself to Prostuti AI",
+  "homeSetupPlacement": "Take the level test",
+  "homeSetupHide": "Hide"
 }

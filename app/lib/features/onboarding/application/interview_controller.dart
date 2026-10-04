@@ -410,10 +410,11 @@ class InterviewController extends Notifier<InterviewState> {
   }
 
   // --- Persistence -----------------------------------------------------------
-  /// Saves the interview + profile fields and moves onboarding to the
-  /// placement step (the router then navigates). Throws an [AppFailure].
-  Future<void> save() async {
-    if (state.stage != InterviewStage.done || state.saving) return;
+  /// Saves the interview + profile fields, plus [stepPatch] (the move to the
+  /// level-test step during onboarding; empty when redone later from Home).
+  /// Returns false when there is nothing to save yet. Throws an [AppFailure].
+  Future<bool> save({Map<String, dynamic> stepPatch = const {}}) async {
+    if (state.stage != InterviewStage.done || state.saving) return false;
     if (!_online) throw const NetworkFailure();
     state = state.copyWith(saving: true);
     try {
@@ -436,8 +437,9 @@ class InterviewController extends Notifier<InterviewState> {
         },
         if (a['occupation'] is String) 'occupation': a['occupation'],
         if (state.acceptedMinutes != null) 'daily_study_minutes': state.acceptedMinutes,
-        'onboarding_step': 'placement',
+        ...stepPatch,
       });
+      return true;
     } finally {
       if (ref.mounted) state = state.copyWith(saving: false);
     }

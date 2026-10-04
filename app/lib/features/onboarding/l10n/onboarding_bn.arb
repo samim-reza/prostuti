@@ -140,5 +140,10 @@
   "onboardingContinueWithoutPlan": "এগিয়ে যাই — প্ল্যান পরে তৈরি করব",
   "onboardingPlanFailedTitle": "প্ল্যান তৈরি করা গেল না",
   "onboardingPlanFailedBody": "আমাদের দিকে একটু সমস্যা হয়েছে। আবার চেষ্টা করুন, অথবা এগিয়ে গিয়ে পরে প্ল্যান স্ক্রিন থেকে তৈরি করুন।",
-  "onboardingPlanOfflineBody": "প্ল্যান তৈরি করতে ইন্টারনেটে যুক্ত হোন, অথবা এগিয়ে গিয়ে পরে প্ল্যান স্ক্রিন থেকে তৈরি করুন।"
+  "onboardingPlanOfflineBody": "প্ল্যান তৈরি করতে ইন্টারনেটে যুক্ত হোন, অথবা এগিয়ে গিয়ে পরে প্ল্যান স্ক্রিন থেকে তৈরি করুন।",
+  "onboardingDoLater": "পরে করব",
+  "onboardingDoLaterDone": "হোম থেকে যেকোনো সময় বাকি ধাপগুলো শেষ করতে পারবেন।",
+  "onboardingSkipStep": "এই ধাপ বাদ দিন",
+  "onboardingSkipInterview": "পরিচিতি বাদ দিন",
+  "onboardingInterviewSaved": "সংরক্ষিত হয়েছে। পরের প্ল্যানে এটি কাজে লাগবে।"
 }

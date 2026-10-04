@@ -5,14 +5,19 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:prostuti/core/errors/failure.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
+import 'package:prostuti/core/offline/connectivity.dart';
 import 'package:prostuti/core/theme/app_colors.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/catalog/data/catalog.dart';
 import 'package:prostuti/features/onboarding/application/interview_controller.dart';
+import 'package:prostuti/features/onboarding/application/onboarding_flow.dart';
 import 'package:prostuti/features/onboarding/data/interview_models.dart';
+import 'package:prostuti/features/onboarding/data/onboarding_repository.dart';
 import 'package:prostuti/features/onboarding/presentation/widgets/chat_widgets.dart';
 import 'package:prostuti/features/onboarding/presentation/widgets/interview_texts.dart';
+import 'package:prostuti/features/profile/data/profile.dart';
+import 'package:prostuti/features/profile/data/profile_repository.dart';
 
 /// Step 2: a short chat with "প্রস্তুতি এআই" — core questions with quick
 /// replies, up to two AI follow-ups and an AI summary. The AI part never
@@ -26,6 +31,24 @@ class OnboardingInterviewScreen extends ConsumerStatefulWidget {
 
 class _OnboardingInterviewScreenState extends ConsumerState<OnboardingInterviewScreen> {
   final _scroll = ScrollController();
+  bool _skipping = false;
+
+  /// Moves on to the level test without the interview (it can be done later
+  /// from Home).
+  Future<void> _skip() async {
+    if (!ConnectivityService.instance.isOnline) {
+      showInfoSnack(context, context.l10n.offlineUnavailable);
+      return;
+    }
+    setState(() => _skipping = true);
+    try {
+      await OnboardingFlow.advance(context, ref, OnboardingStep.placement);
+    } on Object catch (e) {
+      if (mounted) showErrorSnack(context, e);
+    } finally {
+      if (mounted) setState(() => _skipping = false);
+    }
+  }
 
   @override
   void initState() {
@@ -61,11 +84,25 @@ class _OnboardingInterviewScreenState extends ConsumerState<OnboardingInterviewS
       (_, _) => _scrollToEnd(),
     );
     final itemCount = state.messages.length + (state.typing ? 1 : 0);
+    // Opened again from Home (setup finished or postponed): back button, no
+    // step counter, no skip.
+    final later = ref.watch(currentProfileProvider.select((p) => p.value?.isOnboarded ?? false));
 
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
-        titleSpacing: Gap.lg,
+        automaticallyImplyLeading: later,
+        titleSpacing: later ? 0 : Gap.lg,
+        actions: [
+          if (!later)
+            TextButton(
+              style: TextButton.styleFrom(minimumSize: const Size(48, 40)),
+              onPressed: _skipping || state.saving ? null : () => unawaited(_skip()),
+              child: _skipping
+                  ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
+                  : Text(l.onboardingSkipStep),
+            ),
+          Gap.w8,
+        ],
         title: Row(
           children: [
             const BotAvatar(size: 38),
@@ -74,13 +111,21 @@ class _OnboardingInterviewScreenState extends ConsumerState<OnboardingInterviewS
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(l.onboardingBotName, style: theme.textTheme.titleMedium),
                   Text(
-                    state.typing ? l.onboardingBotTyping : l.onboardingStepOf(context.n(2), context.n(4)),
-                    style: theme.textTheme.labelSmall?.copyWith(
-                      color: state.typing ? AppColors.success : scheme.onSurfaceVariant,
-                    ),
+                    l.onboardingBotName,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: theme.textTheme.titleMedium,
                   ),
+                  if (state.typing || !later)
+                    Text(
+                      state.typing ? l.onboardingBotTyping : l.onboardingStepOf(context.n(2), context.n(4)),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: theme.textTheme.labelSmall?.copyWith(
+                        color: state.typing ? AppColors.success : scheme.onSurfaceVariant,
+                      ),
+                    ),
                 ],
               ),
             ),
@@ -268,9 +313,15 @@ class _ComposerState extends ConsumerState<_Composer> {
   }
 
   Future<void> _save() async {
+    final l = context.l10n;
+    final later = OnboardingFlow.isLater(ref);
     try {
-      await _controller.save();
-      // The router moves on to the level test once the step is saved.
+      final saved = await _controller.save(stepPatch: OnboardingFlow.stepPatch(ref, OnboardingStep.placement));
+      if (!saved || !mounted) return;
+      await refreshSetupStatus(ref);
+      if (!mounted) return;
+      if (later) showInfoSnack(context, l.onboardingInterviewSaved);
+      OnboardingFlow.goNext(context, ref, OnboardingStep.placement);
     } on Object catch (e) {
       if (!mounted) return;
       if (AppFailure.from(e) is NetworkFailure) {
@@ -405,7 +456,7 @@ class _ComposerState extends ConsumerState<_Composer> {
           icon: s.saving
               ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2.5))
               : const Icon(Icons.arrow_forward_rounded),
-          label: Text(l.onboardingToPlacement),
+          label: Text(OnboardingFlow.isLater(ref) ? l.save : l.onboardingToPlacement),
         );
       }
     }

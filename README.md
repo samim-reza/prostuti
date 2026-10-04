@@ -147,7 +147,7 @@ see [`docs/RELEASE.md`](docs/RELEASE.md). Database operations:
 | Check | Status |
 |-------|--------|
 | `flutter analyze` (very_good_analysis) | no issues |
-| `flutter test` | 432 tests |
+| `flutter test` | 439 tests |
 | Edge Functions: `deno lint` / `deno check` / `deno test` | clean / clean / 11 tests |
 | RLS security regression (`tools/rls_smoke_test.sql`) | all checks pass |
 

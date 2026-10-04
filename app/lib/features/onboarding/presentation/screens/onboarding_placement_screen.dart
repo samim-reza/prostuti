@@ -13,7 +13,9 @@ import 'package:prostuti/core/utils/json.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/exam/data/exam_models.dart';
 import 'package:prostuti/features/exam/data/exam_repository.dart';
+import 'package:prostuti/features/onboarding/application/onboarding_flow.dart';
 import 'package:prostuti/features/onboarding/presentation/widgets/onboarding_step_header.dart';
+import 'package:prostuti/features/profile/data/profile.dart';
 import 'package:prostuti/features/profile/data/profile_repository.dart';
 
 /// An unfinished placement session to resume (null when none / offline).
@@ -46,11 +48,10 @@ class _OnboardingPlacementScreenState extends ConsumerState<OnboardingPlacementS
 
   Future<void> _openSession(String sessionId) async {
     await context.push(Routes.examSession(sessionId));
-    // Submitting the test moves onboarding to the "plan" step server-side;
-    // reloading the profile lets the router continue to the result screen.
+    // Back without submitting (submitting opens the result screen itself):
+    // the test can be resumed.
     if (!mounted) return;
     ref.invalidate(activePlacementProvider);
-    await ref.read(currentProfileProvider.notifier).reload().catchError((Object _) {});
   }
 
   Future<void> _start() async {
@@ -70,6 +71,10 @@ class _OnboardingPlacementScreenState extends ConsumerState<OnboardingPlacementS
 
   Future<void> _later() async {
     final l = context.l10n;
+    if (OnboardingFlow.isLater(ref)) {
+      context.go(Routes.home);
+      return;
+    }
     final ok = await confirmDialog(
       context,
       title: l.onboardingPlacementLaterTitle,
@@ -79,7 +84,7 @@ class _OnboardingPlacementScreenState extends ConsumerState<OnboardingPlacementS
     if (!ok || !mounted || !_requireOnline()) return;
     setState(() => _busy = true);
     try {
-      await ref.read(currentProfileProvider.notifier).save({'onboarding_step': 'plan'});
+      await OnboardingFlow.advance(context, ref, OnboardingStep.plan);
     } on Object catch (e) {
       if (mounted) showErrorSnack(context, e);
     } finally {
@@ -111,7 +116,11 @@ class _OnboardingPlacementScreenState extends ConsumerState<OnboardingPlacementS
       (Icons.self_improvement_rounded, l.onboardingTipHonest),
     ];
 
+    final later = ref.watch(currentProfileProvider.select((p) => p.value?.isOnboarded ?? false));
+
     return Scaffold(
+      // Opened again from Home: a plain back button instead of the step header.
+      appBar: later ? AppBar() : null,
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.lg, Gap.lg, Gap.xl),
@@ -210,7 +219,7 @@ class _OnboardingPlacementScreenState extends ConsumerState<OnboardingPlacementS
                     : const Icon(Icons.play_arrow_rounded),
                 label: Text(active != null ? l.onboardingResumeCta : l.onboardingStartTest),
               ),
-              TextButton(onPressed: _busy ? null : _later, child: Text(l.onboardingPlacementLater)),
+              if (!later) TextButton(onPressed: _busy ? null : _later, child: Text(l.onboardingPlacementLater)),
             ],
           ),
         ),

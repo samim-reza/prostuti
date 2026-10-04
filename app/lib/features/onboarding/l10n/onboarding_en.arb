@@ -185,5 +185,10 @@
   "onboardingContinueWithoutPlan": "Continue — I'll create the plan later",
   "onboardingPlanFailedTitle": "Couldn't create your plan",
   "onboardingPlanFailedBody": "Something went wrong on our side. Try again, or continue and create it later from the plan screen.",
-  "onboardingPlanOfflineBody": "Connect to the internet to build your plan, or continue and create it later from the plan screen."
+  "onboardingPlanOfflineBody": "Connect to the internet to build your plan, or continue and create it later from the plan screen.",
+  "onboardingDoLater": "Do it later",
+  "onboardingDoLaterDone": "You can finish setting up from Home anytime.",
+  "onboardingSkipStep": "Skip this step",
+  "onboardingSkipInterview": "Skip the interview",
+  "onboardingInterviewSaved": "Saved. Your next plan will use it."
 }

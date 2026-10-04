@@ -13,6 +13,7 @@ import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/home/application/home_helpers.dart';
 import 'package:prostuti/features/home/application/home_providers.dart';
+import 'package:prostuti/features/onboarding/application/onboarding_flow.dart';
 import 'package:prostuti/features/onboarding/application/placement_groups.dart';
 import 'package:prostuti/features/onboarding/presentation/widgets/onboarding_step_header.dart';
 import 'package:prostuti/features/profile/data/profile_repository.dart';
@@ -98,16 +99,16 @@ class _OnboardingResultScreenState extends ConsumerState<OnboardingResultScreen>
     }
   }
 
-  /// Onboarding done → the router takes the user Home.
+  /// Onboarding done (with or without a plan) → Home.
   Future<void> _finish() async {
     if (_finishing) return;
-    if (!ConnectivityService.instance.isOnline) {
+    if (!ConnectivityService.instance.isOnline && !OnboardingFlow.isLater(ref)) {
       showInfoSnack(context, context.l10n.offlineUnavailable);
       return;
     }
     setState(() => _finishing = true);
     try {
-      await ref.read(currentProfileProvider.notifier).save({'onboarding_step': 'done'});
+      await OnboardingFlow.finish(context, ref);
     } on Object catch (e) {
       if (mounted) showErrorSnack(context, e);
     } finally {
@@ -124,7 +125,8 @@ class _OnboardingResultScreenState extends ConsumerState<OnboardingResultScreen>
       _Phase.preview => const _PreviewView(),
       _Phase.failed => _FailedView(error: _error, onRetry: _generate),
     };
-    final showFinish = _phase == _Phase.preview || _phase == _Phase.failed;
+    // The plan is optional too: the report can be left without building one.
+    final showFinish = _phase != _Phase.generating;
     return Scaffold(
       body: SafeArea(
         child: AnimatedSwitcher(
@@ -144,6 +146,8 @@ class _OnboardingResultScreenState extends ConsumerState<OnboardingResultScreen>
                             : const Icon(Icons.rocket_launch_rounded),
                         label: Text(l.onboardingStartJourney),
                       )
+                    : _phase == _Phase.report
+                    ? TextButton(onPressed: _finishing ? null : _finish, child: Text(l.onboardingContinueWithoutPlan))
                     : OutlinedButton(
                         onPressed: _finishing ? null : _finish,
                         child: Text(l.onboardingContinueWithoutPlan),

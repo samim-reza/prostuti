@@ -17,6 +17,7 @@ import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/catalog/data/catalog.dart';
 import 'package:prostuti/features/home/application/home_helpers.dart';
+import 'package:prostuti/features/onboarding/application/onboarding_flow.dart';
 import 'package:prostuti/features/onboarding/data/districts.dart';
 import 'package:prostuti/features/onboarding/presentation/widgets/onboarding_pickers.dart';
 import 'package:prostuti/features/onboarding/presentation/widgets/onboarding_step_header.dart';
@@ -179,16 +180,19 @@ class _OnboardingProfileScreenState extends ConsumerState<OnboardingProfileScree
     }
     setState(() => _saving = true);
     try {
-      await ref.read(currentProfileProvider.notifier).save({
-        'full_name': _name.text.trim(),
-        'username': _username.text.trim(),
-        'district': _district?.nameBn,
-        'target_exams': onboardingExamTypes.where(_exams.contains).toList(),
-        'target_schedule_id': ?effectiveScheduleId,
-        'daily_study_minutes': _minutes.round(),
-        'onboarding_step': 'interview',
-      });
-      // The router moves on to the interview by itself.
+      await OnboardingFlow.advance(
+        context,
+        ref,
+        OnboardingStep.interview,
+        patch: {
+          'full_name': _name.text.trim(),
+          'username': _username.text.trim(),
+          'district': _district?.nameBn,
+          'target_exams': onboardingExamTypes.where(_exams.contains).toList(),
+          'target_schedule_id': ?effectiveScheduleId,
+          'daily_study_minutes': _minutes.round(),
+        },
+      );
     } on Object catch (e) {
       if (!mounted) return;
       if (AppFailure.from(e) is ConflictFailure) {
@@ -198,6 +202,24 @@ class _OnboardingProfileScreenState extends ConsumerState<OnboardingProfileScree
       } else {
         showErrorSnack(context, e);
       }
+    } finally {
+      if (mounted) setState(() => _saving = false);
+    }
+  }
+
+  /// Keeps the defaults (name from the e-mail, generated username, BCS) and
+  /// moves on; everything can be edited later from the profile.
+  Future<void> _skip() async {
+    FocusScope.of(context).unfocus();
+    if (!ConnectivityService.instance.isOnline) {
+      showInfoSnack(context, context.l10n.offlineUnavailable);
+      return;
+    }
+    setState(() => _saving = true);
+    try {
+      await OnboardingFlow.advance(context, ref, OnboardingStep.interview);
+    } on Object catch (e) {
+      if (mounted) showErrorSnack(context, e);
     } finally {
       if (mounted) setState(() => _saving = false);
     }
@@ -357,12 +379,19 @@ class _OnboardingProfileScreenState extends ConsumerState<OnboardingProfileScree
       ),
       bottomNavigationBar: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.lg, Gap.md),
-          child: FilledButton(
-            onPressed: _saving || _uploading ? null : () => _save(effectiveScheduleId),
-            child: _saving
-                ? const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2.5))
-                : Text(l.onboardingSaveContinue),
+          padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.lg, Gap.sm),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              FilledButton(
+                onPressed: _saving || _uploading ? null : () => _save(effectiveScheduleId),
+                child: _saving
+                    ? const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2.5))
+                    : Text(l.onboardingSaveContinue),
+              ),
+              TextButton(onPressed: _saving || _uploading ? null : _skip, child: Text(l.onboardingSkipStep)),
+            ],
           ),
         ),
       ),
