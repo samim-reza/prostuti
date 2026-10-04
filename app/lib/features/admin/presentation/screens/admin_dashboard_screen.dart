@@ -51,6 +51,12 @@ class _AdminDashboardScreenState extends ConsumerState<AdminDashboardScreen> {
     }
   }
 
+  /// Reviews and reports done there change the counts here.
+  Future<void> _open(String route) async {
+    await context.push(route);
+    if (mounted) ref.invalidate(adminDashboardProvider);
+  }
+
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
@@ -80,7 +86,7 @@ class _AdminDashboardScreenState extends ConsumerState<AdminDashboardScreen> {
               skipLoadingOnReload: true,
               loading: () => const SkeletonShimmer(child: _StatGridSkeleton()),
               error: (e, _) => AdminErrorView(error: e, onRetry: () => ref.invalidate(adminDashboardProvider)),
-              data: (d) => _StatGrid(stats: d),
+              data: (d) => _StatGrid(stats: d, onOpen: (route) => unawaited(_open(route))),
             ),
             AdminSectionTitle(l.adminManage),
             Card(
@@ -92,7 +98,7 @@ class _AdminDashboardScreenState extends ConsumerState<AdminDashboardScreen> {
                     title: l.adminQuestionsTitle,
                     subtitle: l.adminQuestionsHint,
                     badge: s?.questionsUnverified,
-                    route: Routes.adminQuestions,
+                    onTap: () => unawaited(_open(Routes.adminQuestions)),
                   ),
                   const Divider(indent: 56),
                   _NavTile(
@@ -100,7 +106,7 @@ class _AdminDashboardScreenState extends ConsumerState<AdminDashboardScreen> {
                     title: l.adminReportsTitle,
                     subtitle: l.adminReportsHint,
                     badge: s?.openReports,
-                    route: Routes.adminReports,
+                    onTap: () => unawaited(_open(Routes.adminReports)),
                   ),
                   if (isAdmin) ...[
                     const Divider(indent: 56),
@@ -108,7 +114,7 @@ class _AdminDashboardScreenState extends ConsumerState<AdminDashboardScreen> {
                       icon: Icons.event_note_outlined,
                       title: l.adminSchedulesTitle,
                       subtitle: l.adminSchedulesHint,
-                      route: Routes.adminSchedules,
+                      onTap: () => unawaited(_open(Routes.adminSchedules)),
                     ),
                   ],
                 ],
@@ -146,8 +152,9 @@ class _AdminDashboardScreenState extends ConsumerState<AdminDashboardScreen> {
 }
 
 class _StatGrid extends StatelessWidget {
-  const _StatGrid({required this.stats});
+  const _StatGrid({required this.stats, required this.onOpen});
   final AdminStats stats;
+  final ValueChanged<String> onOpen;
 
   @override
   Widget build(BuildContext context) {
@@ -180,14 +187,14 @@ class _StatGrid extends StatelessWidget {
         label: l.adminStatUnverified,
         value: c(stats.questionsUnverified),
         color: AppColors.warning,
-        route: Routes.adminQuestions,
+        onTap: () => onOpen(Routes.adminQuestions),
       ),
       _StatCard(
         icon: Icons.outlined_flag_rounded,
         label: l.adminStatFlagged,
         value: c(stats.questionsFlagged),
         color: AppColors.danger,
-        route: Routes.adminQuestions,
+        onTap: () => onOpen('${Routes.adminQuestions}?review=${ReviewStatus.flagged.name}'),
       ),
       _StatCard(
         icon: Icons.lightbulb_outline_rounded,
@@ -218,7 +225,7 @@ class _StatGrid extends StatelessWidget {
         label: l.adminStatOpenReports,
         value: c(stats.openReports),
         color: stats.openReports > 0 ? AppColors.danger : AppColors.success,
-        route: Routes.adminReports,
+        onTap: () => onOpen(Routes.adminReports),
       ),
       _StatCard(
         icon: Icons.auto_awesome_outlined,
@@ -250,7 +257,7 @@ class _StatCard extends StatelessWidget {
     required this.value,
     required this.color,
     this.footnote,
-    this.route,
+    this.onTap,
   });
 
   final IconData icon;
@@ -258,7 +265,7 @@ class _StatCard extends StatelessWidget {
   final String value;
   final Color color;
   final String? footnote;
-  final String? route;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -268,7 +275,7 @@ class _StatCard extends StatelessWidget {
     return Card(
       clipBehavior: Clip.antiAlias,
       child: InkWell(
-        onTap: route == null ? null : () => unawaited(context.push(route!)),
+        onTap: onTap,
         child: Padding(
           padding: const EdgeInsets.all(Gap.md),
           child: Column(
@@ -278,7 +285,7 @@ class _StatCard extends StatelessWidget {
                 children: [
                   Icon(icon, size: 20, color: tint),
                   const Spacer(),
-                  if (route != null) Icon(Icons.chevron_right_rounded, size: 18, color: scheme.onSurfaceVariant),
+                  if (onTap != null) Icon(Icons.chevron_right_rounded, size: 18, color: scheme.onSurfaceVariant),
                 ],
               ),
               const Spacer(),
@@ -322,12 +329,12 @@ class _StatGridSkeleton extends StatelessWidget {
 }
 
 class _NavTile extends StatelessWidget {
-  const _NavTile({required this.icon, required this.title, required this.subtitle, required this.route, this.badge});
+  const _NavTile({required this.icon, required this.title, required this.subtitle, required this.onTap, this.badge});
 
   final IconData icon;
   final String title;
   final String subtitle;
-  final String route;
+  final VoidCallback onTap;
   final int? badge;
 
   @override
@@ -345,7 +352,7 @@ class _NavTile extends StatelessWidget {
           const Icon(Icons.chevron_right_rounded),
         ],
       ),
-      onTap: () => unawaited(context.push(route)),
+      onTap: onTap,
     );
   }
 }

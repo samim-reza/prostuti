@@ -75,11 +75,15 @@ class _ScheduleEditorPageState extends ConsumerState<ScheduleEditorPage> {
 
   Future<void> _pickDate() async {
     final now = DateTime.now();
+    final first = DateTime(now.year - 1);
+    final last = DateTime(now.year + 5);
     final picked = await showDatePicker(
       context: context,
       initialDate: _date,
-      firstDate: DateTime(now.year - 1),
-      lastDate: DateTime(now.year + 5),
+      // An old schedule can sit outside the usual window; the picker asserts
+      // that the initial date is inside it.
+      firstDate: _date.isBefore(first) ? _date : first,
+      lastDate: _date.isAfter(last) ? _date : last,
       helpText: context.l10n.adminScheduleDate,
     );
     if (picked != null && mounted) setState(() => _date = picked);

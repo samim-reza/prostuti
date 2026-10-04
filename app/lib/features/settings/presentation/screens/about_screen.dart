@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
@@ -176,7 +177,9 @@ class AboutScreen extends ConsumerWidget {
 
   static Future<void> _mail(BuildContext context, String email, String subject) async {
     final ok = await launchEmail(email, subject: subject);
-    if (!ok && context.mounted) showInfoSnack(context, context.l10n.settingsNoMailApp(email));
+    if (ok || !context.mounted) return;
+    await Clipboard.setData(ClipboardData(text: email));
+    if (context.mounted) showInfoSnack(context, context.l10n.settingsNoMailApp(email));
   }
 }
 

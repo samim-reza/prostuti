@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
-import 'package:prostuti/features/addons/application/addons_providers.dart';
 import 'package:prostuti/features/addons/data/addon_models.dart';
 import 'package:prostuti/features/addons/data/payment_provider.dart';
 import 'package:prostuti/features/addons/presentation/addons_messages.dart';
@@ -13,18 +12,24 @@ import 'package:prostuti/features/addons/presentation/addons_messages.dart';
 enum PurchaseSheetOutcome { purchased, usePromo }
 
 /// Runs [PaymentProvider.purchase] for [addon] and shows the outcome.
-Future<PurchaseSheetOutcome?> showPurchaseSheet(BuildContext context, Addon addon) {
-  return showModalBottomSheet<PurchaseSheetOutcome>(
+/// A successful payment reports [PurchaseSheetOutcome.purchased] even when
+/// the sheet is swiped away instead of closed with "Done", so the caller
+/// (which outlives the sheet) always refreshes the entitlements.
+Future<PurchaseSheetOutcome?> showPurchaseSheet(BuildContext context, Addon addon) async {
+  var paid = false;
+  final outcome = await showModalBottomSheet<PurchaseSheetOutcome>(
     context: context,
     isScrollControlled: true,
     useSafeArea: true,
-    builder: (_) => PurchaseSheet(addon: addon),
+    builder: (_) => PurchaseSheet(addon: addon, onPaid: () => paid = true),
   );
+  return paid ? PurchaseSheetOutcome.purchased : outcome;
 }
 
 class PurchaseSheet extends ConsumerStatefulWidget {
-  const PurchaseSheet({required this.addon, super.key});
+  const PurchaseSheet({required this.addon, this.onPaid, super.key});
   final Addon addon;
+  final VoidCallback? onPaid;
 
   @override
   ConsumerState<PurchaseSheet> createState() => _PurchaseSheetState();
@@ -46,7 +51,7 @@ class _PurchaseSheetState extends ConsumerState<PurchaseSheet> {
     } on Object catch (e) {
       result = PaymentResult.failed(e);
     }
-    if (result is PaymentSuccess) await refreshAfterPurchase(ref);
+    if (result is PaymentSuccess) widget.onPaid?.call();
     if (mounted) setState(() => _result = result);
   }
 

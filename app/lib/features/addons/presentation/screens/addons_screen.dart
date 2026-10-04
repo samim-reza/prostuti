@@ -54,6 +54,8 @@ class _AddonsScreenState extends ConsumerState<AddonsScreen> {
     if (!mounted) return;
     setState(() => _buying = null);
     if (outcome == PurchaseSheetOutcome.usePromo) _focusPromo();
+    // Refreshed here rather than in the sheet, which may already be gone.
+    if (outcome == PurchaseSheetOutcome.purchased) await refreshAfterPurchase(ref);
   }
 
   void _focusPromo() {

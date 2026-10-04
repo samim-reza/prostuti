@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
 import 'package:prostuti/core/theme/app_colors.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
@@ -24,7 +25,9 @@ class AdminQuestionsScreen extends ConsumerStatefulWidget {
 }
 
 class _AdminQuestionsScreenState extends ConsumerState<AdminQuestionsScreen> {
-  ReviewStatus _review = ReviewStatus.unverified;
+  /// Opens on the tab the link asks for (the dashboard's "Flagged" card adds
+  /// `?review=flagged`), unverified otherwise.
+  late ReviewStatus _review = ReviewStatus.parse(GoRouterState.of(context).uri.queryParameters['review']);
   int? _subjectId;
 
   QuestionFilter get _filter => (review: _review, subjectId: _subjectId);

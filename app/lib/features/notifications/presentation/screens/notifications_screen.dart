@@ -78,7 +78,9 @@ class NotificationsScreen extends ConsumerWidget {
           title: l.notificationsEmptyTitle,
           message: l.notificationsEmptyMessage,
         ),
-        itemBuilder: (context, n, _) => Dismissible(
+        // The screen's context, not the row's: a dismissed row is unmounted
+        // before its delete fails.
+        itemBuilder: (_, n, _) => Dismissible(
           key: ValueKey('notification:${n.id}'),
           direction: DismissDirection.endToStart,
           background: ColoredBox(

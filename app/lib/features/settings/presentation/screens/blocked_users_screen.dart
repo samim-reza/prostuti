@@ -17,6 +17,38 @@ import 'package:prostuti/features/settings/data/settings_repository.dart';
 class BlockedUsersScreen extends ConsumerWidget {
   const BlockedUsersScreen({super.key});
 
+  /// Their profile can unblock them too; the list catches up on return.
+  Future<void> _open(BuildContext context, WidgetRef ref, BlockedUser user) async {
+    await context.push(Routes.userProfile(user.id));
+    if (context.mounted) unawaited(ref.read(blockedUsersProvider.notifier).refresh());
+  }
+
+  /// Runs with the screen's context: the row (and with the last one, the
+  /// whole list) is gone before the server answers.
+  Future<void> _unblock(BuildContext context, WidgetRef ref, BlockedUser user) async {
+    final l = context.l10n;
+    if (!ConnectivityService.instance.isOnline) {
+      showInfoSnack(context, l.offlineUnavailable);
+      return;
+    }
+    final ok = await confirmDialog(
+      context,
+      title: l.settingsUnblockTitle(user.displayName),
+      message: l.settingsUnblockBody,
+      confirmLabel: l.settingsUnblock,
+    );
+    if (!ok || !context.mounted) return;
+    final messenger = ScaffoldMessenger.of(context);
+    try {
+      await ref.read(blockedUsersProvider.notifier).unblock(user);
+      messenger
+        ..hideCurrentSnackBar()
+        ..showSnackBar(SnackBar(content: Text(l.settingsUnblocked(user.displayName))));
+    } on Object catch (e) {
+      if (context.mounted) showErrorSnack(context, e);
+    }
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
@@ -44,39 +76,24 @@ class BlockedUsersScreen extends ConsumerWidget {
           message: l.settingsBlockedEmptyHint,
         ),
         separator: const Divider(indent: 72),
-        itemBuilder: (context, user, _) => _BlockedTile(user: user),
+        itemBuilder: (_, user, _) => _BlockedTile(
+          user: user,
+          onTap: () => unawaited(_open(context, ref, user)),
+          onUnblock: () => unawaited(_unblock(context, ref, user)),
+        ),
       ),
     );
   }
 }
 
-class _BlockedTile extends ConsumerWidget {
-  const _BlockedTile({required this.user});
+class _BlockedTile extends StatelessWidget {
+  const _BlockedTile({required this.user, required this.onTap, required this.onUnblock});
   final BlockedUser user;
-
-  Future<void> _unblock(BuildContext context, WidgetRef ref) async {
-    final l = context.l10n;
-    if (!ConnectivityService.instance.isOnline) {
-      showInfoSnack(context, l.offlineUnavailable);
-      return;
-    }
-    final ok = await confirmDialog(
-      context,
-      title: l.settingsUnblockTitle(user.displayName),
-      message: l.settingsUnblockBody,
-      confirmLabel: l.settingsUnblock,
-    );
-    if (!ok || !context.mounted) return;
-    try {
-      await ref.read(blockedUsersProvider.notifier).unblock(user);
-      if (context.mounted) showInfoSnack(context, l.settingsUnblocked(user.displayName));
-    } on Object catch (e) {
-      if (context.mounted) showErrorSnack(context, e);
-    }
-  }
+  final VoidCallback onTap;
+  final VoidCallback onUnblock;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final l = context.l10n;
     final theme = Theme.of(context);
     return ListTile(
@@ -89,9 +106,9 @@ class _BlockedTile extends ConsumerWidget {
         overflow: TextOverflow.ellipsis,
         style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
       ),
-      onTap: () => unawaited(context.push(Routes.userProfile(user.id))),
+      onTap: onTap,
       trailing: OutlinedButton(
-        onPressed: () => unawaited(_unblock(context, ref)),
+        onPressed: onUnblock,
         style: OutlinedButton.styleFrom(minimumSize: const Size(88, 40)),
         child: Text(l.settingsUnblock),
       ),

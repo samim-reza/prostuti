@@ -139,6 +139,16 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
     }
   }
 
+  Future<void> _contactSupport() async {
+    final l = context.l10n;
+    final email = ref.read(supportEmailProvider);
+    final launched = await launchEmail(email, subject: l.settingsSupportSubject);
+    if (!launched && mounted) {
+      await Clipboard.setData(ClipboardData(text: email));
+      if (mounted) showInfoSnack(context, l.settingsNoMailApp(email));
+    }
+  }
+
   Future<void> _syncNow() async {
     final l = context.l10n;
     if (!ConnectivityService.instance.isOnline) {
@@ -319,7 +329,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                 leading: const SettingsIcon(Icons.support_agent_rounded),
                 title: Text(l.settingsContactSupport),
                 subtitle: Text(ref.watch(supportEmailProvider)),
-                onTap: () => unawaited(launchEmail(ref.read(supportEmailProvider), subject: l.settingsSupportSubject)),
+                onTap: () => unawaited(_contactSupport()),
               ),
               _NavTile(
                 icon: Icons.info_outline_rounded,

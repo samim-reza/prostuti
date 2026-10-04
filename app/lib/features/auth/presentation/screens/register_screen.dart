@@ -60,7 +60,8 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
       if (!mounted) return;
       if (!signedIn) {
         showInfoSnack(context, l.authCheckEmail);
-        context.go(Routes.login);
+        // Replace, not go: Login keeps Welcome underneath to go back to.
+        context.pushReplacement(Routes.login);
       }
       // Otherwise the router redirects to onboarding automatically.
     } on Object catch (e) {

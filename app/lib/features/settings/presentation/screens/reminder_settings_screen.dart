@@ -54,14 +54,19 @@ class _ReminderSettingsScreenState extends ConsumerState<ReminderSettingsScreen>
       _pendingTime = time;
       _saving = true;
     });
-    if (enabled) await _ensurePermission();
     try {
+      // A denial is folded into the confirmation below; a snack of its own
+      // would be replaced by it at once.
+      final permitted = !enabled || await _ensurePermission(explain: false);
       final synced = await saveExamReminder(ref, enabled: enabled, time: time, l: l);
       if (mounted) {
         final message = enabled
             ? l.settingsReminderSaved(formatTimeOfDay(time, bangla: bangla))
             : l.settingsReminderTurnedOff;
-        showInfoSnack(context, synced ? message : '$message · ${l.offlineSaved}');
+        showInfoSnack(
+          context,
+          [message, if (!synced) l.offlineSaved, if (!permitted) l.settingsPermissionDenied].join(' · '),
+        );
       }
     } on Object catch (e) {
       if (mounted) showErrorSnack(context, e);
