@@ -23,7 +23,6 @@
   "authCreateAccount": "Create account",
   "authRegisterTitle": "Create your account",
   "authRegisterSubtitle": "Free 7-day Prostuti Pro trial included",
-  "authAgreeTerms": "I agree to the terms of use and privacy policy",
   "authAgreeRequired": "Please accept the terms to continue",
   "authPasswordsDontMatch": "Passwords don't match",
   "authCheckEmail": "Check your inbox to confirm your email, then sign in.",
@@ -41,5 +40,19 @@
   "authSplashLoading": "Getting things ready…",
   "authSplashError": "Couldn't load your profile.",
   "authSignOut": "Sign out",
-  "authLanguageToggle": "বাংলা"
+  "authLanguageToggle": "বাংলা",
+  "authAgreeLegal": "I agree to the {terms} and {privacy}",
+  "@authAgreeLegal": {
+    "placeholders": {
+      "terms": { "type": "String" },
+      "privacy": { "type": "String" }
+    }
+  },
+  "authTermsLink": "Terms of Use",
+  "authPrivacyLink": "Privacy Policy",
+  "authStartupFailedTitle": "Prostuti couldn't start",
+  "authStartupFailedBody": "Something went wrong while opening the app. Please try again. If it keeps happening, update Prostuti or email {email}.",
+  "@authStartupFailedBody": {
+    "placeholders": { "email": { "type": "String" } }
+  }
 }

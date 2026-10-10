@@ -8,6 +8,7 @@ import 'package:prostuti/core/utils/validators.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/auth/data/auth_repository.dart';
 import 'package:prostuti/features/auth/presentation/widgets/auth_scaffold.dart';
+import 'package:prostuti/features/settings/presentation/widgets/legal_consent_text.dart';
 
 class RegisterScreen extends ConsumerStatefulWidget {
   const RegisterScreen({super.key});
@@ -140,7 +141,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
               onChanged: (v) => setState(() => _agreed = v ?? false),
               contentPadding: EdgeInsets.zero,
               controlAffinity: ListTileControlAffinity.leading,
-              title: Text(l.authAgreeTerms, style: Theme.of(context).textTheme.bodyMedium),
+              title: LegalConsentText(style: Theme.of(context).textTheme.bodyMedium),
             ),
             if (_error != null)
               Padding(

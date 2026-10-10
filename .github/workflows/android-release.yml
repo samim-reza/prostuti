@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      bundle:
+        description: Also build a Play Store App Bundle (.aab) as a workflow artifact
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -101,3 +106,44 @@ jobs:
             Test build from `${{ github.sha }}` (versionCode ${{ env.BUILD_NUMBER }}). Install the APK on any Android phone (Android 7.0+); it updates an existing install in place.
 
             Commit: ${{ github.event.head_commit.message }}
+
+      # Play Store upload (manual runs with "bundle" ticked). Runs after the
+      # APK release so a bundle failure never blocks the test APK. Same
+      # versionCode, dart-defines and obfuscation as the APK; its symbols go to
+      # their own folder because stacks from Play installs need these.
+      - name: Build App Bundle (Play Store)
+        if: ${{ inputs.bundle }}
+        env:
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+        run: |
+          if [ -z "${ANDROID_KEYSTORE_PATH:-}" ]; then
+            echo "::error::The App Bundle must be signed with the release (upload) key; ANDROID_KEYSTORE_BASE64 is missing"
+            exit 1
+          fi
+          flutter build appbundle --release --build-number=$BUILD_NUMBER \
+            --obfuscate --split-debug-info=build/symbols-aab \
+            --dart-define=SUPABASE_URL=$SUPABASE_URL --dart-define=SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY
+          mkdir -p ../dist-aab
+          cp build/app/outputs/bundle/release/app-release.aab ../dist-aab/prostuti-v$APP_VERSION-${{ github.run_number }}.aab
+          # R8 mapping for Java/Kotlin stack traces in Play Console (if minified).
+          if [ -f build/app/outputs/mapping/release/mapping.txt ]; then
+            cp build/app/outputs/mapping/release/mapping.txt build/symbols-aab/
+          fi
+          ls -lh ../dist-aab
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ inputs.bundle }}
+        with:
+          name: prostuti-aab-${{ github.run_number }}
+          path: dist-aab/*.aab
+          if-no-files-found: error
+          retention-days: 30
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ inputs.bundle }}
+        with:
+          name: prostuti-aab-debug-symbols-${{ github.run_number }}
+          path: app/build/symbols-aab
+          retention-days: 90

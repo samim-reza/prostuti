@@ -23,7 +23,6 @@
   "authCreateAccount": "অ্যাকাউন্ট খুলুন",
   "authRegisterTitle": "আপনার অ্যাকাউন্ট খুলুন",
   "authRegisterSubtitle": "সাথে থাকছে ৭ দিনের ফ্রি প্রস্তুতি প্রো ট্রায়াল",
-  "authAgreeTerms": "আমি ব্যবহারের শর্তাবলি ও গোপনীয়তা নীতিতে সম্মত",
   "authAgreeRequired": "চালিয়ে যেতে শর্তাবলিতে সম্মতি দিন",
   "authPasswordsDontMatch": "দুটি পাসওয়ার্ড মেলেনি",
   "authCheckEmail": "ইমেইল নিশ্চিত করতে আপনার ইনবক্স দেখুন, তারপর লগইন করুন।",
@@ -41,5 +40,10 @@
   "authSplashLoading": "সবকিছু প্রস্তুত করা হচ্ছে…",
   "authSplashError": "প্রোফাইল লোড করা যায়নি।",
   "authSignOut": "লগআউট",
-  "authLanguageToggle": "English"
+  "authLanguageToggle": "English",
+  "authAgreeLegal": "আমি {terms} ও {privacy}তে সম্মত",
+  "authTermsLink": "ব্যবহারের শর্তাবলি",
+  "authPrivacyLink": "গোপনীয়তা নীতি",
+  "authStartupFailedTitle": "প্রস্তুতি চালু করা যায়নি",
+  "authStartupFailedBody": "অ্যাপ খুলতে গিয়ে একটি সমস্যা হয়েছে। আবার চেষ্টা করুন। বারবার এমন হলে প্রস্তুতি আপডেট করুন অথবা {email} ঠিকানায় ইমেইল করুন।"
 }

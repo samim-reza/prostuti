@@ -8,6 +8,7 @@ import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/widgets/brand.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/settings/application/support.dart';
+import 'package:prostuti/features/settings/presentation/screens/legal_screen.dart';
 import 'package:prostuti/features/settings/presentation/widgets/settings_section.dart';
 
 /// News outlets the AI pipeline reads (Bangla name, English name).
@@ -134,12 +135,17 @@ class AboutScreen extends ConsumerWidget {
           SettingsSection(
             title: l.settingsAboutLegalTitle,
             children: [
-              _LegalTile(
-                icon: Icons.privacy_tip_outlined,
-                title: l.settingsAboutPrivacyTitle,
-                body: l.settingsAboutPrivacy,
-              ),
-              _LegalTile(icon: Icons.gavel_rounded, title: l.settingsAboutTermsTitle, body: l.settingsAboutTerms),
+              for (final (document, icon, hint) in [
+                (LegalDocument.privacy, Icons.privacy_tip_outlined, l.settingsAboutPrivacyHint),
+                (LegalDocument.terms, Icons.gavel_rounded, l.settingsAboutTermsHint),
+              ])
+                ListTile(
+                  leading: SettingsIcon(icon),
+                  title: Text(document.title(l)),
+                  subtitle: Text(hint),
+                  trailing: const Icon(Icons.chevron_right_rounded),
+                  onTap: () => unawaited(openLegalDocument(context, document)),
+                ),
               ListTile(
                 leading: const SettingsIcon(Icons.description_outlined),
                 title: Text(l.settingsAboutLicenses),
@@ -223,28 +229,6 @@ class _InfoRow extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
-
-class _LegalTile extends StatelessWidget {
-  const _LegalTile({required this.icon, required this.title, required this.body});
-
-  final IconData icon;
-  final String title;
-  final String body;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    return ExpansionTile(
-      leading: SettingsIcon(icon),
-      title: Text(title),
-      shape: const Border(),
-      collapsedShape: const Border(),
-      childrenPadding: const EdgeInsets.fromLTRB(Gap.lg, 0, Gap.lg, Gap.lg),
-      expandedCrossAxisAlignment: CrossAxisAlignment.start,
-      children: [Text(body, style: theme.textTheme.bodyMedium?.copyWith(color: theme.colorScheme.onSurfaceVariant))],
     );
   }
 }

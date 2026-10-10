@@ -18,6 +18,7 @@ import 'package:prostuti/features/settings/application/reminder_controller.dart'
 import 'package:prostuti/features/settings/application/reminder_time.dart';
 import 'package:prostuti/features/settings/application/support.dart';
 import 'package:prostuti/features/settings/presentation/logout.dart';
+import 'package:prostuti/features/settings/presentation/screens/legal_screen.dart';
 import 'package:prostuti/features/settings/presentation/widgets/settings_section.dart';
 
 /// Notification categories stored in `profiles.notification_settings`.
@@ -335,6 +336,21 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                 icon: Icons.info_outline_rounded,
                 title: l.settingsAbout,
                 onTap: () => context.push(Routes.about),
+              ),
+            ],
+          ),
+          SettingsSection(
+            title: l.settingsAboutLegalTitle,
+            children: [
+              _NavTile(
+                icon: Icons.privacy_tip_outlined,
+                title: LegalDocument.privacy.title(l),
+                onTap: () => openLegalDocument(context, LegalDocument.privacy),
+              ),
+              _NavTile(
+                icon: Icons.gavel_rounded,
+                title: LegalDocument.terms.title(l),
+                onTap: () => openLegalDocument(context, LegalDocument.terms),
               ),
             ],
           ),
