@@ -137,6 +137,11 @@ String? notificationRoute(String type, Map<String, dynamic> data) {
     },
     'plan_update' => Routes.plan,
     'addon' => Routes.addons,
+    // Admin broadcasts may link a screen; only in-app paths are followed.
+    'announcement' => switch (read('route')) {
+      final route? when route.startsWith('/') && !route.startsWith('//') => route,
+      _ => null,
+    },
     _ => null,
   };
 }

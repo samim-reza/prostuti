@@ -34,12 +34,14 @@ a personal AI study plan · community and chat · works offline · বাংল�
 ## ✨ Features
 
 ### Study & exams
-- **Question bank with sources.** 545 curated MCQs across all 10 BCS preliminary
-  subjects and 88 syllabus topics. The bank grows every day with AI-generated
-  current-affairs questions. Every question shows **where it came from**.
-- **Model tests** (25/50/100/200 marks) in the BCS pattern, with **−0.5 negative
-  marking**, a timer, a question navigator, auto-submit, per-subject results and
-  answer review.
+- **Three sections — BCS, bank jobs, other govt jobs** (primary teacher, NTRCA…):
+  each with its own subjects, marks, negative marking and pace.
+- **Question bank with sources.** 725 curated MCQs across 10 subjects and 88
+  syllabus topics, tagged by section. The bank grows every day with
+  AI-generated current-affairs questions. Every question shows **where it came from**.
+- **Model tests** per section — BCS 25/50/100/200 marks (−0.5), bank and other
+  jobs 25/50/80/100 marks (−0.25) — with a timer, a question navigator,
+  auto-submit, per-subject results and answer review.
 - **Practice mode** with instant feedback, **AI explanations** (bilingual,
   semantic-cached), a **wrong-answer notebook** (ভুলের খাতা) and bookmarks.
 - **Offline practice packs:** download a subject, practice with no internet, and sync later.
@@ -52,7 +54,9 @@ a personal AI study plan · community and chat · works offline · বাংল�
 - Notes are **available for the day only**. They leave the UI at midnight
   (Bangladesh time) and stay in the database. **Watch a rewarded ad to download
   them as a PDF** (rendered with full Bangla shaping).
-- A **daily exam** is built from the day's facts, with a **live leaderboard**.
+- A **daily exam** is built from the day's facts. The standing is **private**:
+  your rank, "top N%", the day's top score and an anonymous ladder, plus
+  **Share score** to post it to the community.
 - Facts that change over time (new office holders, records) **supersede** old
   ones, and outdated questions are archived automatically.
 
@@ -64,6 +68,8 @@ a personal AI study plan · community and chat · works offline · বাংল�
   **partially**: only today and the next two days.
 - A **morning routine** notification (~06:30), **free days for weak-topic
   exams**, spaced repetition and a **readiness score** (প্রস্তুতির অগ্রগতি).
+- **Daily AI advice** (প্রস্তুতি এআই-এর পরামর্শ): fresh tips every day from your own
+  weak topics, accuracy, routine and streak, each linking to the screen that helps.
 
 ### Community
 - **Newsfeed** with text, images (compressed), 6 reactions and threaded comments.
@@ -78,8 +84,11 @@ a personal AI study plan · community and chat · works offline · বাংল�
 - **Bilingual:** switch বাংলা / English in Settings; the whole app follows.
 - **Offline-first:** cached reads and a persistent outbox replay your actions when you're back online.
 - **Screenshots and screen recording are blocked** (Android `FLAG_SECURE`, iOS secure layer and capture shield).
-- Reminders at your chosen time, notification center, dark mode, admin panel
-  (question review, reports, exam schedules, pipeline controls).
+- Reminders at your chosen time, notification center, dark mode.
+- **Web admin console** (`admin/`, Vercel): users and roles, bans, add-ons and
+  promo codes, the question bank (edit, verify, bulk import), moderation,
+  current affairs and the AI pipeline, exam schedules and section patterns,
+  remote config, broadcasts, crash reports and AI cost — every action audited.
 
 ---
 
@@ -113,8 +122,9 @@ prostuti/
 │   │                       daily_notes · daily_exam · exam · question_bank · study · study_plan ·
 │   │                       addons · profile · settings · bookmarks · admin
 │   └── test/               unit + widget tests
+├── admin/                  web admin console (Vite + React + TypeScript, hosted on Vercel)
 ├── supabase/
-│   ├── migrations/         schema, RLS, RPCs, cron, reference data (15 ordered files)
+│   ├── migrations/         schema, RLS, RPCs, cron, reference data (21 ordered files)
 │   ├── functions/          8 Edge Functions + shared modules (Deno, tested)
 │   └── seed/questions/     question bank (JSON, with sources)
 ├── tools/                  db.sh, question importer, RLS smoke test, brand asset generator
@@ -147,7 +157,7 @@ see [`docs/RELEASE.md`](docs/RELEASE.md). Database operations:
 | Check | Status |
 |-------|--------|
 | `flutter analyze` (very_good_analysis) | no issues |
-| `flutter test` | 439 tests |
+| `flutter test` | 499 tests |
 | Edge Functions: `deno lint` / `deno check` / `deno test` | clean / clean / 11 tests |
 | RLS security regression (`tools/rls_smoke_test.sql`) | all checks pass |
 
@@ -170,6 +180,7 @@ tools/db.sh file tools/rls_smoke_test.sql     # security regression test
 | [ADDONS](docs/ADDONS.md) | features, add-ons, trials, promo codes, adding payments |
 | [DATA_SOURCES](docs/DATA_SOURCES.md) | provenance of questions, syllabus and news |
 | [RELEASE](docs/RELEASE.md) | builds, signing, CI secrets, Supabase setup, push |
+| [ADMIN](docs/ADMIN.md) | web admin console (`admin/`): roles, screens, admin RPCs, Vercel deploy |
 
 ---
 

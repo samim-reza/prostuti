@@ -19,6 +19,10 @@ void main() {
       expect(notificationRoute('routine', const {}), Routes.plan);
       expect(notificationRoute('plan_update', const {'schedule_id': 3}), Routes.plan);
       expect(notificationRoute('addon', const {}), Routes.addons);
+      expect(notificationRoute('announcement', const {'route': '/exams'}), '/exams');
+      expect(notificationRoute('announcement', const {'route': 'https://evil.example'}), isNull);
+      expect(notificationRoute('announcement', const {'route': '//evil.example'}), isNull);
+      expect(notificationRoute('announcement', const {}), isNull);
       expect(notificationRoute('system', const {}), isNull);
       expect(notificationRoute('something_new', const {}), isNull);
     });

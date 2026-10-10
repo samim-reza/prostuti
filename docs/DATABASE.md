@@ -23,6 +23,9 @@ Postgres 17 on Supabase. Everything is defined in ordered migrations under
 | 0016 exam_tracks | BCS / bank / other-jobs sections: model-test patterns per track, track tags on questions, track-aware picking, practice, subject overview and offline packs |
 | 0017 daily_standing | private daily-exam standing (own rank, top score, anonymous neighbours); the old leaderboard returns only the caller |
 | 0018 daily_advice | daily AI advice per learner (signals, cached rows, purge cron) |
+| 0019 client_errors | crash/error reports from release builds (rate limited, deduped, 30-day purge) |
+| 0020 admin_console | audited admin RPCs for the web console (users, questions, moderation, current affairs, schedules, tracks, add-ons, promo codes, config, broadcast, monitoring) and `admin_audit_log` |
+| 0021 privacy_cleanup | AI usage rows no longer reference deleted accounts |
 
 ## Conventions
 
