@@ -63,7 +63,6 @@
   "dailyExamTimeLabel": "Time taken",
   "dailyExamViewLeaderboard": "Leaderboard",
   "dailyExamHistory": "Exam history",
-  "dailyExamTopFive": "Top 5 today",
   "dailyExamParticipants": "{count} participants",
   "@dailyExamParticipants": {
     "placeholders": {
@@ -102,10 +101,86 @@
   "dailyExamLeaderboardTitle": "Leaderboard",
   "dailyExamLeaderboardSubtitle": "Daily current-affairs exam",
   "dailyExamYesterday": "Yesterday",
-  "dailyExamLeaderboardEmptyToday": "No one has taken today's exam yet",
-  "dailyExamLeaderboardEmptyPast": "No one took the exam on this day",
   "dailyExamNotJoinedToday": "You haven't taken today's exam yet",
   "dailyExamTakeNow": "Take it now",
+  "dailyExamTodayStanding": "Today's standing",
+  "dailyExamGetYourRank": "Take the exam to see your own rank — it stays private",
+  "dailyExamParticipantsLabel": "Participants",
+  "dailyExamTopScore": "Top score",
+  "dailyExamTopPercent": "Top {percent}%",
+  "@dailyExamTopPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamOfParticipants": "out of {count} participants",
+  "@dailyExamOfParticipants": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamLadderTitle": "Where you stand",
+  "dailyExamLadderPrivacy": "Names stay hidden — everyone sees only their own rank",
+  "dailyExamIdentityHidden": "name hidden",
+  "dailyExamBehindNext": "Just {marks} marks behind #{rank}",
+  "@dailyExamBehindNext": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamLockedLadder": "Take the exam to see your place on the ladder",
+  "dailyExamNotTakenBody": "Take it to see where you stand among {count} participants",
+  "@dailyExamNotTakenBody": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamNotTakenPast": "You didn't take the exam on this day",
+  "dailyExamNoExamPast": "There was no exam on this day",
+  "dailyExamSavedStanding": "Offline — showing your saved standing; it may have changed since",
+  "dailyExamShareScore": "Share score",
+  "dailyExamShareToday": "My rank in today's daily current-affairs exam: {rank}/{participants}, score {score} 🎯 #Prostuti",
+  "@dailyExamShareToday": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      },
+      "participants": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamShareOnDate": "My rank in the daily current-affairs exam of {date}: {rank}/{participants}, score {score} 🎯 #Prostuti",
+  "@dailyExamShareOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "rank": {
+        "type": "String"
+      },
+      "participants": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      }
+    }
+  },
   "dailyExamErrAlreadyAttempted": "You've already taken today's exam",
   "dailyExamErrNoDailyExam": "Today's exam hasn't been published yet"
 }

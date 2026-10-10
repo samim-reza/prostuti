@@ -1,21 +1,27 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
-import 'package:prostuti/core/network/supabase_providers.dart';
+import 'package:prostuti/core/offline/connectivity.dart';
 import 'package:prostuti/core/router/routes.dart';
+import 'package:prostuti/core/theme/app_colors.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/utils/bd_time.dart';
 import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/daily_exam/application/leaderboard_providers.dart';
-import 'package:prostuti/features/daily_exam/data/daily_leaderboard.dart';
+import 'package:prostuti/features/daily_exam/data/daily_standing.dart';
 import 'package:prostuti/features/daily_exam/data/leaderboard_repository.dart';
-import 'package:prostuti/features/daily_exam/presentation/widgets/leaderboard_widgets.dart';
+import 'package:prostuti/features/daily_exam/presentation/widgets/standing_widgets.dart';
+import 'package:prostuti/features/feed/presentation/screens/compose_post_screen.dart';
+import 'package:prostuti/features/profile/data/profile_repository.dart';
 
-/// Daily-exam leaderboard for the last 7 Bangladesh days: podium, ranked
-/// list, and my rank pinned at the bottom when I'm outside the list.
+/// My private daily-exam standing for the last 7 Bangladesh days: a hero
+/// with my rank, Top %, score and the day's top score, and an anonymous
+/// ladder of the scores around mine. Nobody else's identity is shown.
 class LeaderboardScreen extends ConsumerStatefulWidget {
   const LeaderboardScreen({super.key});
 
@@ -29,17 +35,13 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
 
   bool get _isToday => _date == BdTime.toIsoDate(_days.first);
 
-  LeaderboardQuery get _query => (date: _date, limit: LeaderboardRepository.maxLimit);
+  void _retry() => ref.invalidate(dailyLeaderboardProvider(_date));
 
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
     final theme = Theme.of(context);
-    final async = ref.watch(dailyLeaderboardProvider(_query));
-    final myId = ref.watch(currentUserIdProvider);
-    final board = async.value;
-    final pinned = board == null ? null : pinnedStanding(board, myId);
-    final notJoinedToday = _isToday && board != null && board.me == null;
+    final async = ref.watch(dailyLeaderboardProvider(_date));
 
     return Scaffold(
       appBar: AppBar(
@@ -59,23 +61,20 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
           _DateChips(days: _days, selected: _date, onSelected: (d) => setState(() => _date = d)),
           Expanded(
             child: RefreshIndicator(
-              onRefresh: () => refreshLeaderboard(ref, _query),
+              onRefresh: () => refreshLeaderboard(ref, _date),
               child: switch (async) {
-                AsyncValue(:final value?) =>
-                  value.isEmpty ? _EmptyBoard(isToday: _isToday) : _BoardList(board: value, myUserId: myId),
-                AsyncValue(:final error?) => _FullHeight(
-                  child: ErrorView(error: error, onRetry: () => ref.invalidate(dailyLeaderboardProvider(_query))),
+                AsyncValue(:final value?) => _StandingBody(
+                  standing: value,
+                  isToday: _isToday,
+                  onRefresh: () => unawaited(refreshLeaderboard(ref, _date)),
                 ),
-                _ => const SkeletonList(itemCount: 8),
+                AsyncValue(:final error?) => _FullHeight(
+                  child: ErrorView(error: error, onRetry: _retry),
+                ),
+                _ => const _StandingSkeleton(),
               },
             ),
           ),
-          if (pinned != null)
-            _BottomBar(
-              child: MyRankCard(standing: pinned, participants: board!.participants, pinned: true),
-            )
-          else if (board != null && notJoinedToday && !board.isEmpty)
-            const _BottomBar(child: _JoinTodayCard()),
         ],
       ),
     );
@@ -120,97 +119,117 @@ class _DateChips extends StatelessWidget {
   }
 }
 
-class _BoardList extends StatelessWidget {
-  const _BoardList({required this.board, required this.myUserId});
+class _StandingBody extends ConsumerWidget {
+  const _StandingBody({required this.standing, required this.isToday, required this.onRefresh});
 
-  final DailyLeaderboard board;
-  final String? myUserId;
+  final DailyStanding standing;
+  final bool isToday;
+
+  /// Bypasses the cache ("no exam yet" is remembered for a minute).
+  final VoidCallback onRefresh;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
-    final theme = Theme.of(context);
-    final rest = board.rest;
-    return CustomScrollView(
+    if (!standing.hasExam) {
+      final early = BdTime.now().hour < 6;
+      return _FullHeight(
+        child: EmptyView(
+          icon: isToday ? Icons.schedule_rounded : Icons.event_busy_rounded,
+          title: isToday ? l.dailyExamNoExamTitle : l.dailyExamNoExamPast,
+          message: isToday ? (early ? l.dailyExamNoExamEarly : l.dailyExamNoExamLate) : null,
+          action: isToday ? onRefresh : null,
+          actionLabel: l.dailyNotesRefresh,
+        ),
+      );
+    }
+
+    // Today's rank moves with every submission; a saved one may be behind.
+    final offline = !ref.watch(isOnlineProvider.select((v) => v.value ?? ConnectivityService.instance.isOnline));
+    final profile = ref.watch(currentProfileProvider).value;
+    return ListView(
       physics: const AlwaysScrollableScrollPhysics(),
-      slivers: [
-        SliverPadding(
-          padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.xs, Gap.lg, 0),
-          sliver: SliverToBoxAdapter(
-            child: Row(
-              children: [
-                Icon(Icons.groups_rounded, size: 18, color: theme.colorScheme.onSurfaceVariant),
-                Gap.w8,
-                Text(
-                  l.dailyExamParticipants(context.n(board.participants)),
-                  style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
-                ),
-              ],
-            ),
+      padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.xs, Gap.lg, Gap.xxl),
+      children: [
+        if (offline && isToday) ...[const _SavedNote(), Gap.h12],
+        if (standing.attempted) ...[
+          StandingHero(standing: standing),
+          Gap.h12,
+          FilledButton.icon(
+            onPressed: () =>
+                unawaited(ComposePostScreen.openDraft(context, standingShareText(context, standing, isToday: isToday))),
+            icon: const Icon(Icons.ios_share_rounded),
+            label: Text(l.dailyExamShareScore),
           ),
-        ),
-        SliverPadding(
-          padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.lg, Gap.lg, Gap.sm),
-          sliver: SliverToBoxAdapter(
-            child: LeaderboardPodium(entries: board.podium, myUserId: myUserId),
-          ),
-        ),
-        if (rest.isNotEmpty)
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(Gap.sm, Gap.sm, Gap.sm, Gap.xl),
-            sliver: SliverList.builder(
-              itemCount: rest.length,
-              itemBuilder: (context, i) => LeaderboardRow(entry: rest[i], isMe: rest[i].userId == myUserId),
-            ),
-          )
-        else
-          const SliverToBoxAdapter(child: Gap.h24),
+          Gap.h16,
+          StandingLadder(standing: standing, myName: profile?.displayName, myAvatarUrl: profile?.avatarUrl),
+        ] else ...[
+          _NotTakenCard(isToday: isToday, participants: standing.participants),
+          Gap.h12,
+          _DayStats(standing: standing),
+          if (isToday) ...[Gap.h16, const LockedLadder()],
+        ],
       ],
     );
   }
 }
 
-class _EmptyBoard extends StatelessWidget {
-  const _EmptyBoard({required this.isToday});
+/// Not attempted: a nudge (and the way in, today).
+class _NotTakenCard extends StatelessWidget {
+  const _NotTakenCard({required this.isToday, required this.participants});
 
   final bool isToday;
-
-  @override
-  Widget build(BuildContext context) {
-    final l = context.l10n;
-    return _FullHeight(
-      child: EmptyView(
-        icon: Icons.emoji_events_outlined,
-        title: isToday ? l.dailyExamLeaderboardEmptyToday : l.dailyExamLeaderboardEmptyPast,
-        message: isToday ? l.dailyExamNoParticipants : null,
-        action: isToday ? () => context.push(Routes.dailyExam) : null,
-        actionLabel: l.dailyExamTakeNow,
-      ),
-    );
-  }
-}
-
-class _JoinTodayCard extends StatelessWidget {
-  const _JoinTodayCard();
+  final int participants;
 
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
     final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
+    final body = !isToday
+        ? null
+        : participants == 0
+        ? l.dailyExamNoParticipants
+        : l.dailyExamNotTakenBody(context.n(participants));
     return Card(
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.sm, Gap.sm),
-        child: Row(
+        padding: Gap.card,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Icon(Icons.timer_outlined, color: theme.colorScheme.primary),
-            Gap.w12,
-            Expanded(child: Text(l.dailyExamNotJoinedToday, style: theme.textTheme.bodyMedium)),
-            Gap.w8,
-            FilledButton(
-              style: FilledButton.styleFrom(minimumSize: const Size(0, 44)),
-              onPressed: () => context.push(Routes.dailyExam),
-              child: Text(l.dailyExamTakeNow),
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(Gap.md),
+                  decoration: BoxDecoration(color: scheme.primary.withValues(alpha: 0.1), shape: BoxShape.circle),
+                  child: Icon(isToday ? Icons.timer_outlined : Icons.event_busy_rounded, color: scheme.primary),
+                ),
+                Gap.w12,
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        isToday ? l.dailyExamNotJoinedToday : l.dailyExamNotTakenPast,
+                        style: theme.textTheme.titleMedium,
+                      ),
+                      if (body != null) ...[
+                        Gap.h4,
+                        Text(body, style: theme.textTheme.bodyMedium?.copyWith(color: scheme.onSurfaceVariant)),
+                      ],
+                    ],
+                  ),
+                ),
+              ],
             ),
+            if (isToday) ...[
+              Gap.h16,
+              FilledButton.icon(
+                onPressed: () => context.push(Routes.dailyExam),
+                icon: const Icon(Icons.play_arrow_rounded),
+                label: Text(l.dailyExamTakeNow),
+              ),
+            ],
           ],
         ),
       ),
@@ -218,23 +237,103 @@ class _JoinTodayCard extends StatelessWidget {
   }
 }
 
-class _BottomBar extends StatelessWidget {
-  const _BottomBar({required this.child});
+/// Participants and the day's top score.
+class _DayStats extends StatelessWidget {
+  const _DayStats({required this.standing});
 
-  final Widget child;
+  final DailyStanding standing;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final best = standing.topScore;
+    return Row(
+      children: [
+        Expanded(
+          child: StandingStatTile(
+            icon: Icons.groups_rounded,
+            label: l.dailyExamParticipantsLabel,
+            value: context.n(standing.participants),
+          ),
+        ),
+        Gap.w12,
+        Expanded(
+          child: StandingStatTile(
+            icon: Icons.emoji_events_rounded,
+            color: AppColors.gold,
+            label: l.dailyExamTopScore,
+            value: best == null ? '—' : scoreOutOf(context, best, standing.totalMarks),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _SavedNote extends StatelessWidget {
+  const _SavedNote();
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        color: theme.scaffoldBackgroundColor,
-        boxShadow: [BoxShadow(color: theme.colorScheme.shadow.withValues(alpha: 0.08), blurRadius: 12)],
+    final scheme = theme.colorScheme;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: Gap.md, vertical: Gap.sm),
+      decoration: BoxDecoration(color: scheme.surfaceContainerHigh, borderRadius: Radii.button),
+      child: Row(
+        children: [
+          Icon(Icons.cloud_off_rounded, size: 18, color: scheme.onSurfaceVariant),
+          Gap.w8,
+          Expanded(
+            child: Text(
+              context.l10n.dailyExamSavedStanding,
+              style: theme.textTheme.bodySmall?.copyWith(color: scheme.onSurfaceVariant),
+            ),
+          ),
+        ],
       ),
-      child: SafeArea(
-        top: false,
-        child: Padding(padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.lg, Gap.sm), child: child),
+    );
+  }
+}
+
+class _StandingSkeleton extends StatelessWidget {
+  const _StandingSkeleton();
+
+  @override
+  Widget build(BuildContext context) {
+    const rung = Padding(
+      padding: EdgeInsets.symmetric(vertical: Gap.sm),
+      child: Row(
+        children: [
+          SkeletonBox(width: 36, height: 36, radius: 18),
+          Gap.w12,
+          Expanded(child: SkeletonBox()),
+          Gap.w12,
+          SkeletonBox(width: 48),
+        ],
       ),
+    );
+    return ListView(
+      physics: const AlwaysScrollableScrollPhysics(),
+      padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.xs, Gap.lg, Gap.xxl),
+      children: const [
+        SkeletonShimmer(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              SkeletonBox(height: 236, radius: 16),
+              Gap.h12,
+              SkeletonBox(height: 48, radius: 12),
+              Gap.h16,
+              rung,
+              rung,
+              rung,
+              rung,
+              rung,
+            ],
+          ),
+        ),
+      ],
     );
   }
 }

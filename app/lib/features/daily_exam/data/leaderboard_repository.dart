@@ -3,10 +3,10 @@ import 'package:prostuti/core/cache/cached_fetcher.dart';
 import 'package:prostuti/core/network/rpc.dart';
 import 'package:prostuti/core/network/supabase_providers.dart';
 import 'package:prostuti/core/utils/bd_time.dart';
-import 'package:prostuti/features/daily_exam/data/daily_leaderboard.dart';
+import 'package:prostuti/features/daily_exam/data/daily_standing.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-/// Today's board changes with every submission → short TTL (also the
+/// Today's standing changes with every submission → short TTL (also the
 /// "live" refresh interval). Past days are frozen once the day's last
 /// sessions expire → long TTL; empty past days are re-checked rarely.
 CachePolicy leaderboardPolicy(String isoDate, {required String todayIso}) {
@@ -23,40 +23,31 @@ List<DateTime> lastBdDays(int days, {DateTime? today}) {
   return [for (var i = 0; i < days; i++) DateTime.utc(base.year, base.month, base.day - i)];
 }
 
-/// Daily-exam leaderboard (`get_daily_leaderboard`), cached per user (the
-/// payload contains "me") and per date.
+/// The caller's private daily-exam standing (`get_daily_standing`), cached
+/// per user (the payload is "me") and per date.
 class LeaderboardRepository {
   LeaderboardRepository(this._client, this._fetcher);
 
   final SupabaseClient _client;
   final CachedFetcher _fetcher;
 
-  static const maxLimit = 100;
+  static String cacheKey(String userId, String isoDate) => 'daily_standing:$userId:$isoDate';
 
-  static String _prefix(String userId, String isoDate) => 'daily_lb:$userId:$isoDate:';
-
-  Future<DailyLeaderboard> fetch({
-    required String userId,
-    required String isoDate,
-    int limit = maxLimit,
-    bool force = false,
-  }) {
-    final capped = limit.clamp(1, maxLimit);
-    return _fetcher.get<DailyLeaderboard>(
-      '${_prefix(userId, isoDate)}$capped',
-      fetch: () async => DailyLeaderboard.fromJson(
-        await _client.rpcMap('get_daily_leaderboard', params: {'p_date': isoDate, 'p_limit': capped}),
-      ),
+  Future<DailyStanding> fetch({required String userId, required String isoDate, bool force = false}) {
+    return _fetcher.get<DailyStanding>(
+      cacheKey(userId, isoDate),
+      fetch: () async =>
+          DailyStanding.fromJson(await _client.rpcMap('get_daily_standing', params: {'p_date': isoDate})),
       encode: (v) => v.toJson(),
-      decode: (j) => DailyLeaderboard.fromJson(Map<String, dynamic>.from(j! as Map)),
+      decode: (j) => DailyStanding.fromJson(Map<String, dynamic>.from(j! as Map)),
       policy: leaderboardPolicy(isoDate, todayIso: BdTime.todayIso()),
       isEmpty: (v) => v.isEmpty,
       forceRefresh: force,
     );
   }
 
-  /// Drops every cached size of one day's board (after a submission).
-  Future<void> invalidate(String userId, String isoDate) => _fetcher.invalidatePrefix(_prefix(userId, isoDate));
+  /// Drops one day's cached standing (after a submission).
+  Future<void> invalidate(String userId, String isoDate) => _fetcher.invalidate(cacheKey(userId, isoDate));
 }
 
 final leaderboardRepositoryProvider = Provider<LeaderboardRepository>(

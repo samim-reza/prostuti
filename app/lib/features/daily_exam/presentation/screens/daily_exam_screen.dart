@@ -6,7 +6,6 @@ import 'package:go_router/go_router.dart';
 import 'package:prostuti/core/entitlements/feature_access.dart';
 import 'package:prostuti/core/errors/failure.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
-import 'package:prostuti/core/network/supabase_providers.dart';
 import 'package:prostuti/core/offline/connectivity.dart';
 import 'package:prostuti/core/router/routes.dart';
 import 'package:prostuti/core/theme/app_colors.dart';
@@ -16,8 +15,8 @@ import 'package:prostuti/core/utils/formatters.dart';
 import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/daily_exam/application/leaderboard_providers.dart';
-import 'package:prostuti/features/daily_exam/data/daily_leaderboard.dart';
-import 'package:prostuti/features/daily_exam/presentation/widgets/leaderboard_widgets.dart';
+import 'package:prostuti/features/daily_exam/data/daily_standing.dart';
+import 'package:prostuti/features/daily_exam/presentation/widgets/standing_widgets.dart';
 import 'package:prostuti/features/daily_notes/application/current_affairs_failures.dart';
 import 'package:prostuti/features/daily_notes/application/today_notes_controller.dart';
 import 'package:prostuti/features/daily_notes/data/daily_note.dart';
@@ -27,8 +26,9 @@ import 'package:prostuti/features/exam/data/exam_repository.dart';
 /// Negative marking of the daily exam (`daily_exams.negative_mark` default).
 const _negativeMark = 0.5;
 
-/// Today's current-affairs exam: intro + rules + start (one attempt only),
-/// or "already taken" with my rank; plus a live top-5 leaderboard.
+/// Today's current-affairs exam: intro + rules + start (one attempt only)
+/// with a live count of participants and the top score, or "already taken"
+/// with my private rank.
 class DailyExamScreen extends StatelessWidget {
   const DailyExamScreen({super.key});
 
@@ -60,7 +60,6 @@ class _DailyExamBody extends ConsumerStatefulWidget {
 }
 
 class _DailyExamBodyState extends ConsumerState<_DailyExamBody> {
-  static const _previewSize = 5;
   static const _pollEvery = Duration(seconds: 60);
 
   Timer? _poll;
@@ -68,7 +67,7 @@ class _DailyExamBodyState extends ConsumerState<_DailyExamBody> {
   bool _attemptedLocally = false;
   bool _noExamLocally = false;
 
-  LeaderboardQuery get _previewQuery => (date: BdTime.todayIso(), limit: _previewSize);
+  String get _today => BdTime.todayIso();
 
   @override
   void initState() {
@@ -76,7 +75,7 @@ class _DailyExamBodyState extends ConsumerState<_DailyExamBody> {
     registerCurrentAffairsMessages();
     // "Live" preview: re-check once a minute (matches today's cache TTL).
     _poll = Timer.periodic(_pollEvery, (_) {
-      if (mounted && ConnectivityService.instance.isOnline) ref.invalidate(dailyLeaderboardProvider(_previewQuery));
+      if (mounted && ConnectivityService.instance.isOnline) ref.invalidate(dailyLeaderboardProvider(_today));
     });
   }
 
@@ -89,7 +88,7 @@ class _DailyExamBodyState extends ConsumerState<_DailyExamBody> {
   Future<void> _refresh() async {
     setState(() => _noExamLocally = false);
     ref.invalidate(activeDailySessionProvider);
-    await Future.wait([ref.read(todayNotesProvider.notifier).refresh(), refreshLeaderboard(ref, _previewQuery)]);
+    await Future.wait([ref.read(todayNotesProvider.notifier).refresh(), refreshLeaderboard(ref, _today)]);
   }
 
   Future<void> _start({ExamSession? resume}) async {
@@ -121,14 +120,14 @@ class _DailyExamBodyState extends ConsumerState<_DailyExamBody> {
       // Back from the exam: my rank and the board have probably changed.
       if (!mounted) return;
       ref.invalidate(activeDailySessionProvider);
-      unawaited(refreshLeaderboard(ref, _previewQuery));
+      unawaited(refreshLeaderboard(ref, _today));
     } on Object catch (e) {
       if (!mounted) return;
       final failure = AppFailure.from(e);
       switch (failure) {
         case ConflictFailure(code: 'already_attempted'):
           setState(() => _attemptedLocally = true);
-          unawaited(refreshLeaderboard(ref, _previewQuery));
+          unawaited(refreshLeaderboard(ref, _today));
           showInfoSnack(context, currentAffairsErrorText(context, failure));
         case NotFoundFailure(code: 'no_daily_exam'):
           setState(() => _noExamLocally = true);
@@ -147,21 +146,22 @@ class _DailyExamBodyState extends ConsumerState<_DailyExamBody> {
   @override
   Widget build(BuildContext context) {
     final notesAsync = ref.watch(todayNotesProvider);
-    final boardAsync = ref.watch(dailyLeaderboardProvider(_previewQuery));
+    final standingAsync = ref.watch(dailyLeaderboardProvider(_today));
     final active = ref.watch(activeDailySessionProvider).value;
-    final myId = ref.watch(currentUserIdProvider);
 
     final Widget top;
+    var preview = false;
     switch (notesAsync) {
       case AsyncValue(:final value?):
         final exam = _noExamLocally ? null : value.dailyExam;
-        final me = boardAsync.value?.me;
-        if (_attemptedLocally || me != null) {
-          top = _AttemptedSection(me: me, participants: boardAsync.value?.participants ?? 0);
+        final standing = standingAsync.value;
+        if (_attemptedLocally || (standing?.attempted ?? false)) {
+          top = _AttemptedSection(standing: standing);
         } else if (exam == null) {
           top = _NoExamCard(onRefresh: _refresh);
         } else {
           top = _IntroSection(exam: exam, active: active, starting: _starting, onStart: _start);
+          preview = true;
         }
       case AsyncValue(:final error?):
         top = ErrorView(error: error, onRetry: () => ref.invalidate(todayNotesProvider), compact: true);
@@ -176,12 +176,10 @@ class _DailyExamBodyState extends ConsumerState<_DailyExamBody> {
         padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.lg, Gap.xxl),
         children: [
           top,
-          Gap.h24,
-          _LeaderboardPreview(
-            board: boardAsync,
-            myUserId: myId,
-            onRetry: () => ref.invalidate(dailyLeaderboardProvider(_previewQuery)),
-          ),
+          if (preview) ...[
+            Gap.h24,
+            _StandingPreview(standing: standingAsync, onRetry: () => ref.invalidate(dailyLeaderboardProvider(_today))),
+          ],
         ],
       ),
     );
@@ -409,17 +407,17 @@ class _Rule extends StatelessWidget {
 }
 
 class _AttemptedSection extends StatelessWidget {
-  const _AttemptedSection({required this.me, required this.participants});
+  const _AttemptedSection({required this.standing});
 
-  final MyStanding? me;
-  final int participants;
+  /// Null while loading (or unknown, offline without a saved copy).
+  final DailyStanding? standing;
 
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
-    final me = this.me;
+    final standing = this.standing;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -445,9 +443,9 @@ class _AttemptedSection extends StatelessWidget {
             ),
           ),
         ),
-        if (me != null) ...[
+        if (standing != null && standing.attempted) ...[
           Gap.h12,
-          MyRankCard(standing: me, participants: participants, onTap: () => context.push(Routes.leaderboard)),
+          StandingSummaryCard(standing: standing, onTap: () => context.push(Routes.leaderboard)),
         ],
         Gap.h16,
         Row(
@@ -529,12 +527,12 @@ class _IntroSkeleton extends StatelessWidget {
   }
 }
 
-/// Live top-5 for today plus my pinned rank when I'm outside it.
-class _LeaderboardPreview extends StatelessWidget {
-  const _LeaderboardPreview({required this.board, required this.myUserId, required this.onRetry});
+/// Before the exam: today's participants and top score, live. Ranks are
+/// private, so there is no list of names.
+class _StandingPreview extends StatelessWidget {
+  const _StandingPreview({required this.standing, required this.onRetry});
 
-  final AsyncValue<DailyLeaderboard> board;
-  final String? myUserId;
+  final AsyncValue<DailyStanding> standing;
   final VoidCallback onRetry;
 
   @override
@@ -542,64 +540,66 @@ class _LeaderboardPreview extends StatelessWidget {
     final l = context.l10n;
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
-    final value = board.value;
+    final value = standing.value;
 
     final Widget content;
     if (value != null) {
-      final pinned = pinnedStanding(value, myUserId);
-      content = value.isEmpty
-          ? Padding(
-              padding: const EdgeInsets.symmetric(vertical: Gap.lg),
-              child: Row(
-                children: [
-                  Icon(Icons.emoji_events_outlined, color: scheme.onSurfaceVariant),
-                  Gap.w12,
-                  Expanded(
-                    child: Text(
-                      l.dailyExamNoParticipants,
-                      style: theme.textTheme.bodyMedium?.copyWith(color: scheme.onSurfaceVariant),
-                    ),
-                  ),
-                ],
+      final best = value.topScore;
+      content = Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: StandingStatTile(
+                  icon: Icons.groups_rounded,
+                  label: l.dailyExamParticipantsLabel,
+                  value: context.n(value.participants),
+                ),
               ),
-            )
-          : Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                for (final entry in value.entries)
-                  LeaderboardRow(entry: entry, isMe: entry.userId == myUserId, dense: true),
-                if (pinned != null) ...[
-                  Gap.h8,
-                  MyRankCard(
-                    standing: pinned,
-                    participants: value.participants,
-                    pinned: true,
-                    onTap: () => context.push(Routes.leaderboard),
-                  ),
-                ],
-              ],
-            );
-    } else if (board.hasError) {
-      content = ErrorView(error: board.error!, onRetry: onRetry, compact: true);
+              Gap.w8,
+              Expanded(
+                child: StandingStatTile(
+                  icon: Icons.emoji_events_rounded,
+                  color: AppColors.gold,
+                  label: l.dailyExamTopScore,
+                  value: best == null ? '—' : scoreOutOf(context, best, value.totalMarks),
+                ),
+              ),
+            ],
+          ),
+          Gap.h12,
+          Row(
+            children: [
+              Icon(Icons.lock_outline_rounded, size: 18, color: scheme.onSurfaceVariant),
+              Gap.w8,
+              Expanded(
+                child: Text(
+                  value.isEmpty ? l.dailyExamNoParticipants : l.dailyExamGetYourRank,
+                  style: theme.textTheme.bodySmall?.copyWith(color: scheme.onSurfaceVariant),
+                ),
+              ),
+            ],
+          ),
+        ],
+      );
+    } else if (standing.hasError) {
+      content = ErrorView(error: standing.error!, onRetry: onRetry, compact: true);
     } else {
-      const row = Padding(
-        padding: EdgeInsets.symmetric(vertical: Gap.sm),
+      content = const SkeletonShimmer(
         child: Row(
           children: [
-            SkeletonBox(width: 36, height: 36, radius: 18),
-            Gap.w12,
-            Expanded(child: SkeletonBox()),
-            Gap.w12,
-            SkeletonBox(width: 48),
+            Expanded(child: SkeletonBox(height: 64, radius: 12)),
+            Gap.w8,
+            Expanded(child: SkeletonBox(height: 64, radius: 12)),
           ],
         ),
       );
-      content = const SkeletonShimmer(child: Column(children: [row, row, row]));
     }
 
     return Card(
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(Gap.md, Gap.md, Gap.md, Gap.md),
+        padding: const EdgeInsets.fromLTRB(Gap.md, Gap.sm, Gap.md, Gap.md),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -613,7 +613,7 @@ class _LeaderboardPreview extends StatelessWidget {
                     children: [
                       Flexible(
                         child: Text(
-                          l.dailyExamTopFive,
+                          l.dailyExamTodayStanding,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: theme.textTheme.titleSmall,
@@ -627,14 +627,7 @@ class _LeaderboardPreview extends StatelessWidget {
                 TextButton(onPressed: () => context.push(Routes.leaderboard), child: Text(l.seeAll)),
               ],
             ),
-            if (value != null && value.participants > 0)
-              Padding(
-                padding: const EdgeInsets.only(left: Gap.xs, bottom: Gap.xs),
-                child: Text(
-                  l.dailyExamParticipants(context.n(value.participants)),
-                  style: theme.textTheme.bodySmall?.copyWith(color: scheme.onSurfaceVariant),
-                ),
-              ),
+            Gap.h4,
             content,
           ],
         ),

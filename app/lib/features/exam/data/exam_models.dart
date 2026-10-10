@@ -38,6 +38,7 @@ class Question {
     this.correctIndex,
     this.explanation,
     this.selectedIndex,
+    this.examTags = const [],
   });
 
   factory Question.fromJson(Map<String, dynamic> j) => Question(
@@ -54,6 +55,7 @@ class Question {
     correctIndex: j.intOrNull('correct_index'),
     explanation: j.strOrNull('explanation'),
     selectedIndex: j.intOrNull('selected_index'),
+    examTags: j.strings('exam_tags'),
   );
 
   final int id;
@@ -69,6 +71,9 @@ class Question {
   final int? correctIndex;
   final String? explanation;
   final int? selectedIndex;
+
+  /// Exam tracks the question belongs to (only offline packs carry them).
+  final List<String> examTags;
 
   bool get isAnswered => selectedIndex != null;
   bool? get isCorrect => (selectedIndex == null || correctIndex == null) ? null : selectedIndex == correctIndex;
@@ -88,6 +93,7 @@ class Question {
     correctIndex: correctIndex ?? this.correctIndex,
     explanation: explanation ?? this.explanation,
     selectedIndex: selectedIndex ?? this.selectedIndex,
+    examTags: examTags,
   );
 
   Map<String, dynamic> toJson() => {
@@ -104,6 +110,7 @@ class Question {
     'correct_index': correctIndex,
     'explanation': explanation,
     'selected_index': selectedIndex,
+    if (examTags.isNotEmpty) 'exam_tags': examTags,
   };
 }
 
@@ -331,56 +338,6 @@ class ExamSetup {
     for (final e in config.entries)
       if (e.key != 'plan_day_id' && e.key != 'plan_item_key') e.key: e.value,
   };
-}
-
-@immutable
-class LeaderboardEntry {
-  const LeaderboardEntry({
-    required this.rank,
-    required this.userId,
-    required this.username,
-    required this.score,
-    this.fullName,
-    this.avatarUrl,
-    this.timeTakenSeconds,
-  });
-
-  factory LeaderboardEntry.fromJson(Map<String, dynamic> j) => LeaderboardEntry(
-    rank: j.integer('rank'),
-    userId: j.str('user_id'),
-    username: j.str('username'),
-    fullName: j.strOrNull('full_name'),
-    avatarUrl: j.strOrNull('avatar_url'),
-    score: j.dbl('score'),
-    timeTakenSeconds: j.intOrNull('time_taken_seconds'),
-  );
-
-  final int rank;
-  final String userId;
-  final String username;
-  final String? fullName;
-  final String? avatarUrl;
-  final double score;
-  final int? timeTakenSeconds;
-
-  String get displayName => (fullName?.isNotEmpty ?? false) ? fullName! : username;
-}
-
-@immutable
-class Leaderboard {
-  const Leaderboard({required this.participants, required this.entries, this.myRank, this.myScore});
-
-  factory Leaderboard.fromJson(Map<String, dynamic> j) => Leaderboard(
-    participants: j.integer('participants'),
-    entries: j.list('entries', LeaderboardEntry.fromJson),
-    myRank: j.objOrNull('me')?.intOrNull('rank'),
-    myScore: j.objOrNull('me')?.dblOrNull('score'),
-  );
-
-  final int participants;
-  final List<LeaderboardEntry> entries;
-  final int? myRank;
-  final double? myScore;
 }
 
 /// Output of the `ai-explain` Edge Function.

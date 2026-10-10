@@ -35,15 +35,20 @@ final class _NewImage extends _ComposeImage {
 }
 
 /// Create (or, with [initialPost], edit) a post: up to 5000 characters and
-/// four photos, with an audience selector.
+/// four photos, with an audience selector. [initialText] starts a new post
+/// from a ready-made, editable draft (e.g. a shared exam result).
 ///
 /// Text-only posts work offline (queued with a client id); photo uploads
 /// and edits need the network.
 class ComposePostScreen extends ConsumerStatefulWidget {
-  const ComposePostScreen({this.initialPost, this.pickPhotos = false, super.key});
+  const ComposePostScreen({this.initialPost, this.initialText, this.pickPhotos = false, super.key});
 
   /// Editing this post when set.
   final Post? initialPost;
+
+  /// Prefilled text of a new post. Leaving it untouched is not a "draft"
+  /// worth guarding: closing then needs no discard prompt.
+  final String? initialText;
 
   /// Opens the photo picker right away ("Add photos" on the feed).
   final bool pickPhotos;
@@ -57,6 +62,10 @@ class ComposePostScreen extends ConsumerStatefulWidget {
   /// Opens a new post with the photo picker already showing.
   static Future<void> openWithPhotos(BuildContext context) => _open(context, const ComposePostScreen(pickPhotos: true));
 
+  /// Opens a new post prefilled with [text], ready to edit and publish.
+  static Future<void> openDraft(BuildContext context, String text) =>
+      _open(context, ComposePostScreen(initialText: text));
+
   // The root navigator covers the bottom bar, so switching tabs can't leave
   // a draft behind the discard prompt.
   static Future<void> _open(BuildContext context, ComposePostScreen screen) => Navigator.of(
@@ -69,7 +78,9 @@ class ComposePostScreen extends ConsumerStatefulWidget {
 }
 
 class _ComposePostScreenState extends ConsumerState<ComposePostScreen> {
-  late final TextEditingController _text = TextEditingController(text: widget.initialPost?.body ?? '');
+  late final TextEditingController _text = TextEditingController(
+    text: widget.initialPost?.body ?? widget.initialText ?? '',
+  );
   late final List<_ComposeImage> _images = [
     for (final url in widget.initialPost?.imageUrls ?? const <String>[]) _ExistingImage(url),
   ];
@@ -111,7 +122,10 @@ class _ComposePostScreenState extends ConsumerState<ComposePostScreen> {
 
   bool get _isDirty {
     final p = widget.initialPost;
-    if (p == null) return _text.text.trim().isNotEmpty || _images.isNotEmpty;
+    if (p == null) {
+      final text = _text.text.trim();
+      return (text.isNotEmpty && text != (widget.initialText ?? '').trim()) || _images.isNotEmpty;
+    }
     final kept = [
       for (final i in _images)
         if (i is _ExistingImage) i.url,
@@ -339,7 +353,8 @@ class _ComposePostScreenState extends ConsumerState<ComposePostScreen> {
                     Gap.h12,
                     TextField(
                       controller: _text,
-                      autofocus: !_editing && !widget.pickPhotos,
+                      // A prefilled draft is read first; the keyboard would hide it.
+                      autofocus: !_editing && !widget.pickPhotos && widget.initialText == null,
                       minLines: 6,
                       maxLines: null,
                       keyboardType: TextInputType.multiline,

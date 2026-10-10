@@ -354,11 +354,6 @@ class ExamRepository {
     }
   }
 
-  Future<Leaderboard> dailyLeaderboard({String? isoDate, int limit = 50}) async {
-    final json = await _client.rpcMap('get_daily_leaderboard', params: {'p_date': isoDate, 'p_limit': limit});
-    return Leaderboard.fromJson(json);
-  }
-
   /// AI explanation for a question (Edge Function, semantic-cached server side).
   /// [locale] is the UI language (`bn`/`en`) the explanation is written in.
   Future<String> explain(int questionId, {String locale = 'bn'}) async =>

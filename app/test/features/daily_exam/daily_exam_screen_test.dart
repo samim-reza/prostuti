@@ -7,9 +7,9 @@ import 'package:prostuti/core/l10n/l10n.dart';
 import 'package:prostuti/core/network/supabase_providers.dart';
 import 'package:prostuti/core/theme/app_theme.dart';
 import 'package:prostuti/features/daily_exam/application/leaderboard_providers.dart';
-import 'package:prostuti/features/daily_exam/data/daily_leaderboard.dart';
+import 'package:prostuti/features/daily_exam/data/daily_standing.dart';
 import 'package:prostuti/features/daily_exam/presentation/screens/daily_exam_screen.dart';
-import 'package:prostuti/features/daily_exam/presentation/widgets/leaderboard_widgets.dart';
+import 'package:prostuti/features/daily_exam/presentation/widgets/standing_widgets.dart';
 import 'package:prostuti/features/daily_notes/application/today_notes_controller.dart';
 import 'package:prostuti/features/daily_notes/data/daily_note.dart';
 
@@ -23,15 +23,14 @@ class _FakeTodayNotes extends TodayNotesNotifier {
 
 const _exam = DailyExamInfo(id: 1, title: 'আজকের সাম্প্রতিক পরীক্ষা', questionCount: 20, durationMinutes: 10);
 
-DailyLeaderboard _board({MyStanding? me}) => DailyLeaderboard.fromJson({
-  'date': '2026-10-04',
-  'participants': 12,
-  'entries': [
-    for (var i = 1; i <= 5; i++)
-      {'rank': i, 'user_id': 'u$i', 'username': 'user$i', 'score': 20.0 - i, 'time_taken_seconds': 300 + i},
-  ],
-  'me': me?.toJson(),
-});
+DailyStanding _standing({MyStanding? me}) => DailyStanding(
+  date: '2026-10-04',
+  participants: 12,
+  totalMarks: 20,
+  topScore: 19.5,
+  me: me,
+  neighbors: me == null ? const [] : const [LadderRung(rank: 8, score: 12), LadderRung(rank: 10, score: 11)],
+);
 
 Future<void> _pump(WidgetTester tester, {DailyExamInfo? exam, MyStanding? me}) async {
   // Tall surface so the whole page (incl. the leaderboard preview) is built.
@@ -45,7 +44,7 @@ Future<void> _pump(WidgetTester tester, {DailyExamInfo? exam, MyStanding? me}) a
         currentUserIdProvider.overrideWithValue('me'),
         featureAccessProvider.overrideWith((ref) async => {Features.dailyExam: true}),
         todayNotesProvider.overrideWith(() => _FakeTodayNotes(TodayNotes(noteDate: '2026-10-04', dailyExam: exam))),
-        dailyLeaderboardProvider.overrideWith((ref, q) async => _board(me: me)),
+        dailyLeaderboardProvider.overrideWith((ref, date) async => _standing(me: me)),
         activeDailySessionProvider.overrideWith((ref) async => null),
       ],
       child: MaterialApp(
@@ -68,28 +67,33 @@ void main() {
     await initializeDateFormatting('en');
   });
 
-  testWidgets('intro: exam details, rules, start button and top-5 preview', (tester) async {
+  testWidgets('intro: exam details, rules, start button and a private live preview', (tester) async {
     await _pump(tester, exam: _exam);
     expect(find.text(_exam.title), findsOneWidget);
     expect(find.text(l.dailyExamQuestionsValue('২০')), findsOneWidget);
     expect(find.text(l.dailyExamNegativeValue('০.৫')), findsOneWidget);
     expect(find.text(l.dailyExamRuleOnce), findsOneWidget);
     expect(find.text(l.dailyExamStart), findsOneWidget);
-    expect(find.text(l.dailyExamTopFive), findsOneWidget);
-    expect(find.byType(LeaderboardRow), findsNWidgets(5));
-    // Not attempted → nothing pinned.
-    expect(find.byType(MyRankCard), findsNothing);
+    // Participants and the top score only — no names.
+    expect(find.text(l.dailyExamTodayStanding), findsOneWidget);
+    expect(find.bySemanticsLabel('${l.dailyExamParticipantsLabel} ১২'), findsOneWidget);
+    expect(find.bySemanticsLabel('${l.dailyExamTopScore} ১৯.৫/২০'), findsOneWidget);
+    expect(find.text(l.dailyExamGetYourRank), findsOneWidget);
+    expect(find.byType(StandingSummaryCard), findsNothing);
     await tester.pumpWidget(const SizedBox()); // disposes the live-refresh timer
   });
 
   testWidgets('already attempted: done card, my rank, leaderboard + history buttons', (tester) async {
-    await _pump(tester, exam: _exam, me: const MyStanding(rank: 9, score: 11.5, timeTakenSeconds: 420));
+    await _pump(tester, exam: _exam, me: const MyStanding(rank: 9, score: 11.5, timeTakenSeconds: 420, percentile: 75));
     expect(find.text(l.dailyExamAttemptedTitle), findsOneWidget);
     expect(find.text(l.dailyExamStart), findsNothing);
     expect(find.text(l.dailyExamHistory), findsOneWidget);
-    // Rank 9 is outside the top 5 → shown in the done card and pinned in the preview.
-    expect(find.byType(MyRankCard), findsNWidgets(2));
-    expect(find.textContaining('#৯', findRichText: true), findsWidgets);
+    expect(find.byType(StandingSummaryCard), findsOneWidget);
+    expect(find.textContaining('#৯', findRichText: true), findsOneWidget);
+    expect(find.text('১১.৫/২০'), findsOneWidget);
+    expect(find.text(l.dailyExamTopPercent('৭৫')), findsOneWidget);
+    // The pre-exam preview is gone once I have a rank.
+    expect(find.text(l.dailyExamTodayStanding), findsNothing);
     await tester.pumpWidget(const SizedBox());
   });
 
@@ -97,6 +101,7 @@ void main() {
     await _pump(tester);
     expect(find.text(l.dailyExamNoExamTitle), findsOneWidget);
     expect(find.text(l.dailyExamStart), findsNothing);
+    expect(find.text(l.dailyExamTodayStanding), findsNothing);
     await tester.pumpWidget(const SizedBox());
   });
 }
