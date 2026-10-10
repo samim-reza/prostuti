@@ -213,5 +213,27 @@
   "studyPlanShortComputer": "ICT",
   "studyPlanShortMath": "Maths",
   "studyPlanShortMental": "Mental ability",
-  "studyPlanShortEthics": "Ethics"
+  "studyPlanShortEthics": "Ethics",
+  "studyPlanAdviceTitle": "Prostuti AI suggests",
+  "studyPlanAdviceUpdatedAt": "Updated today at {time}",
+  "@studyPlanAdviceUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanAdviceForToday": "Fresh for today",
+  "studyPlanAdviceFromDay": "From {date} · updates when you're online",
+  "@studyPlanAdviceFromDay": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanAdviceRefresh": "Refresh advice",
+  "studyPlanAdviceRefreshed": "Advice updated from your latest progress",
+  "studyPlanAdviceUpToDate": "Nothing new since your last advice — it's already up to date",
+  "studyPlanAdviceRefreshLimit": "You've refreshed today's advice enough. New advice comes tomorrow."
 }

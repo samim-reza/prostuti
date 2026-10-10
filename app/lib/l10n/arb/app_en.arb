@@ -309,8 +309,18 @@
   "adminViewTarget": "View",
   "appName": "Prostuti",
   "appTagline": "Your companion for BCS & job exam preparation",
+  "authAgreeLegal": "I agree to the {terms} and {privacy}",
+  "@authAgreeLegal": {
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
   "authAgreeRequired": "Please accept the terms to continue",
-  "authAgreeTerms": "I agree to the terms of use and privacy policy",
   "authCheckEmail": "Check your inbox to confirm your email, then sign in.",
   "authConfirmPassword": "Confirm password",
   "authCreateAccount": "Create account",
@@ -332,6 +342,7 @@
   "authPassword": "Password",
   "authPasswordUpdated": "Password updated. You're signed in.",
   "authPasswordsDontMatch": "Passwords don't match",
+  "authPrivacyLink": "Privacy Policy",
   "authRegisterSubtitle": "Free 7-day Prostuti Pro trial included",
   "authRegisterTitle": "Create your account",
   "authResetTitle": "Set a new password",
@@ -339,6 +350,16 @@
   "authSignOut": "Sign out",
   "authSplashError": "Couldn't load your profile.",
   "authSplashLoading": "Getting things ready…",
+  "authStartupFailedBody": "Something went wrong while opening the app. Please try again. If it keeps happening, update Prostuti or email {email}.",
+  "@authStartupFailedBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authStartupFailedTitle": "Prostuti couldn't start",
+  "authTermsLink": "Terms of Use",
   "authTooManyRequests": "Too many attempts. Please wait a little and try again.",
   "authUserExists": "An account with this email already exists. Try signing in.",
   "authUsername": "Username (optional)",
@@ -599,6 +620,17 @@
   "copy": "Copy",
   "dailyExamAttemptedBody": "A new exam arrives tomorrow morning. Meanwhile, see where you stand.",
   "dailyExamAttemptedTitle": "You've taken today's exam",
+  "dailyExamBehindNext": "Just {marks} marks behind #{rank}",
+  "@dailyExamBehindNext": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
   "dailyExamConfirmBody": "You can take today's exam only once. The timer starts right away — finish within {duration}.",
   "@dailyExamConfirmBody": {
     "placeholders": {
@@ -612,12 +644,15 @@
   "dailyExamDurationLabel": "Time",
   "dailyExamErrAlreadyAttempted": "You've already taken today's exam",
   "dailyExamErrNoDailyExam": "Today's exam hasn't been published yet",
+  "dailyExamGetYourRank": "Take the exam to see your own rank — it stays private",
   "dailyExamHistory": "Exam history",
-  "dailyExamLeaderboardEmptyPast": "No one took the exam on this day",
-  "dailyExamLeaderboardEmptyToday": "No one has taken today's exam yet",
+  "dailyExamIdentityHidden": "name hidden",
+  "dailyExamLadderPrivacy": "Names stay hidden — everyone sees only their own rank",
+  "dailyExamLadderTitle": "Where you stand",
   "dailyExamLeaderboardSubtitle": "Daily current-affairs exam",
   "dailyExamLeaderboardTitle": "Leaderboard",
   "dailyExamLive": "Live",
+  "dailyExamLockedLadder": "Take the exam to see your place on the ladder",
   "dailyExamMyRank": "My rank",
   "dailyExamNegativeLabel": "Negative",
   "dailyExamNegativeValue": "−{mark}",
@@ -630,9 +665,27 @@
   },
   "dailyExamNoExamEarly": "A new exam built from today's notes is published every day by about 6 AM. Please check back a little later.",
   "dailyExamNoExamLate": "Today's exam is running a little late. It's usually out by 6 AM — please check again shortly.",
+  "dailyExamNoExamPast": "There was no exam on this day",
   "dailyExamNoExamTitle": "Today's exam isn't out yet",
   "dailyExamNoParticipants": "No one has taken part yet — be the first!",
   "dailyExamNotJoinedToday": "You haven't taken today's exam yet",
+  "dailyExamNotTakenBody": "Take it to see where you stand among {count} participants",
+  "@dailyExamNotTakenBody": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamNotTakenPast": "You didn't take the exam on this day",
+  "dailyExamOfParticipants": "out of {count} participants",
+  "@dailyExamOfParticipants": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
   "dailyExamParticipants": "{count} participants",
   "@dailyExamParticipants": {
     "placeholders": {
@@ -641,6 +694,7 @@
       }
     }
   },
+  "dailyExamParticipantsLabel": "Participants",
   "dailyExamPoints": "{score} pts",
   "@dailyExamPoints": {
     "placeholders": {
@@ -697,12 +751,54 @@
   "dailyExamRuleOnce": "You can take part only once",
   "dailyExamRuleRanking": "Higher score first, then less time — that's how the leaderboard ranks",
   "dailyExamRulesTitle": "Before you start",
+  "dailyExamSavedStanding": "Offline — showing your saved standing; it may have changed since",
   "dailyExamScoreLabel": "Score",
+  "dailyExamShareOnDate": "My rank in the daily current-affairs exam of {date}: {rank}/{participants}, score {score} 🎯 #Prostuti",
+  "@dailyExamShareOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "rank": {
+        "type": "String"
+      },
+      "participants": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamShareScore": "Share score",
+  "dailyExamShareToday": "My rank in today's daily current-affairs exam: {rank}/{participants}, score {score} 🎯 #Prostuti",
+  "@dailyExamShareToday": {
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      },
+      "participants": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      }
+    }
+  },
   "dailyExamStart": "Start exam",
   "dailyExamTakeNow": "Take it now",
   "dailyExamTimeLabel": "Time taken",
   "dailyExamTitle": "Daily current-affairs exam",
-  "dailyExamTopFive": "Top 5 today",
+  "dailyExamTodayStanding": "Today's standing",
+  "dailyExamTopPercent": "Top {percent}%",
+  "@dailyExamTopPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyExamTopScore": "Top score",
   "dailyExamViewLeaderboard": "Leaderboard",
   "dailyExamYesterday": "Yesterday",
   "dailyExamYou": "You",
@@ -1207,6 +1303,17 @@
   "@examTitleModelTest": {
     "placeholders": {
       "marks": {
+        "type": "String"
+      }
+    }
+  },
+  "examTitleModelTestTrack": "Model test · {marks} marks · {track}",
+  "@examTitleModelTestTrack": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "track": {
         "type": "String"
       }
     }
@@ -2139,6 +2246,17 @@
   "questionBankTopicExam": "Topic exam",
   "questionBankTopicPractice": "Practise this topic",
   "questionBankTopics": "Topics",
+  "questionBankTrackSubjectMeta": "{marks} marks in this pattern · {count} questions",
+  "@questionBankTrackSubjectMeta": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
   "questionBankUnseenOnly": "New questions only",
   "questionBankWrongAll": "All",
   "questionBankWrongEmpty": "No mistakes here — great job!",
@@ -2160,7 +2278,8 @@
   "settingsAboutNews": "Our AI reads the following news outlets every morning and picks exam-relevant facts for the daily notes:",
   "settingsAboutNewsLinkNote": "Every note links to its original news source, so you can always verify it.",
   "settingsAboutNewsTitle": "Newspapers",
-  "settingsAboutPrivacy": "We collect only what's needed to run Prostuti: your account details, the profile you fill in, your exam and practice activity, and what you post or send in the community. Personal details such as date of birth and phone number are visible only to you. We never sell your data. Your answers are used to personalise your study plan and to improve question quality. Ads, if shown, are served by Google AdMob. You can ask us to delete your account and data at any time from Settings.",
+  "settingsAboutPrivacy": "We collect only what's needed to run Prostuti: your account details, the profile you fill in, your exam and practice activity, and what you post or send in the community. Your date of birth is visible only to you. Your data is stored with Supabase, some text is processed by OpenAI to power AI features, and ads come from Google AdMob. We never sell your data, and you can ask us to delete your account at any time from Settings.",
+  "settingsAboutPrivacyHint": "What we collect, why, and your choices",
   "settingsAboutPrivacyTitle": "Privacy policy",
   "settingsAboutQuestions": "Every question shows where it comes from — a previous exam, a book, a newspaper or AI generation. AI-made questions are reviewed by moderators; if you spot a mistake, report the question and we'll fix it.",
   "settingsAboutQuestionsTitle": "Question bank",
@@ -2170,6 +2289,7 @@
   "settingsAboutSyllabus": "Subjects, topics and marks follow the BCS preliminary syllabus published by the Bangladesh Public Service Commission (BPSC).",
   "settingsAboutSyllabusTitle": "Syllabus",
   "settingsAboutTerms": "Prostuti is a study aid. Exam dates and current-affairs notes come from public sources and AI summaries — always confirm official notices with BPSC or the relevant authority. Keep the community respectful: no harassment, spam, cheating material or illegal content. Paid add-ons last for the stated period and do not renew automatically. Copying or redistributing app content is not allowed. We may suspend accounts that break these rules.",
+  "settingsAboutTermsHint": "The rules for using Prostuti",
   "settingsAboutTermsTitle": "Terms of use",
   "settingsAboutVersion": "Version {version} ({build})",
   "@settingsAboutVersion": {
@@ -2236,6 +2356,17 @@
   "settingsLanguage": "Language",
   "settingsLanguageBangla": "বাংলা",
   "settingsLanguageEnglish": "English",
+  "settingsLegalInShort": "In short",
+  "settingsLegalReadPrivacy": "Read the Privacy Policy",
+  "settingsLegalReadTerms": "Read the Terms of Use",
+  "settingsLegalUpdated": "Last updated: {date}",
+  "@settingsLegalUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "settingsLogout": "Log out",
   "settingsLogoutBody": "You can sign in again any time with your email and password.",
   "settingsLogoutPendingWarning": "{count} offline changes haven't synced yet. We'll try to sync them now; anything that can't be synced will be lost.",
@@ -2303,6 +2434,59 @@
   "settingsPermissionGrantedTitle": "Notifications are allowed",
   "settingsPermissionTitle": "Allow notifications",
   "settingsPrivacy": "Privacy",
+  "settingsPrivacyActivity": "• Exams and practice: your answers, scores, time taken, wrong answers, bookmarks, subject levels and readiness.\n• Study plan: your routine, progress, streaks and the daily advice written for you.\n• Daily exam standing: your score and rank among all participants. Other users never see your name with your score — only anonymous scores.\n• Settings: language, theme, reminder time and notification preferences.\n• Feature use: how often you use AI features and promo codes, so that daily limits and plans work.",
+  "settingsPrivacyActivityTitle": "Information created as you use Prostuti",
+  "settingsPrivacyAds": "Prostuti shows rewarded ads only when you choose to watch one (for example, to download a note). Ads are provided by Google AdMob. The Google Mobile Ads SDK, which starts with the app, may collect your device's advertising ID, IP address, device information and ad interactions to deliver and measure ads, prevent fraud and, where allowed, show personalised ads. You can reset your advertising ID or opt out of ad personalisation in your phone's settings (Settings → Google → Ads, or Privacy → Ads on some phones). Learn more: policies.google.com/technologies/partner-sites",
+  "settingsPrivacyAdsTitle": "Advertising (Google AdMob)",
+  "settingsPrivacyAi": "Some features send text to OpenAI's API, which processes it on our behalf:\n• Daily notes and the daily exam are generated from public news articles — no personal data is involved.\n• Answer explanations: the question you asked about.\n• Onboarding interview: your interview answers (not your name, email, phone number or date of birth), to ask follow-up questions and build your learner profile.\n• Study plan tips and daily advice: your learner profile and a summary of your recent progress (weak topics, results, streak, days left).\n• Community safety: the text of new posts and comments is checked automatically for abuse.\nWe don't send your email, password or phone number to OpenAI. Under OpenAI's API data policy this data is not used to train their models and is kept for a limited time (up to 30 days) for abuse monitoring. AI output can be wrong — please report mistakes.",
+  "settingsPrivacyAiTitle": "AI features (OpenAI)",
+  "settingsPrivacyChanges": "We may update this policy as the app changes. We'll change the date at the top and, for important changes, tell you in the app before they take effect.",
+  "settingsPrivacyChangesTitle": "Changes to this policy",
+  "settingsPrivacyChildren": "Prostuti is meant for students and job seekers preparing for competitive exams. It is not directed at children under 13, and we don't knowingly collect their data. If you believe a child has created an account, contact us and we will delete it.",
+  "settingsPrivacyChildrenTitle": "Children",
+  "settingsPrivacyChoices": "• View and edit your profile at any time (Settings → Edit profile).\n• Choose who can message you, block people and report content.\n• Turn each notification category on or off.\n• Clear cached data from this phone (Settings → Clear cache) or log out.\n• Ask for a copy of your data or a correction by emailing {email}.",
+  "@settingsPrivacyChoices": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsPrivacyChoicesTitle": "Your choices and rights",
+  "settingsPrivacyCollect": "• Account: your email address and password. Passwords are handled by our sign-in provider and stored only in hashed form — we can never see them.\n• Profile: your name, optional username, photo, bio, district, education, occupation, target exams, exam date and daily study time.\n• Onboarding interview: your answers about your education, background, institution, strong and weak subjects, study habits and challenges, plus your date of birth if you choose to give it.\n• Community: posts, comments, reactions, photos, friend requests, chat messages and images, reports you submit and people you block.\n• Support: the emails you send us.",
+  "settingsPrivacyCollectTitle": "Information you give us",
+  "settingsPrivacyContact": "Questions or requests about your privacy: {email}",
+  "@settingsPrivacyContact": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsPrivacyContactTitle": "Contact",
+  "settingsPrivacyDelete": "Go to Settings → Account → Request account deletion. The app opens an email to our support team with your username and user ID filled in; send it from the email address you signed up with (or write to {email}). Once we confirm the request is yours, we permanently delete your account and its data — profile, private details, exam and practice history, study plans, posts, comments, messages and notifications — within 30 days. Error reports are unlinked from your account immediately and deleted within 30 days; backups kept by our hosting provider expire on their normal schedule.",
+  "@settingsPrivacyDelete": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsPrivacyDeleteTitle": "Deleting your account",
+  "settingsPrivacyDevice": "• Error reports: if the app crashes or hits an error, it sends a technical report — the error message, a code-level stack trace, the screen in use, app version, operating system details and language — linked to your account. Email addresses, phone numbers and sign-in tokens are masked before sending. Reports are deleted after 30 days.\n• Push token: if push notifications are enabled in your version of the app, a device token is stored with your account.\n• Our servers log basic request information (such as IP address and time) for security and to prevent abuse.",
+  "settingsPrivacyDeviceTitle": "Device and technical information",
+  "settingsPrivacyNotif": "Study reminders and the morning routine are scheduled on your phone and work without internet. In-app notifications (friend requests, comments, messages, results) are stored with your account. Where push notifications are enabled, they are delivered through Google Firebase Cloud Messaging. You control every category in Settings → Notifications and in your phone's settings.",
+  "settingsPrivacyNotifTitle": "Notifications",
+  "settingsPrivacyRetention": "We keep your account data for as long as your account exists. Error reports are deleted after 30 days, daily advice after 14 days and usage-limit counters after 2 days. Content you delete is removed from the app; deleted chat messages are hidden from the conversation and erased for good when the account is deleted. Records that can no longer identify you, such as overall usage statistics, may be kept.",
+  "settingsPrivacyRetentionTitle": "How long we keep data",
+  "settingsPrivacySharing": "• Other Prostuti users: your profile (name, username, photo, bio, district, education, occupation, target exams and activity such as streaks), and your posts, comments and reactions. Profile photos and post images are stored at links that anyone with the link can open. Your date of birth is visible only to you. Messages are visible only to the people in that conversation.\n• Our team: authorised admins and moderators, when needed to handle reports, support requests and safety issues.\n• Service providers that process data for us: Supabase (hosting, database, sign-in and file storage), OpenAI (AI features) and Google (AdMob ads and, where enabled, Firebase push).\n• Authorities, only when the law requires it.\nWe do not sell or rent your personal data.",
+  "settingsPrivacySharingTitle": "Who can see your information",
+  "settingsPrivacyStorage": "Your data is stored with Supabase in the AWS Asia Pacific (Mumbai, India) region (ap-south-1), which is outside Bangladesh. All traffic is encrypted (HTTPS/TLS). Database rules make sure your private data — plans, results, messages and personal details — can be read only by you (and, when needed, our team). On your phone, Prostuti keeps a cache of downloaded content for offline use and your sign-in session; these are excluded from phone backups and device-to-device transfers. Screenshots and screen recording are blocked inside the app to protect exam content.",
+  "settingsPrivacyStorageTitle": "Storage and security",
+  "settingsPrivacyUse": "• To run the app: your account, exams, plans, community and chat.\n• To personalise your preparation: your answers and results shape your study plan, weak-topic practice and daily advice.\n• To keep the community safe: moderation, reports, blocking and usage limits.\n• To fix bugs and improve question quality.\nWe never sell your personal data, and we don't build advertising profiles from it.",
+  "settingsPrivacyUseTitle": "How we use your information",
+  "settingsPrivacyWho": "Prostuti (প্রস্তুতি) is a preparation app for BCS, bank and other government job exams in Bangladesh. This policy explains what information the app collects, why we collect it, who it is shared with and the choices you have. By using Prostuti you agree to this policy.",
+  "settingsPrivacyWhoTitle": "Who we are",
   "settingsReminderEveryDay": "Every day at {time}",
   "@settingsReminderEveryDay": {
     "placeholders": {
@@ -2334,6 +2518,39 @@
   "settingsSupport": "Support",
   "settingsSupportSubject": "Prostuti support",
   "settingsSyncNow": "Sync now",
+  "settingsTermsAccept": "These Terms of Use govern your use of Prostuti. By creating an account or using the app you agree to them and to our Privacy Policy. If you don't agree, please don't use Prostuti.",
+  "settingsTermsAcceptTitle": "Agreement",
+  "settingsTermsAccount": "• You must be at least 13 years old; if you are under 18, use Prostuti with a parent's or guardian's permission.\n• Give accurate information and keep your password secret. You are responsible for what happens under your account.\n• One account per person. Don't impersonate anyone or create accounts to get around limits or bans.",
+  "settingsTermsAccountTitle": "Your account",
+  "settingsTermsAvailability": "We work to keep Prostuti running, but it is provided \"as is\" and \"as available\". Features may change, pause for maintenance or be discontinued. Some features need an internet connection.",
+  "settingsTermsAvailabilityTitle": "Availability and changes",
+  "settingsTermsChanges": "We may update these terms. We'll change the date at the top and tell you in the app about important changes. If you keep using Prostuti after a change, you accept the updated terms.",
+  "settingsTermsChangesTitle": "Changes to these terms",
+  "settingsTermsCommunity": "Be respectful. Do not post or send:\n• harassment, threats, hate speech or sexual content;\n• spam, scams or advertising;\n• leaked question papers, cheating material or content you don't have the right to share;\n• other people's personal information, or anything illegal.\nPosts and comments are checked automatically and may be hidden. We may remove content and limit, suspend or close accounts that break these rules. Use Report and Block to help keep Prostuti safe.",
+  "settingsTermsCommunityTitle": "Community rules",
+  "settingsTermsContact": "Questions about these terms: {email}",
+  "@settingsTermsContact": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTermsContactTitle": "Contact",
+  "settingsTermsEnd": "You can stop using Prostuti at any time and request deletion of your account from Settings. We may suspend or close accounts that break these terms or put others at risk.",
+  "settingsTermsEndTitle": "Ending your use",
+  "settingsTermsLaw": "These terms are governed by the laws of Bangladesh.",
+  "settingsTermsLawTitle": "Governing law",
+  "settingsTermsLiability": "To the extent the law allows, Prostuti is not liable for indirect or consequential losses, for exam outcomes or for decisions you make based on app content. Nothing in these terms limits rights you have under law that cannot be excluded.",
+  "settingsTermsLiabilityTitle": "Limitation of liability",
+  "settingsTermsOurContent": "The question bank, notes, explanations, study plans and app design belong to Prostuti or its licensors. You may use them for your own non-commercial preparation. Do not copy, sell or republish them; do not scrape the app, get around screenshot protection, reverse-engineer the app, abuse limits or automate access; and do not disrupt the service or other users.",
+  "settingsTermsOurContentTitle": "Our content and fair use",
+  "settingsTermsPlans": "Some features are free with daily limits; others need an add-on. New accounts may receive a free trial. Add-ons last for the period shown and do not renew automatically. Promo codes are personal, can be redeemed once per account and have no cash value. Some actions can be unlocked by watching a rewarded ad. We may change which features are free or paid; add-ons you already have keep running until they end.",
+  "settingsTermsPlansTitle": "Plans, add-ons and ads",
+  "settingsTermsStudyAid": "Prostuti helps you prepare; it does not guarantee any exam result. Questions come from previous exams, books, newspapers and AI generation; current-affairs notes and explanations are written with AI from public news. Despite our checks, content can contain mistakes. Always confirm exam dates, syllabi and notices with BPSC or the relevant authority. If you find an error, please report it.",
+  "settingsTermsStudyAidTitle": "A study aid, not an official source",
+  "settingsTermsYourContent": "You own what you post. By posting, you give Prostuti a non-exclusive, royalty-free licence to store, display and deliver it inside the app so the service can work. You are responsible for your content and confirm that you have the right to share it. You can delete your posts and comments at any time.",
+  "settingsTermsYourContentTitle": "Your content",
   "settingsTestNotifBody": "Great — notifications are working on this phone.",
   "settingsTestNotifSent": "Test notification sent",
   "settingsTestNotifTitle": "Prostuti test notification",
@@ -2368,6 +2585,7 @@
   "studyHubBookmarksBody": "Saved questions & notes",
   "studyHubGreeting": "What will you study today?",
   "studyHubGreetingBody": "Little and often beats cramming — keep your streak going.",
+  "studyHubModelTestsBody": "BCS, bank and other-job patterns",
   "studyHubNotesBody": "Exam-relevant facts picked from today's newspapers",
   "studyHubNotesCta": "Read now",
   "studyHubNotesTitle": "Today's current-affairs notes",
@@ -2390,6 +2608,28 @@
   "studyPlanActionPractice": "Practise",
   "studyPlanActionRead": "Read",
   "studyPlanActionRevise": "Revise",
+  "studyPlanAdviceForToday": "Fresh for today",
+  "studyPlanAdviceFromDay": "From {date} · updates when you're online",
+  "@studyPlanAdviceFromDay": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "studyPlanAdviceRefresh": "Refresh advice",
+  "studyPlanAdviceRefreshLimit": "You've refreshed today's advice enough. New advice comes tomorrow.",
+  "studyPlanAdviceRefreshed": "Advice updated from your latest progress",
+  "studyPlanAdviceTitle": "Prostuti AI suggests",
+  "studyPlanAdviceUpToDate": "Nothing new since your last advice — it's already up to date",
+  "studyPlanAdviceUpdatedAt": "Updated today at {time}",
+  "@studyPlanAdviceUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "studyPlanAiTips": "Tips from Prostuti AI",
   "studyPlanBackToPlan": "Back to my plan",
   "studyPlanChangeMinutes": "Change daily study time",
@@ -2602,6 +2842,7 @@
   },
   "submit": "Submit",
   "today": "Today",
+  "trackSelectorLabel": "Exam section",
   "unlock": "Unlock",
   "updateNow": "Update now",
   "updateRequiredBody": "A new version of Prostuti is available. Please update to continue.",

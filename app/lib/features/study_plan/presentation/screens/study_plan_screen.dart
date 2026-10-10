@@ -10,8 +10,10 @@ import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/profile/data/profile_repository.dart';
+import 'package:prostuti/features/study_plan/application/daily_advice_providers.dart';
 import 'package:prostuti/features/study_plan/application/plan_providers.dart';
 import 'package:prostuti/features/study_plan/data/plan_models.dart';
+import 'package:prostuti/features/study_plan/presentation/widgets/ai_advice_card.dart';
 import 'package:prostuti/features/study_plan/presentation/widgets/generating_plan_view.dart';
 import 'package:prostuti/features/study_plan/presentation/widgets/plan_generation_ui.dart';
 import 'package:prostuti/features/study_plan/presentation/widgets/plan_overview_widgets.dart';
@@ -95,7 +97,9 @@ class _PlanBody extends ConsumerWidget {
 
   Future<void> _refresh(BuildContext context, WidgetRef ref) async {
     try {
-      await refreshPlanData(ref.read);
+      // Advice: today's stored copy is re-read (quiet); the card's own button
+      // asks for a re-evaluation.
+      await Future.wait([refreshPlanData(ref.read), refreshDailyAdvice(ref.read, regenerate: false)]);
     } on Object catch (e) {
       if (context.mounted) showErrorSnack(context, e);
     }
@@ -138,6 +142,7 @@ class _PlanContent extends StatelessWidget {
         PlanHeaderCard(overview: overview),
         Gap.h12,
         PlanStatsRow(overview: overview),
+        _AdviceSection(planTips: overview.aiTips),
         if (overview.kinds.isNotEmpty) ...[
           PlanSectionHeader(title: l.studyPlanComposition, icon: Icons.donut_small_rounded),
           PlanCompositionRow(kinds: overview.kinds),
@@ -149,10 +154,6 @@ class _PlanContent extends StatelessWidget {
         if (summary.milestones.isNotEmpty) ...[
           PlanSectionHeader(title: l.studyPlanMilestones, icon: Icons.flag_rounded),
           PlanMilestonesCard(milestones: summary.milestones),
-        ],
-        if (overview.aiTips.isNotEmpty) ...[
-          PlanSectionHeader(title: l.studyPlanAiTips, icon: Icons.auto_awesome_rounded),
-          PlanTipsCard(tips: overview.aiTips),
         ],
         PlanSectionHeader(title: l.studyPlanRecentDays, icon: Icons.view_agenda_rounded),
         if (overview.recent.isEmpty)
@@ -167,6 +168,36 @@ class _PlanContent extends StatelessWidget {
           PlanSectionHeader(title: l.studyPlanUpcoming, icon: Icons.lock_clock_rounded),
           LockedDaysSection(lockedDays: overview.lockedDays),
         ],
+      ],
+    );
+  }
+}
+
+/// Today's AI advice (fresh every day, from the learner's data). The tips
+/// written when the plan was created are shown only if no advice is
+/// available (function unreachable, today's allowance used up…).
+class _AdviceSection extends ConsumerWidget {
+  const _AdviceSection({required this.planTips});
+
+  final List<String> planTips;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final unavailable = ref.watch(
+      dailyAdviceProvider.select((a) => (a.hasError && !a.hasValue) || (a.value?.isEmpty ?? false)),
+    );
+    if (!unavailable) {
+      return const Padding(
+        padding: EdgeInsets.only(top: Gap.md),
+        child: AiAdviceCard(),
+      );
+    }
+    if (planTips.isEmpty) return const SizedBox.shrink();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        PlanSectionHeader(title: context.l10n.studyPlanAiTips, icon: Icons.auto_awesome_rounded),
+        PlanTipsCard(tips: planTips),
       ],
     );
   }

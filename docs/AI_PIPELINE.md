@@ -105,3 +105,44 @@ curl -X POST "$SUPABASE_URL/functions/v1/generate-daily-notes" \
 ```
 
 Staff can also trigger stages from **Admin → Pipeline** in the app (`admin_run_pipeline`).
+
+## Daily AI advice
+
+"প্রস্তুতি এআই-এর পরামর্শ" (`AiAdviceCard`) is fresh every Bangladesh day and built
+from the learner's own data. The plan's `ai_tips`, written once when the plan was
+created, are only a fallback now.
+
+```
+app ─▶ get_daily_advice(locale)   today's row of ai_daily_advice, or null (RLS: owner)
+          │ null
+          ▼
+       daily-advice {locale, refresh?}   user JWT · 5 computations/day, 3 of them refreshes
+          1. daily_advice_signals(user)   SQL, service role only: 3 weakest topics
+             (+ subject, mastery), last-7-day exams / accuracy (+ previous week),
+             practice and wrong answers, routine completion, streak, days left,
+             today's routine / notes / daily exam
+          2. signature: buckets + weakest topic ids + locale, e.g.
+             v1|bn|w:801,303p|m:1,2|e:2|a:6|t:u|p:2|x:2|r:1|s:2|d:2|pl:1|td:partial|n:0|de:0
+          3. cached() exact key `day|signature` in daily_advice:<locale> (TTL 26 h)
+             → else the LLM (reasoning low, strict JSON: 3–5 {title, body, action})
+             → no key / any error → deterministic rules from the same signals
+          4. upsert ai_daily_advice (tips + stats + signature + source)
+```
+
+* **The model sees only the bucketed view** (ranges, topic names), so one completion is
+  valid for every learner with the same signature. Exact numbers come back as
+  placeholders (`{streak}`, `{accuracy}`, `{weak1_pct}`…) filled per learner, with
+  Bangla digits in Bangla.
+* **Actions are an enum** (`notes`, `daily_exam`, `wrong_answers`, `exams`,
+  `model_tests`, `question_bank`, `plan`, `progress`, `practice_weakN`, `none`) mapped
+  server-side to an allowlist of app routes (`/practice?topic=<id>` only for the
+  learner's weak topics; no plan → no `/plan`; locked daily exam → no `/daily-exam`).
+  The app checks the same allowlist before navigating.
+* **Refresh** re-evaluates the signals. If the signature is unchanged the stored advice
+  comes back (`cached: "unchanged"`) without spending a refresh.
+* A learner without any data gets `tips: []` and nothing is stored; the card hides.
+* The app caches the advice until Bangladesh midnight (offline it shows the last copy
+  with its date). `refreshDailyAdvice(ref.read)` re-evaluates after e.g. an exam.
+* Rows older than 14 days are deleted nightly (`prostuti-daily-advice-purge`, 00:20 BD).
+* Pure parts (buckets, signature, placeholders, route allowlist, rules) are unit tested
+  in `daily-advice/advice_test.ts`.

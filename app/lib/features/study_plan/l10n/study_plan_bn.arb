@@ -121,5 +121,13 @@
   "studyPlanShortComputer": "আইসিটি",
   "studyPlanShortMath": "গণিত",
   "studyPlanShortMental": "মানসিক দক্ষতা",
-  "studyPlanShortEthics": "নৈতিকতা"
+  "studyPlanShortEthics": "নৈতিকতা",
+  "studyPlanAdviceTitle": "প্রস্তুতি এআই-এর পরামর্শ",
+  "studyPlanAdviceUpdatedAt": "আজ {time}-এ হালনাগাদ",
+  "studyPlanAdviceForToday": "আজকের জন্য নতুন পরামর্শ",
+  "studyPlanAdviceFromDay": "{date}-এর পরামর্শ · অনলাইনে এলে হালনাগাদ হবে",
+  "studyPlanAdviceRefresh": "পরামর্শ হালনাগাদ করুন",
+  "studyPlanAdviceRefreshed": "আপনার সর্বশেষ অগ্রগতি দেখে পরামর্শ হালনাগাদ হয়েছে",
+  "studyPlanAdviceUpToDate": "নতুন কোনো পরিবর্তন নেই — পরামর্শ ইতিমধ্যে হালনাগাদ আছে",
+  "studyPlanAdviceRefreshLimit": "আজ যথেষ্টবার হালনাগাদ করেছেন। কাল নতুন পরামর্শ পাবেন।"
 }
