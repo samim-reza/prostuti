@@ -8,12 +8,15 @@ import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/catalog/data/catalog.dart';
+import 'package:prostuti/features/catalog/presentation/track_selector.dart';
 import 'package:prostuti/features/exam/application/exam_failure_messages.dart';
 import 'package:prostuti/features/question_bank/application/offline_packs.dart';
 import 'package:prostuti/features/question_bank/presentation/widgets/offline_pack_widgets.dart';
 import 'package:prostuti/features/question_bank/presentation/widgets/subject_widgets.dart';
 
-/// Subjects with BCS marks, question counts, mastery and offline packs.
+/// Sections (BCS · bank · other jobs) with their subjects, marks in that
+/// pattern, question counts, mastery and offline packs. Every question of
+/// every source lives here (there is no separate previous-year list).
 class QuestionBankScreen extends ConsumerWidget {
   const QuestionBankScreen({super.key});
 
@@ -23,14 +26,17 @@ class QuestionBankScreen extends ConsumerWidget {
     } on Object {
       // Fall back to what is cached.
     }
-    ref.invalidate(subjectsProvider);
+    ref
+      ..invalidate(subjectsProvider)
+      ..invalidate(trackSubjectsProvider);
   }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     registerExamFailureMessages();
     final l = context.l10n;
-    final subjects = ref.watch(subjectsProvider);
+    final track = ref.watch(selectedTrackProvider);
+    final subjects = ref.watch(trackSubjectsProvider(track));
     return Scaffold(
       appBar: AppBar(
         title: Text(l.questionBankTitle),
@@ -50,19 +56,20 @@ class QuestionBankScreen extends ConsumerWidget {
       body: AsyncView<List<Subject>>(
         value: subjects,
         loading: const SkeletonList(itemCount: 8),
-        onRetry: () => ref.invalidate(subjectsProvider),
+        onRetry: () => ref.invalidate(trackSubjectsProvider(track)),
         isEmpty: (list) => list.isEmpty,
         empty: EmptyView(title: l.questionBankEmpty, message: l.questionBankEmptyBody),
         data: (list) => RefreshIndicator(
           onRefresh: () => refreshSubjects(ref),
           child: ListView.separated(
             padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.lg, Gap.xxl),
-            itemCount: list.length + 2,
-            separatorBuilder: (_, i) => i == 0 ? Gap.h16 : Gap.h8,
+            itemCount: list.length + 3,
+            separatorBuilder: (_, i) => i <= 1 ? Gap.h16 : Gap.h8,
             itemBuilder: (context, i) {
-              if (i == 0) return _Hero(total: list.fold(0, (sum, s) => sum + s.questionCount));
-              if (i == 1) return Text(l.questionBankSubjects, style: Theme.of(context).textTheme.titleMedium);
-              return SubjectCard(subject: list[i - 2]);
+              if (i == 0) return const TrackSelector();
+              if (i == 1) return _Hero(track: track, total: list.fold(0, (sum, s) => sum + s.questionCount));
+              if (i == 2) return Text(l.questionBankSubjects, style: Theme.of(context).textTheme.titleMedium);
+              return SubjectCard(subject: list[i - 3], track: track);
             },
           ),
         ),
@@ -72,7 +79,8 @@ class QuestionBankScreen extends ConsumerWidget {
 }
 
 class _Hero extends StatelessWidget {
-  const _Hero({required this.total});
+  const _Hero({required this.track, required this.total});
+  final String track;
   final int total;
 
   @override
@@ -103,26 +111,15 @@ class _Hero extends StatelessWidget {
             Text(l.questionBankHeroBody, style: theme.textTheme.bodyMedium?.copyWith(color: scheme.onPrimaryContainer)),
             Gap.h12,
             FilledButton.icon(
-              onPressed: () => context.push(Routes.practice()),
+              onPressed: () => context.push(Routes.practice(track: track)),
               icon: const Icon(Icons.play_arrow_rounded),
               label: Text(l.questionBankPracticeAll),
             ),
             Gap.h8,
-            Wrap(
-              spacing: Gap.sm,
-              runSpacing: Gap.sm,
-              children: [
-                ActionChip(
-                  avatar: const Icon(Icons.history_edu_rounded, size: 18),
-                  label: Text(l.questionBankPreviousTitle),
-                  onPressed: () => context.push(Routes.previousYear),
-                ),
-                ActionChip(
-                  avatar: const Icon(Icons.assignment_late_outlined, size: 18),
-                  label: Text(l.questionBankWrongTitle),
-                  onPressed: () => context.push(Routes.wrongAnswers),
-                ),
-              ],
+            ActionChip(
+              avatar: const Icon(Icons.assignment_late_outlined, size: 18),
+              label: Text(l.questionBankWrongTitle),
+              onPressed: () => context.push(Routes.wrongAnswers),
             ),
           ],
         ),
@@ -131,12 +128,15 @@ class _Hero extends StatelessWidget {
   }
 }
 
-/// Subject row: icon, name, BCS marks + question count, offline state,
-/// mastery ring and the offline download control.
+/// Subject row: icon, name, marks in the section's pattern + question
+/// count, offline state, mastery ring and the offline download control.
 class SubjectCard extends ConsumerWidget {
-  const SubjectCard({required this.subject, super.key});
+  const SubjectCard({required this.subject, this.track, super.key});
 
   final Subject subject;
+
+  /// The section the list belongs to (null: BCS marks, every question).
+  final String? track;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -146,7 +146,7 @@ class SubjectCard extends ConsumerWidget {
     return Card(
       clipBehavior: Clip.antiAlias,
       child: InkWell(
-        onTap: () => context.push(Routes.subjectDetail(subject.id)),
+        onTap: () => context.push(Routes.subjectDetail(subject.id, track: track)),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(Gap.md, Gap.md, Gap.xs, Gap.md),
           child: Row(
@@ -160,7 +160,12 @@ class SubjectCard extends ConsumerWidget {
                     Text(subject.name(context), style: theme.textTheme.titleSmall),
                     Gap.h4,
                     Text(
-                      l.questionBankSubjectMeta(context.n(subject.bcsMarks), context.n(subject.questionCount)),
+                      track == null
+                          ? l.questionBankSubjectMeta(context.n(subject.bcsMarks), context.n(subject.questionCount))
+                          : l.questionBankTrackSubjectMeta(
+                              context.n(subject.trackMarks ?? 0),
+                              context.n(subject.questionCount),
+                            ),
                       style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
                     ),
                     if (offline)

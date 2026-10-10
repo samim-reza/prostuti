@@ -7,7 +7,7 @@ import 'package:prostuti/features/exam/data/exam_models.dart';
 
 const _customDefaultTitle = 'অনুশীলন পরীক্ষা';
 
-/// `start_exam` stores Bangla titles ("মডেল টেস্ট · 100 নম্বর",
+/// `start_exam` stores Bangla titles ("মডেল টেস্ট · 100 নম্বর · ব্যাংক",
 /// "বিষয়ভিত্তিক পরীক্ষা · কম্পিউটার ও তথ্যপ্রযুক্তি" …). This rebuilds the
 /// title in the UI language from its known shape, translating subject and
 /// topic names via the catalog. Unknown shapes (daily exam, previous-year
@@ -26,7 +26,15 @@ String localizeExamTitle(
   switch (kind) {
     case ExamKind.modelTest:
       final marks = RegExp(r'\d+').firstMatch(suffix ?? title)?.group(0);
-      if (marks != null) return l.examTitleModelTest(digits(marks));
+      if (marks != null) {
+        // "মডেল টেস্ট · 50 নম্বর · ব্যাংক": the track's Bangla name comes last.
+        final parts = title.split(' · ');
+        if (parts.length < 3) return l.examTitleModelTest(digits(marks));
+        final trackBn = parts.sublist(2).join(' · ').trim();
+        final track = ExamTrack.defaults.where((t) => t.nameBn == trackBn).firstOrNull;
+        final trackName = track == null ? trackBn : (bangla ? track.nameBn : track.nameEn);
+        return l.examTitleModelTestTrack(digits(marks), trackName);
+      }
     case ExamKind.subject:
       if (suffix != null) {
         for (final s in subjects) {

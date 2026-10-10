@@ -14,18 +14,25 @@ import 'package:prostuti/features/question_bank/data/question_bank_repository.da
 /// What to practise: a subject, a topic and/or a source (all optional).
 @immutable
 class PracticeQuery {
-  const PracticeQuery({this.subjectId, this.topicId, this.sourceId});
+  const PracticeQuery({this.subjectId, this.topicId, this.sourceId, this.track});
 
   final int? subjectId;
   final int? topicId;
   final int? sourceId;
 
-  @override
-  bool operator ==(Object other) =>
-      other is PracticeQuery && other.subjectId == subjectId && other.topicId == topicId && other.sourceId == sourceId;
+  /// Exam section (bcs/bank/govt) from the question bank; null = all.
+  final String? track;
 
   @override
-  int get hashCode => Object.hash(subjectId, topicId, sourceId);
+  bool operator ==(Object other) =>
+      other is PracticeQuery &&
+      other.subjectId == subjectId &&
+      other.topicId == topicId &&
+      other.sourceId == sourceId &&
+      other.track == track;
+
+  @override
+  int get hashCode => Object.hash(subjectId, topicId, sourceId, track);
 }
 
 /// The user's interaction with one practice question.
@@ -231,7 +238,15 @@ class PracticeController extends Notifier<PracticeState> {
     for (final id in subjects) {
       final questions = await store.load(id);
       if (questions == null) continue;
-      out.addAll(questions.where((q) => (query.topicId == null || q.topicId == query.topicId) && !seen.contains(q.id)));
+      out.addAll(
+        questions.where(
+          (q) =>
+              (query.topicId == null || q.topicId == query.topicId) &&
+              // Packs downloaded before tracks existed carry no tags: keep them.
+              (query.track == null || q.examTags.isEmpty || q.examTags.contains(query.track)) &&
+              !seen.contains(q.id),
+        ),
+      );
     }
     if (out.isEmpty && !state.unseenOnly) return null;
     out.sort((a, b) => a.id.compareTo(b.id));
@@ -242,6 +257,7 @@ class PracticeController extends Notifier<PracticeState> {
     subjectId: query.subjectId,
     topicId: query.topicId,
     sourceId: query.sourceId,
+    track: query.track,
     afterId: afterId,
     unseenOnly: state.unseenOnly,
   );

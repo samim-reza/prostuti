@@ -45,7 +45,6 @@ import 'package:prostuti/features/profile/data/profile_repository.dart';
 import 'package:prostuti/features/profile/presentation/screens/edit_profile_screen.dart';
 import 'package:prostuti/features/profile/presentation/screens/my_profile_screen.dart';
 import 'package:prostuti/features/question_bank/presentation/screens/practice_screen.dart';
-import 'package:prostuti/features/question_bank/presentation/screens/previous_year_screen.dart';
 import 'package:prostuti/features/question_bank/presentation/screens/question_bank_screen.dart';
 import 'package:prostuti/features/question_bank/presentation/screens/subject_detail_screen.dart';
 import 'package:prostuti/features/question_bank/presentation/screens/wrong_answers_screen.dart';
@@ -168,10 +167,10 @@ final appRouterProvider = Provider<GoRouter>((ref) {
 
       // Question bank
       GoRoute(path: Routes.questionBank, builder: (_, _) => const QuestionBankScreen()),
-      GoRoute(path: Routes.previousYear, builder: (_, _) => const PreviousYearScreen()),
       GoRoute(
         path: '/question-bank/subject/:id',
-        builder: (_, s) => SubjectDetailScreen(subjectId: int.parse(s.pathParameters['id']!)),
+        builder: (_, s) =>
+            SubjectDetailScreen(subjectId: int.parse(s.pathParameters['id']!), track: s.uri.queryParameters['track']),
       ),
       GoRoute(
         path: '/practice',
@@ -179,6 +178,7 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           subjectId: int.tryParse(s.uri.queryParameters['subject'] ?? ''),
           topicId: int.tryParse(s.uri.queryParameters['topic'] ?? ''),
           sourceId: int.tryParse(s.uri.queryParameters['source'] ?? ''),
+          track: s.uri.queryParameters['track'],
         ),
       ),
       GoRoute(path: Routes.wrongAnswers, builder: (_, _) => const WrongAnswersScreen()),

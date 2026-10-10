@@ -66,5 +66,7 @@
   "questionBankOfflineMode": "অফলাইন প্যাক",
   "questionBankOfflineModeHint": "উত্তর এই ফোনেই যাচাই হচ্ছে এবং স্বয়ংক্রিয়ভাবে সিঙ্ক হবে।",
   "questionBankOfflineNeedPack": "আপনি অফলাইনে আছেন",
-  "questionBankOfflineNeedPackBody": "অনলাইনে থাকার সময় বিষয়টি অফলাইনের জন্য ডাউনলোড করে রাখুন — তারপর যেকোনো জায়গায় অনুশীলন করুন।"
+  "questionBankOfflineNeedPackBody": "অনলাইনে থাকার সময় বিষয়টি অফলাইনের জন্য ডাউনলোড করে রাখুন — তারপর যেকোনো জায়গায় অনুশীলন করুন।",
+  "trackSelectorLabel": "পরীক্ষার ধরন",
+  "questionBankTrackSubjectMeta": "এই প্যাটার্নে {marks} নম্বর · {count}টি প্রশ্ন"
 }

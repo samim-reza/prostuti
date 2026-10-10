@@ -125,7 +125,7 @@ serve(async (req) => {
       source_id: source?.id ?? null,
       source_ref: `সাম্প্রতিক · ${bnDate(today)}${link?.source ? ` · ${link.source}` : ''}`,
       source_url: link?.url ?? null,
-      exam_tags: ['bcs', 'bank'],
+      exam_tags: ['bcs', 'bank', 'govt'], // current affairs suit every track
       status: 'published',
       review_status: 'unverified',
       fact_id: fact.id,

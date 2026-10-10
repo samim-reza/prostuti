@@ -19,19 +19,33 @@ import 'package:prostuti/features/question_bank/presentation/widgets/subject_wid
 /// One subject: mastery, practice / exam actions, offline pack and its
 /// topics with mastery bars (each with topic practice and topic exam).
 class SubjectDetailScreen extends ConsumerWidget {
-  const SubjectDetailScreen({required this.subjectId, super.key});
+  const SubjectDetailScreen({required this.subjectId, this.track, super.key});
   final int subjectId;
+
+  /// Question-bank section it was opened from: practice and exams prefer
+  /// that track's questions.
+  final String? track;
 
   Future<void> _subjectExam(BuildContext context, WidgetRef ref, Subject subject) async {
     final choice = await showExamSetupSheet(context, title: context.l10n.questionBankSubjectExam);
     if (choice == null || !context.mounted) return;
-    await ExamLauncher.start(context, ref, ExamKind.subject, config: {'subject_id': subject.id, 'count': choice.count});
+    await ExamLauncher.start(
+      context,
+      ref,
+      ExamKind.subject,
+      config: {'subject_id': subject.id, 'count': choice.count, 'track': ?track},
+    );
   }
 
   Future<void> _topicExam(BuildContext context, WidgetRef ref, Topic topic) async {
     final choice = await showExamSetupSheet(context, title: context.l10n.questionBankTopicExam, initialCount: 10);
     if (choice == null || !context.mounted) return;
-    await ExamLauncher.start(context, ref, ExamKind.topic, config: {'topic_id': topic.id, 'count': choice.count});
+    await ExamLauncher.start(
+      context,
+      ref,
+      ExamKind.topic,
+      config: {'topic_id': topic.id, 'count': choice.count, 'track': ?track},
+    );
   }
 
   @override
@@ -40,6 +54,9 @@ class SubjectDetailScreen extends ConsumerWidget {
     final l = context.l10n;
     final subjects = ref.watch(subjectsProvider);
     final subject = ref.watch(subjectByIdProvider(subjectId));
+    final inTrack = track == null
+        ? null
+        : ref.watch(trackSubjectsProvider(track!)).value?.where((s) => s.id == subjectId).firstOrNull;
 
     if (subject == null) {
       return Scaffold(
@@ -76,10 +93,15 @@ class SubjectDetailScreen extends ConsumerWidget {
                               Text(subject.name(context), style: theme.textTheme.titleMedium),
                               Gap.h4,
                               Text(
-                                l.questionBankSubjectMeta(
-                                  context.n(subject.bcsMarks),
-                                  context.n(subject.questionCount),
-                                ),
+                                inTrack == null
+                                    ? l.questionBankSubjectMeta(
+                                        context.n(subject.bcsMarks),
+                                        context.n(subject.questionCount),
+                                      )
+                                    : l.questionBankTrackSubjectMeta(
+                                        context.n(inTrack.trackMarks ?? 0),
+                                        context.n(inTrack.questionCount),
+                                      ),
                                 style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
                               ),
                             ],
@@ -93,7 +115,7 @@ class SubjectDetailScreen extends ConsumerWidget {
                       children: [
                         Expanded(
                           child: FilledButton.icon(
-                            onPressed: () => context.push(Routes.practice(subjectId: subject.id)),
+                            onPressed: () => context.push(Routes.practice(subjectId: subject.id, track: track)),
                             icon: const Icon(Icons.edit_note_rounded),
                             label: Text(l.questionBankPractice, maxLines: 1, overflow: TextOverflow.ellipsis),
                           ),
@@ -125,7 +147,7 @@ class SubjectDetailScreen extends ConsumerWidget {
                     if (i > 0) const Divider(indent: Gap.lg, endIndent: Gap.lg),
                     _TopicRow(
                       topic: subject.topics[i],
-                      onPractice: () => context.push(Routes.practice(topicId: subject.topics[i].id)),
+                      onPractice: () => context.push(Routes.practice(topicId: subject.topics[i].id, track: track)),
                       onExam: () => unawaited(_topicExam(context, ref, subject.topics[i])),
                     ),
                   ],

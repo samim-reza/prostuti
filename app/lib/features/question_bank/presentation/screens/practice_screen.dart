@@ -22,17 +22,23 @@ import 'package:prostuti/features/question_bank/presentation/widgets/practice_qu
 /// through `get_practice_questions` (prefetching when 3 remain); with a
 /// downloaded pack it starts instantly and works offline.
 class PracticeScreen extends ConsumerStatefulWidget {
-  const PracticeScreen({this.subjectId, this.topicId, this.sourceId, super.key});
+  const PracticeScreen({this.subjectId, this.topicId, this.sourceId, this.track, super.key});
   final int? subjectId;
   final int? topicId;
   final int? sourceId;
+  final String? track;
 
   @override
   ConsumerState<PracticeScreen> createState() => _PracticeScreenState();
 }
 
 class _PracticeScreenState extends ConsumerState<PracticeScreen> {
-  late final _query = PracticeQuery(subjectId: widget.subjectId, topicId: widget.topicId, sourceId: widget.sourceId);
+  late final _query = PracticeQuery(
+    subjectId: widget.subjectId,
+    topicId: widget.topicId,
+    sourceId: widget.sourceId,
+    track: widget.track,
+  );
   final _pages = PageController();
   ProviderContainer? _container;
   bool _answeredAny = false;
@@ -55,7 +61,9 @@ class _PracticeScreenState extends ConsumerState<PracticeScreen> {
       unawaited(
         Future.microtask(() async {
           await container.read(catalogRepositoryProvider).invalidateSubjects();
-          container.invalidate(subjectsProvider);
+          container
+            ..invalidate(subjectsProvider)
+            ..invalidate(trackSubjectsProvider);
         }),
       );
     }

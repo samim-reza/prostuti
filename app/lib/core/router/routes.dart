@@ -41,13 +41,19 @@ abstract final class Routes {
 
   // Question bank & practice
   static const questionBank = '/question-bank';
-  static const previousYear = '/question-bank/previous-year';
-  static String subjectDetail(int subjectId) => '/question-bank/subject/$subjectId';
-  static String practice({int? subjectId, int? topicId, int? sourceId}) {
+
+  /// [track]: the question-bank section the subject was opened from.
+  static String subjectDetail(int subjectId, {String? track}) =>
+      '/question-bank/subject/$subjectId${track == null ? '' : '?track=$track'}';
+
+  /// [track] limits practice to one exam section's questions (question
+  /// bank); without it every question qualifies (plan items, search…).
+  static String practice({int? subjectId, int? topicId, int? sourceId, String? track}) {
     final q = <String>[
       if (subjectId != null) 'subject=$subjectId',
       if (topicId != null) 'topic=$topicId',
       if (sourceId != null) 'source=$sourceId',
+      if (track != null) 'track=$track',
     ].join('&');
     return '/practice${q.isEmpty ? '' : '?$q'}';
   }

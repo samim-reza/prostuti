@@ -137,5 +137,17 @@
   "questionBankOfflineMode": "Offline pack",
   "questionBankOfflineModeHint": "Answers are checked on this phone and sync automatically.",
   "questionBankOfflineNeedPack": "You're offline",
-  "questionBankOfflineNeedPackBody": "Download a subject for offline practice while you're online, then practise anywhere."
+  "questionBankOfflineNeedPackBody": "Download a subject for offline practice while you're online, then practise anywhere.",
+  "trackSelectorLabel": "Exam section",
+  "questionBankTrackSubjectMeta": "{marks} marks in this pattern · {count} questions",
+  "@questionBankTrackSubjectMeta": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  }
 }

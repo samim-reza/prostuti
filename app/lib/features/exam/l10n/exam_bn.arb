@@ -172,5 +172,6 @@
   "examSubmitQueuedHint": "চাইলে এই পাতা বন্ধ করতে পারেন — ফলাফল পরীক্ষার ইতিহাসে চলে আসবে।",
   "examPendingTitle": "জমা অপেক্ষমাণ",
   "examPendingBody": "{answered}/{total}টি উত্তর · ইন্টারনেট এলে স্বয়ংক্রিয়ভাবে জমা হবে",
-  "examOfflineSaved": "অফলাইনে সংরক্ষিত — ইন্টারনেট এলে সিঙ্ক হবে"
+  "examOfflineSaved": "অফলাইনে সংরক্ষিত — ইন্টারনেট এলে সিঙ্ক হবে",
+  "examTitleModelTestTrack": "মডেল টেস্ট · {marks} নম্বর · {track}"
 }

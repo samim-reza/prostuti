@@ -4,11 +4,6 @@ import 'package:prostuti/core/pagination/paged_state.dart';
 import 'package:prostuti/features/question_bank/data/question_bank_models.dart';
 import 'package:prostuti/features/question_bank/data/question_bank_repository.dart';
 
-/// Previous-exam papers (`get_question_sources('previous_exam')`).
-final previousExamSourcesProvider = FutureProvider.autoDispose<List<QuestionSource>>(
-  (ref) => ref.watch(questionBankRepositoryProvider).sources(kind: SourceKind.previousExam),
-);
-
 /// Every source with published questions.
 final allSourcesProvider = FutureProvider.autoDispose<List<QuestionSource>>(
   (ref) => ref.watch(questionBankRepositoryProvider).sources(),

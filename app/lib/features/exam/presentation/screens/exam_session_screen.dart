@@ -222,7 +222,9 @@ class _ExamSessionScreenState extends ConsumerState<ExamSessionScreen> with Widg
     _refreshExamLists();
     // Mastery changed → subjects overview must refetch.
     unawaited(ref.read(catalogRepositoryProvider).invalidateSubjects());
-    ref.invalidate(subjectsProvider);
+    ref
+      ..invalidate(subjectsProvider)
+      ..invalidate(trackSubjectsProvider);
     final session = ref.read(_provider).value?.session;
     _refreshAfterExam(session?.kind);
     if (session?.kind == ExamKind.placement) {

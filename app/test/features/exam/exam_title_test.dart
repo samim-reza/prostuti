@@ -25,6 +25,11 @@ void main() {
   test('model test titles are rebuilt in the UI language', () {
     expect(t('মডেল টেস্ট · 100 নম্বর', ExamKind.modelTest), 'Model test · 100 marks');
     expect(t('মডেল টেস্ট · 100 নম্বর', ExamKind.modelTest, bangla: true), 'মডেল টেস্ট · ১০০ নম্বর');
+    expect(t('মডেল টেস্ট · 80 নম্বর · ব্যাংক', ExamKind.modelTest), 'Model test · 80 marks · Bank jobs');
+    expect(
+      t('মডেল টেস্ট · 50 নম্বর · অন্যান্য চাকরি', ExamKind.modelTest, bangla: true),
+      'মডেল টেস্ট · ৫০ নম্বর · অন্যান্য চাকরি',
+    );
   });
 
   test('subject and topic names are translated via the catalog', () {

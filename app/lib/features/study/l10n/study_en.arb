@@ -19,5 +19,6 @@
   "studyHubProgress": "Progress",
   "studyHubProgressBody": "Readiness & mastery",
   "studyHubSubjects": "Quick practice by subject",
-  "studyHubSubjectsHint": "Tap a subject to start practising instantly."
+  "studyHubSubjectsHint": "Tap a subject to start practising instantly.",
+  "studyHubModelTestsBody": "BCS, bank and other-job patterns"
 }

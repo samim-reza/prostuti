@@ -2,17 +2,35 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
+import 'package:prostuti/core/offline/connectivity.dart';
 import 'package:prostuti/core/router/routes.dart';
 import 'package:prostuti/core/theme/app_colors.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
+import 'package:prostuti/core/widgets/state_views.dart';
 import 'package:prostuti/features/exam/application/exam_failure_messages.dart';
 import 'package:prostuti/features/exam/presentation/widgets/feature_tile.dart';
+import 'package:prostuti/features/home/application/home_providers.dart';
+import 'package:prostuti/features/home/presentation/widgets/home_cards.dart';
+import 'package:prostuti/features/home/presentation/widgets/routine_card.dart';
+import 'package:prostuti/features/home/presentation/widgets/setup_card.dart';
 import 'package:prostuti/features/question_bank/presentation/screens/question_bank_screen.dart';
 import 'package:prostuti/features/study/presentation/widgets/study_widgets.dart';
+import 'package:prostuti/features/study_plan/presentation/widgets/ai_advice_card.dart';
 
-/// Study tab: today's notes, every study tool and quick subject practice.
+/// Study tab: unfinished setup, exam countdown, readiness, today's routine
+/// and the day's AI advice, every study tool and quick subject practice. (Today's notes are
+/// on Home.)
 class StudyScreen extends ConsumerWidget {
   const StudyScreen({super.key});
+
+  Future<void> _refresh(BuildContext context, WidgetRef ref) async {
+    final results = await Future.wait([
+      refreshHome(ref.read),
+      QuestionBankScreen.refreshSubjects(ref).then((_) => null),
+    ]);
+    final error = results.first;
+    if (error != null && context.mounted && ConnectivityService.instance.isOnline) showErrorSnack(context, error);
+  }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -28,11 +46,11 @@ class StudyScreen extends ConsumerWidget {
         Routes.questionBank,
       ),
       StudyTool(
-        Icons.history_edu_rounded,
+        Icons.assignment_rounded,
         const Color(0xFFD9480F),
-        l.studyHubPrevious,
-        l.studyHubPreviousBody,
-        Routes.previousYear,
+        l.examCardModelTitle,
+        l.studyHubModelTestsBody,
+        Routes.modelTests,
       ),
       StudyTool(
         Icons.assignment_late_rounded,
@@ -69,7 +87,7 @@ class StudyScreen extends ConsumerWidget {
         ],
       ),
       body: RefreshIndicator(
-        onRefresh: () => QuestionBankScreen.refreshSubjects(ref),
+        onRefresh: () => _refresh(context, ref),
         child: CustomScrollView(
           slivers: [
             SliverPadding(
@@ -83,7 +101,14 @@ class StudyScreen extends ConsumerWidget {
                         ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
                   ),
                   Gap.h16,
-                  const NotesHeroCard(),
+                  const SetupCard(),
+                  const CountdownCard(),
+                  Gap.h12,
+                  const ReadinessCard(),
+                  Gap.h12,
+                  const RoutineCard(),
+                  Gap.h12,
+                  const AiAdviceCard(),
                   SectionHeader(title: l.studyHubTools),
                 ],
               ),

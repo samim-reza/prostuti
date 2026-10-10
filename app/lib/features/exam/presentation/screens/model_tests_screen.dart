@@ -2,21 +2,21 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:prostuti/core/config/app_constants.dart';
 import 'package:prostuti/core/entitlements/feature_access.dart';
 import 'package:prostuti/core/l10n/l10n.dart';
 import 'package:prostuti/core/theme/app_spacing.dart';
 import 'package:prostuti/core/utils/formatters.dart';
 import 'package:prostuti/core/widgets/skeleton.dart';
 import 'package:prostuti/features/catalog/data/catalog.dart';
+import 'package:prostuti/features/catalog/presentation/track_selector.dart';
 import 'package:prostuti/features/exam/application/exam_failure_messages.dart';
 import 'package:prostuti/features/exam/application/model_test_plan.dart';
 import 'package:prostuti/features/exam/data/exam_models.dart';
 import 'package:prostuti/features/exam/presentation/utils/exam_kind_style.dart';
 import 'package:prostuti/features/exam/presentation/widgets/exam_launcher.dart';
 
-/// Full BCS-pattern model tests: 25/50/100/200 marks, duration at the BCS
-/// pace, subject distribution preview and the rules.
+/// Full-length model tests per exam track (BCS, bank, other jobs): the
+/// track's sizes, its subject distribution and pace, and the rules.
 class ModelTestsScreen extends ConsumerStatefulWidget {
   const ModelTestsScreen({super.key});
 
@@ -25,7 +25,7 @@ class ModelTestsScreen extends ConsumerStatefulWidget {
 }
 
 class _ModelTestsScreenState extends ConsumerState<ModelTestsScreen> {
-  int _size = 100;
+  int? _size;
 
   @override
   Widget build(BuildContext context) {
@@ -34,16 +34,21 @@ class _ModelTestsScreenState extends ConsumerState<ModelTestsScreen> {
     final theme = Theme.of(context);
     final subjects = ref.watch(subjectsProvider);
     final list = subjects.value ?? const <Subject>[];
+    final track = ref.watch(selectedExamTrackProvider);
+    // Keep the chosen size when the track offers it, else its default.
+    final size = track.sizes.contains(_size) ? _size! : (track.sizes.contains(100) ? 100 : track.sizes.last);
     final hasFeature = ref.watch(hasFeatureProvider(Features.modelTest));
     final accessKnown = ref.watch(featureAccessProvider.select((a) => a.hasValue));
     final bangla = context.isBn;
-    final negative = Fmt.score(AppConstants.defaultNegativeMark, bangla: bangla);
+    final negative = Fmt.score(track.negativeMark, bangla: bangla);
 
     return Scaffold(
       appBar: AppBar(title: Text(l.examModelTitle)),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.lg, Gap.xl),
         children: [
+          const TrackSelector(),
+          Gap.h12,
           Card(
             color: ExamKind.modelTest.accent.withValues(alpha: 0.1),
             child: Padding(
@@ -52,7 +57,12 @@ class _ModelTestsScreenState extends ConsumerState<ModelTestsScreen> {
                 children: [
                   Icon(Icons.assignment_rounded, size: 40, color: ExamKind.modelTest.accent),
                   Gap.w12,
-                  Expanded(child: Text(l.examModelIntro, style: theme.textTheme.bodyMedium)),
+                  Expanded(
+                    child: Text(
+                      track.code == ExamTrack.bcs ? l.examModelIntro : (track.description(context) ?? l.examModelIntro),
+                      style: theme.textTheme.bodyMedium,
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -72,12 +82,13 @@ class _ModelTestsScreenState extends ConsumerState<ModelTestsScreen> {
               mainAxisExtent: 60 + 58 * MediaQuery.textScalerOf(context).scale(1),
             ),
             children: [
-              for (final size in ModelTestPlan.sizes)
+              for (final option in track.sizes)
                 _SizeCard(
-                  size: size,
-                  shares: ModelTestPlan.distribution(list, size),
-                  selected: size == _size,
-                  onTap: () => setState(() => _size = size),
+                  size: option,
+                  track: track,
+                  shares: ModelTestPlan.distribution(list, option, track: track),
+                  selected: option == size,
+                  onTap: () => setState(() => _size = option),
                 ),
             ],
           ),
@@ -87,7 +98,7 @@ class _ModelTestsScreenState extends ConsumerState<ModelTestsScreen> {
           if (subjects.isLoading && list.isEmpty)
             const SizedBox(height: 220, child: SkeletonList(itemCount: 3))
           else
-            _Distribution(shares: ModelTestPlan.distribution(list, _size)),
+            _Distribution(shares: ModelTestPlan.distribution(list, size, track: track)),
           Gap.h16,
           Text(l.examModelRules, style: theme.textTheme.titleMedium),
           Gap.h8,
@@ -111,9 +122,11 @@ class _ModelTestsScreenState extends ConsumerState<ModelTestsScreen> {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(Gap.lg, Gap.sm, Gap.lg, Gap.md),
           child: FilledButton.icon(
-            onPressed: () => unawaited(ExamLauncher.start(context, ref, ExamKind.modelTest, config: {'size': _size})),
+            onPressed: () => unawaited(
+              ExamLauncher.start(context, ref, ExamKind.modelTest, config: {'size': size, 'track': track.code}),
+            ),
             icon: const Icon(Icons.play_arrow_rounded),
-            label: Text(l.examModelStart(context.n(_size))),
+            label: Text(l.examModelStart(context.n(size))),
           ),
         ),
       ),
@@ -122,9 +135,16 @@ class _ModelTestsScreenState extends ConsumerState<ModelTestsScreen> {
 }
 
 class _SizeCard extends StatelessWidget {
-  const _SizeCard({required this.size, required this.shares, required this.selected, required this.onTap});
+  const _SizeCard({
+    required this.size,
+    required this.track,
+    required this.shares,
+    required this.selected,
+    required this.onTap,
+  });
 
   final int size;
+  final ExamTrack track;
   final List<SubjectShare> shares;
   final bool selected;
   final VoidCallback onTap;
@@ -135,7 +155,7 @@ class _SizeCard extends StatelessWidget {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
     final count = shares.isEmpty ? size : ModelTestPlan.totalQuestions(shares);
-    final minutes = (ModelTestPlan.duration(size, shares: shares).inSeconds / 60).ceil();
+    final minutes = (ModelTestPlan.duration(size, shares: shares, track: track).inSeconds / 60).ceil();
     final fg = selected ? scheme.onPrimary : scheme.onSurface;
     return Semantics(
       selected: selected,

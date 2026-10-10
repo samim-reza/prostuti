@@ -367,5 +367,16 @@
       }
     }
   },
-  "examOfflineSaved": "Saved offline — it will sync when you're back online"
+  "examOfflineSaved": "Saved offline — it will sync when you're back online",
+  "examTitleModelTestTrack": "Model test · {marks} marks · {track}",
+  "@examTitleModelTestTrack": {
+    "placeholders": {
+      "marks": {
+        "type": "String"
+      },
+      "track": {
+        "type": "String"
+      }
+    }
+  }
 }

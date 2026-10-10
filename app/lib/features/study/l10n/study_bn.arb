@@ -19,5 +19,6 @@
   "studyHubProgress": "অগ্রগতি",
   "studyHubProgressBody": "প্রস্তুতি ও দক্ষতা",
   "studyHubSubjects": "বিষয়ভিত্তিক দ্রুত অনুশীলন",
-  "studyHubSubjectsHint": "যেকোনো বিষয়ে চাপ দিয়ে সাথে সাথে অনুশীলন শুরু করুন।"
+  "studyHubSubjectsHint": "যেকোনো বিষয়ে চাপ দিয়ে সাথে সাথে অনুশীলন শুরু করুন।",
+  "studyHubModelTestsBody": "বিসিএস, ব্যাংক ও অন্যান্য চাকরির প্যাটার্নে"
 }

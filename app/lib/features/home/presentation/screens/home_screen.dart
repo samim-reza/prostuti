@@ -14,12 +14,10 @@ import 'package:prostuti/features/home/application/home_notifications.dart';
 import 'package:prostuti/features/home/application/home_providers.dart';
 import 'package:prostuti/features/home/presentation/widgets/home_cards.dart';
 import 'package:prostuti/features/home/presentation/widgets/home_header.dart';
-import 'package:prostuti/features/home/presentation/widgets/routine_card.dart';
-import 'package:prostuti/features/home/presentation/widgets/setup_card.dart';
 
-/// The Home tab: greeting + streak, unfinished setup, exam countdown,
-/// readiness, today's routine, today's notes, the daily exam and quick
-/// actions.
+/// The Home tab: greeting + streak, then current affairs — today's notes,
+/// the daily exam — and quick actions. Plan, readiness and countdown live on
+/// the Study tab.
 ///
 /// Every section is its own small ConsumerWidget watching only its provider,
 /// so a routine check-off never rebuilds the countdown or the notes. All data
@@ -111,14 +109,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               padding: EdgeInsets.fromLTRB(Gap.lg, Gap.xs, Gap.lg, Gap.xxl),
               sliver: SliverList(
                 delegate: SliverChildListDelegate.fixed([
-                  TrialBanner(),
-                  SetupCard(),
-                  CountdownCard(),
-                  Gap.h12,
-                  ReadinessCard(),
-                  Gap.h12,
-                  RoutineCard(),
-                  Gap.h12,
                   NotesCard(),
                   Gap.h12,
                   DailyExamCard(),

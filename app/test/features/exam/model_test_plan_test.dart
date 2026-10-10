@@ -35,6 +35,35 @@ void main() {
     }
   });
 
+  test('bank and other-jobs patterns: exact sizes, their own subjects and pace', () {
+    final subjects = [
+      for (final (i, code) in [
+        'bangla',
+        'english',
+        'bd_affairs',
+        'international',
+        'geography',
+        'science',
+        'computer',
+        'math',
+        'mental_ability',
+        'ethics',
+      ].indexed)
+        Subject(id: i + 1, code: code, nameBn: code, nameEn: code, bcsMarks: 10),
+    ];
+    for (final track in ExamTrack.defaults) {
+      for (final size in track.sizes) {
+        final shares = ModelTestPlan.distribution(subjects, size, track: track);
+        expect(ModelTestPlan.totalQuestions(shares), size, reason: '${track.code} $size');
+        expect(shares.every((s) => track.distribution.containsKey(s.subject.code)), isTrue);
+      }
+    }
+    final bank = ExamTrack.defaults.firstWhere((t) => t.code == ExamTrack.bank);
+    final shares = ModelTestPlan.distribution(subjects, 100, track: bank);
+    expect({for (final s in shares) s.subject.code: s.count}, bank.distribution);
+    expect(ModelTestPlan.duration(100, shares: shares, track: bank), const Duration(minutes: 75));
+  });
+
   test('subjects without BCS marks are excluded', () {
     expect(ModelTestPlan.distribution([_s(1, 0), _s(2, 30)], 100).map((s) => s.subject.id), [2]);
   });

@@ -1,0 +1,2051 @@
+[
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Lucrative'.",
+    "options": [
+      "Profitable",
+      "Luxurious",
+      "Laborious",
+      "Lucid"
+    ],
+    "correct_index": 0,
+    "explanation": "'Lucrative' means producing a large profit (e.g. a lucrative business), so 'profitable' is its synonym.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Prudent'.",
+    "options": [
+      "Reckless",
+      "Arrogant",
+      "Judicious",
+      "Hesitant"
+    ],
+    "correct_index": 2,
+    "explanation": "'Prudent' means acting with care and good judgement, especially about money; 'judicious' has the same sense, while 'reckless' is its opposite.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the antonym of 'Augment'.",
+    "options": [
+      "Enlarge",
+      "Amplify",
+      "Supplement",
+      "Diminish"
+    ],
+    "correct_index": 3,
+    "explanation": "'Augment' means to increase or add to; its antonym is 'diminish' (to make smaller). The other three words all mean to increase or add.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Remuneration'.",
+    "options": [
+      "Payment",
+      "Remembrance",
+      "Penalty",
+      "Renovation"
+    ],
+    "correct_index": 0,
+    "explanation": "'Remuneration' is money paid for work or a service (salary, fee), so it is closest to 'payment'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Austerity'.",
+    "options": [
+      "Prosperity",
+      "Frugality",
+      "Generosity",
+      "Luxury"
+    ],
+    "correct_index": 1,
+    "explanation": "'Austerity' means strict economy and avoidance of luxury (e.g. austerity measures to cut spending), which matches 'frugality'.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the antonym of 'Lenient'.",
+    "options": [
+      "Strict",
+      "Tolerant",
+      "Merciful",
+      "Gentle"
+    ],
+    "correct_index": 0,
+    "explanation": "'Lenient' means mild or tolerant in punishment or rules; its opposite is 'strict'. 'Tolerant', 'merciful' and 'gentle' are near-synonyms.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Mitigate'.",
+    "options": [
+      "Aggravate",
+      "Alleviate",
+      "Imitate",
+      "Migrate"
+    ],
+    "correct_index": 1,
+    "explanation": "'Mitigate' means to make something less severe (e.g. mitigate risk); 'alleviate' has the same meaning, while 'aggravate' means to make worse.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the antonym of 'Affluent'.",
+    "options": [
+      "Opulent",
+      "Prosperous",
+      "Indigent",
+      "Influential"
+    ],
+    "correct_index": 2,
+    "explanation": "'Affluent' means wealthy; 'indigent' means very poor, so it is the antonym. 'Opulent' and 'prosperous' are synonyms of affluent.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "In banking, the word 'collateral' means —",
+    "options": [
+      "the interest charged on an overdue loan",
+      "a loan given without any security",
+      "an asset pledged as security for a loan",
+      "the fee charged for issuing a cheque book"
+    ],
+    "correct_index": 2,
+    "explanation": "Collateral is an asset (land, FDR, gold, etc.) pledged by a borrower; the bank can sell it to recover the money if the loan is not repaid.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"I look forward to hear from you.\"?",
+    "options": [
+      "I look forward for hearing from you.",
+      "I am looking forward to hear from you.",
+      "I look forward to heard from you.",
+      "I look forward to hearing from you."
+    ],
+    "correct_index": 3,
+    "explanation": "In 'look forward to', 'to' is a preposition, so it must be followed by a gerund (-ing form): 'to hearing'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"One of my friends are a banker.\"?",
+    "options": [
+      "One of my friend is a banker.",
+      "One of my friends is a banker.",
+      "One of my friend are a banker.",
+      "One of my friends were a banker."
+    ],
+    "correct_index": 1,
+    "explanation": "'One of' takes a plural noun (friends) but the subject is 'one', so the verb must be singular: 'is'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"He has been working in this bank since five years.\"?",
+    "options": [
+      "He is working in this bank since five years.",
+      "He has been working in this bank from five years.",
+      "He has been working in this bank for five years.",
+      "He was working in this bank since five years."
+    ],
+    "correct_index": 2,
+    "explanation": "'Since' is used with a point of time (since 2020), while 'for' is used with a length of time (for five years).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"The manager, along with his assistants, were present at the meeting.\"?",
+    "options": [
+      "The manager, along with his assistants, was present at the meeting.",
+      "The manager, along with his assistants, are present at the meeting.",
+      "The manager, along with his assistants, have been present at the meeting.",
+      "The manager, along with his assistant, were present at the meeting."
+    ],
+    "correct_index": 0,
+    "explanation": "A phrase introduced by 'along with' does not change the number of the subject; the subject 'the manager' is singular, so the verb is 'was'.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"The economy of Bangladesh is growing faster than India.\"?",
+    "options": [
+      "The economy of Bangladesh is growing faster than the India.",
+      "The economy of Bangladesh is growing more faster than India.",
+      "The economy of Bangladesh is growing faster than those of India.",
+      "The economy of Bangladesh is growing faster than that of India."
+    ],
+    "correct_index": 3,
+    "explanation": "A comparison must be between like things: the economy of Bangladesh with the economy of India, so 'that of India' (singular, standing for 'the economy') is needed.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"The number of customers are increasing day by day.\"?",
+    "options": [
+      "A number of customers is increasing day by day.",
+      "The number of customer is increasing day by day.",
+      "The number of customers is increasing day by day.",
+      "The number of customers have been increasing day by day."
+    ],
+    "correct_index": 2,
+    "explanation": "'The number of' refers to one total, so it takes a singular verb ('is'); 'a number of' means 'many' and takes a plural verb ('are').",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "He is not averse ___ taking a bank loan.",
+    "options": [
+      "from",
+      "to",
+      "of",
+      "against"
+    ],
+    "correct_index": 1,
+    "explanation": "'Averse' is always followed by 'to' (averse to something / to doing something), meaning unwilling or opposed.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "All customers must comply ___ the rules of the bank.",
+    "options": [
+      "with",
+      "to",
+      "by",
+      "on"
+    ],
+    "correct_index": 0,
+    "explanation": "The verb 'comply' takes the preposition 'with' (comply with rules/orders).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "She was congratulated ___ her promotion to Senior Officer.",
+    "options": [
+      "with",
+      "at",
+      "on",
+      "to"
+    ],
+    "correct_index": 2,
+    "explanation": "We congratulate someone on an achievement or event, so 'congratulated on her promotion' is correct.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "The bank has invested heavily ___ the garment sector.",
+    "options": [
+      "on",
+      "at",
+      "with",
+      "in"
+    ],
+    "correct_index": 3,
+    "explanation": "'Invest' takes 'in' (invest in a sector, in shares); 'invested on' is a common error.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "Fill in the blanks with the correct articles: He is ___ M.B.A. holder working at ___ university.",
+    "options": [
+      "a, an",
+      "an, an",
+      "an, a",
+      "a, a"
+    ],
+    "correct_index": 2,
+    "explanation": "Articles depend on sound: 'M.B.A.' begins with the vowel sound 'em', so 'an'; 'university' begins with the consonant sound 'yu', so 'a'.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "The idiom 'to make both ends meet' means —",
+    "options": [
+      "to complete a task on time",
+      "to live within one's income",
+      "to bring two rival parties to an agreement",
+      "to earn a huge profit"
+    ],
+    "correct_index": 1,
+    "explanation": "'To make both ends meet' means to manage to live on the money one earns without falling into debt.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "If a company's account is 'in the red', the company is —",
+    "options": [
+      "making a large profit",
+      "under government control",
+      "in debt or losing money",
+      "closed permanently"
+    ],
+    "correct_index": 2,
+    "explanation": "'In the red' means owing money or spending more than one earns (losses were traditionally written in red ink); 'in the black' means in profit.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "A 'windfall' gain is —",
+    "options": [
+      "a gain earned through years of hard work",
+      "a loss caused by a natural disaster",
+      "a regular monthly income",
+      "an unexpected gain or piece of good fortune"
+    ],
+    "correct_index": 3,
+    "explanation": "Literally, a windfall is fruit blown down by the wind; figuratively it means money or luck that comes unexpectedly, e.g. a windfall profit.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "In business, a 'blue-chip' company is one that is —",
+    "options": [
+      "large, well-established and financially sound",
+      "newly launched and highly risky",
+      "on the verge of bankruptcy",
+      "owned entirely by the government"
+    ],
+    "correct_index": 0,
+    "explanation": "Blue-chip companies are large, reputable firms with a long record of stable earnings; their shares are considered relatively safe investments.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "The phrase 'on the cards' means —",
+    "options": [
+      "impossible to achieve",
+      "likely to happen",
+      "decided purely by luck",
+      "written in an official document"
+    ],
+    "correct_index": 1,
+    "explanation": "If something is 'on the cards', it is likely or possible to happen, e.g. 'A rate cut is on the cards.'",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Choose the correct spelling of the word meaning 'a person who starts and runs a business, taking financial risks'.",
+    "options": [
+      "Enterpreneur",
+      "Entreprenuer",
+      "Entrepeneur",
+      "Entrepreneur"
+    ],
+    "correct_index": 3,
+    "explanation": "The correct spelling is 'Entrepreneur' (entre-pre-neur), a word borrowed from French.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Choose the correct spelling of the word meaning 'a set of written questions used to collect information'.",
+    "options": [
+      "Questionnaire",
+      "Questionaire",
+      "Questionnair",
+      "Questionnare"
+    ],
+    "correct_index": 0,
+    "explanation": "'Questionnaire' has a double 'n' and ends in '-aire'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Debtor : Creditor :: Borrower : ?",
+    "options": [
+      "Lender",
+      "Guarantor",
+      "Debtor",
+      "Customer"
+    ],
+    "correct_index": 0,
+    "explanation": "A debtor owes money to a creditor; in the same way, a borrower owes money to a lender.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Miser : Generosity :: Coward : ?",
+    "options": [
+      "Fear",
+      "Weakness",
+      "Courage",
+      "Cruelty"
+    ],
+    "correct_index": 2,
+    "explanation": "A miser lacks generosity; similarly, a coward lacks courage. The relation is 'person : the quality he lacks'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "One word for 'a person who is unable to pay his debts' is —",
+    "options": [
+      "Solvent",
+      "Insurgent",
+      "Indolent",
+      "Insolvent"
+    ],
+    "correct_index": 3,
+    "explanation": "An insolvent person (or firm) cannot pay debts; 'solvent' means able to pay, 'insurgent' means rebel and 'indolent' means lazy.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "A sum of money lent at simple interest amounts to Tk 10,400 in 3 years and Tk 12,000 in 5 years. What is the rate of interest per annum?",
+    "options": [
+      "8%",
+      "10%",
+      "12%",
+      "12.5%"
+    ],
+    "correct_index": 1,
+    "explanation": "Interest for 2 years = 12,000 − 10,400 = 1,600, i.e. Tk 800 per year; principal = 10,400 − 3 × 800 = 8,000; rate = 800/8,000 × 100 = 10%.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "What is the compound interest on Tk 8,000 for 3 years at 5% per annum, compounded annually?",
+    "options": [
+      "Tk 1,200",
+      "Tk 1,302",
+      "Tk 1,323",
+      "Tk 1,261"
+    ],
+    "correct_index": 3,
+    "explanation": "Amount = 8,000 × (1.05)³ = 8,000 × 1.157625 = 9,261; compound interest = 9,261 − 8,000 = Tk 1,261.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "Find the compound interest on Tk 20,000 for 1 year at 8% per annum, compounded half-yearly.",
+    "options": [
+      "Tk 1,632",
+      "Tk 1,600",
+      "Tk 1,664",
+      "Tk 1,700"
+    ],
+    "correct_index": 0,
+    "explanation": "Half-yearly rate = 4%, periods = 2: amount = 20,000 × (1.04)² = 21,632; interest = 21,632 − 20,000 = Tk 1,632.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "A bank's total deposits increased by 20% in one year and decreased by 20% in the next year. What is the net change in deposits over the two years?",
+    "options": [
+      "No change",
+      "4% increase",
+      "4% decrease",
+      "2% decrease"
+    ],
+    "correct_index": 2,
+    "explanation": "Taking 100: after +20% it is 120, after −20% it is 120 × 0.8 = 96; so there is a net decrease of 4%.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "A dealer sold two motorcycles for Tk 99,000 each, gaining 10% on one and losing 10% on the other. What is his overall gain or loss percent?",
+    "options": [
+      "1% loss",
+      "No gain, no loss",
+      "1% gain",
+      "2% loss"
+    ],
+    "correct_index": 0,
+    "explanation": "Cost prices = 99,000/1.1 = 90,000 and 99,000/0.9 = 1,10,000; total cost 2,00,000, total sale 1,98,000; loss = 2,000, i.e. 2,000/2,00,000 × 100 = 1%.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "A shopkeeper marks his goods 40% above the cost price and allows a discount of 20% on the marked price. What is his profit percent?",
+    "options": [
+      "20%",
+      "12%",
+      "10%",
+      "15%"
+    ],
+    "correct_index": 1,
+    "explanation": "Let cost = 100; marked price = 140; selling price = 140 × 80/100 = 112; profit = 12%.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "A and B start a business with Tk 40,000 and Tk 60,000 respectively. After 4 months, A invests Tk 20,000 more. If the profit at the end of the year is Tk 51,000, what is A's share?",
+    "options": [
+      "Tk 20,400",
+      "Tk 25,500",
+      "Tk 24,000",
+      "Tk 27,000"
+    ],
+    "correct_index": 2,
+    "explanation": "A's capital-months = 40,000 × 4 + 60,000 × 8 = 6,40,000; B's = 60,000 × 12 = 7,20,000; ratio 8 : 9; A's share = 51,000 × 8/17 = Tk 24,000.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "A can finish a piece of work in 20 days and B can finish it in 30 days. They work together for 6 days, after which A leaves. In how many days will B finish the remaining work?",
+    "options": [
+      "10 days",
+      "12 days",
+      "18 days",
+      "15 days"
+    ],
+    "correct_index": 3,
+    "explanation": "Together they do 1/20 + 1/30 = 1/12 of the work per day; in 6 days they finish 6/12 = 1/2. B alone does the remaining 1/2 in 30 × 1/2 = 15 days.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "Two trains, 140 m and 160 m long, are running in opposite directions at 60 km/h and 48 km/h respectively. How long will they take to cross each other completely?",
+    "options": [
+      "10 seconds",
+      "9 seconds",
+      "12 seconds",
+      "15 seconds"
+    ],
+    "correct_index": 0,
+    "explanation": "Relative speed = 60 + 48 = 108 km/h = 108 × 5/18 = 30 m/s; total length = 140 + 160 = 300 m; time = 300/30 = 10 seconds.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "The average monthly salary of 20 employees of a bank branch is Tk 30,000. When the branch manager's salary is included, the average rises by Tk 2,000. What is the manager's monthly salary?",
+    "options": [
+      "Tk 62,000",
+      "Tk 70,000",
+      "Tk 72,000",
+      "Tk 74,000"
+    ],
+    "correct_index": 2,
+    "explanation": "New total = 21 × 32,000 = 6,72,000; old total = 20 × 30,000 = 6,00,000; manager's salary = 6,72,000 − 6,00,000 = Tk 72,000.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "In what ratio must rice costing Tk 60 per kg be mixed with rice costing Tk 75 per kg so that the mixture costs Tk 65 per kg?",
+    "options": [
+      "2 : 1",
+      "1 : 2",
+      "3 : 2",
+      "3 : 1"
+    ],
+    "correct_index": 0,
+    "explanation": "By alligation, cheaper : dearer = (75 − 65) : (65 − 60) = 10 : 5 = 2 : 1. Check: (2 × 60 + 1 × 75)/3 = 195/3 = 65.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "Tk 7,800 is divided among A, B and C in the ratio 1/2 : 1/3 : 1/4. What is B's share?",
+    "options": [
+      "Tk 2,400",
+      "Tk 1,800",
+      "Tk 2,600",
+      "Tk 3,600"
+    ],
+    "correct_index": 0,
+    "explanation": "Multiplying by 12, the ratio becomes 6 : 4 : 3 (sum 13); B's share = 7,800 × 4/13 = Tk 2,400.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "The difference between compound interest (compounded annually) and simple interest on a certain sum for 2 years at 5% per annum is Tk 25. What is the sum?",
+    "options": [
+      "Tk 5,000",
+      "Tk 8,000",
+      "Tk 12,500",
+      "Tk 10,000"
+    ],
+    "correct_index": 3,
+    "explanation": "For 2 years, CI − SI = P × (r/100)² ⇒ 25 = P × (5/100)² = P/400 ⇒ P = Tk 10,000.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "A cashier has Tk 1,000 made up of only Tk 50 and Tk 100 notes. If there are 14 notes in all, how many Tk 100 notes are there?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 1,
+    "explanation": "Let there be x notes of Tk 100; then 100x + 50(14 − x) = 1,000 ⇒ 50x = 300 ⇒ x = 6 (and 8 notes of Tk 50).",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_sets_probability",
+    "stem": "A number is chosen at random from 1 to 30. What is the probability that it is a multiple of 3 or 5?",
+    "options": [
+      "1/2",
+      "8/15",
+      "7/15",
+      "2/5"
+    ],
+    "correct_index": 2,
+    "explanation": "Multiples of 3: 10, multiples of 5: 6, multiples of both (15, 30): 2; favourable = 10 + 6 − 2 = 14; probability = 14/30 = 7/15.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "একজন ব্যাংক কর্মকর্তা তাঁর মাসিক বেতনের ২০% বাড়িভাড়ায় এবং অবশিষ্ট টাকার ২৫% খাবারে ব্যয় করেন। এরপর তাঁর কাছে ১৮,০০০ টাকা থাকে। তাঁর মাসিক বেতন কত?",
+    "options": [
+      "২৮,০০০ টাকা",
+      "৩২,০০০ টাকা",
+      "৩৬,০০০ টাকা",
+      "৩০,০০০ টাকা"
+    ],
+    "correct_index": 3,
+    "explanation": "বেতন x টাকা হলে, x × ৮০/১০০ × ৭৫/১০০ = ০.৬x = ১৮,০০০ ⇒ x = ৩০,০০০ টাকা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "বার্ষিক ১২.৫% সরল সুদে কোনো আসল কত বছরে সুদে-আসলে দ্বিগুণ হবে?",
+    "options": [
+      "৬ বছরে",
+      "৮ বছরে",
+      "১০ বছরে",
+      "১২ বছরে"
+    ],
+    "correct_index": 1,
+    "explanation": "আসল দ্বিগুণ হলে সুদ = আসল, অর্থাৎ মোট সুদ ১০০%; সময় = ১০০ ÷ ১২.৫ = ৮ বছর।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "চক্রবৃদ্ধি হারে কোনো আসল ২ বছরে সুদে-আসলে ৬,৭৬০ টাকা এবং ৩ বছরে ৭,০৩০.৪০ টাকা হয়। বার্ষিক সুদের হার কত?",
+    "options": [
+      "৩%",
+      "৫%",
+      "৪%",
+      "৬%"
+    ],
+    "correct_index": 2,
+    "explanation": "তৃতীয় বছরের সুদ = ৭,০৩০.৪০ − ৬,৭৬০ = ২৭০.৪০ টাকা, যা ৬,৭৬০ টাকার ওপর এক বছরের সুদ; হার = ২৭০.৪০ ÷ ৬,৭৬০ × ১০০ = ৪%।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "একটি মোবাইল ফোন ১৪,৯৫০ টাকায় বিক্রয় করায় ১৫% লাভ হলো। ফোনটির ক্রয়মূল্য কত?",
+    "options": [
+      "১৩,০০০ টাকা",
+      "১২,৫০০ টাকা",
+      "১২,৭০৭.৫০ টাকা",
+      "১৩,৫০০ টাকা"
+    ],
+    "correct_index": 0,
+    "explanation": "লাভ ক্রয়মূল্যের ওপর হিসাব হয়: ক্রয়মূল্য = ১৪,৯৫০ × ১০০/১১৫ = ১৩,০০০ টাকা। (বিক্রয়মূল্য থেকে ১৫% বাদ দিলে ভুলভাবে ১২,৭০৭.৫০ আসে।)",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "ক একটি কাজ যত দিনে করতে পারে, খ সেই কাজ করতে তার দ্বিগুণ সময় নেয়। দুজনে একত্রে কাজটি ১৪ দিনে শেষ করে। ক একা কাজটি কত দিনে শেষ করতে পারবে?",
+    "options": [
+      "১৮ দিনে",
+      "২৮ দিনে",
+      "৪২ দিনে",
+      "২১ দিনে"
+    ],
+    "correct_index": 3,
+    "explanation": "ক-এর সময় x দিন হলে খ-এর ২x দিন; ১/x + ১/২x = ৩/২x = ১/১৪ ⇒ x = ২১ দিন (খ একা লাগাবে ৪২ দিন)।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "ঘণ্টায় ৫৪ কিলোমিটার বেগে চলমান একটি ট্রেন একটি খুঁটিকে ১২ সেকেন্ডে অতিক্রম করে। ট্রেনটির দৈর্ঘ্য কত?",
+    "options": [
+      "১৫০ মিটার",
+      "১৮০ মিটার",
+      "১৬২ মিটার",
+      "২০০ মিটার"
+    ],
+    "correct_index": 1,
+    "explanation": "৫৪ কিমি/ঘণ্টা = ৫৪ × ১০০০ ÷ ৩৬০০ = ১৫ মিটার/সেকেন্ড; খুঁটি অতিক্রমে ট্রেন নিজের দৈর্ঘ্য পার হয়, তাই দৈর্ঘ্য = ১৫ × ১২ = ১৮০ মিটার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "দুটি সংখ্যার অনুপাত ৫ : ৭। উভয় সংখ্যার সাথে ৬ যোগ করলে অনুপাত হয় ৩ : ৪। ছোট সংখ্যাটি কত?",
+    "options": [
+      "২৫",
+      "৩৫",
+      "৩০",
+      "৪২"
+    ],
+    "correct_index": 2,
+    "explanation": "সংখ্যা দুটি ৫x ও ৭x হলে, (৫x + ৬)/(৭x + ৬) = ৩/৪ ⇒ ২০x + ২৪ = ২১x + ১৮ ⇒ x = ৬; ছোট সংখ্যা = ৫ × ৬ = ৩০।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "Find the next number in the series: 4, 9, 19, 39, 79, ?",
+    "options": [
+      "158",
+      "159",
+      "149",
+      "160"
+    ],
+    "correct_index": 1,
+    "explanation": "Each term = previous term × 2 + 1: 4→9→19→39→79→79 × 2 + 1 = 159.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "ধারাটির পরবর্তী সংখ্যা কোনটি? ৬, ১১, ২১, ৩৬, ৫৬, ?",
+    "options": [
+      "৭৬",
+      "৭৮",
+      "৮৬",
+      "৮১"
+    ],
+    "correct_index": 3,
+    "explanation": "পরপর পদের পার্থক্য ৫, ১০, ১৫, ২০—প্রতিবার ৫ করে বাড়ছে; তাই পরের পার্থক্য ২৫ এবং পরবর্তী সংখ্যা ৫৬ + ২৫ = ৮১।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_numerical",
+    "stem": "Which term comes next in the series: A2, C6, E18, G54, ?",
+    "options": [
+      "I162",
+      "H162",
+      "I108",
+      "J164"
+    ],
+    "correct_index": 0,
+    "explanation": "Letters skip one each time (A, C, E, G, I) and numbers are multiplied by 3 (2, 6, 18, 54, 162), so the next term is I162.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "Data sufficiency — What is the value of x? Statement I: 3x + 2y = 18. Statement II: x + y = 7.",
+    "options": [
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both statements together are sufficient, but neither alone is",
+      "Both statements together are not sufficient"
+    ],
+    "correct_index": 2,
+    "explanation": "Each equation alone has two unknowns. Together: from II, 2x + 2y = 14; subtracting from I gives x = 4 (and y = 3), so both are needed.",
+    "difficulty": 3,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_problem_solving",
+    "stem": "Data sufficiency — Is the integer n even? Statement I: n² is even. Statement II: n + 3 is odd.",
+    "options": [
+      "Statement I alone is sufficient, but Statement II alone is not",
+      "Statement II alone is sufficient, but Statement I alone is not",
+      "Both statements together are needed",
+      "Each statement alone is sufficient"
+    ],
+    "correct_index": 3,
+    "explanation": "If n² is even, n must be even (the square of an odd integer is odd). If n + 3 is odd, n = odd − 3 is even. So either statement alone answers the question.",
+    "difficulty": 4,
+    "language": "en",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "mental_ability",
+    "topic": "ma_verbal",
+    "stem": "কোনো সংকেতে BANK কে লেখা হয় CBOL। ঐ সংকেতে LOAN কে কীভাবে লেখা হবে?",
+    "options": [
+      "MPAO",
+      "MPBO",
+      "KNZM",
+      "MOBO"
+    ],
+    "correct_index": 1,
+    "explanation": "প্রতিটি অক্ষর বর্ণমালায় ১ ঘর এগিয়ে লেখা হয়েছে (B→C, A→B, N→O, K→L); তাই L→M, O→P, A→B, N→O অর্থাৎ LOAN → MPBO।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "বাংলাদেশের কেন্দ্রীয় ব্যাংক ‘বাংলাদেশ ব্যাংক’ কোন আইনি দলিলের অধীনে প্রতিষ্ঠিত হয়?",
+    "options": [
+      "ব্যাংক কোম্পানি আইন, ১৯৯১",
+      "বাংলাদেশ ব্যাংক আদেশ, ১৯৭২",
+      "আর্থিক প্রতিষ্ঠান আইন, ১৯৯৩",
+      "বৈদেশিক মুদ্রা নিয়ন্ত্রণ আইন, ১৯৪৭"
+    ],
+    "correct_index": 1,
+    "explanation": "রাষ্ট্রপতির আদেশ নং ১২৭ (বাংলাদেশ ব্যাংক আদেশ, ১৯৭২)-এর মাধ্যমে ১৬ ডিসেম্বর ১৯৭১ থেকে কার্যকর ধরে বাংলাদেশ ব্যাংক প্রতিষ্ঠিত হয়। ব্যাংক কোম্পানি আইন, ১৯৯১ মূলত তফসিলি ব্যাংকগুলোর পরিচালনা নিয়ন্ত্রণ করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "বাণিজ্যিক ব্যাংকগুলোকে তাদের আমানতের যে নির্দিষ্ট অংশ বাধ্যতামূলকভাবে কেন্দ্রীয় ব্যাংকে নগদে জমা রাখতে হয়, তাকে কী বলে?",
+    "options": [
+      "বিধিবদ্ধ তারল্য অনুপাত (SLR)",
+      "মূলধন পর্যাপ্ততা অনুপাত (CAR)",
+      "নগদ জমা সংরক্ষণ অনুপাত (CRR)",
+      "অগ্রিম-আমানত অনুপাত (ADR)"
+    ],
+    "correct_index": 2,
+    "explanation": "CRR (Cash Reserve Ratio) অনুযায়ী আমানতের নির্ধারিত অংশ বাংলাদেশ ব্যাংকে নগদে রাখতে হয়। CRR বাড়ালে ব্যাংকের ঋণ দেওয়ার সক্ষমতা কমে, তাই এটি মুদ্রা সরবরাহ নিয়ন্ত্রণের একটি হাতিয়ার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "ব্যাংকিং পরিভাষায় SLR-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "Standard Lending Rate",
+      "Statutory Lending Ratio",
+      "Secured Liquidity Reserve",
+      "Statutory Liquidity Ratio"
+    ],
+    "correct_index": 3,
+    "explanation": "SLR (Statutory Liquidity Ratio) বা বিধিবদ্ধ তারল্য অনুপাত হলো আমানতের সেই অংশ, যা ব্যাংককে নগদ অর্থ ও অনুমোদিত সরকারি সিকিউরিটিজের মতো তরল সম্পদে সংরক্ষণ করতে হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "নিচের কোনটি কেন্দ্রীয় ব্যাংকের মুদ্রানীতির হাতিয়ার নয়?",
+    "options": [
+      "খোলাবাজার কার্যক্রম",
+      "আয়করের হার পরিবর্তন",
+      "ব্যাংক হার",
+      "নগদ জমা সংরক্ষণ অনুপাত"
+    ],
+    "correct_index": 1,
+    "explanation": "করের হার পরিবর্তন সরকারের রাজস্বনীতির (Fiscal Policy) হাতিয়ার; খোলাবাজার কার্যক্রম, ব্যাংক হার ও নগদ জমা সংরক্ষণ অনুপাত কেন্দ্রীয় ব্যাংকের মুদ্রানীতির হাতিয়ার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "কেন্দ্রীয় ব্যাংক সরকারি সিকিউরিটিজ জামানত হিসেবে রেখে স্বল্পমেয়াদে বাণিজ্যিক ব্যাংকগুলোকে যে সুদহারে অর্থ ধার দেয়, তাকে কী বলে?",
+    "options": [
+      "রেপো হার",
+      "রিভার্স রেপো হার",
+      "কলমানি হার",
+      "স্প্রেড"
+    ],
+    "correct_index": 0,
+    "explanation": "রেপোর (Repurchase Agreement) মাধ্যমে কেন্দ্রীয় ব্যাংক বাজারে তারল্য সরবরাহ করে, আর রিভার্স রেপোর মাধ্যমে বাজার থেকে অতিরিক্ত তারল্য তুলে নেয়। কলমানি হার হলো ব্যাংকগুলোর পারস্পরিক স্বল্পমেয়াদি (সাধারণত এক দিনের) ধারের সুদহার।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "মূল্যস্ফীতি নিয়ন্ত্রণে কেন্দ্রীয় ব্যাংক সাধারণত কোন পদক্ষেপ নেয়?",
+    "options": [
+      "নগদ জমা সংরক্ষণ অনুপাত (CRR) কমায়",
+      "খোলাবাজার থেকে সরকারি বন্ড কিনে নেয়",
+      "ব্যাংক হার কমায়",
+      "নীতি সুদহার (পলিসি রেট) বাড়ায়"
+    ],
+    "correct_index": 3,
+    "explanation": "নীতি সুদহার বাড়ালে ঋণ ব্যয়বহুল হয়, মুদ্রা সরবরাহ ও সামগ্রিক চাহিদা কমে, ফলে মূল্যস্ফীতি কমে আসে। বাকি তিনটি পদক্ষেপ বাজারে তারল্য বাড়ায় (সম্প্রসারণমূলক নীতি)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "ব্যাংকিং খাতে ‘NPL’ বলতে কী বোঝায়?",
+    "options": [
+      "নতুন বিতরণ করা ঋণ",
+      "খেলাপি বা শ্রেণিকৃত ঋণ (Non-Performing Loan)",
+      "সরকারি গ্যারান্টিযুক্ত ঋণ",
+      "স্বল্পমেয়াদি ব্যক্তিগত ঋণ"
+    ],
+    "correct_index": 1,
+    "explanation": "যে ঋণের কিস্তি বা সুদ নির্ধারিত সময়সীমা পেরিয়েও পরিশোধ হয় না, তা শ্রেণিকৃত হয়ে Non-Performing Loan (NPL) হিসেবে গণ্য হয়; এর বিপরীতে ব্যাংককে প্রভিশন সংরক্ষণ করতে হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_economy",
+    "stem": "ব্যাংক সাধারণত কোন ধরনের হিসাবে ওভারড্রাফট (জমার অতিরিক্ত অর্থ উত্তোলন) সুবিধা দিয়ে থাকে?",
+    "options": [
+      "চলতি হিসাব",
+      "সঞ্চয়ী হিসাব",
+      "স্থায়ী আমানত হিসাব",
+      "মাসিক সঞ্চয় প্রকল্প (DPS) হিসাব"
+    ],
+    "correct_index": 0,
+    "explanation": "ব্যবসায়ীদের উপযোগী চলতি হিসাবে দিনে যতবার খুশি লেনদেন করা যায় এবং ব্যাংকের সঙ্গে চুক্তি অনুযায়ী জমার অতিরিক্ত অর্থ উত্তোলনের (ওভারড্রাফট) সুবিধা পাওয়া যায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_general",
+    "stem": "মোবাইল ফিন্যান্সিয়াল সার্ভিসে (MFS) এজেন্টকে নগদ টাকা দিয়ে নিজের মোবাইল হিসাবে সমপরিমাণ ই-মানি জমা করাকে কী বলে?",
+    "options": [
+      "ক্যাশ আউট",
+      "সেন্ড মানি",
+      "ক্যাশ ইন",
+      "মার্চেন্ট পেমেন্ট"
+    ],
+    "correct_index": 2,
+    "explanation": "এজেন্টকে নগদ টাকা দিয়ে মোবাইল হিসাবে ই-মানি নেওয়া হলো ক্যাশ ইন; উল্টোভাবে ই-মানির বিনিময়ে এজেন্টের কাছ থেকে নগদ টাকা তোলা হলো ক্যাশ আউট।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_general",
+    "stem": "আন্তর্জাতিক মানদণ্ড ISO 4217 অনুযায়ী বাংলাদেশি টাকার মুদ্রা কোড কোনটি?",
+    "options": [
+      "BDT",
+      "TKA",
+      "BGT",
+      "BTK"
+    ],
+    "correct_index": 0,
+    "explanation": "আন্তর্জাতিক লেনদেন ও বৈদেশিক মুদ্রা বাজারে টাকাকে BDT কোড দিয়ে প্রকাশ করা হয়; টাকার প্রতীক ‘৳’।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_government",
+    "stem": "বাংলাদেশে পুঁজিবাজার (শেয়ারবাজার) নিয়ন্ত্রণ ও তদারকির দায়িত্ব কোন প্রতিষ্ঠানের?",
+    "options": [
+      "বাংলাদেশ ব্যাংক",
+      "বাংলাদেশ সিকিউরিটিজ অ্যান্ড এক্সচেঞ্জ কমিশন (BSEC)",
+      "বীমা উন্নয়ন ও নিয়ন্ত্রণ কর্তৃপক্ষ (IDRA)",
+      "মাইক্রোক্রেডিট রেগুলেটরি অথরিটি (MRA)"
+    ],
+    "correct_index": 1,
+    "explanation": "BSEC স্টক এক্সচেঞ্জ, তালিকাভুক্ত কোম্পানি ও বাজার মধ্যস্থতাকারীদের নিয়ন্ত্রণ করে; বীমা খাত তদারকি করে IDRA এবং ক্ষুদ্রঋণ প্রতিষ্ঠান তদারকি করে MRA।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_government",
+    "stem": "কোন দুটি প্রতিষ্ঠান একীভূত করে ২০১৬ সালে বাংলাদেশ বিনিয়োগ উন্নয়ন কর্তৃপক্ষ (বিডা) গঠন করা হয়?",
+    "options": [
+      "বিনিয়োগ বোর্ড ও রপ্তানি উন্নয়ন ব্যুরো",
+      "বেসরকারিকরণ কমিশন ও বেপজা",
+      "রপ্তানি উন্নয়ন ব্যুরো ও বেজা",
+      "বিনিয়োগ বোর্ড ও বেসরকারিকরণ কমিশন"
+    ],
+    "correct_index": 3,
+    "explanation": "বাংলাদেশ বিনিয়োগ উন্নয়ন কর্তৃপক্ষ আইন, ২০১৬-এর অধীনে সাবেক বিনিয়োগ বোর্ড ও বেসরকারিকরণ কমিশন একীভূত করে বিডা (BIDA) গঠিত হয়; এটি দেশি-বিদেশি বিনিয়োগ উৎসাহিত ও সহজ করার কাজ করে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_organizations",
+    "stem": "আন্তর্জাতিক মুদ্রা তহবিল (IMF) সৃষ্ট যে আন্তর্জাতিক রিজার্ভ সম্পদ ‘কাগুজে স্বর্ণ’ (Paper Gold) নামে পরিচিত, সেটি কোনটি?",
+    "options": [
+      "ইউরোডলার",
+      "ট্রেজারি বিল",
+      "SDR (Special Drawing Rights)",
+      "ইসিইউ (European Currency Unit)"
+    ],
+    "correct_index": 2,
+    "explanation": "সদস্য দেশগুলোর রিজার্ভ সম্পদ বাড়াতে IMF ১৯৬৯ সালে SDR সৃষ্টি করে; এর মান কয়েকটি প্রধান মুদ্রার একটি ঝুড়ির ভিত্তিতে নির্ধারিত হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_organizations",
+    "stem": "‘কেন্দ্রীয় ব্যাংকগুলোর ব্যাংক’ হিসেবে পরিচিত আন্তর্জাতিক প্রতিষ্ঠান কোনটি?",
+    "options": [
+      "আন্তর্জাতিক মুদ্রা তহবিল (IMF)",
+      "বিশ্বব্যাংক",
+      "ইউরোপীয় কেন্দ্রীয় ব্যাংক (ECB)",
+      "ব্যাংক ফর ইন্টারন্যাশনাল সেটেলমেন্টস (BIS)"
+    ],
+    "correct_index": 3,
+    "explanation": "১৯৩০ সালে প্রতিষ্ঠিত BIS-এর সদর দপ্তর সুইজারল্যান্ডের বাসেলে; এটি কেন্দ্রীয় ব্যাংকগুলোর মধ্যে সহযোগিতা বাড়ায় এবং ব্যাসেল ব্যাংকিং তদারকি কমিটির সচিবালয় হিসেবে কাজ করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_world_economy",
+    "stem": "ব্যাংকের স্বল্পমেয়াদি তারল্য ঝুঁকি মোকাবিলায় ব্যাসেল-III কাঠামোতে কোন অনুপাত প্রবর্তন করা হয়?",
+    "options": [
+      "নগদ জমা সংরক্ষণ অনুপাত (CRR)",
+      "লিকুইডিটি কভারেজ রেশিও (LCR)",
+      "মূল্য-আয় অনুপাত (P/E Ratio)",
+      "অগ্রিম-আমানত অনুপাত (ADR)"
+    ],
+    "correct_index": 1,
+    "explanation": "২০০৮ সালের বৈশ্বিক আর্থিক সংকটের পর প্রণীত ব্যাসেল-III-এ মূলধনের মান বাড়ানোর পাশাপাশি LCR (৩০ দিনের চাপ পরিস্থিতি সামলাতে উচ্চমানের তরল সম্পদ) এবং NSFR (স্থিতিশীল দীর্ঘমেয়াদি তহবিল) প্রবর্তন করা হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_general",
+    "stem": "আন্তঃব্যাংক আর্থিক বার্তা আদান-প্রদানের আন্তর্জাতিক নেটওয়ার্ক SWIFT-এর সদর দপ্তর কোন দেশে অবস্থিত?",
+    "options": [
+      "বেলজিয়াম",
+      "সুইজারল্যান্ড",
+      "যুক্তরাষ্ট্র",
+      "যুক্তরাজ্য"
+    ],
+    "correct_index": 0,
+    "explanation": "১৯৭৩ সালে প্রতিষ্ঠিত SWIFT (Society for Worldwide Interbank Financial Telecommunication)-এর সদর দপ্তর বেলজিয়ামের লা হুলপে (La Hulpe) শহরে; এটি নিজে অর্থ স্থানান্তর করে না, ব্যাংকগুলোর মধ্যে নিরাপদ বার্তা আদান-প্রদান করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_organizations",
+    "stem": "বিশ্বব্যাংক গ্রুপের কোন প্রতিষ্ঠান উন্নয়নশীল দেশের বেসরকারি খাতে সরাসরি বিনিয়োগ ও ঋণ দিয়ে থাকে?",
+    "options": [
+      "আন্তর্জাতিক অর্থ সংস্থা (IFC)",
+      "আন্তর্জাতিক উন্নয়ন সংস্থা (IDA)",
+      "আন্তর্জাতিক পুনর্গঠন ও উন্নয়ন ব্যাংক (IBRD)",
+      "বিনিয়োগ বিরোধ নিষ্পত্তির আন্তর্জাতিক কেন্দ্র (ICSID)"
+    ],
+    "correct_index": 0,
+    "explanation": "IFC (International Finance Corporation) বেসরকারি প্রতিষ্ঠানে ঋণ ও ইক্যুইটি বিনিয়োগ করে; IBRD ও IDA মূলত সরকারকে ঋণ দেয় এবং ICSID বিনিয়োগ-সংক্রান্ত বিরোধ নিষ্পত্তি করে।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_organizations",
+    "stem": "এশীয় অবকাঠামো বিনিয়োগ ব্যাংকের (AIIB) সদর দপ্তর কোথায়?",
+    "options": [
+      "সাংহাই",
+      "ম্যানিলা",
+      "বেইজিং",
+      "সিঙ্গাপুর"
+    ],
+    "correct_index": 2,
+    "explanation": "AIIB-এর সদর দপ্তর চীনের বেইজিংয়ে। এশীয় উন্নয়ন ব্যাংকের (ADB) সদর দপ্তর ম্যানিলায় এবং ব্রিকসের নিউ ডেভেলপমেন্ট ব্যাংকের (NDB) সদর দপ্তর সাংহাইয়ে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_world_economy",
+    "stem": "‘খারাপ মুদ্রা ভালো মুদ্রাকে বাজার থেকে বিতাড়িত করে’—অর্থনীতির এই সূত্রটি কী নামে পরিচিত?",
+    "options": [
+      "সে-র বাজার বিধি",
+      "এঙ্গেলের বিধি",
+      "ক্রমহ্রাসমান প্রান্তিক উপযোগ বিধি",
+      "গ্রেশামের বিধি"
+    ],
+    "correct_index": 3,
+    "explanation": "স্যার টমাস গ্রেশামের নামে পরিচিত এই বিধি অনুযায়ী একই অভিহিত মূল্যের দুই ধরনের মুদ্রা প্রচলিত থাকলে মানুষ ভালো (বেশি মূল্যবান) মুদ্রা জমিয়ে রাখে এবং খারাপ মুদ্রা লেনদেনে চালায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_general",
+    "stem": "শেয়ারবাজারে দীর্ঘ সময় ধরে শেয়ারের দাম কমতে থাকার প্রবণতাকে কী বলা হয়?",
+    "options": [
+      "বুল মার্কেট",
+      "বিয়ার মার্কেট",
+      "প্রাইমারি মার্কেট",
+      "ব্লু-চিপ মার্কেট"
+    ],
+    "correct_index": 1,
+    "explanation": "ধারাবাহিক দরপতনের প্রবণতাকে বিয়ার মার্কেট এবং ধারাবাহিক দর বৃদ্ধির প্রবণতাকে বুল মার্কেট বলে; প্রাইমারি মার্কেটে নতুন শেয়ার (যেমন আইপিও) প্রথমবার বিক্রি হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_general",
+    "stem": "কোর ব্যাংকিং সলিউশন (CBS) চালুর ফলে গ্রাহকেরা প্রধানত কোন সুবিধা পান?",
+    "options": [
+      "চেক বই ব্যবহারের প্রয়োজন সম্পূর্ণ বিলুপ্ত হয়",
+      "ব্যাংকের যেকোনো শাখা থেকে নিজের হিসাবে লেনদেন করা যায়",
+      "ঋণের সুদ স্বয়ংক্রিয়ভাবে মওকুফ হয়",
+      "বিভিন্ন ব্যাংকের সব হিসাব একটি হিসাবে একীভূত হয়"
+    ],
+    "correct_index": 1,
+    "explanation": "CBS-এ সব শাখার গ্রাহক-তথ্য ও হিসাব একটি কেন্দ্রীয় ডেটাবেজে রিয়েল টাইমে হালনাগাদ হয়, ফলে গ্রাহক ব্যাংকের যেকোনো শাখা থেকে লেনদেন (Any Branch Banking) করতে পারেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "অনলাইন লেনদেনে নিরাপত্তার জন্য গ্রাহকের মোবাইলে পাঠানো স্বল্পমেয়াদি, একবার ব্যবহারযোগ্য গোপন কোডকে কী বলে?",
+    "options": [
+      "PIN",
+      "CVV",
+      "IBAN",
+      "OTP"
+    ],
+    "correct_index": 3,
+    "explanation": "OTP (One-Time Password) একবার এবং অল্প সময়ের জন্য বৈধ থাকে; পাসওয়ার্ড বা PIN-এর সঙ্গে OTP যুক্ত করে দ্বি-স্তর যাচাই (Two-factor Authentication) নিশ্চিত করা হয়। ব্যাংক কখনো গ্রাহকের কাছে OTP বা PIN জানতে চায় না।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "ATM বুথের কার্ড প্রবেশের স্থানে গোপন যন্ত্র বসিয়ে কার্ডের ম্যাগনেটিক স্ট্রাইপের তথ্য চুরি করার প্রতারণাকে কী বলে?",
+    "options": [
+      "ফার্মিং",
+      "স্প্যামিং",
+      "স্কিমিং",
+      "হ্যাশিং"
+    ],
+    "correct_index": 2,
+    "explanation": "স্কিমিংয়ে কার্ড ঢোকানোর স্লটে নকল রিডার এবং অনেক সময় গোপন ক্যামেরা বা নকল কি-প্যাড বসিয়ে কার্ডের তথ্য ও PIN চুরি করা হয়; চিপভিত্তিক (EMV) কার্ড এ ঝুঁকি কমায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_security_emerging",
+    "stem": "যে এনক্রিপশন পদ্ধতিতে তথ্য এনক্রিপ্ট ও ডিক্রিপ্ট—উভয় কাজে একই গোপন চাবি (key) ব্যবহৃত হয়, তাকে কী বলে?",
+    "options": [
+      "প্রতিসম (Symmetric) এনক্রিপশন",
+      "অপ্রতিসম (Asymmetric) এনক্রিপশন",
+      "হ্যাশিং",
+      "ডিজিটাল সিগনেচার"
+    ],
+    "correct_index": 0,
+    "explanation": "প্রতিসম এনক্রিপশনে (যেমন AES) প্রেরক ও প্রাপক একই গোপন চাবি ব্যবহার করেন; অপ্রতিসম পদ্ধতিতে (যেমন RSA) পাবলিক ও প্রাইভেট—দুটি ভিন্ন চাবি লাগে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "যে পেমেন্ট ব্যবস্থায় সাধারণত বড় অঙ্কের আন্তঃব্যাংক লেনদেন প্রতিটি আলাদাভাবে ও তাৎক্ষণিকভাবে (রিয়েল টাইমে) নিষ্পত্তি হয়, তাকে কী বলে?",
+    "options": [
+      "BEFTN",
+      "BACPS",
+      "SWIFT",
+      "RTGS"
+    ],
+    "correct_index": 3,
+    "explanation": "RTGS (Real Time Gross Settlement)-এ প্রতিটি লেনদেন আলাদাভাবে (gross) সঙ্গে সঙ্গে নিষ্পত্তি হয়; BEFTN-এ লেনদেন ব্যাচ আকারে নিষ্পত্তি হয়, BACPS চেক ক্লিয়ারিং ব্যবস্থা এবং SWIFT কেবল বার্তা আদান-প্রদানের নেটওয়ার্ক।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_general",
+    "stem": "বিভিন্ন ব্যাংকের ATM, POS ও ইন্টারনেট ব্যাংকিং লেনদেনে আন্তঃসংযোগ নিশ্চিত করতে বাংলাদেশ ব্যাংক পরিচালিত জাতীয় সুইচ কোনটি?",
+    "options": [
+      "BEFTN",
+      "RTGS",
+      "NPSB",
+      "BACPS"
+    ],
+    "correct_index": 2,
+    "explanation": "ন্যাশনাল পেমেন্ট সুইচ বাংলাদেশ (NPSB)-এর মাধ্যমে এক ব্যাংকের কার্ড দিয়ে অন্য ব্যাংকের ATM ও POS-এ লেনদেন এবং আন্তঃব্যাংক অনলাইন অর্থ স্থানান্তর করা যায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_general",
+    "stem": "বেতন, লভ্যাংশ ও রেমিট্যান্সের মতো লেনদেন ব্যাচ আকারে এক ব্যাংক থেকে অন্য ব্যাংকে পাঠাতে বাংলাদেশে কোন ইলেকট্রনিক নেটওয়ার্ক ব্যবহৃত হয়?",
+    "options": [
+      "BEFTN",
+      "RTGS",
+      "NPSB",
+      "SWIFT"
+    ],
+    "correct_index": 0,
+    "explanation": "বাংলাদেশ ইলেকট্রনিক ফান্ডস ট্রান্সফার নেটওয়ার্ক (BEFTN) বেতন, লভ্যাংশ, রেমিট্যান্স ও বিল পরিশোধের মতো ক্রেডিট-ডেবিট লেনদেন ব্যাচ আকারে নিষ্পত্তি করে; এটি বাংলাদেশ অটোমেটেড ক্লিয়ারিং হাউসের (BACH) অংশ।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "আন্তর্জাতিক লেনদেনে ব্যাংক শনাক্ত করার SWIFT কোড (BIC) সাধারণত কত অক্ষরের হয়?",
+    "options": [
+      "৬ বা ৯",
+      "৮ বা ১১",
+      "১০ বা ১২",
+      "১৬"
+    ],
+    "correct_index": 1,
+    "explanation": "BIC-এর প্রথম ৪ অক্ষর ব্যাংকের কোড, পরের ২টি দেশের কোড এবং এরপর ২টি অবস্থান কোড—মোট ৮; নির্দিষ্ট শাখা বোঝাতে ঐচ্ছিক আরও ৩টি অক্ষর যুক্ত হয়ে ১১ অক্ষর হয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "‘নিজের শাসন নিজে পরিচালনার অধিকার’ অর্থে শুদ্ধ বানান কোনটি?",
+    "options": [
+      "স্বায়ত্বশাসন",
+      "সায়ত্তশাসন",
+      "স্বায়ত্তশাষন",
+      "স্বায়ত্তশাসন"
+    ],
+    "correct_index": 3,
+    "explanation": "স্ব + আয়ত্ত + শাসন = স্বায়ত্তশাসন; শুরুতে ব-ফলাসহ ‘স্বা’, ‘আয়ত্ত’ বানানে যুক্তবর্ণ ‘ত্ত’ (ত + ত), ‘ত্ব’ নয়, এবং ‘শাসন’-এর দ্বিতীয় বর্ণ দন্ত্য স, মূর্ধন্য ষ নয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "‘অগস্ত্য যাত্রা’ বাগধারাটির অর্থ কী?",
+    "options": [
+      "শুভ যাত্রা",
+      "চিরদিনের জন্য প্রস্থান",
+      "দীর্ঘ ভ্রমণ",
+      "তীর্থযাত্রা"
+    ],
+    "correct_index": 1,
+    "explanation": "পুরাণমতে অগস্ত্য মুনি দক্ষিণ দিকে যাত্রা করে আর ফিরে আসেননি; তাই ‘অগস্ত্য যাত্রা’ বলতে চিরদিনের জন্য প্রস্থান বা শেষ যাত্রা বোঝায়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "নিচের কোনটি ‘ধন’ শব্দের সমার্থক নয়?",
+    "options": [
+      "বিত্ত",
+      "ঐশ্বর্য",
+      "দৈন্য",
+      "সম্পদ"
+    ],
+    "correct_index": 2,
+    "explanation": "বিত্ত, ঐশ্বর্য ও সম্পদ—তিনটিই ধন অর্থে ব্যবহৃত হয়; কিন্তু ‘দৈন্য’ অর্থ দারিদ্র্য বা অভাব, যা ধনের বিপরীত ভাব।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_general",
+    "stem": "‘Ledger’-এর পারিভাষিক শব্দ কোনটি?",
+    "options": [
+      "খতিয়ান",
+      "জাবেদা",
+      "রোকড়",
+      "দলিল"
+    ],
+    "correct_index": 0,
+    "explanation": "হিসাববিজ্ঞানে Ledger-এর পরিভাষা খতিয়ান; Journal-এর পরিভাষা জাবেদা এবং Cash book-এর পরিভাষা রোকড় বা নগদান বই।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "bank",
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

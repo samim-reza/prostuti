@@ -143,14 +143,6 @@ class ExamsScreen extends ConsumerWidget {
               child: Column(
                 children: [
                   _LinkTile(
-                    icon: Icons.history_edu_rounded,
-                    color: ExamKind.previousYear.accent,
-                    title: l.examCardPreviousTitle,
-                    subtitle: l.examCardPreviousBody,
-                    onTap: () => context.push(Routes.previousYear),
-                  ),
-                  const Divider(indent: 72),
-                  _LinkTile(
                     icon: Icons.history_rounded,
                     color: AppColors.info,
                     title: l.examCardHistoryTitle,

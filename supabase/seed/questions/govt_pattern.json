@@ -1,0 +1,2057 @@
+[
+  {
+    "subject": "bangla",
+    "topic": "bn_sandhi",
+    "stem": "'সূর্যোদয়' শব্দের সঠিক সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      "সূর্যো + দয়",
+      "সূর্য + ওদয়",
+      "সূর্য + উদয়",
+      "সূর্যা + উদয়"
+    ],
+    "correct_index": 2,
+    "explanation": "অ + উ = ও; তাই সূর্য + উদয় = সূর্যোদয়। এটি স্বরসন্ধির উদাহরণ।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_sandhi",
+    "stem": "'নয়ন' শব্দের সঠিক সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      "ন + অয়ন",
+      "নে + অন",
+      "নৈ + অন",
+      "নী + অন"
+    ],
+    "correct_index": 1,
+    "explanation": "এ + অ = অয়; তাই নে + অন = নয়ন (স্বরসন্ধি)। একই নিয়মে শে + অন = শয়ন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_sandhi",
+    "stem": "'যথেষ্ট' শব্দের সঠিক সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      "যথা + ইষ্ট",
+      "যথ + এষ্ট",
+      "যথা + এষ্ট",
+      "যথে + ইষ্ট"
+    ],
+    "correct_index": 0,
+    "explanation": "আ + ই = এ; তাই যথা + ইষ্ট = যথেষ্ট (স্বরসন্ধি)।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_samas",
+    "stem": "'ত্রিভুবন' কোন সমাস?",
+    "options": [
+      "কর্মধারয়",
+      "বহুব্রীহি",
+      "দ্বন্দ্ব",
+      "দ্বিগু"
+    ],
+    "correct_index": 3,
+    "explanation": "ত্রি (তিন) ভুবনের সমাহার = ত্রিভুবন। সংখ্যাবাচক পূর্বপদের সঙ্গে সমাহার বোঝালে দ্বিগু সমাস হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_samas",
+    "stem": "'নীলপদ্ম' কোন সমাস?",
+    "options": [
+      "দ্বিগু",
+      "কর্মধারয়",
+      "বহুব্রীহি",
+      "অব্যয়ীভাব"
+    ],
+    "correct_index": 1,
+    "explanation": "নীল যে পদ্ম = নীলপদ্ম। বিশেষণ ও বিশেষ্য মিলে পরপদের (পদ্ম) অর্থ প্রধান হওয়ায় এটি কর্মধারয় সমাস।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_samas",
+    "stem": "'সিংহাসন' কোন সমাস?",
+    "options": [
+      "উপমিত কর্মধারয়",
+      "রূপক কর্মধারয়",
+      "মধ্যপদলোপী কর্মধারয়",
+      "দ্বিগু"
+    ],
+    "correct_index": 2,
+    "explanation": "সিংহ চিহ্নিত আসন = সিংহাসন। ব্যাসবাক্যের মাঝের পদ 'চিহ্নিত' লোপ পেয়েছে, তাই এটি মধ্যপদলোপী কর্মধারয়।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_karak",
+    "stem": "'গাছ থেকে পাতা পড়ে' — বাক্যে 'গাছ থেকে' কোন কারক?",
+    "options": [
+      "করণ",
+      "অপাদান",
+      "অধিকরণ",
+      "কর্ম"
+    ],
+    "correct_index": 1,
+    "explanation": "যা থেকে কিছু পতিত, বিচ্যুত বা উৎপন্ন হয় তা অপাদান কারক। পাতা গাছ থেকে পড়ছে, তাই 'গাছ থেকে' অপাদান কারক।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_karak",
+    "stem": "'সে কলম দিয়ে লেখে' — বাক্যে 'কলম দিয়ে' কোন কারক?",
+    "options": [
+      "কর্তৃ",
+      "কর্ম",
+      "করণ",
+      "অপাদান"
+    ],
+    "correct_index": 2,
+    "explanation": "যার সাহায্যে বা দ্বারা কাজ সম্পন্ন হয় তা করণ কারক। লেখার কাজটি কলমের সাহায্যে হচ্ছে, তাই 'কলম দিয়ে' করণ কারক।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_prokriti",
+    "stem": "ধাতুর সঙ্গে যে প্রত্যয় যুক্ত হয়ে নতুন শব্দ গঠিত হয়, তাকে কী বলে?",
+    "options": [
+      "তদ্ধিত প্রত্যয়",
+      "উপসর্গ",
+      "বিভক্তি",
+      "কৃৎ প্রত্যয়"
+    ],
+    "correct_index": 3,
+    "explanation": "ধাতু বা ক্রিয়াপ্রকৃতির সঙ্গে যুক্ত প্রত্যয় কৃৎ প্রত্যয় (যেমন √চল্ + অন্ত = চলন্ত); নামপ্রকৃতি বা শব্দের সঙ্গে যুক্ত প্রত্যয় তদ্ধিত প্রত্যয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_prokriti",
+    "stem": "বাংলা ভাষায় তৎসম (সংস্কৃত) উপসর্গ কয়টি?",
+    "options": [
+      "২১টি",
+      "১৯টি",
+      "২০টি",
+      "২৫টি"
+    ],
+    "correct_index": 2,
+    "explanation": "প্র, পরা, অপ, সম্, নি, অব, অনু, নির্, দুর্, বি, অধি, সু, উৎ, পরি, প্রতি, অতি, অপি, অভি, উপ ও আ — এই ২০টি তৎসম উপসর্গ; খাঁটি বাংলা উপসর্গ ২১টি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "'অতি অল্প সময়' বা ক্ষণকাল অর্থে শুদ্ধ বানান কোনটি?",
+    "options": [
+      "মুহূর্ত",
+      "মুহুর্ত",
+      "মূহুর্ত",
+      "মূহূর্ত"
+    ],
+    "correct_index": 0,
+    "explanation": "শুদ্ধ বানান 'মুহূর্ত' — 'মু'-তে হ্রস্ব উ-কার এবং 'হূ'-তে দীর্ঘ ঊ-কার।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "'দীপ্তিমান' বা 'ঝলমলে' অর্থে শুদ্ধ বানান কোনটি?",
+    "options": [
+      "উজ্জ্বল",
+      "উজ্জল",
+      "উজ্বল",
+      "উজ্জ্যল"
+    ],
+    "correct_index": 0,
+    "explanation": "উৎ + জ্বল = উজ্জ্বল; তাই 'জ'-এর পরে ব-ফলাযুক্ত 'জ্ব' বসে শুদ্ধ বানান হয় 'উজ্জ্বল'।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_spelling",
+    "stem": "'রোগীর সেবাযত্ন' অর্থে শুদ্ধ বানান কোনটি?",
+    "options": [
+      "শুশ্রূষা",
+      "শুশ্রুষা",
+      "সুশ্রূষা",
+      "শুস্রুষা"
+    ],
+    "correct_index": 0,
+    "explanation": "শুদ্ধ বানান 'শুশ্রূষা' — দুটিই তালব্য 'শ', 'শ্রূ'-তে দীর্ঘ ঊ-কার এবং শেষে মূর্ধন্য 'ষ'।",
+    "difficulty": 3,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "'পৃথিবী' শব্দের সমার্থক শব্দ কোনটি?",
+    "options": [
+      "অম্বর",
+      "অনল",
+      "অনিল",
+      "ধরণী"
+    ],
+    "correct_index": 3,
+    "explanation": "ধরণী, ধরা, বসুধা, মেদিনী — পৃথিবীর সমার্থক। অম্বর অর্থ আকাশ, অনল অর্থ আগুন এবং অনিল অর্থ বাতাস।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "'জল' শব্দের সমার্থক শব্দ কোনটি?",
+    "options": [
+      "বহ্নি",
+      "বারি",
+      "সমীরণ",
+      "অর্ক"
+    ],
+    "correct_index": 1,
+    "explanation": "বারি, সলিল, নীর, অম্বু — জলের সমার্থক। বহ্নি অর্থ আগুন, সমীরণ অর্থ বাতাস এবং অর্ক অর্থ সূর্য।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_synonyms",
+    "stem": "'উন্নতি' শব্দের বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "অবনতি",
+      "প্রগতি",
+      "বিকাশ",
+      "উত্থান"
+    ],
+    "correct_index": 0,
+    "explanation": "'উন্নতি'-র বিপরীত 'অবনতি'। প্রগতি, বিকাশ ও উত্থান — এগুলো উন্নতির কাছাকাছি অর্থ প্রকাশ করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "'কূপমণ্ডূক' বাগধারার অর্থ কী?",
+    "options": [
+      "অভিজ্ঞ ও জ্ঞানী মানুষ",
+      "সংকীর্ণমনা ও সীমিত জ্ঞানের মানুষ",
+      "অলস প্রকৃতির মানুষ",
+      "ধূর্ত প্রকৃতির মানুষ"
+    ],
+    "correct_index": 1,
+    "explanation": "কূপের ব্যাঙ যেমন কূপের বাইরের জগৎ জানে না, তেমনি যার জ্ঞান ও দৃষ্টিভঙ্গি সংকীর্ণ তাকে 'কূপমণ্ডূক' বলা হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_idioms",
+    "stem": "'অরণ্যে রোদন' বাগধারার অর্থ কী?",
+    "options": [
+      "নিষ্ফল আবেদন",
+      "গোপন দুঃখ",
+      "অকারণ ভয়",
+      "বিপদে ধৈর্য ধারণ"
+    ],
+    "correct_index": 0,
+    "explanation": "জনহীন বনে কাঁদলে কেউ শোনে না; তাই যে আবেদনে কোনো ফল হয় না তাকে 'অরণ্যে রোদন' বলে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_ancient",
+    "stem": "বাংলা সাহিত্যের প্রাচীনতম নিদর্শন কোনটি?",
+    "options": [
+      "শ্রীকৃষ্ণকীর্তন",
+      "মনসামঙ্গল",
+      "চর্যাপদ",
+      "বৈষ্ণব পদাবলি"
+    ],
+    "correct_index": 2,
+    "explanation": "বৌদ্ধ সহজিয়া সাধকদের রচিত গানের সংকলন চর্যাপদ বাংলা ভাষা ও সাহিত্যের প্রাচীনতম নিদর্শন; শ্রীকৃষ্ণকীর্তন মধ্যযুগের প্রথম নিদর্শন।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_modern",
+    "stem": "বাংলা কাব্যে অমিত্রাক্ষর ছন্দের প্রবর্তক কে?",
+    "options": [
+      "রবীন্দ্রনাথ ঠাকুর",
+      "মাইকেল মধুসূদন দত্ত",
+      "কাজী নজরুল ইসলাম",
+      "সত্যেন্দ্রনাথ দত্ত"
+    ],
+    "correct_index": 1,
+    "explanation": "মাইকেল মধুসূদন দত্ত 'তিলোত্তমাসম্ভব কাব্য'-এ প্রথম অমিত্রাক্ষর ছন্দ ব্যবহার করেন এবং 'মেঘনাদবধ কাব্য'-এ একে পূর্ণতা দেন।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_tagore_nazrul",
+    "stem": "রবীন্দ্রনাথ ঠাকুর কোন গ্রন্থের জন্য সাহিত্যে নোবেল পুরস্কার লাভ করেন?",
+    "options": [
+      "সোনার তরী",
+      "বলাকা",
+      "চিত্রা",
+      "গীতাঞ্জলি"
+    ],
+    "correct_index": 3,
+    "explanation": "১৯১৩ সালে 'গীতাঞ্জলি'র ইংরেজি অনুবাদ 'Song Offerings'-এর জন্য রবীন্দ্রনাথ নোবেল পুরস্কার পান; তিনিই প্রথম এশীয় নোবেলজয়ী।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bangla",
+    "topic": "bn_lit_bangladesh",
+    "stem": "'সূর্য দীঘল বাড়ী' উপন্যাসের রচয়িতা কে?",
+    "options": [
+      "সৈয়দ ওয়ালীউল্লাহ",
+      "শওকত ওসমান",
+      "শহীদুল্লা কায়সার",
+      "আবু ইসহাক"
+    ],
+    "correct_index": 3,
+    "explanation": "আবু ইসহাকের 'সূর্য দীঘল বাড়ী' (১৯৫৫) গ্রামীণ সমাজের দারিদ্র্য ও কুসংস্কারের পটভূমিতে রচিত বিখ্যাত উপন্যাস।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_parts_of_speech",
+    "stem": "Which of the following is a collective noun?",
+    "options": [
+      "Honesty",
+      "Book",
+      "Dhaka",
+      "Army"
+    ],
+    "correct_index": 3,
+    "explanation": "'Army' names a group of soldiers taken as one unit, so it is a collective noun. 'Honesty' is abstract, 'book' is common and 'Dhaka' is proper.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_parts_of_speech",
+    "stem": "In the sentence 'She is a beautiful girl', the word 'beautiful' is a/an —",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Verb"
+    ],
+    "correct_index": 1,
+    "explanation": "'Beautiful' describes (qualifies) the noun 'girl', so it is an adjective.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "The sun ___ in the east.",
+    "options": [
+      "rises",
+      "rise",
+      "rising",
+      "risen"
+    ],
+    "correct_index": 0,
+    "explanation": "A universal truth is expressed in the present indefinite tense; with a third-person singular subject the verb takes -s: 'rises'.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "What is the past participle of the verb 'write'?",
+    "options": [
+      "wrote",
+      "written",
+      "writed",
+      "writing"
+    ],
+    "correct_index": 1,
+    "explanation": "The forms are write – wrote – written. 'Wrote' is the past tense and 'written' is the past participle.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_tense_verb",
+    "stem": "While I was reading, the light ___ out.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "correct_index": 2,
+    "explanation": "A short past action that interrupts a longer past continuous action takes the past indefinite tense: 'went'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Change into passive voice: 'Rahim writes a letter.'",
+    "options": [
+      "A letter was written by Rahim.",
+      "A letter is being written by Rahim.",
+      "A letter has been written by Rahim.",
+      "A letter is written by Rahim."
+    ],
+    "correct_index": 3,
+    "explanation": "In the present indefinite tense the passive form is am/is/are + past participle: 'A letter is written by Rahim.'",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Change into passive voice: 'Karim killed a snake.'",
+    "options": [
+      "A snake is killed by Karim.",
+      "A snake had been killed by Karim.",
+      "A snake was killed by Karim.",
+      "A snake was being killed by Karim."
+    ],
+    "correct_index": 2,
+    "explanation": "In the past indefinite tense the passive form is was/were + past participle: 'A snake was killed by Karim.'",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_voice_narration",
+    "stem": "Choose the correct indirect speech: He said to me, \"Please help me.\"",
+    "options": [
+      "He requested me to help me.",
+      "He said me to help him please.",
+      "He requested me to help him.",
+      "He requested to me that help him."
+    ],
+    "correct_index": 2,
+    "explanation": "'Please' shows a request, so 'said to' becomes 'requested', the imperative becomes a to-infinitive, and the speaker's 'me' becomes 'him'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "Before which of the following words is the article 'an' used?",
+    "options": [
+      "university",
+      "European",
+      "one-eyed man",
+      "hour"
+    ],
+    "correct_index": 3,
+    "explanation": "'Hour' begins with a vowel sound (the 'h' is silent), so it takes 'an'. 'University' and 'European' begin with a 'yu' sound and 'one' with a 'wa' sound, so they take 'a'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "___ Quran is the holy book of the Muslims.",
+    "options": [
+      "A",
+      "The",
+      "An",
+      "No article"
+    ],
+    "correct_index": 1,
+    "explanation": "The definite article 'the' is used before the names of holy books, e.g. the Quran, the Gita, the Bible.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "She is fond ___ music.",
+    "options": [
+      "in",
+      "with",
+      "at",
+      "of"
+    ],
+    "correct_index": 3,
+    "explanation": "The adjective 'fond' is always followed by the preposition 'of': fond of something.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_preposition_article",
+    "stem": "Divide the mango ___ the two boys.",
+    "options": [
+      "between",
+      "among",
+      "with",
+      "within"
+    ],
+    "correct_index": 0,
+    "explanation": "'Between' is used when two persons or things are involved; 'among' is used for more than two.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Choose the correct negative form of the sentence 'He likes tea.'",
+    "options": [
+      "He do not like tea.",
+      "He does not like tea.",
+      "He does not likes tea.",
+      "He not likes tea."
+    ],
+    "correct_index": 1,
+    "explanation": "With a third-person singular subject the auxiliary is 'does', and after 'does not' the main verb stays in its base form: 'He does not like tea.'",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_correction",
+    "stem": "Which is the correct form of the sentence \"Each of the students have a book.\"?",
+    "options": [
+      "Each of the student has a book.",
+      "Each of the students have books.",
+      "Each of the students has a book.",
+      "Each of students has a book."
+    ],
+    "correct_index": 2,
+    "explanation": "'Each' is singular, so it takes a singular verb ('has'); 'each of' is followed by a plural noun with a determiner ('the students').",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the synonym of 'Brave'.",
+    "options": [
+      "Bold",
+      "Coward",
+      "Weak",
+      "Timid"
+    ],
+    "correct_index": 0,
+    "explanation": "'Brave' means showing courage; 'bold' has the same meaning. 'Coward' and 'timid' express the opposite idea.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_vocabulary",
+    "stem": "Choose the antonym of 'Ancient'.",
+    "options": [
+      "Old",
+      "Antique",
+      "Modern",
+      "Aged"
+    ],
+    "correct_index": 2,
+    "explanation": "'Ancient' means very old; its opposite is 'modern'. 'Old', 'antique' and 'aged' are close in meaning to 'ancient'.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_idioms",
+    "stem": "The idiom 'once in a blue moon' means —",
+    "options": [
+      "very often",
+      "every night",
+      "at midnight",
+      "very rarely"
+    ],
+    "correct_index": 3,
+    "explanation": "'Once in a blue moon' means very rarely, e.g. 'He visits us once in a blue moon.'",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Choose the correct spelling of the word meaning 'to get or be given something'.",
+    "options": [
+      "Receive",
+      "Recieve",
+      "Receeve",
+      "Riceive"
+    ],
+    "correct_index": 0,
+    "explanation": "The correct spelling is 'receive' — it follows the rule 'i before e, except after c'.",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_spelling_analogy",
+    "stem": "Choose the correct spelling of the word meaning 'needed or essential'.",
+    "options": [
+      "Neccessary",
+      "Necessary",
+      "Necesary",
+      "Neccesary"
+    ],
+    "correct_index": 1,
+    "explanation": "'Necessary' is spelt with one 'c' and a double 's'.",
+    "difficulty": 2,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "english",
+    "topic": "en_general",
+    "stem": "What is the plural form of 'ox'?",
+    "options": [
+      "oxen",
+      "oxes",
+      "oxens",
+      "oxs"
+    ],
+    "correct_index": 0,
+    "explanation": "'Ox' has an irregular plural, 'oxen' (like child – children).",
+    "difficulty": 1,
+    "language": "en",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "১/২ + ১/৩ + ১/৬ = কত?",
+    "options": [
+      "১",
+      "৫/৬",
+      "৭/৬",
+      "২/৩"
+    ],
+    "correct_index": 0,
+    "explanation": "হর ৬ ধরে: ৩/৬ + ২/৬ + ১/৬ = ৬/৬ = ১।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "২/৩, ৩/৪, ৫/৮ ও ৭/১২ — ভগ্নাংশগুলোর মধ্যে বৃহত্তম কোনটি?",
+    "options": [
+      "৩/৪",
+      "২/৩",
+      "৫/৮",
+      "৭/১২"
+    ],
+    "correct_index": 0,
+    "explanation": "হর ২৪ করে: ২/৩ = ১৬/২৪, ৩/৪ = ১৮/২৪, ৫/৮ = ১৫/২৪, ৭/১২ = ১৪/২৪; তাই ৩/৪ বৃহত্তম।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "০.২ × ০.৩ = কত?",
+    "options": [
+      "০.৬",
+      "০.০০৬",
+      "৬",
+      "০.০৬"
+    ],
+    "correct_index": 3,
+    "explanation": "২ × ৩ = ৬; গুণ্য ও গুণকে মোট দুই দশমিক স্থান, তাই ০.২ × ০.৩ = ০.০৬।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "৮০-এর ১৫% কত?",
+    "options": [
+      "১০",
+      "১৫",
+      "১২",
+      "১৮"
+    ],
+    "correct_index": 2,
+    "explanation": "৮০ × ১৫/১০০ = ১২।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "একটি পরীক্ষায় ৫০ জন পরীক্ষার্থীর মধ্যে ৪০ জন পাস করেছে। পাসের হার কত?",
+    "options": [
+      "৭৫%",
+      "৮৫%",
+      "৮০%",
+      "৯০%"
+    ],
+    "correct_index": 2,
+    "explanation": "পাসের হার = (৪০ ÷ ৫০) × ১০০% = ৮০%।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "একটি কলম ৪০ টাকায় কিনে ৫০ টাকায় বিক্রি করলে শতকরা কত লাভ হয়?",
+    "options": [
+      "২০%",
+      "২৫%",
+      "১০%",
+      "৩০%"
+    ],
+    "correct_index": 1,
+    "explanation": "লাভ = ৫০ − ৪০ = ১০ টাকা; শতকরা লাভ = (১০ ÷ ৪০) × ১০০ = ২৫% (লাভ সবসময় ক্রয়মূল্যের ওপর হিসাব হয়)।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "৫, ১০, ১৫, ২০ ও ২৫ সংখ্যাগুলোর গড় কত?",
+    "options": [
+      "১২",
+      "১৮",
+      "২০",
+      "১৫"
+    ],
+    "correct_index": 3,
+    "explanation": "সমষ্টি = ৫ + ১০ + ১৫ + ২০ + ২৫ = ৭৫; গড় = ৭৫ ÷ ৫ = ১৫।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "৬০ টাকা ক ও খ-এর মধ্যে ২ : ৩ অনুপাতে ভাগ করে দিলে খ কত টাকা পাবে?",
+    "options": [
+      "২৪ টাকা",
+      "৩০ টাকা",
+      "৪০ টাকা",
+      "৩৬ টাকা"
+    ],
+    "correct_index": 3,
+    "explanation": "অনুপাতের যোগফল ২ + ৩ = ৫; খ পাবে ৬০ × ৩/৫ = ৩৬ টাকা (ক পাবে ২৪ টাকা)।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "বার্ষিক ১০% সরল সুদে ৫০০০ টাকার ৩ বছরের সুদ কত?",
+    "options": [
+      "১০০০ টাকা",
+      "১৬৫৫ টাকা",
+      "১৫০০ টাকা",
+      "৬৫০০ টাকা"
+    ],
+    "correct_index": 2,
+    "explanation": "সরল সুদ = আসল × হার × সময় = ৫০০০ × ১০/১০০ × ৩ = ১৫০০ টাকা।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "বার্ষিক ৮% সরল সুদে কত বছরে কোনো আসল সুদে-আসলে দ্বিগুণ হবে?",
+    "options": [
+      "১০ বছরে",
+      "১২ বছরে",
+      "১৬ বছরে",
+      "১২.৫ বছরে"
+    ],
+    "correct_index": 3,
+    "explanation": "দ্বিগুণ হলে সুদ = আসল, অর্থাৎ শতকরা ১০০ টাকা সুদ; সময় = ১০০ ÷ ৮ = ১২.৫ বছর।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_arithmetic",
+    "stem": "৫টি খাতার দাম ১২৫ টাকা হলে ৮টি খাতার দাম কত?",
+    "options": [
+      "১৭৫ টাকা",
+      "২০০ টাকা",
+      "২২৫ টাকা",
+      "২৫০ টাকা"
+    ],
+    "correct_index": 1,
+    "explanation": "১টি খাতার দাম = ১২৫ ÷ ৫ = ২৫ টাকা; ৮টি খাতার দাম = ২৫ × ৮ = ২০০ টাকা।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "৪, ৬ ও ৮-এর ল.সা.গু. কত?",
+    "options": [
+      "১২",
+      "২৪",
+      "৪৮",
+      "৩৬"
+    ],
+    "correct_index": 1,
+    "explanation": "৪ = ২², ৬ = ২ × ৩, ৮ = ২³; ল.সা.গু. = ২³ × ৩ = ২৪।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "১৮ ও ২৪-এর গ.সা.গু. কত?",
+    "options": [
+      "৩",
+      "৬",
+      "১২",
+      "৭২"
+    ],
+    "correct_index": 1,
+    "explanation": "১৮ = ২ × ৩², ২৪ = ২³ × ৩; সাধারণ মৌলিক গুণনীয়কের গুণফল = ২ × ৩ = ৬।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_number_theory",
+    "stem": "১ থেকে ২০ পর্যন্ত মৌলিক সংখ্যা কয়টি?",
+    "options": [
+      "৭টি",
+      "৯টি",
+      "৮টি",
+      "১০টি"
+    ],
+    "correct_index": 2,
+    "explanation": "১ থেকে ২০-এর মধ্যে মৌলিক সংখ্যা: ২, ৩, ৫, ৭, ১১, ১৩, ১৭, ১৯ — মোট ৮টি (১ মৌলিক সংখ্যা নয়)।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ১২ মিটার ও প্রস্থ ৮ মিটার হলে এর পরিসীমা কত?",
+    "options": [
+      "২০ মিটার",
+      "৮০ মিটার",
+      "৯৬ মিটার",
+      "৪০ মিটার"
+    ],
+    "correct_index": 3,
+    "explanation": "পরিসীমা = ২(দৈর্ঘ্য + প্রস্থ) = ২(১২ + ৮) = ৪০ মিটার।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি বর্গক্ষেত্রের পরিসীমা ৩৬ সেমি হলে এর ক্ষেত্রফল কত?",
+    "options": [
+      "৩৬ বর্গসেমি",
+      "৭২ বর্গসেমি",
+      "৮১ বর্গসেমি",
+      "১২৯৬ বর্গসেমি"
+    ],
+    "correct_index": 2,
+    "explanation": "বাহুর দৈর্ঘ্য = ৩৬ ÷ ৪ = ৯ সেমি; ক্ষেত্রফল = ৯² = ৮১ বর্গসেমি।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি ত্রিভুজের দুটি কোণ ৬০° ও ৭০° হলে তৃতীয় কোণটি কত?",
+    "options": [
+      "৫০°",
+      "৪০°",
+      "৬০°",
+      "১১০°"
+    ],
+    "correct_index": 0,
+    "explanation": "ত্রিভুজের তিন কোণের সমষ্টি ১৮০°; তৃতীয় কোণ = ১৮০° − (৬০° + ৭০°) = ৫০°।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_geometry",
+    "stem": "একটি ত্রিভুজের ভূমি ১০ সেমি ও উচ্চতা ৬ সেমি হলে এর ক্ষেত্রফল কত?",
+    "options": [
+      "১৫ বর্গসেমি",
+      "৩০ বর্গসেমি",
+      "১৬ বর্গসেমি",
+      "৬০ বর্গসেমি"
+    ],
+    "correct_index": 1,
+    "explanation": "ত্রিভুজের ক্ষেত্রফল = ½ × ভূমি × উচ্চতা = ½ × ১০ × ৬ = ৩০ বর্গসেমি।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "৩x + ৫ = ২০ হলে x-এর মান কত?",
+    "options": [
+      "৫",
+      "৪",
+      "৬",
+      "২৫/৩"
+    ],
+    "correct_index": 0,
+    "explanation": "৩x = ২০ − ৫ = ১৫; x = ১৫ ÷ ৩ = ৫।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "math",
+    "topic": "math_algebra",
+    "stem": "কোনো সংখ্যার ৩ গুণের সঙ্গে ৭ যোগ করলে ৩৪ হয়। সংখ্যাটি কত?",
+    "options": [
+      "৯",
+      "৭",
+      "৮",
+      "১১"
+    ],
+    "correct_index": 0,
+    "explanation": "সংখ্যাটি x হলে ৩x + ৭ = ৩৪ ⇒ ৩x = ২৭ ⇒ x = ৯।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_liberation_war",
+    "stem": "বাংলাদেশের স্বাধীনতা দিবস কোন তারিখে পালিত হয়?",
+    "options": [
+      "২১ ফেব্রুয়ারি",
+      "১৬ ডিসেম্বর",
+      "২৬ মার্চ",
+      "১৭ এপ্রিল"
+    ],
+    "correct_index": 2,
+    "explanation": "১৯৭১ সালের ২৬ মার্চ স্বাধীনতা ঘোষণার স্মরণে প্রতিবছর এ দিন স্বাধীনতা ও জাতীয় দিবস পালিত হয়; ১৬ ডিসেম্বর বিজয় দিবস।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_liberation_war",
+    "stem": "মহান মুক্তিযুদ্ধে অসামান্য বীরত্বের জন্য কতজনকে 'বীরশ্রেষ্ঠ' খেতাব দেওয়া হয়?",
+    "options": [
+      "৫ জন",
+      "৭ জন",
+      "৮ জন",
+      "১১ জন"
+    ],
+    "correct_index": 1,
+    "explanation": "বীরশ্রেষ্ঠ মুক্তিযুদ্ধের সর্বোচ্চ বীরত্বসূচক খেতাব; সাতজন শহীদ মুক্তিযোদ্ধাকে এ খেতাব দেওয়া হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_liberation_war",
+    "stem": "১৯৭১ সালের ১৬ ডিসেম্বর পাকিস্তানি বাহিনী ঢাকার কোন স্থানে আত্মসমর্পণ করে?",
+    "options": [
+      "পল্টন ময়দান",
+      "বঙ্গভবন",
+      "ঢাকা সেনানিবাস",
+      "রেসকোর্স ময়দান (বর্তমান সোহরাওয়ার্দী উদ্যান)"
+    ],
+    "correct_index": 3,
+    "explanation": "১৬ ডিসেম্বর ১৯৭১ ঢাকার রেসকোর্স ময়দানে (বর্তমান সোহরাওয়ার্দী উদ্যান) পাকিস্তানি বাহিনী আনুষ্ঠানিকভাবে আত্মসমর্পণ করে; দিনটি বিজয় দিবস।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_british_pakistan",
+    "stem": "ভাষাশহীদদের স্মরণে পালিত 'শহীদ দিবস' (২১ ফেব্রুয়ারি) কোন সালের ঘটনার সঙ্গে যুক্ত?",
+    "options": [
+      "১৯৪৮",
+      "১৯৫৪",
+      "১৯৬৬",
+      "১৯৫২"
+    ],
+    "correct_index": 3,
+    "explanation": "১৯৫২ সালের ২১ ফেব্রুয়ারি রাষ্ট্রভাষা বাংলার দাবিতে মিছিলে পুলিশের গুলিতে সালাম, বরকত, রফিক, জব্বারসহ অনেকে শহীদ হন।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_constitution",
+    "stem": "বাংলাদেশের সংবিধান কোন তারিখ থেকে কার্যকর হয়?",
+    "options": [
+      "১৬ ডিসেম্বর ১৯৭২",
+      "৪ নভেম্বর ১৯৭২",
+      "২৬ মার্চ ১৯৭২",
+      "১০ এপ্রিল ১৯৭২"
+    ],
+    "correct_index": 0,
+    "explanation": "গণপরিষদে ৪ নভেম্বর ১৯৭২ গৃহীত সংবিধান প্রথম বিজয় দিবস বার্ষিকীতে, ১৬ ডিসেম্বর ১৯৭২ থেকে কার্যকর হয়।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_population_culture",
+    "stem": "বাংলাদেশের জাতীয় পাখি কোনটি?",
+    "options": [
+      "ময়না",
+      "দোয়েল",
+      "কোকিল",
+      "শালিক"
+    ],
+    "correct_index": 1,
+    "explanation": "দোয়েল বাংলাদেশের জাতীয় পাখি; জাতীয় ফুল শাপলা এবং জাতীয় পশু রয়েল বেঙ্গল টাইগার।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_population_culture",
+    "stem": "বাংলাদেশের জাতীয় ফল কোনটি?",
+    "options": [
+      "কাঁঠাল",
+      "আম",
+      "লিচু",
+      "কলা"
+    ],
+    "correct_index": 0,
+    "explanation": "কাঁঠাল বাংলাদেশের জাতীয় ফল; আমগাছ জাতীয় বৃক্ষ।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_population_culture",
+    "stem": "বাংলাদেশের রণসংগীত 'চল্ চল্ চল্' গানটির রচয়িতা কে?",
+    "options": [
+      "রবীন্দ্রনাথ ঠাকুর",
+      "দ্বিজেন্দ্রলাল রায়",
+      "কাজী নজরুল ইসলাম",
+      "জসীমউদ্‌দীন"
+    ],
+    "correct_index": 2,
+    "explanation": "জাতীয় কবি কাজী নজরুল ইসলামের 'চল্ চল্ চল্' গানটি বাংলাদেশের রণসংগীত; জাতীয় সংগীত 'আমার সোনার বাংলা'-র রচয়িতা রবীন্দ্রনাথ ঠাকুর।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_general",
+    "stem": "বাংলাদেশের জাতীয় স্মৃতিসৌধ কোথায় অবস্থিত?",
+    "options": [
+      "মুজিবনগর, মেহেরপুর",
+      "মিরপুর, ঢাকা",
+      "সাভার, ঢাকা",
+      "শাহবাগ, ঢাকা"
+    ],
+    "correct_index": 2,
+    "explanation": "মুক্তিযুদ্ধের শহীদদের স্মরণে নির্মিত জাতীয় স্মৃতিসৌধ ঢাকার সাভারে অবস্থিত; এর স্থপতি সৈয়দ মাইনুল হোসেন।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "bd_affairs",
+    "topic": "bd_general",
+    "stem": "বাংলাদেশের একমাত্র পাহাড়ি দ্বীপ কোনটি?",
+    "options": [
+      "সেন্টমার্টিন",
+      "ভোলা",
+      "হাতিয়া",
+      "মহেশখালী"
+    ],
+    "correct_index": 3,
+    "explanation": "কক্সবাজার জেলার মহেশখালী বাংলাদেশের একমাত্র পাহাড়ি দ্বীপ; সেন্টমার্টিন একমাত্র প্রবাল দ্বীপ এবং ভোলা বৃহত্তম দ্বীপ।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_organizations",
+    "stem": "জাতিসংঘের সদর দপ্তর কোথায় অবস্থিত?",
+    "options": [
+      "নিউইয়র্ক",
+      "জেনেভা",
+      "প্যারিস",
+      "ভিয়েনা"
+    ],
+    "correct_index": 0,
+    "explanation": "জাতিসংঘের সদর দপ্তর যুক্তরাষ্ট্রের নিউইয়র্ক শহরে; জেনেভা ও ভিয়েনায় এর আঞ্চলিক কার্যালয় রয়েছে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_organizations",
+    "stem": "জাতিসংঘের প্রধান অঙ্গসংস্থা কয়টি?",
+    "options": [
+      "৫টি",
+      "৬টি",
+      "৭টি",
+      "৮টি"
+    ],
+    "correct_index": 1,
+    "explanation": "সাধারণ পরিষদ, নিরাপত্তা পরিষদ, অর্থনৈতিক ও সামাজিক পরিষদ, অছি পরিষদ, আন্তর্জাতিক বিচার আদালত ও সচিবালয় — মোট ৬টি প্রধান অঙ্গসংস্থা।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_general",
+    "stem": "আয়তনে পৃথিবীর বৃহত্তম মহাদেশ কোনটি?",
+    "options": [
+      "এশিয়া",
+      "আফ্রিকা",
+      "উত্তর আমেরিকা",
+      "ইউরোপ"
+    ],
+    "correct_index": 0,
+    "explanation": "আয়তন ও জনসংখ্যা — উভয় দিক থেকেই এশিয়া পৃথিবীর বৃহত্তম মহাদেশ; আয়তনে দ্বিতীয় আফ্রিকা।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_countries",
+    "stem": "কানাডার রাজধানী কোনটি?",
+    "options": [
+      "টরন্টো",
+      "মন্ট্রিল",
+      "ভ্যাঙ্কুভার",
+      "অটোয়া"
+    ],
+    "correct_index": 3,
+    "explanation": "কানাডার রাজধানী অটোয়া; টরন্টো দেশটির বৃহত্তম শহর।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "international",
+    "topic": "int_world_history",
+    "stem": "দ্বিতীয় বিশ্বযুদ্ধ শুরু হয় কোন সালে?",
+    "options": [
+      "১৯১৪",
+      "১৯৪১",
+      "১৯৩৯",
+      "১৯৪৫"
+    ],
+    "correct_index": 2,
+    "explanation": "১৯৩৯ সালের ১ সেপ্টেম্বর জার্মানি পোল্যান্ড আক্রমণ করলে দ্বিতীয় বিশ্বযুদ্ধ শুরু হয় এবং ১৯৪৫ সালে শেষ হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "একজন প্রাপ্তবয়স্ক মানুষের দেহে সাধারণত কয়টি হাড় থাকে?",
+    "options": [
+      "২০৬টি",
+      "২০০টি",
+      "২১২টি",
+      "৩০০টি"
+    ],
+    "correct_index": 0,
+    "explanation": "প্রাপ্তবয়স্ক মানুষের কঙ্কালে ২০৬টি হাড় থাকে; নবজাতকের হাড় বেশি থাকে, যেগুলোর কিছু বয়সের সঙ্গে জোড়া লেগে সংখ্যা কমে আসে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_biology",
+    "stem": "সালোকসংশ্লেষণের সময় সবুজ উদ্ভিদ বায়ু থেকে কোন গ্যাস গ্রহণ করে?",
+    "options": [
+      "অক্সিজেন",
+      "নাইট্রোজেন",
+      "কার্বন ডাইঅক্সাইড",
+      "হাইড্রোজেন"
+    ],
+    "correct_index": 2,
+    "explanation": "সবুজ উদ্ভিদ সূর্যালোকের উপস্থিতিতে কার্বন ডাইঅক্সাইড ও পানি থেকে শর্করা তৈরি করে এবং অক্সিজেন ত্যাগ করে।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_health",
+    "stem": "সুস্থ মানুষের দেহের স্বাভাবিক তাপমাত্রা প্রায় কত?",
+    "options": [
+      "৩২° সেলসিয়াস",
+      "৪০° সেলসিয়াস",
+      "৪২° সেলসিয়াস",
+      "৩৭° সেলসিয়াস"
+    ],
+    "correct_index": 3,
+    "explanation": "সুস্থ মানুষের দেহের স্বাভাবিক তাপমাত্রা প্রায় ৩৭° সেলসিয়াস, অর্থাৎ প্রায় ৯৮.৪°–৯৮.৬° ফারেনহাইট।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_chemistry",
+    "stem": "খাবার লবণের রাসায়নিক নাম কী?",
+    "options": [
+      "সোডিয়াম ক্লোরাইড",
+      "সোডিয়াম কার্বোনেট",
+      "পটাশিয়াম ক্লোরাইড",
+      "ক্যালসিয়াম কার্বোনেট"
+    ],
+    "correct_index": 0,
+    "explanation": "খাবার লবণের রাসায়নিক নাম সোডিয়াম ক্লোরাইড, সংকেত NaCl।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "তড়িৎ প্রবাহের (কারেন্ট) এসআই একক কোনটি?",
+    "options": [
+      "ভোল্ট",
+      "ওহম",
+      "ওয়াট",
+      "অ্যাম্পিয়ার"
+    ],
+    "correct_index": 3,
+    "explanation": "তড়িৎ প্রবাহের একক অ্যাম্পিয়ার; বিভব পার্থক্যের একক ভোল্ট, রোধের একক ওহম এবং ক্ষমতার একক ওয়াট।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_physics",
+    "stem": "শব্দ নিচের কোন মাধ্যমের মধ্য দিয়ে চলতে পারে না?",
+    "options": [
+      "পানি",
+      "শূন্যস্থান (বায়ুশূন্য স্থান)",
+      "বায়ু",
+      "লোহা"
+    ],
+    "correct_index": 1,
+    "explanation": "শব্দ চলার জন্য কঠিন, তরল বা বায়বীয় জড় মাধ্যম প্রয়োজন; তাই বায়ুশূন্য স্থানে শব্দ চলতে পারে না।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_everyday",
+    "stem": "দুধ থেকে দই তৈরিতে কোন ধরনের অণুজীব ভূমিকা রাখে?",
+    "options": [
+      "ভাইরাস",
+      "ব্যাকটেরিয়া",
+      "শৈবাল",
+      "প্রোটোজোয়া"
+    ],
+    "correct_index": 1,
+    "explanation": "ল্যাক্টোব্যাসিলাস জাতীয় ব্যাকটেরিয়া দুধের ল্যাকটোজকে ল্যাকটিক এসিডে পরিণত করে দুধকে দইয়ে রূপান্তর করে।",
+    "difficulty": 2,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "science",
+    "topic": "sci_space_earth",
+    "stem": "সৌরজগতে সূর্যের সবচেয়ে কাছের গ্রহ কোনটি?",
+    "options": [
+      "শুক্র",
+      "পৃথিবী",
+      "বুধ",
+      "মঙ্গল"
+    ],
+    "correct_index": 2,
+    "explanation": "সূর্য থেকে দূরত্বের ক্রমে গ্রহগুলো: বুধ, শুক্র, পৃথিবী, মঙ্গল, বৃহস্পতি, শনি, ইউরেনাস, নেপচুন; তাই বুধ সূর্যের নিকটতম।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "কম্পিউটারের 'মস্তিষ্ক' বলা হয় কোন অংশকে?",
+    "options": [
+      "মনিটর",
+      "সিপিইউ (CPU)",
+      "কি-বোর্ড",
+      "হার্ডডিস্ক"
+    ],
+    "correct_index": 1,
+    "explanation": "সিপিইউ (Central Processing Unit) সব হিসাব-নিকাশ ও নিয়ন্ত্রণের কাজ করে, তাই একে কম্পিউটারের মস্তিষ্ক বলা হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_fundamentals",
+    "stem": "১ বাইট সমান কত বিট?",
+    "options": [
+      "৪ বিট",
+      "১৬ বিট",
+      "৮ বিট",
+      "১০২৪ বিট"
+    ],
+    "correct_index": 2,
+    "explanation": "৮ বিট নিয়ে ১ বাইট গঠিত; ৪ বিটকে বলা হয় ১ নিবল।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_office",
+    "stem": "MS Word-এ নির্বাচিত লেখা কপি করার কি-বোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + P"
+    ],
+    "correct_index": 0,
+    "explanation": "Ctrl + C দিয়ে কপি, Ctrl + X দিয়ে কাট, Ctrl + V দিয়ে পেস্ট এবং Ctrl + P দিয়ে প্রিন্ট করা হয়।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_software",
+    "stem": "নিচের কোনটি একটি ওয়েব ব্রাউজার?",
+    "options": [
+      "MS Excel",
+      "Adobe Photoshop",
+      "VLC Media Player",
+      "Mozilla Firefox"
+    ],
+    "correct_index": 3,
+    "explanation": "Mozilla Firefox ওয়েবসাইট দেখার জন্য ব্যবহৃত ব্রাউজার; MS Excel স্প্রেডশিট, Photoshop ছবি সম্পাদনা এবং VLC মিডিয়া চালানোর সফটওয়্যার।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  },
+  {
+    "subject": "computer",
+    "topic": "ict_network",
+    "stem": "ই-মেইল ঠিকানায় ব্যবহারকারীর নাম ও ডোমেইন নামকে কোন চিহ্ন দিয়ে আলাদা করা হয়?",
+    "options": [
+      "#",
+      "@",
+      "&",
+      "$"
+    ],
+    "correct_index": 1,
+    "explanation": "ই-মেইল ঠিকানার গঠন username@domain, যেমন name@example.com; মাঝের চিহ্নটি '@' (অ্যাট)।",
+    "difficulty": 1,
+    "language": "bn",
+    "exam_tags": [
+      "govt",
+      "bank"
+    ],
+    "source_kind": "curated",
+    "source_name": "প্রস্তুতি কিউরেটেড প্রশ্নব্যাংক",
+    "source_year": null,
+    "source_ref": null
+  }
+]

@@ -20,6 +20,9 @@ Postgres 17 on Supabase. Everything is defined in ordered migrations under
 | 0013 offline_sync | offline practice packs, idempotent attempt sync, client ids |
 | 0014 chat_deleted_preview | soft-deleted messages no longer show in inbox previews |
 | 0015 model_test_apportionment | exact model-test sizes (largest-remainder subject apportionment) |
+| 0016 exam_tracks | BCS / bank / other-jobs sections: model-test patterns per track, track tags on questions, track-aware picking, practice, subject overview and offline packs |
+| 0017 daily_standing | private daily-exam standing (own rank, top score, anonymous neighbours); the old leaderboard returns only the caller |
+| 0018 daily_advice | daily AI advice per learner (signals, cached rows, purge cron) |
 
 ## Conventions
 

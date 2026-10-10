@@ -39,6 +39,7 @@ class QuestionBankRepository {
     int? subjectId,
     int? topicId,
     int? sourceId,
+    String? track,
     int? afterId,
     bool unseenOnly = false,
     String? search,
@@ -54,6 +55,7 @@ class QuestionBankRepository {
         'p_after_id': afterId,
         'p_unseen_only': unseenOnly,
         'p_search': (search == null || search.trim().isEmpty) ? null : search.trim(),
+        'p_track': ?track,
       },
     );
     return rows.map(Question.fromJson).toList(growable: false);

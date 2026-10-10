@@ -184,6 +184,25 @@ void main() {
       expect(packs.seen(), {3});
     });
 
+    test('a section (track) keeps its own questions; untagged older packs still count', () async {
+      ConnectivityService.instance.reportFailure();
+      final tagged = [
+        for (final (i, q) in _questions([1, 2, 3, 4], withAnswers: true).indexed)
+          Question.fromJson({
+            ...q.toJson(),
+            'exam_tags': i.isEven ? ['bcs', 'bank'] : ['bcs'],
+          }),
+      ];
+      await packs.save(7, [
+        ...tagged,
+        ..._questions([5], withAnswers: true),
+      ]);
+      final provider = watch(const PracticeQuery(subjectId: 7, track: 'bank'));
+      final s = await settle(provider);
+      expect(s.fromPack, isTrue);
+      expect(s.items.map((q) => q.id), [1, 3, 5]);
+    });
+
     test('works offline, filters by topic and supports "new questions only"', () async {
       ConnectivityService.instance.reportFailure();
       await packs.save(7, _questions([1, 2, 3, 4], withAnswers: true));

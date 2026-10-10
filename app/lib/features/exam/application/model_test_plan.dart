@@ -11,24 +11,26 @@ class SubjectShare {
   final int count;
 }
 
-/// Mirrors `start_exam('model_test')`: questions are apportioned to BCS
-/// subjects by marks with the largest-remainder method, so a test always has
-/// exactly `size` questions. The timer runs at 36 s per question
-/// (200 questions → 120 minutes).
+/// Mirrors `start_exam('model_test')`: questions are apportioned to the
+/// track's subjects by marks with the largest-remainder method, so a test
+/// always has exactly `size` questions. Without a track this is the BCS
+/// pattern (200 marks, 36 s per question → 200 questions in 120 minutes).
 abstract final class ModelTestPlan {
   static const sizes = [25, 50, 100, 200];
   static const fullMarks = 200;
 
   /// [subjects] must be in catalog `sort` order: it breaks remainder ties,
   /// exactly like the server.
-  static List<SubjectShare> distribution(List<Subject> subjects, int size) {
+  static List<SubjectShare> distribution(List<Subject> subjects, int size, {ExamTrack? track}) {
+    int marksOf(Subject s) => track == null ? s.bcsMarks : (track.distribution[s.code] ?? 0);
+    final full = track?.fullMarks ?? fullMarks;
     final graded = [
       for (final s in subjects)
-        if (s.bcsMarks > 0) s,
+        if (marksOf(s) > 0) s,
     ];
-    // Integer arithmetic: share = (marks × size) / 200 = count + remainder/200.
-    final counts = [for (final s in graded) s.bcsMarks * size ~/ fullMarks];
-    final remainders = [for (final s in graded) s.bcsMarks * size % fullMarks];
+    // Integer arithmetic: share = (marks × size) / full = count + remainder/full.
+    final counts = [for (final s in graded) marksOf(s) * size ~/ full];
+    final remainders = [for (final s in graded) marksOf(s) * size % full];
     final byRemainder = List.generate(graded.length, (i) => i)
       ..sort((a, b) {
         final c = remainders[b].compareTo(remainders[a]);
@@ -46,9 +48,11 @@ abstract final class ModelTestPlan {
 
   static int totalQuestions(List<SubjectShare> shares) => shares.fold(0, (sum, s) => sum + s.count);
 
-  /// Exam duration; falls back to `size × 36 s` while subjects are loading.
-  static Duration duration(int size, {List<SubjectShare>? shares}) {
+  /// Exam duration at the track's pace; falls back to `size` questions while
+  /// subjects are loading.
+  static Duration duration(int size, {List<SubjectShare>? shares, ExamTrack? track}) {
     final count = (shares == null || shares.isEmpty) ? size : totalQuestions(shares);
+    if (track != null) return Duration(seconds: count * track.secondsPerQuestion);
     return ExamTiming.forQuestions(count, withMinimum: false);
   }
 }
