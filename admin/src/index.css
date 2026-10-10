@@ -1,0 +1,206 @@
+@import 'tailwindcss';
+
+/* Dark mode follows the `.dark` class set by public/theme.js and the theme toggle. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --bg: #f6f7f6;
+  --surface: #ffffff;
+  --surface-2: #f1f3f2;
+  --surface-3: #e7ebe9;
+  --line: #dde2df;
+  --line-strong: #c3cac6;
+  --fg: #111614;
+  --fg-2: #3d4743;
+  --muted: #66716c;
+  --brand: #006a4e;
+  --brand-strong: #004d38;
+  --brand-soft: #e3f2ec;
+  --brand-fg: #ffffff;
+  --danger: #c4203a;
+  --danger-soft: #fde8eb;
+  --warning: #9a6200;
+  --warning-soft: #fff3d6;
+  --success: #12733f;
+  --success-soft: #e2f5ea;
+  --info: #1f5fbf;
+  --info-soft: #e5eefc;
+  --focus: #2a78d6;
+  /* charts (dataviz reference: single-series blue, validated steps per mode) */
+  --chart-surface: #fcfcfb;
+  --chart-series: #2a78d6;
+  --chart-muted: #898781;
+  --chart-grid: #e1e0d9;
+  --chart-axis: #c3c2b7;
+  --chart-dim: #c9ccd1;
+  --shadow: 0 1px 2px rgb(16 24 20 / 0.06), 0 4px 16px rgb(16 24 20 / 0.06);
+}
+
+.dark {
+  color-scheme: dark;
+  --bg: #0d1110;
+  --surface: #151a18;
+  --surface-2: #1b211f;
+  --surface-3: #232b28;
+  --line: #2a3330;
+  --line-strong: #3a4541;
+  --fg: #eef2f0;
+  --fg-2: #c5cec9;
+  --muted: #8f9a95;
+  --brand: #3fb98f;
+  --brand-strong: #6fd2ad;
+  --brand-soft: #12302a;
+  --brand-fg: #04130e;
+  --danger: #ff6b7d;
+  --danger-soft: #3a1419;
+  --warning: #f2b544;
+  --warning-soft: #3a2c0d;
+  --success: #4cc38a;
+  --success-soft: #10301f;
+  --info: #7fb0f5;
+  --info-soft: #142640;
+  --focus: #6da7ec;
+  --chart-surface: #1a1a19;
+  --chart-series: #3987e5;
+  --chart-muted: #898781;
+  --chart-grid: #2c2c2a;
+  --chart-axis: #383835;
+  --chart-dim: #4a4f55;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 6px 20px rgb(0 0 0 / 0.35);
+}
+
+@theme inline {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  --font-bangla: 'Hind Siliguri', 'Noto Sans Bengali', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-fg: var(--fg);
+  --color-fg-2: var(--fg-2);
+  --color-muted: var(--muted);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-fg: var(--brand-fg);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-focus: var(--focus);
+  --shadow-card: var(--shadow);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Bangla script needs a little more line height to keep matras and kars clear. */
+  :lang(bn),
+  .bn {
+    font-family: var(--font-bangla);
+    line-height: 1.7;
+  }
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--brand) 25%, transparent);
+  }
+  dialog::backdrop {
+    background: rgb(5 10 8 / 0.55);
+    backdrop-filter: blur(2px);
+  }
+  code,
+  pre,
+  kbd {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer components {
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 0.875rem;
+  }
+  .table-base {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.875rem;
+  }
+  .table-base th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: var(--surface-2);
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+    white-space: nowrap;
+  }
+  .table-base tbody th {
+    position: static;
+    background: transparent;
+    color: var(--fg);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .table-base td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  .table-base tbody tr:last-child td,
+  .table-base tbody tr:last-child th {
+    border-bottom: 0;
+  }
+  .table-base tbody tr.row-link {
+    cursor: pointer;
+  }
+  .table-base tbody tr.row-link:hover td {
+    background: var(--surface-2);
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
